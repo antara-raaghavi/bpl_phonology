@@ -690,3 +690,19 @@ Invoking solver (timeout 84928.6819963): sketch /fsx/homes/Antara.Bhattacharya@m
 Ran the solver in 2.919482 sec (2.920099 wall clock, includes blocking)
 warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpLvjTxk.sk
 Invoking solver (timeout 84925.7625144): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpDzL1F9.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpB_r6LN 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpB_r6LN
+Ran the solver in 3.019632 sec (3.020295 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpDzL1F9.sk
+Invoking solver (timeout 84922.7428823): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpweyVDu.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVl_vq1 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVl_vq1
+Ran the solver in 2.869341 sec (2.869951 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpweyVDu.sk
+Invoking solver (timeout 84919.8735414): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpfgi8Hs.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHSG0Yg 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHSG0Yg
+Ran the solver in 2.869546 sec (2.870226 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpfgi8Hs.sk
+Invoking solver (timeout 84917.0039952): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpvYZrGX.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpBKzAXk 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpBKzAXk
+Ran the solver in 3.069826 sec (3.070476 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpvYZrGX.sk
+Invoking solver (timeout 84913.9341691): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpa7aeDq.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpn308tp 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpn308tp
+Ran the solver in 3.019948 sec (3.020570 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpa7aeDq.sk
+Invoking solver (timeout 84910.9142211): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpXptk7U.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpaF060s 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpaF060s
+Ran the solver in 3.069851 sec (3.070476 wall clock, includes blocking)
