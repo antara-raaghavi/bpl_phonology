@@ -1794,4 +1794,46 @@ Sadzava Ukrainian Odden 4.11
 ]))
 
 
+# ANTARA'S CHANGES START HERE 
+
+MATRIXPROBLEMS.append(Problem(
+    u'''
+Mandar Saujas 1 Odden
+	Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [(u"mambatta",	u"dibatta"),
+     (u"mandeŋŋeq",	u"dideŋŋeq"),
+     (u"maŋidaŋ",	u"diidaŋ"),
+     (u"mappasuŋ",	u"dipasuŋ"),
+     (u"mattunu",	u"ditunu"),
+     (u"massiraq",	u"disiraq")
+    ],
+    solutions = [
+        '''
+ + stem  
+maŋ + stem 
+[+nas] > [-nas, α place, β manner] / _ [+cons, - voi, α place, β manner]
+[+nas] > [+nas, α place] / _ [+cons, α place]
+        ''']))
+
+MATRIXPROBLEMS.append(Problem(
+    u'''
+Lunyole Saujas 2 Odden
+	Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [(u"oludaalo",	u"endaalo"),
+     (u"oluboyooboyo",	u"emboyooboyo"),
+     (u"olufudu",	u"efudu"),
+     (u"olukalala",	u"ekalala"),
+    ],
+    solutions = [
+        '''
+ + stem  
+olu + stem 
+eN + stem 
+[+nas] > ∅ / _ [- voi]
+[+nas] > [+nas, α] / _ [α]
+        ''']))
+
+
 
