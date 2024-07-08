@@ -10345,3 +10345,620 @@ warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbz
   File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 89, in send_to_command_server
     received = sock.recv(1024)
 KeyboardInterrupt
+
+------ Run started at Mon Jul  8 12:16:10 UTC 2024 ------
+
+Running pigLatin.py -d 3 Latin
+Invoking solver (timeout inf): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpHyyj6L.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmprDKYUz 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmprDKYUz
+Ran the solver in 36.417458 sec (36.418876 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpHyyj6L.sk
+Ø ---> -2 / # [ -tense ] [  ]* _ #
+[ -tense ] ---> Ø / # _ 
+Ø ---> e /  _ #
+
+
+
+Running driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Loaded Odden problem from Lunyole Saujas 2, named Odden_Lunyole_Saujas_2
+Loaded Odden problem from Mongo Saujas 3, named Odden_Mongo_Saujas_3
+Loaded Odden problem from Sursilvan Engadine Saujas 4, named Odden_Sursilvan_Engadine_Saujas_4
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+ [+] Found existing command server: 40 CPUs
+Executing driver @ 2024-07-08 12:16:49.138558
+Command line driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+Sursilvan Engadine Saujas 4 Odden
+	Provide underlying representations and a phonological rule which will account for the following alternations.
+    
+tut          tuot
+ura          ura
+dunna        duonna
+num          nom
+nums         noms
+insumma      insomma
+numer        nomer
+buglia       buoglia
+discuors     discuors
+puolpa       puolpa
+angul        angul
+fuorma       fuorma
+flur         flur
+Solver has adaptively set the window size to 3
+Starting out with explaining just the first 3 examples:
+/tut/	~	/tuot/
+/ura/	~	/ura/
+/dunna/	~	/duonna/
+[((/tut/, /tuot/), 0), ((/ura/, /ura/), 0), ((/dunna/, /duonna/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpN4OK1l.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmA31OP 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmA31OP
+Ran the solver in 12.187575 sec (12.189334 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpN4OK1l.sk
+Final hole value: 25
+Morphological analysis:
+Inflection 0:	// + stem + //
+Inflection 1:	// + stem + /o/
+Phonological rules:
+o ---> Ø /  _ [ -rounded ]* {#,u}
+Invoking solver (timeout 86387.8124249): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp3fLgRB.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmprpbj7o 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmprpbj7o
+Ran the solver in 2.818823 sec (2.820158 wall clock, includes blocking)
+Next data points to explain: 
+/num/	~	/nom/
+/nums/	~	/noms/
+/insumma/	~	/insomma/
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/ura/, /ura/), 3), ((/dunna/, /duonna/), 6), ((/tut/, /tuot/), 4), ((/num/, /nom/), 2), ((/nums/, /noms/), 3), ((/insumma/, /insomma/), 6)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpLaqkpK.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfzlBQs 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfzlBQs
+[((/dunna/, /duonna/), 6), ((/tut/, /tuot/), 4), ((/ura/, /ura/), 3), ((/num/, /nom/), 2), ((/nums/, /noms/), 3), ((/insumma/, /insomma/), 6)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpKhIHNj.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpaOjgL_ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpaOjgL_
+Ran the solver in 400.106611 sec (400.112238 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpLaqkpK.sk
+	(modification successful; loss = 18, solution = 
+	[ +back ] ---> o / g [  ]* _ [ +anterior ]
+	g ---> Ø /  _ 	)
+CEGIS: About to find a counterexample to:
+rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]
+rule: g ---> Ø /  _ 
+stem
+/g/ + stem
+underlying form: /tugt/ ; surfaces = /tut/ ~ /tuot/
+underlying form: /ura/ ; surfaces = /ura/ ~ /ura/
+underlying form: /insumma/ ; surfaces = /insumma/ ~ /insomma/
+underlying form: /dugnna/ ; surfaces = /dunna/ ~ /duonna/
+underlying form: /num/ ; surfaces = /num/ ~ /nom/
+underlying form: /nums/ ; surfaces = /nums/ ~ /noms/
+Invoking solver (timeout 85984.8869908): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpUWP8Rx.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWdVZRS 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWdVZRS
+Ran the solver in 2.520842 sec (2.523474 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpUWP8Rx.sk
+Invoking solver (timeout 85982.3661489): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpGulM1F.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpf10MQE 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpf10MQE
+Ran the solver in 2.219040 sec (2.220045 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpGulM1F.sk
+Invoking solver (timeout 85980.1471088): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpIzSwSH.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWuf6L9 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWuf6L9
+Ran the solver in 2.912903 sec (2.929040 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpIzSwSH.sk
+Invoking solver (timeout 85977.2342057): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmphisaMw.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7KZFuZ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7KZFuZ
+Ran the solver in 2.846347 sec (2.854337 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmphisaMw.sk
+Invoking solver (timeout 85974.3878589): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp9LYtnP.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmCXUFa 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmCXUFa
+Ran the solver in 2.570629 sec (2.573167 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp9LYtnP.sk
+Invoking solver (timeout 85971.8172297): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpoqEuSZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpoyF7VC 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpoyF7VC
+Ran the solver in 2.962555 sec (2.970546 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpoqEuSZ.sk
+No counterexample so I am just returning best solution
+Invoking solver (timeout 85968.8546748): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpOGazUp.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpXrj2tZ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpXrj2tZ
+Ran the solver in 2.470668 sec (2.474384 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpOGazUp.sk
+Invoking solver (timeout 85966.3840067): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmphWMcsC.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpCoiSjw 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpCoiSjw
+Ran the solver in 2.644982 sec (2.652052 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmphWMcsC.sk
+Invoking solver (timeout 85963.7390246): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp3yrN7z.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpdAJDzG 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpdAJDzG
+Ran the solver in 2.811312 sec (2.820819 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp3yrN7z.sk
+Invoking solver (timeout 85960.9277124): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp69JNd8.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpt9k0mi 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpt9k0mi
+Ran the solver in 2.457672 sec (2.467487 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp69JNd8.sk
+Invoking solver (timeout 85958.4700403): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpZ9euUp.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpbSNUxF 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpbSNUxF
+Ran the solver in 2.471095 sec (2.474666 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpZ9euUp.sk
+Invoking solver (timeout 85955.9989455): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpfAQYpg.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpP1_ifB 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpP1_ifB
+Ran the solver in 2.569510 sec (2.570534 wall clock, includes blocking)
+Process PoolWorker-21:
+Process PoolWorker-22:
+Traceback (most recent call last):
+Process PoolWorker-17:
+Traceback (most recent call last):
+Process PoolWorker-3:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-19:
+Traceback (most recent call last):
+Process PoolWorker-4:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-18:
+Traceback (most recent call last):
+Process PoolWorker-33:
+Traceback (most recent call last):
+Process PoolWorker-6:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-2:
+Traceback (most recent call last):
+Process PoolWorker-27:
+Traceback (most recent call last):
+Process PoolWorker-25:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-30:
+Traceback (most recent call last):
+Process PoolWorker-7:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-14:
+Traceback (most recent call last):
+Process PoolWorker-28:
+Traceback (most recent call last):
+Process PoolWorker-8:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-20:
+Traceback (most recent call last):
+Process PoolWorker-13:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-15:
+Traceback (most recent call last):
+Process PoolWorker-29:
+    self.run()
+Process PoolWorker-35:
+    self.run()
+Process PoolWorker-24:
+    self.run()
+Process PoolWorker-10:
+Traceback (most recent call last):
+Process PoolWorker-16:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-5:
+    self.run()
+Process PoolWorker-9:
+Traceback (most recent call last):
+Process PoolWorker-26:
+Traceback (most recent call last):
+Process PoolWorker-31:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-12:
+    self.run()
+Process PoolWorker-11:
+Traceback (most recent call last):
+Process PoolWorker-23:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-32:
+    self.run()
+Process PoolWorker-34:
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Process PoolWorker-36:
+Traceback (most recent call last):
+Process PoolWorker-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self._target(*self._args, **self._kwargs)
+    self.run()
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+    self.run()
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 267, in _bootstrap
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self.run()
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    task = get()
+    self._target(*self._args, **self._kwargs)
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 113, in worker
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self.run()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 379, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    task = get()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    task = get()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    self._target(*self._args, **self._kwargs)
+    result = (True, func(*args, **kwds))
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/process.py", line 114, in run
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    racquire()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    return recv()
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    task = get()
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    racquire()
+    task = get()
+    self._target(*self._args, **self._kwargs)
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 65, in mapstar
+    racquire()
+    self._target(*self._args, **self._kwargs)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    task = get()
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    racquire()
+    task = get()
+KeyboardInterrupt
+    task = get()
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    task = get()
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    task = get()
+KeyboardInterrupt
+    task = get()
+KeyboardInterrupt
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+    return map(*args)
+    task = get()
+KeyboardInterrupt
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 102, in worker
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    task = get()
+    racquire()
+    task = get()
+    task = get()
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+KeyboardInterrupt
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+    task = get()
+KeyboardInterrupt
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/pathos/helpers/mp_helper.py", line 15, in <lambda>
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+    task = get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+    racquire()
+KeyboardInterrupt
+    racquire()
+    racquire()
+KeyboardInterrupt
+    racquire()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/queues.py", line 377, in get
+    racquire()
+KeyboardInterrupt
+    racquire()
+    func = lambda args: f(*args)
+    racquire()
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/utilities.py", line 178, in safeCall
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpfAQYpg.sk
+Final CEGIS solution:
+rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]
+rule: g ---> Ø /  _ 
+stem
+/g/ + stem
+underlying form: /tugt/ ; surfaces = /tut/ ~ /tuot/
+underlying form: /dugnna/ ; surfaces = /dunna/ ~ /duonna/
+underlying form: /num/ ; surfaces = /num/ ~ /nom/
+underlying form: /insumma/ ; surfaces = /insumma/ ~ /insomma/
+underlying form: /ura/ ; surfaces = /ura/ ~ /ura/
+underlying form: /nums/ ; surfaces = /nums/ ~ /noms/
+    y = f(*x)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 361, in <lambda>
+    lambda (j,v): self.sketchCEGISChange(solution,v,verbose=(j == 0)),
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 317, in sketchCEGISChange
+    newSolution = worker.sketchChangeToSolution(solution, rules, verbose=verbose)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 270, in sketchChangeToSolution
+    output = self.solveSketch()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/matrix.py", line 81, in solveSketch
+    timeout=self.pervasiveTimeout)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch.py", line 242, in solveSketch
+    actualTime = send_to_command_server(command, this_timeout)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 89, in send_to_command_server
+    received = sock.recv(1024)
+KeyboardInterrupt
