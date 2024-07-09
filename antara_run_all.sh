@@ -87,11 +87,11 @@ echo >> $OUTPUT_FILE
     # echo "Running driver.py Odden_Lunyole_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated"
     # python driver.py Odden_Lunyole_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated
 
-    # echo "Running driver.py Odden_Mongo_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated"
-    # python driver.py Odden_Mongo_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+    echo "Running driver.py Odden_Mongo_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated"
+    python driver.py Odden_Mongo_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
 
-    echo "Running driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated"
-    python driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated
+    # echo "Running driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated"
+    # python driver.py Odden_Sursilvan_Engadine_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated
 
 } >> $OUTPUT_FILE 2>&1
 
