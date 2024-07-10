@@ -1,0 +1,138 @@
+
+    u'''
+Mandar Saujas 1 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"mambatta", u"dibatta"),
+    (u"mandeŋŋeq", u"dideŋŋeq"),
+    (u"maŋidaŋ", u"diidaŋ"),
+    (u"mappasuŋ", u"dipasuŋ"),
+    (u"mattunu", u"ditunu"),
+    (u"massiraq", u"disiraq")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
+
+    u'''
+Dutch Saujas 2 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"slibben", u"geslibd"),
+    (u"klagen", u"geklaagd"),
+    (u"branden", u"gebrand"),
+    (u"weren", u"geweerd"),
+    (u"tochten", u"getocht"),
+    (u"tellen", u"geteld"),
+    (u"raken", u"geraakt"),
+    (u"lijmen", u"gelijmd"),
+    (u"kunnen", u"gekund"),
+    (u"vertellen", u"verteld"),
+    (u"telen", u"geteeld"),
+    (u"verhoren", u"verhoord"),
+    (u"trouwen", u"getrouwd"),
+    (u"schaven", u"geschaafd"),
+    (u"razen", u"geraasd"),
+    (u"prijzen", u"geprijsd"),
+    (u"lappen", u"gelapt"),
+    (u"smaken", u"gesmaakt"),
+    (u"praten", u"gepraat"),
+    (u"fietsen", u"gefietst"),
+    (u"boffen", u"geboft")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
+
+    u'''
+Somali Saujas 4 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"akhriyay", u"akhriday"),
+    (u"aragay", u"aragtay"),
+    (u"baay", u"baday"),
+    (u"baaqay", u"baaqday"),
+    (u"baxay", u"baxday"),
+    (u"cabay", u"cabtay"),
+    (u"cararay", u"carartay"),
+    (u"dhisay", u"dhistay"),
+    (u"diiday", u"diiday"),
+    (u"dilay", u"dishay"),
+    (u"gaadhay", u"gaadhay"),
+    (u"horyeeday", u"horyeeday"),
+    (u"keenay", u"keentay"),
+    (u"korodhay", u"korodhay"),
+    (u"tagay", u"tagtay")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
+
+    u'''
+Lunyole Saujas 5 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"oludaalo", u"endaalo"),
+    (u"oluboyooboyo", u"emboyooboyo"),
+    (u"olufudu", u"efudu"),
+    (u"olukalala", u"ekalala")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
+
+    u'''
+Indonesian Saujas 9 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"meŋuji", u"diuji"),
+    (u"meŋeja", u"dieja"),
+    (u"meŋgaruk", u"digaruk"),
+    (u"mendapat", u"didapat"),
+    (u"memberi", u"diberi"),
+    (u"menulis", u"ditulis"),
+    (u"memutus", u"diputus")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
+
+    u'''
+Zoque Saujas 11 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+    ''',
+    [
+    (u"burru", u"mburru"),
+    (u"pama", u"mbama"),
+    (u"tatah", u"ndatah"),
+    (u"faha", u"faha"),
+    (u"sis", u"sis"),
+    (u"šapun", u"šapun"),
+    (u"kayu", u"ŋgayu")
+    ],
+    solutions = [
+        '''
++ stem
+        '''
+    ]
+
