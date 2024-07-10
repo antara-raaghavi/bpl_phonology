@@ -1926,3 +1926,9 @@ Sursilvan Engadine Saujas 4 Odden
 u > o / _ m
 ∅ > o / u _ [+ consonant, - liquid]
         ''']))
+
+
+#TESTING AUTOMATED READ-IN 
+
+from FLAG_small_test_auto import *
+# small_test_run()

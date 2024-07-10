@@ -181,6 +181,8 @@ def string_to_problem(problem_string):
 
 def format_phonmorph(folder_path, output_file):
     OUR_MATRIXPROBLEMS = []
+
+    # for folder_path, output_file in zip(folder_paths, output_files):
     file_list = [f for f in os.listdir(folder_path) if f.endswith('.json')]
 
     for idx, file_name in enumerate(file_list):
@@ -189,10 +191,12 @@ def format_phonmorph(folder_path, output_file):
             language = data["source_language"]
 
             if language.lower() in ['finnish', 'somali']:
+
+                #TODO: THIS IS A TEMPORARY AND DEEPLY SUS FIX, I THINK J IS A CONSONANT HERE!!
                 data = json.loads(json.dumps(data).replace('j', 'y'))
 
 
-            if language.lower() in ["finnish", "quechua", "tarangan", "terena", "mongo", "budukh", "estonian", "movima"]:
+            if language.lower() in ["finnish", 'somali', "quechua", "tarangan", "terena", "mongo", "budukh", "estonian", "movima"]:
 
                 #TODO: fix! these all have phonemes that are currently NOT HANDLED in features.py "finnish", "quechua", 
                 # need a phonology textbook -- Halle? 
@@ -213,7 +217,7 @@ def format_phonmorph(folder_path, output_file):
             ).format(language, idx)
 
             solutions_text = u"""
- + stem  
++ stem  
 """
 
             problem_instance = Problem(
@@ -234,17 +238,24 @@ def format_phonmorph(folder_path, output_file):
     #     print(problem_to_string(problem))
     #     print("\n")
 
+
 folder_path = '../../datasets/phon_morph_problems/morphology'
 output_file = '../../datasets/phon_morph_problems/morphology/morph_bpl_format.txt'
+
+# folder_paths = ['../../datasets/phon_morph_problems/morphology', '../../datasets/phon_morph_problems/multilingual', 
+#                 '../../datasets/phon_morph_problems/stress', '../../datasets/phon_morph_problems/transliteration']
+# output_files = [i + "/bpl_format.txt" for i in folder_paths]
 
 format_phonmorph(folder_path, output_file)
 
 
 
-file_path = output_file 
+
 
 
 #COMMENTING THIS OUT RN BECAUSE IT"S IN THE SMALL_TEST_AUTO FILE -- JUL 10 AFTERNOON
+
+# file_path = output_file 
 
 # with codecs.open(file_path, 'r', encoding='utf-8') as file:
 #     problem_strings = file.read().split("""+ stem

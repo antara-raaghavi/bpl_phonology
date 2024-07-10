@@ -131,19 +131,12 @@ sophisticatedFeatureMap = {
     #possibly missing are umlauts
 
 
-    #ANTARA'S ADDITIONS START HERE
+    # '''ANTARA'S ADDITIONS START HERE'''
 
     u"ä": [voice,low,tense], #FINNISH ä --> IPA æ
     # u"č": [anterior,coronal,delayedRelease],      # QUECHUA č --> IPA tʃ 
 
-
-
-
-
-
-
-    #AND END HERE
-
+   #  '''AND END HERE'''
 
 
 

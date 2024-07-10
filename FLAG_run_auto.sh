@@ -66,6 +66,7 @@ echo "Collecting output in $OUTPUT_FILE"
 echo >> $OUTPUT_FILE
 echo "------ Run started at $(date) ------" >> $OUTPUT_FILE
 echo >> $OUTPUT_FILE
+echo >> $OUTPUT_FILE
 
 echo "TESTING AUTOREAD GRAB" >> $OUTPUT_FILE
 
@@ -74,21 +75,25 @@ echo "TESTING AUTOREAD GRAB" >> $OUTPUT_FILE
 {
 
 
-    echo >> $OUTPUT_FILE
+
 
     # echo "Running driver.py Odden_Mandar_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated"
     # python driver.py Odden_Mandar_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 
     
-    echo >> $OUTPUT_FILE
+    # echo >> $OUTPUT_FILE
 
-    echo >> $OUTPUT_FILE
+    # echo >> $OUTPUT_FILE
 
     # echo "Running driver.py Odden_Lunyole_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated"
     # python driver.py Odden_Lunyole_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated
     
-    echo "Running FLAG_small_test_auto.py"
-    python FLAG_small_test_auto.py
+    # echo "Running FLAG_small_test_auto.py"
+    # python FLAG_small_test_auto.py 
+
+
+    echo "Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated"
+    python driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
 
     echo "Running driver.py Odden_Dutch_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated"
     python driver.py Odden_Dutch_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated
