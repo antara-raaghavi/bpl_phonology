@@ -177,6 +177,73 @@ def string_to_problem(problem_string):
 
 
 
+def compatible_char_ipa(data):
+    language = data["source_language"]
+    if language.lower() == 'finnish':
+        data = json.loads(json.dumps(data).replace('ä', 'æ')) # FINNISH ä --> IPA æ
+        data = json.loads(json.dumps(data).replace('y', 'Y')) # new phoneme added!
+
+    elif language.lower() == 'somali':
+        data = json.loads(json.dumps(data).replace('j', 'd^z')) 
+        json_str = json.dumps(data)
+        json_str_replaced = json_str.replace('\u0361\u0292', '^z')
+        data = json.loads(json_str_replaced)
+
+    elif language.lower() == 'mongo':
+        data = json.loads(json.dumps(data).replace('\u0361\u0292', '^z')) 
+        json_str = json.dumps(data)
+        json_str_replaced = json_str.replace('\u0361\u0292', '^z')
+        data = json.loads(json_str_replaced)
+
+    elif language.lower() == 'quechua':
+        data = json.loads(json.dumps(data).replace('\u010d', 't^s')) 
+        data = json.loads(json.dumps(data).replace('\u01f0', 'd^z')) 
+        json_str = json.dumps(data)
+        json_str_replaced = json_str.replace('\u010d', 't^s')
+        data = json.loads(json_str_replaced)
+
+    return data
+
+
+    # language = data["source_language"]
+
+    # if language.lower() == 'finnish':
+    #         print(u"I am here, this is {}".format(language))
+    #         data = json.loads(json.dumps(data).replace('ä', 'æ')) #FINNISH ä --> IPA æ
+    #         data = json.loads(json.dumps(data).replace('y', 'Y')) #new phoneme added!
+
+
+
+    # if language.lower() == 'somali':
+    #         print(u"I am here, this is {}".format(language))
+    #         data = json.loads(json.dumps(data).replace('j', 'd^z')) 
+    #         json_str = json.dumps(data)
+    #         json_str_replaced = json_str.replace('\u0361\u0292', '^z')
+    #         data_replaced = json.loads(json_str_replaced)
+
+    # if language.lower() == 'mongo':
+    #         print(u"I am here, this is {}".format(language))
+    #         data = json.loads(json.dumps(data).replace('\u0361\u0292', '^z')) 
+
+    #         json_str = json.dumps(data)
+    #         json_str_replaced = json_str.replace('\u0361\u0292', '^z')
+    #         data_replaced = json.loads(json_str_replaced)
+    #         # print(data)
+
+    # if language.lower() == 'quechua':
+    #         print(u"I am here, this is {}".format(language))
+    #         data = json.loads(json.dumps(data).replace('\u010d', 't^s')) 
+    #         data = json.loads(json.dumps(data).replace('\u01f0', 'd^z')) 
+
+    #         json_str = json.dumps(data)
+    #         json_str_replaced = json_str.replace('\u010d', 't^s')
+    #         data_replaced = json.loads(json_str_replaced)
+
+            # print("HEYYYYY", data_replaced)
+            # print(data)
+
+    return data
+
 
 
 def format_phonmorph(folder_path, output_file):
@@ -188,6 +255,7 @@ def format_phonmorph(folder_path, output_file):
     for idx, file_name in enumerate(file_list):
         with open(os.path.join(folder_path, file_name), 'r') as file:
             data = json.load(file)
+            data = compatible_char_ipa(data)
             language = data["source_language"]
 
             if language.lower() in ['finnish', 'somali']:
@@ -196,7 +264,7 @@ def format_phonmorph(folder_path, output_file):
                 data = json.loads(json.dumps(data).replace('j', 'y'))
 
 
-            if language.lower() in ["finnish", 'somali', "quechua", "tarangan", "terena", "mongo", "budukh", "estonian", "movima"]:
+            if language.lower() in ["tarangan", "terena", "budukh", "estonian", "movima"]:
 
                 #TODO: fix! these all have phonemes that are currently NOT HANDLED in features.py "finnish", "quechua", 
                 # need a phonology textbook -- Halle? 
@@ -205,27 +273,32 @@ def format_phonmorph(folder_path, output_file):
 
             # FROM HERE IS OK 
 
-            entries = data["train"]
+            try:
+                entries = data["train"]
 
-            formatted_entries = [tuple(elem.replace(' ', '') for elem in entry if elem.strip()) for entry in entries] #to get it in the (u"<1>", u"<2>") format
+                formatted_entries = [tuple(elem.replace(' ', '') for elem in entry if elem.strip()) for entry in entries] #to get it in the (u"<1>", u"<2>") format
 
-            #NB:  if elem.strip() --> takes care of emmpty string
+                #NB:  if elem.strip() --> takes care of emmpty string
 
-            problem_text = (
-                u"{} Saujas {} Odden\n"
-                u"Provide underlying representations and a phonological rule which will account for the following alternations."
-            ).format(language, idx)
+                problem_text = (
+                    u"{} Saujas {} Odden\n"
+                    u"Provide underlying representations and a phonological rule which will account for the following alternations."
+                ).format(language, idx)
 
-            solutions_text = u"""
-+ stem  
-"""
+                solutions_text = u"""
+    + stem  
+    """
 
-            problem_instance = Problem(
-                description=u'''{}'''.format(problem_text),
-                data=formatted_entries,
-                solutions=[solutions_text.strip()]
-            )
-            OUR_MATRIXPROBLEMS.append(problem_instance)
+                problem_instance = Problem(
+                    description=u'''{}'''.format(problem_text),
+                    data=formatted_entries,
+                    solutions=[solutions_text.strip()]
+                )
+                OUR_MATRIXPROBLEMS.append(problem_instance)
+            
+            except Exception as e:
+                print(u"\n\n{}. \n Error: Problem in {} has an issue.\n\n".format(e, language))
+                continue
 
 
     # need codecs because  they use python 2.7 (sobbing noises)
@@ -247,6 +320,23 @@ output_file = '../../datasets/phon_morph_problems/morphology/morph_bpl_format.tx
 # output_files = [i + "/bpl_format.txt" for i in folder_paths]
 
 format_phonmorph(folder_path, output_file)
+
+def small_test_run():
+    file_path = 'FLAG_grabbed.txt' 
+
+    print("\nEntering small_test to load data.\n")
+
+    with codecs.open(file_path, 'r', encoding='utf-8') as file:
+        problem_strings = file.read().split("""+ stem
+            '''
+        ]""")  # split at end 
+        for problem_string in problem_strings:
+            if problem_string.strip():  # Ensure it's not an empty string
+                problem_string += """+ stem
+            '''
+        ]"""    #adding back the thing we split based on 
+
+                problem_instance = string_to_problem(problem_string.strip())
 
 
 

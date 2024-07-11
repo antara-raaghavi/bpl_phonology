@@ -1,0 +1,3512 @@
+    [0;32m[1720704060.0840 - DEBUG] Running stage 'preproc' -- Preprocessing (used for all further transformations)[0m
+    [0;32m[1720704061.0520 - DEBUG] Running stage SpmdLowLevelCStage[0m
+    [0;32m[1720704061.0570 - DEBUG]    Running visitor FlattenStmtBlocks2[0m
+    [0;32m[1720704061.0630 - DEBUG]    Running visitor SplitAssignFromVarDef[0m
+    [0;32m[1720[SATBackend] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[SATBackend] MAX LOOP UNROLLING = 8
+[SATBackend] MAX FUNC INLINING  = 5
+estimated size of auxiliaryHarness_5__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52    [0;32m[1720704062.6530 - DEBUG] executing /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis --bnd-inbits 5 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 -o /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/solution0-0 --minvarHole /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/input0.tmp[0m
+starting command line: [/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis, --bnd-inbits, 5, --boundmode, CALLNAME, --verbosity, 10, --print-version, -simiters, 4, --assumebcheck, --bnd-inline-amnt, 5, -angelictupledepth, 1, -srctupledepth, 2, -sprandbias, 1, -o, /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/solution0-0, --minvarHole, /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/input0.tmp]
+I've been killed.
+    [0;31m[1720704066.5410 - ERROR] [SKETCH] Sketch Not Resolved Error: nullThe sketch could not be resolved.[0m
+    [0;32m[1720704066.5440 - DEBUG] [SKETCH] stack trace written to file: /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/stacktrace.txt[0m
+    [0;32m[1720704066.5450 - DEBUG] Backend solver input file at /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/input0.tmp[0m
+__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s1176 : 1
+callee auxiliaryHarness_4 : 63
+
+estimated size of auxiliaryHarness_3__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s1210 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s1208 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s1206 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s1204 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s1202 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s1200 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s1198 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s1196 : 52
+callee glblInit_phoneme_17__ANONYMOUS_s1194 : 52
+callee glblInit_phoneme_16__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s1176 : 1
+callee auxiliaryHarness_3 : 63
+
+estimated size of auxiliaryHarness_2__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s1210 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s1208 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s1206 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s1204 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s1202 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s1200 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s1198 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s1196 : 52
+callee glblInit_phoneme_17__ANONYMOUS_s1194 : 52
+callee glblInit_phoneme_16__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s1176 : 1
+callee auxiliaryHarness_2 : 63
+
+estimated size of auxiliaryHarness_1__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s1210 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s1208 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s1206 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s1204 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s1202 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s1200 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s1198 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s1196 : 52
+callee glblInit_phoneme_17__ANONYMOUS_s1194 : 52
+callee glblInit_phoneme_16__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s1176 : 1
+callee auxiliaryHarness_1 : 63
+
+estimated size of auxiliaryHarness_0__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s1210 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s1208 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s1206 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s1204 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s1202 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s1200 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s1198 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s1196 : 52
+callee glblInit_phoneme_17__ANONYMOUS_s1194 : 52
+callee glblInit_phoneme_16__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s1176 : 1
+callee auxiliaryHarness_0 : 63
+
+estimated size of main__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s1212 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s1210 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s1208 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s1206 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s1204 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s1202 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s1200 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s1198 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s1196 : 52
+callee glblInit_phoneme_17__ANONYMOUS_s1194 : 52
+callee glblInit_phoneme_16__ANONYMOUS_s1192 : 52
+callee glblInit_phoneme_15__ANONYMOUS_s1190 : 52
+callee glblInit_phoneme_14__ANONYMOUS_s1188 : 52
+callee glblInit_phoneme_13__ANONYMOUS_s1186 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s1184 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s1182 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s1180 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s1178 : 52
+callee main : 57
+
+[SATBackend] After prog.accept(partialEval)
+[SATBackend] OFILE = null
+searching for file null
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/cegis-1.7.5
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /opt/amazon/openmpi/bin/cegis
+searching for file /opt/amazon/openmpi/bin/src/SketchSolver/cegis
+searching for file /opt/amazon/openmpi/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/amazon/openmpi/bin/../sketch-backend/bindings/cegis
+searching for file /opt/amazon/efa/bin/cegis
+searching for file /opt/amazon/efa/bin/src/SketchSolver/cegis
+searching for file /opt/amazon/efa/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/amazon/efa/bin/../sketch-backend/bindings/cegis
+searching for file /opt/aws/neuron/bin/cegis
+searching for file /opt/aws/neuron/bin/src/SketchSolver/cegis
+searching for file /opt/aws/neuron/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/aws/neuron/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/cuda-12.1/bin/cegis
+searching for file /usr/local/cuda-12.1/bin/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/cuda-12.1/include/cegis
+searching for file /usr/local/cuda-12.1/include/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/include/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/include/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/games/cegis
+searching for file /usr/games/src/SketchSolver/cegis
+searching for file /usr/games/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/games/../sketch-backend/bindings/cegis
+searching for file /usr/local/games/cegis
+searching for file /usr/local/games/src/SketchSolver/cegis
+searching for file /usr/local/games/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/games/../sketch-backend/bindings/cegis
+searching for file /snap/bin/cegis
+searching for file /snap/bin/src/SketchSolver/cegis
+searching for file /snap/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /snap/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis --bnd-inbits 5 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 -o /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/solution0-0 --minvarHole /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/input0.tmp 
+Overriding inputs with 5
+boundmode = CALLNAME
+assuming  bounds checks
+SOLVER RAND SEED = 1720704062
+ optimization level = 6
+Reading SKETCH Program in File /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbtgL4S.sk/input0.tmp
+CREATING auxiliaryHarness_5__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_5__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_4__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_4__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_3__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_3__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_2__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_2__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_1__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_1__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_0__Wrapper
+size = 346
+after ba size = 346
+CREATING auxiliaryHarness_0__WrapperNospec
+size = 0
+after ba size = 0
+CREATING main__Wrapper
+size = 344
+after ba size = 344
+CREATING main__WrapperNospec
+size = 0
+after ba size = 0
+CREATING glblInit_global_boundary_specification__ANONYMOUS_s1176
+size = 6
+after ba size = 6
+CREATING glblInit_phoneme_0__ANONYMOUS_s1178
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_10__ANONYMOUS_s1180
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_11__ANONYMOUS_s1182
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_12__ANONYMOUS_s1184
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_13__ANONYMOUS_s1186
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_14__ANONYMOUS_s1188
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_15__ANONYMOUS_s1190
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_16__ANONYMOUS_s1192
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_17__ANONYMOUS_s1194
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_1__ANONYMOUS_s1196
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_2__ANONYMOUS_s1198
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_3__ANONYMOUS_s1200
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_4__ANONYMOUS_s1202
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_5__ANONYMOUS_s1204
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_6__ANONYMOUS_s1206
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_7__ANONYMOUS_s1208
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_8__ANONYMOUS_s1210
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_9__ANONYMOUS_s1212
+size = 38
+after ba size = 38
+CREATING auxiliaryHarness_5
+size = 272
+after ba size = 272
+CREATING auxiliaryHarness_4
+size = 272
+after ba size = 272
+CREATING auxiliaryHarness_3
+size = 272
+after ba size = 272
+CREATING auxiliaryHarness_2
+size = 272
+after ba size = 272
+CREATING auxiliaryHarness_1
+size = 272
+after ba size = 272
+CREATING auxiliaryHarness_0
+size = 272
+after ba size = 272
+CREATING main
+size = 251
+after ba size = 251
+CREATING __GLOBALDEFINITION__0
+size = 575
+after ba size = 575
+CREATING __GLOBALDEFINITION__1
+size = 575
+after ba size = 575
+CREATING __GLOBALDEFINITION__2
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__3
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__4
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__5
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__6
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__7
+size = 146
+after ba size = 146
+CREATING __GLOBALDEFINITION__8
+size = 146
+after ba size = 146
+CREATING concatenate3
+size = 219
+after ba size = 219
+CREATING word_length
+size = 10
+after ba size = 10
+CREATING apply_rule
+Found Cycle of size 23; Breaking.
+Found Cycle of size 26; Breaking.
+size = 3322
+after ba size = 3322
+CREATING word_equal
+size = 302
+after ba size = 302
+CREATING rule_cost
+size = 96
+after ba size = 96
+CREATING concatenate
+size = 111
+after ba size = 111
+CREATING is_offset
+size = 98
+after ba size = 98
+CREATING is_deletion_rule
+size = 11
+after ba size = 11
+CREATING get_offset
+size = 92
+after ba size = 92
+CREATING constant_specification
+size = 75
+after ba size = 75
+CREATING guard_does_something
+size = 19
+after ba size = 19
+CREATING is_valid_structural_change
+size = 71
+after ba size = 71
+CREATING apply_guard_sophisticated
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+size = 738
+after ba size = 738
+CREATING matches_specification
+size = 409
+after ba size = 409
+CREATING extract_constant_sound
+size = 100
+after ba size = 100
+CREATING is_place
+size = 81
+after ba size = 81
+CREATING get_place_offset
+size = 93
+after ba size = 93
+CREATING assimilatePlace
+size = 383
+after ba size = 383
+CREATING apply_specification
+size = 754
+after ba size = 754
+CREATING sound_equal
+size = 21
+after ba size = 21
+CREATING rule_does_nothing
+size = 38
+after ba size = 38
+CREATING guard_cost
+size = 26
+after ba size = 26
+CREATING specification_cost
+size = 162
+after ba size = 162
+CREATING validateCost
+size = 9
+after ba size = 9
+CREATING boundary_specification
+size = 8
+after ba size = 8
+CREATING index2okay1
+size = 14
+after ba size = 14
+CREATING index2sound2
+size = 17
+after ba size = 17
+CREATING makeNasal
+size = 118
+after ba size = 118
+CREATING empty_specification
+size = 182
+after ba size = 182
+CREATING guard_specification_cost
+size = 163
+after ba size = 163
+CREATING equals_Specification_s7
+size = 567
+after ba size = 567
+* before  EVERYTHING: main__WrapperNospec::SPEC nodes = 0	 main__Wrapper::SKETCH nodes = 344
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 19 new size =394
+inlined 22 new size =1591
+inlined 20 new size =2557
+inlined 76 new size =3675
+inlined 128 new size =3531
+inlined 0 new size =3531
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 3531
+* Final Problem size: Problem nodes = 3531
+  # OF CONTROLS:    466
+ control_ints = 62 	 control_bits = 404
+inputSize = 0	ctrlSize = 714
+Random seeds = 1
+Number of minvar nodes = 1
+!+ 000100010111000000000100000100000000100000000001100001000100000010010001100100100000001000000000101010000001000000001000001100110100000001000000000000000000000001000010001110000100000011000100100100001001010001000000000000000000110100000100100000000011000010010111000000000010001111000110000000001100000000011011000100000100011010101000000000001100000000000010010000101010100100000000000101001001000000101011100011000001000011000001000010010100000001010000001010000000010100000001101000100100000110000001000000001001100010001001000100100001000011011101000100111010011000010000010010000000010000000000100001001001000000010000100110010100100100111000011000100000010011010010010010000010010101010100110000100000110000
+!+ H__105_119_47:8
+H__104_119_48:20
+H__103_119_49_45:3
+H__103_119_49_46:0
+H__103_119_50_45:2
+H__103_119_50_46:4
+H__105_120_47:0
+H__104_120_48:2
+H__103_120_49_45:0
+H__103_120_49_46:12
+H__103_120_50_45:8
+H__103_120_50_46:4
+H__0_121:16
+H__106_121:4
+H__107_121:6
+H__108_121:9
+H__109_121:0
+H__110_121:2
+H__111_121:0
+H__0_122:10
+H__112_122:1
+H__113_122:4
+H__114_122:0
+H__115_122:2
+H__116_122:12
+H__117_122:22
+H__0_123:0
+H__118_123:4
+H__119_123:0
+H__120_123:0
+H__121_123:0
+H__122_123:0
+H__123_123:2
+H__0_124:2
+H__124_124:7
+H__125_124:4
+H__126_124:16
+H__127_124:17
+H__128_124:4
+H__129_124:1
+H__0_125:9
+H__130_125:17
+H__131_125:0
+H__132_125:0
+H__133_125:0
+H__134_125:24
+H__135_125:2
+H__0_126:4
+H__136_126:1
+H__137_126:0
+H__138_126:3
+H__139_126:18
+H__140_126:14
+H__141_126:0
+H__0_127:16
+H__142_127:24
+H__143_127:3
+H__144_127:3
+H__145_127:0
+H__146_127:6
+H__147_127:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:1
+H__38_119_47:1
+H__41_119_47:0
+H__40_119_47:1
+H__43_119_47:1
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:1
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:1
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:1
+H__56_119_47:1
+H__59_119_47:0
+H__58_119_47:1
+H__61_119_47:0
+H__60_119_47:1
+H__63_119_47:0
+H__62_119_47:1
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:1
+H__13_119_48:1
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:1
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:1
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:1
+H__35_119_48:0
+H__34_119_48:1
+H__1_119_49:0
+H__101_119_49:1
+H__69_119_49_45:0
+H__68_119_49_45:1
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:1
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:1
+H__84_119_49_45:0
+H__87_119_49_45:1
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:1
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:1
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:1
+H__1_119_50:0
+H__101_119_50:1
+H__69_119_50_45:0
+H__68_119_50_45:1
+H__71_119_50_45:1
+H__70_119_50_45:1
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:1
+H__77_119_50_45:1
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:1
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:1
+H__89_119_50_45:1
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:1
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:1
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:1
+H__71_119_50_46:0
+H__70_119_50_46:1
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:1
+H__81_119_50_46:0
+H__80_119_50_46:1
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:1
+H__88_119_50_46:0
+H__91_119_50_46:1
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:1
+H__2_119_50:0
+H__102_119_49:1
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:1
+H__77_119_49_46:1
+H__76_119_49_46:0
+H__79_119_49_46:1
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:1
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:1
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:1
+H__93_119_49_46:1
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:1
+H__2_119_49:0
+H__3_119_50:0
+H__3_119_49:0
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:1
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:1
+H__44_120_47:1
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:1
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:1
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:1
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:1
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:1
+H__65_120_47:0
+H__64_120_47:0
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:1
+H__4_120_48:0
+H__7_120_48:0
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:1
+H__11_120_48:1
+H__10_120_48:0
+H__13_120_48:1
+H__12_120_48:1
+H__15_120_48:1
+H__14_120_48:0
+H__17_120_48:1
+H__16_120_48:0
+H__19_120_48:0
+H__18_120_48:0
+H__21_120_48:1
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:1
+H__25_120_48:1
+H__24_120_48:1
+H__27_120_48:0
+H__26_120_48:1
+H__29_120_48:0
+H__28_120_48:0
+H__31_120_48:1
+H__30_120_48:1
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:1
+H__101_120_49:0
+H__69_120_49_45:0
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:1
+H__72_120_49_45:0
+H__75_120_49_45:0
+H__74_120_49_45:1
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:0
+H__82_120_49_45:0
+H__85_120_49_45:1
+H__84_120_49_45:0
+H__87_120_49_45:0
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:0
+H__93_120_49_45:0
+H__92_120_49_45:0
+H__95_120_49_45:0
+H__94_120_49_45:1
+H__97_120_49_45:0
+H__96_120_49_45:0
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:1
+H__101_120_50:0
+H__69_120_50_45:0
+H__68_120_50_45:1
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:1
+H__72_120_50_45:0
+H__75_120_50_45:0
+H__74_120_50_45:0
+H__77_120_50_45:0
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:0
+H__81_120_50_45:1
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:0
+H__85_120_50_45:0
+H__84_120_50_45:1
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:1
+H__88_120_50_45:1
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:1
+H__92_120_50_45:0
+H__95_120_50_45:1
+H__94_120_50_45:0
+H__97_120_50_45:0
+H__96_120_50_45:1
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:1
+H__69_120_50_46:0
+H__68_120_50_46:0
+H__71_120_50_46:1
+H__70_120_50_46:1
+H__73_120_50_46:1
+H__72_120_50_46:0
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:1
+H__79_120_50_46:1
+H__78_120_50_46:0
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:1
+H__82_120_50_46:0
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:1
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:1
+H__92_120_50_46:1
+H__95_120_50_46:0
+H__94_120_50_46:1
+H__97_120_50_46:0
+H__96_120_50_46:0
+H__99_120_50_46:1
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:1
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:1
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:0
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:1
+H__76_120_49_46:0
+H__79_120_49_46:0
+H__78_120_49_46:1
+H__81_120_49_46:0
+H__80_120_49_46:1
+H__83_120_49_46:0
+H__82_120_49_46:1
+H__85_120_49_46:0
+H__84_120_49_46:1
+H__87_120_49_46:0
+H__86_120_49_46:1
+H__89_120_49_46:0
+H__88_120_49_46:0
+H__91_120_49_46:1
+H__90_120_49_46:1
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:0
+H__94_120_49_46:0
+H__97_120_49_46:1
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:0
+H__3_120_50:0
+H__3_120_49:1
+H__BND0:1
+
+BEG CHECK
+ * After optims it became = 2 was 3531
+Assert at tmpbtgL4S.sk:64 (2)
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.003
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 3531 was 3531
+ * After all optims it became = 3531
+ finder  hits = 112	 bstoreObjs=10076	 sstorePages=45
+hitcount 	0	9994	2
+hitcount 	1	68	2
+hitcount 	2	6	2
+hitcount 	4	8	2
+bucketsPerDepth 	1	8
+bucketsPerDepth 	2	62
+bucketsPerDepth 	3	164
+bucketsPerDepth 	4	312
+bucketsPerDepth 	5	278
+bucketsPerDepth 	6	141
+bucketsPerDepth 	7	47
+bucketsPerDepth 	8	10
+bucketsPerDepth 	9	2
+* TIME TO ADD INPUT :  0.044 ms 
+DECISIONS START = 0
+f# %assign: 11 clauses: 124928 learn: 94 restart: 2 decision: 7451 propagated: 71160
+END FIND
+!+ 110001100010100100000000100001000000000010001100011000101001000001000000000010000001000000100000000000000000000100010000000000010000000000001000000000000000000000100000000000000001100001000000100000000000010000100000000001000100101000000000100000000000000010000000000000000000000000000000000110000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000100
+!+ H__105_119_47:3
+H__104_119_48:3
+H__103_119_49_45:5
+H__103_119_49_46:1
+H__103_119_50_45:16
+H__103_119_50_46:16
+H__105_120_47:0
+H__104_120_48:0
+H__103_120_49_45:17
+H__103_120_49_46:17
+H__103_120_50_45:17
+H__103_120_50_46:18
+H__0_121:0
+H__106_121:1
+H__107_121:0
+H__108_121:2
+H__109_121:8
+H__110_121:0
+H__111_121:1
+H__0_122:0
+H__112_122:0
+H__113_122:0
+H__114_122:2
+H__115_122:1
+H__116_122:0
+H__117_122:4
+H__0_123:0
+H__118_123:0
+H__119_123:1
+H__120_123:0
+H__121_123:0
+H__122_123:0
+H__123_123:4
+H__0_124:0
+H__124_124:0
+H__125_124:16
+H__126_124:1
+H__127_124:1
+H__128_124:4
+H__129_124:0
+H__0_125:0
+H__130_125:1
+H__131_125:1
+H__132_125:0
+H__133_125:2
+H__134_125:9
+H__135_125:1
+H__0_126:0
+H__136_126:1
+H__137_126:0
+H__138_126:0
+H__139_126:2
+H__140_126:0
+H__141_126:0
+H__0_127:0
+H__142_127:0
+H__143_127:0
+H__144_127:0
+H__145_127:6
+H__146_127:0
+H__147_127:1
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+H__1_119_49:0
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__1_119_50:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__2_119_50:1
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__2_119_49:0
+H__3_119_50:1
+H__3_119_49:0
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:0
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:0
+H__44_120_47:0
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:0
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:0
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:0
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:0
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:0
+H__65_120_47:0
+H__64_120_47:0
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:0
+H__4_120_48:0
+H__7_120_48:0
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:0
+H__11_120_48:0
+H__10_120_48:0
+H__13_120_48:0
+H__12_120_48:0
+H__15_120_48:0
+H__14_120_48:0
+H__17_120_48:0
+H__16_120_48:0
+H__19_120_48:0
+H__18_120_48:0
+H__21_120_48:0
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:0
+H__25_120_48:0
+H__24_120_48:0
+H__27_120_48:0
+H__26_120_48:0
+H__29_120_48:0
+H__28_120_48:0
+H__31_120_48:0
+H__30_120_48:0
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:0
+H__101_120_49:0
+H__69_120_49_45:0
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:0
+H__72_120_49_45:0
+H__75_120_49_45:0
+H__74_120_49_45:0
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:0
+H__82_120_49_45:0
+H__85_120_49_45:0
+H__84_120_49_45:0
+H__87_120_49_45:0
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:0
+H__93_120_49_45:0
+H__92_120_49_45:0
+H__95_120_49_45:0
+H__94_120_49_45:0
+H__97_120_49_45:0
+H__96_120_49_45:0
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:0
+H__101_120_50:0
+H__69_120_50_45:0
+H__68_120_50_45:0
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:0
+H__72_120_50_45:0
+H__75_120_50_45:0
+H__74_120_50_45:0
+H__77_120_50_45:0
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:0
+H__81_120_50_45:0
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:0
+H__85_120_50_45:0
+H__84_120_50_45:0
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:0
+H__88_120_50_45:0
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:0
+H__92_120_50_45:0
+H__95_120_50_45:0
+H__94_120_50_45:0
+H__97_120_50_45:0
+H__96_120_50_45:0
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:0
+H__69_120_50_46:0
+H__68_120_50_46:0
+H__71_120_50_46:0
+H__70_120_50_46:0
+H__73_120_50_46:0
+H__72_120_50_46:0
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:0
+H__79_120_50_46:0
+H__78_120_50_46:0
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:0
+H__82_120_50_46:0
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:0
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:0
+H__92_120_50_46:0
+H__95_120_50_46:0
+H__94_120_50_46:0
+H__97_120_50_46:0
+H__96_120_50_46:0
+H__99_120_50_46:0
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:1
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:0
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:0
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:0
+H__76_120_49_46:0
+H__79_120_49_46:0
+H__78_120_49_46:0
+H__81_120_49_46:0
+H__80_120_49_46:0
+H__83_120_49_46:0
+H__82_120_49_46:0
+H__85_120_49_46:0
+H__84_120_49_46:0
+H__87_120_49_46:0
+H__86_120_49_46:0
+H__89_120_49_46:0
+H__88_120_49_46:0
+H__91_120_49_46:0
+H__90_120_49_46:0
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:0
+H__94_120_49_46:0
+H__97_120_49_46:0
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:1
+H__3_120_50:0
+H__3_120_49:0
+H__BND0:4
+
+BEG CHECK
+ * After optims it became = 0 was 3531
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 3
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 4
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 5
+Simulation no cex:  0 ms 
+END CHECK
+********  1	ftime= 0.062	ctime= 0.003
+*********INSIDE minimizeHoleValue, mhsize=1 current value of H__BND0=4, 
+BEG FIND
+DECISIONS START = 7451
+f# %assign: 11 clauses: 124928 learn: 96 restart: 3 decision: 8348 propagated: 89684
+END FIND
+!+ 110000000010100100000000100001000000000010001100011000101001000001000000000010000001000000100000000000000000000100010000000000010000000000001000000000000000000000100000000000000001100001000000100000000000010000100000000001000100101000000000100000000000000010000000000000000000000000000000000110000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010001000
+!+ H__105_119_47:3
+H__104_119_48:0
+H__103_119_49_45:5
+H__103_119_49_46:1
+H__103_119_50_45:16
+H__103_119_50_46:16
+H__105_120_47:0
+H__104_120_48:0
+H__103_120_49_45:17
+H__103_120_49_46:17
+H__103_120_50_45:17
+H__103_120_50_46:18
+H__0_121:0
+H__106_121:1
+H__107_121:0
+H__108_121:2
+H__109_121:8
+H__110_121:0
+H__111_121:1
+H__0_122:0
+H__112_122:0
+H__113_122:0
+H__114_122:2
+H__115_122:1
+H__116_122:0
+H__117_122:4
+H__0_123:0
+H__118_123:0
+H__119_123:1
+H__120_123:0
+H__121_123:0
+H__122_123:0
+H__123_123:4
+H__0_124:0
+H__124_124:0
+H__125_124:16
+H__126_124:1
+H__127_124:1
+H__128_124:4
+H__129_124:0
+H__0_125:0
+H__130_125:1
+H__131_125:1
+H__132_125:0
+H__133_125:2
+H__134_125:9
+H__135_125:1
+H__0_126:0
+H__136_126:1
+H__137_126:0
+H__138_126:0
+H__139_126:2
+H__140_126:0
+H__141_126:0
+H__0_127:0
+H__142_127:0
+H__143_127:0
+H__144_127:0
+H__145_127:6
+H__146_127:0
+H__147_127:1
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:1
+H__34_119_48:0
+H__1_119_49:0
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__1_119_50:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__2_119_50:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__2_119_49:0
+H__3_119_50:0
+H__3_119_49:0
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:0
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:0
+H__44_120_47:0
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:0
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:0
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:0
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:0
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:0
+H__65_120_47:0
+H__64_120_47:0
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:0
+H__4_120_48:0
+H__7_120_48:0
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:0
+H__11_120_48:0
+H__10_120_48:0
+H__13_120_48:0
+H__12_120_48:0
+H__15_120_48:0
+H__14_120_48:0
+H__17_120_48:0
+H__16_120_48:0
+H__19_120_48:0
+H__18_120_48:0
+H__21_120_48:0
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:0
+H__25_120_48:0
+H__24_120_48:0
+H__27_120_48:0
+H__26_120_48:0
+H__29_120_48:0
+H__28_120_48:0
+H__31_120_48:0
+H__30_120_48:0
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:0
+H__101_120_49:0
+H__69_120_49_45:0
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:0
+H__72_120_49_45:0
+H__75_120_49_45:0
+H__74_120_49_45:0
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:0
+H__82_120_49_45:0
+H__85_120_49_45:0
+H__84_120_49_45:0
+H__87_120_49_45:0
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:0
+H__93_120_49_45:0
+H__92_120_49_45:0
+H__95_120_49_45:0
+H__94_120_49_45:0
+H__97_120_49_45:0
+H__96_120_49_45:0
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:0
+H__101_120_50:0
+H__69_120_50_45:0
+H__68_120_50_45:0
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:0
+H__72_120_50_45:0
+H__75_120_50_45:0
+H__74_120_50_45:0
+H__77_120_50_45:0
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:0
+H__81_120_50_45:0
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:0
+H__85_120_50_45:0
+H__84_120_50_45:0
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:0
+H__88_120_50_45:0
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:0
+H__92_120_50_45:0
+H__95_120_50_45:0
+H__94_120_50_45:0
+H__97_120_50_45:0
+H__96_120_50_45:0
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:0
+H__69_120_50_46:0
+H__68_120_50_46:0
+H__71_120_50_46:0
+H__70_120_50_46:0
+H__73_120_50_46:0
+H__72_120_50_46:0
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:0
+H__79_120_50_46:0
+H__78_120_50_46:0
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:0
+H__82_120_50_46:0
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:0
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:0
+H__92_120_50_46:0
+H__95_120_50_46:0
+H__94_120_50_46:0
+H__97_120_50_46:0
+H__96_120_50_46:0
+H__99_120_50_46:0
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:1
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:0
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:0
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:0
+H__76_120_49_46:0
+H__79_120_49_46:0
+H__78_120_49_46:0
+H__81_120_49_46:0
+H__80_120_49_46:0
+H__83_120_49_46:0
+H__82_120_49_46:0
+H__85_120_49_46:0
+H__84_120_49_46:0
+H__87_120_49_46:0
+H__86_120_49_46:0
+H__89_120_49_46:0
+H__88_120_49_46:0
+H__91_120_49_46:0
+H__90_120_49_46:0
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:0
+H__94_120_49_46:0
+H__97_120_49_46:0
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:1
+H__3_120_50:0
+H__3_120_49:0
+H__BND0:2
+
+BEG CHECK
+ * After optims it became = 0 was 3531
+Simulation no cex:  0 ms 
+END CHECK
+********  2	ftime= 0.006	ctime= 0.003
+*********INSIDE minimizeHoleValue, mhsize=1 current value of H__BND0=2, 
+BEG FIND
+DECISIONS START = 8348
+f# %assign: 11 clauses: 124928 learn: 97 restart: 4 decision: 9116 propagated: 101538
+END FIND
+!+ 110000000010100100000000100001000000000010001100011000101001000001000000000010000001000000100000000000000000000100010000000000010000000000001000000000000000000000100000000000000001100001000000100000000000010000100000000001000100101000000000100000000000000010000000000000000000000000000000000110000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010010000
+!+ H__105_119_47:3
+H__104_119_48:0
+H__103_119_49_45:5
+H__103_119_49_46:1
+H__103_119_50_45:16
+H__103_119_50_46:16
+H__105_120_47:0
+H__104_120_48:0
+H__103_120_49_45:17
+H__103_120_49_46:17
+H__103_120_50_45:17
+H__103_120_50_46:18
+H__0_121:0
+H__106_121:1
+H__107_121:0
+H__108_121:2
+H__109_121:8
+H__110_121:0
+H__111_121:1
+H__0_122:0
+H__112_122:0
+H__113_122:0
+H__114_122:2
+H__115_122:1
+H__116_122:0
+H__117_122:4
+H__0_123:0
+H__118_123:0
+H__119_123:1
+H__120_123:0
+H__121_123:0
+H__122_123:0
+H__123_123:4
+H__0_124:0
+H__124_124:0
+H__125_124:16
+H__126_124:1
+H__127_124:1
+H__128_124:4
+H__129_124:0
+H__0_125:0
+H__130_125:1
+H__131_125:1
+H__132_125:0
+H__133_125:2
+H__134_125:9
+H__135_125:1
+H__0_126:0
+H__136_126:1
+H__137_126:0
+H__138_126:0
+H__139_126:2
+H__140_126:0
+H__141_126:0
+H__0_127:0
+H__142_127:0
+H__143_127:0
+H__144_127:0
+H__145_127:6
+H__146_127:0
+H__147_127:1
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+H__1_119_49:0
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__1_119_50:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__2_119_50:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__2_119_49:0
+H__3_119_50:0
+H__3_119_49:0
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:0
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:0
+H__44_120_47:0
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:0
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:0
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:0
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:0
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:0
+H__65_120_47:0
+H__64_120_47:0
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:0
+H__4_120_48:0
+H__7_120_48:0
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:0
+H__11_120_48:0
+H__10_120_48:0
+H__13_120_48:0
+H__12_120_48:0
+H__15_120_48:0
+H__14_120_48:0
+H__17_120_48:0
+H__16_120_48:0
+H__19_120_48:0
+H__18_120_48:0
+H__21_120_48:0
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:0
+H__25_120_48:0
+H__24_120_48:0
+H__27_120_48:0
+H__26_120_48:0
+H__29_120_48:0
+H__28_120_48:0
+H__31_120_48:0
+H__30_120_48:0
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:0
+H__101_120_49:0
+H__69_120_49_45:0
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:0
+H__72_120_49_45:0
+H__75_120_49_45:0
+H__74_120_49_45:0
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:0
+H__82_120_49_45:0
+H__85_120_49_45:0
+H__84_120_49_45:0
+H__87_120_49_45:0
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:0
+H__93_120_49_45:0
+H__92_120_49_45:0
+H__95_120_49_45:0
+H__94_120_49_45:0
+H__97_120_49_45:0
+H__96_120_49_45:0
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:0
+H__101_120_50:0
+H__69_120_50_45:0
+H__68_120_50_45:0
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:0
+H__72_120_50_45:0
+H__75_120_50_45:0
+H__74_120_50_45:0
+H__77_120_50_45:0
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:0
+H__81_120_50_45:0
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:0
+H__85_120_50_45:0
+H__84_120_50_45:0
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:0
+H__88_120_50_45:0
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:0
+H__92_120_50_45:0
+H__95_120_50_45:0
+H__94_120_50_45:0
+H__97_120_50_45:0
+H__96_120_50_45:0
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:0
+H__69_120_50_46:0
+H__68_120_50_46:0
+H__71_120_50_46:0
+H__70_120_50_46:0
+H__73_120_50_46:0
+H__72_120_50_46:0
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:0
+H__79_120_50_46:0
+H__78_120_50_46:0
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:0
+H__82_120_50_46:0
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:0
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:0
+H__92_120_50_46:0
+H__95_120_50_46:0
+H__94_120_50_46:0
+H__97_120_50_46:0
+H__96_120_50_46:0
+H__99_120_50_46:0
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:1
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:0
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:0
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:0
+H__76_120_49_46:0
+H__79_120_49_46:0
+H__78_120_49_46:0
+H__81_120_49_46:0
+H__80_120_49_46:0
+H__83_120_49_46:0
+H__82_120_49_46:0
+H__85_120_49_46:0
+H__84_120_49_46:0
+H__87_120_49_46:0
+H__86_120_49_46:0
+H__89_120_49_46:0
+H__88_120_49_46:0
+H__91_120_49_46:0
+H__90_120_49_46:0
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:0
+H__94_120_49_46:0
+H__97_120_49_46:0
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:1
+H__3_120_50:0
+H__3_120_49:0
+H__BND0:1
+
+BEG CHECK
+ * After optims it became = 0 was 3531
+Simulation no cex:  0 ms 
+END CHECK
+********  3	ftime= 0.003	ctime= 999.003
+*********INSIDE minimizeHoleValue, mhsize=1 current value of H__BND0=1, 
+BEG FIND
+DECISIONS START = 9116
+f# %assign: 11 clauses: 124928 learn: 103 restart: 5 decision: 9958 propagated: 122247
+END FIND
+!+ 000000000010100100000000100001000000000010001100011000101001000001000000000010000001000000100000000000000000000100010000000000010000000000001000000000000000000000100000000000000001100001000000100000000000010000100000000001000100101000010000100000000000000010000000000000000000000000000000000110000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000
+!+ H__105_119_47:0
+H__104_119_48:0
+H__103_119_49_45:5
+H__103_119_49_46:1
+H__103_119_50_45:16
+H__103_119_50_46:16
+H__105_120_47:0
+H__104_120_48:0
+H__103_120_49_45:17
+H__103_120_49_46:17
+H__103_120_50_45:17
+H__103_120_50_46:18
+H__0_121:0
+H__106_121:1
+H__107_121:0
+H__108_121:2
+H__109_121:8
+H__110_121:0
+H__111_121:1
+H__0_122:0
+H__112_122:0
+H__113_122:0
+H__114_122:2
+H__115_122:1
+H__116_122:0
+H__117_122:4
+H__0_123:0
+H__118_123:0
+H__119_123:1
+H__120_123:0
+H__121_123:0
+H__122_123:0
+H__123_123:4
+H__0_124:0
+H__124_124:0
+H__125_124:16
+H__126_124:1
+H__127_124:1
+H__128_124:4
+H__129_124:0
+H__0_125:0
+H__130_125:1
+H__131_125:1
+H__132_125:0
+H__133_125:2
+H__134_125:9
+H__135_125:1
+H__0_126:1
+H__136_126:1
+H__137_126:0
+H__138_126:0
+H__139_126:2
+H__140_126:0
+H__141_126:0
+H__0_127:0
+H__142_127:0
+H__143_127:0
+H__144_127:0
+H__145_127:6
+H__146_127:0
+H__147_127:1
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+H__1_119_49:0
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__1_119_50:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__2_119_50:0
+H__102_119_49:1
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__2_119_49:1
+H__3_119_50:1
+H__3_119_49:1
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:0
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:0
+H__44_120_47:0
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:0
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:0
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:0
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:0
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:0
+H__65_120_47:0
+H__64_120_47:0
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:0
+H__4_120_48:0
+H__7_120_48:0
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:0
+H__11_120_48:0
+H__10_120_48:0
+H__13_120_48:0
+H__12_120_48:0
+H__15_120_48:0
+H__14_120_48:0
+H__17_120_48:0
+H__16_120_48:0
+H__19_120_48:0
+H__18_120_48:0
+H__21_120_48:0
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:0
+H__25_120_48:0
+H__24_120_48:0
+H__27_120_48:0
+H__26_120_48:0
+H__29_120_48:0
+H__28_120_48:0
+H__31_120_48:0
+H__30_120_48:0
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:0
+H__101_120_49:0
+H__69_120_49_45:0
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:0
+H__72_120_49_45:0
+H__75_120_49_45:0
+H__74_120_49_45:0
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:0
+H__82_120_49_45:0
+H__85_120_49_45:0
+H__84_120_49_45:0
+H__87_120_49_45:0
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:0
+H__93_120_49_45:0
+H__92_120_49_45:0
+H__95_120_49_45:0
+H__94_120_49_45:0
+H__97_120_49_45:0
+H__96_120_49_45:0
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:0
+H__101_120_50:0
+H__69_120_50_45:0
+H__68_120_50_45:0
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:0
+H__72_120_50_45:0
+H__75_120_50_45:0
+H__74_120_50_45:0
+H__77_120_50_45:0
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:0
+H__81_120_50_45:0
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:0
+H__85_120_50_45:0
+H__84_120_50_45:0
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:0
+H__88_120_50_45:0
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:0
+H__92_120_50_45:0
+H__95_120_50_45:0
+H__94_120_50_45:0
+H__97_120_50_45:0
+H__96_120_50_45:0
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:0
+H__69_120_50_46:0
+H__68_120_50_46:0
+H__71_120_50_46:0
+H__70_120_50_46:0
+H__73_120_50_46:0
+H__72_120_50_46:0
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:0
+H__79_120_50_46:0
+H__78_120_50_46:0
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:0
+H__82_120_50_46:0
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:0
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:0
+H__92_120_50_46:0
+H__95_120_50_46:0
+H__94_120_50_46:0
+H__97_120_50_46:0
+H__96_120_50_46:0
+H__99_120_50_46:0
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:1
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:0
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:0
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:0
+H__76_120_49_46:0
+H__79_120_49_46:0
+H__78_120_49_46:0
+H__81_120_49_46:0
+H__80_120_49_46:0
+H__83_120_49_46:0
+H__82_120_49_46:0
+H__85_120_49_46:0
+H__84_120_49_46:0
+H__87_120_49_46:0
+H__86_120_49_46:0
+H__89_120_49_46:0
+H__88_120_49_46:0
+H__91_120_49_46:0
+H__90_120_49_46:0
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:0
+H__94_120_49_46:0
+H__97_120_49_46:0
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:1
+H__3_120_50:0
+H__3_120_49:0
+H__BND0:0
+
+BEG CHECK
+ * After optims it became = 0 was 3531
+Simulation no cex:  0 ms 
+END CHECK
+********  4	ftime= 0.007	ctime= 0.002
+*********INSIDE minimizeHoleValue, mhsize=1 current value of H__BND0=0, 
+BEG FIND
+DECISIONS START = 9958
+f# %assign: 11 clauses: 124928 learn: 103 restart: 6 decision: 9958 propagated: 122313
+END FIND
+ *GOT THE CORRECT ANSWER IN 5 iterations.
+ *FIND TIME 0.078 CHECK TIME 999.014 TOTAL TIME 999.138
+VALUES H__0_121: 0, H__0_122: 0, H__0_123: 0, H__0_124: 0, H__0_125: 0, H__0_126: 1, H__0_127: 0, H__101_119_49: 0, H__101_119_50: 0, H__101_120_49: 0, H__101_120_50: 0, H__102_119_49: 1, H__102_119_50: 0, H__102_120_49: 1, H__102_120_50: 0, H__103_119_49_45: 5, H__103_119_49_46: 1, H__103_119_50_45: 16, H__103_119_50_46: 16, H__103_120_49_45: 17, H__103_120_49_46: 17, H__103_120_50_45: 17, H__103_120_50_46: 18, H__104_119_48: 0, H__104_120_48: 0, H__105_119_47: 0, H__105_120_47: 0, H__106_121: 1, H__107_121: 0, H__108_121: 2, H__109_121: 8, H__10_119_48: 0, H__10_120_48: 0, H__110_121: 0, H__111_121: 1, H__112_122: 0, H__113_122: 0, H__114_122: 2, H__115_122: 1, H__116_122: 0, H__117_122: 4, H__118_123: 0, H__119_123: 1, H__11_119_48: 0, H__11_120_48: 0, H__120_123: 0, H__121_123: 0, H__122_123: 0, H__123_123: 4, H__124_124: 0, H__125_124: 16, H__126_124: 1, H__127_124: 1, H__128_124: 4, H__129_124: 0, H__12_119_48: 0, H__12_120_48: 0, H__130_125: 1, H__131_125: 1, H__132_125: 0, H__133_125: 2, H__134_125: 9, H__135_125: 1, H__136_126: 1, H__137_126: 0, H__138_126: 0, H__139_126: 2, H__13_119_48: 0, H__13_120_48: 0, H__140_126: 0, H__141_126: 0, H__142_127: 0, H__143_127: 0, H__144_127: 0, H__145_127: 6, H__146_127: 0, H__147_127: 1, H__14_119_48: 0, H__14_120_48: 0, H__15_119_48: 0, H__15_120_48: 0, H__16_119_48: 0, H__16_120_48: 0, H__17_119_48: 0, H__17_120_48: 0, H__18_119_48: 0, H__18_120_48: 0, H__19_119_48: 0, H__19_120_48: 0, H__1_119_49: 0, H__1_119_50: 0, H__1_120_49: 0, H__1_120_50: 0, H__20_119_48: 0, H__20_120_48: 0, H__21_119_48: 0, H__21_120_48: 0, H__22_119_48: 0, H__22_120_48: 0, H__23_119_48: 0, H__23_120_48: 0, H__24_119_48: 0, H__24_120_48: 0, H__25_119_48: 0, H__25_120_48: 0, H__26_119_48: 0, H__26_120_48: 0, H__27_119_48: 0, H__27_120_48: 0, H__28_119_48: 0, H__28_120_48: 0, H__29_119_48: 0, H__29_120_48: 0, H__2_119_49: 1, H__2_119_50: 0, H__2_120_49: 1, H__2_120_50: 0, H__30_119_48: 0, H__30_120_48: 0, H__31_119_48: 0, H__31_120_48: 0, H__32_119_48: 0, H__32_120_48: 0, H__33_119_48: 0, H__33_120_48: 0, H__34_119_48: 0, H__34_120_48: 0, H__35_119_48: 0, H__35_120_48: 0, H__36_119_47: 0, H__36_120_47: 0, H__37_119_47: 0, H__37_120_47: 0, H__38_119_47: 0, H__38_120_47: 0, H__39_119_47: 0, H__39_120_47: 0, H__3_119_49: 1, H__3_119_50: 1, H__3_120_49: 0, H__3_120_50: 0, H__40_119_47: 0, H__40_120_47: 0, H__41_119_47: 0, H__41_120_47: 0, H__42_119_47: 0, H__42_120_47: 0, H__43_119_47: 0, H__43_120_47: 0, H__44_119_47: 0, H__44_120_47: 0, H__45_119_47: 0, H__45_120_47: 0, H__46_119_47: 0, H__46_120_47: 0, H__47_119_47: 0, H__47_120_47: 0, H__48_119_47: 0, H__48_120_47: 0, H__49_119_47: 0, H__49_120_47: 0, H__4_119_48: 0, H__4_120_48: 0, H__50_119_47: 0, H__50_120_47: 0, H__51_119_47: 0, H__51_120_47: 0, H__52_119_47: 0, H__52_120_47: 0, H__53_119_47: 0, H__53_120_47: 0, H__54_119_47: 0, H__54_120_47: 0, H__55_119_47: 0, H__55_120_47: 0, H__56_119_47: 0, H__56_120_47: 0, H__57_119_47: 0, H__57_120_47: 0, H__58_119_47: 0, H__58_120_47: 0, H__59_119_47: 0, H__59_120_47: 0, H__5_119_48: 0, H__5_120_48: 0, H__60_119_47: 0, H__60_120_47: 0, H__61_119_47: 0, H__61_120_47: 0, H__62_119_47: 0, H__62_120_47: 0, H__63_119_47: 0, H__63_120_47: 0, H__64_119_47: 0, H__64_120_47: 0, H__65_119_47: 0, H__65_120_47: 0, H__66_119_47: 0, H__66_120_47: 0, H__67_119_47: 0, H__67_120_47: 0, H__68_119_49_45: 0, H__68_119_49_46: 0, H__68_119_50_45: 0, H__68_119_50_46: 0, H__68_120_49_45: 0, H__68_120_49_46: 0, H__68_120_50_45: 0, H__68_120_50_46: 0, H__69_119_49_45: 0, H__69_119_49_46: 0, H__69_119_50_45: 0, H__69_119_50_46: 0, H__69_120_49_45: 0, H__69_120_49_46: 0, H__69_120_50_45: 0, H__69_120_50_46: 0, H__6_119_48: 0, H__6_120_48: 0, H__70_119_49_45: 0, H__70_119_49_46: 0, H__70_119_50_45: 0, H__70_119_50_46: 0, H__70_120_49_45: 0, H__70_120_49_46: 0, H__70_120_50_45: 0, H__70_120_50_46: 0, H__71_119_49_45: 0, H__71_119_49_46: 0, H__71_119_50_45: 0, H__71_119_50_46: 0, H__71_120_49_45: 0, H__71_120_49_46: 0, H__71_120_50_45: 0, H__71_120_50_46: 0, H__72_119_49_45: 0, H__72_119_49_46: 0, H__72_119_50_45: 0, H__72_119_50_46: 0, H__72_120_49_45: 0, H__72_120_49_46: 0, H__72_120_50_45: 0, H__72_120_50_46: 0, H__73_119_49_45: 0, H__73_119_49_46: 0, H__73_119_50_45: 0, H__73_119_50_46: 0, H__73_120_49_45: 0, H__73_120_49_46: 0, H__73_120_50_45: 0, H__73_120_50_46: 0, H__74_119_49_45: 0, H__74_119_49_46: 0, H__74_119_50_45: 0, H__74_119_50_46: 0, H__74_120_49_45: 0, H__74_120_49_46: 0, H__74_120_50_45: 0, H__74_120_50_46: 0, H__75_119_49_45: 0, H__75_119_49_46: 0, H__75_119_50_45: 0, H__75_119_50_46: 0, H__75_120_49_45: 0, H__75_120_49_46: 0, H__75_120_50_45: 0, H__75_120_50_46: 0, H__76_119_49_45: 0, H__76_119_49_46: 0, H__76_119_50_45: 0, H__76_119_50_46: 0, H__76_120_49_45: 0, H__76_120_49_46: 0, H__76_120_50_45: 0, H__76_120_50_46: 0, H__77_119_49_45: 0, H__77_119_49_46: 0, H__77_119_50_45: 0, H__77_119_50_46: 0, H__77_120_49_45: 0, H__77_120_49_46: 0, H__77_120_50_45: 0, H__77_120_50_46: 0, H__78_119_49_45: 0, H__78_119_49_46: 0, H__78_119_50_45: 0, H__78_119_50_46: 0, H__78_120_49_45: 0, H__78_120_49_46: 0, H__78_120_50_45: 0, H__78_120_50_46: 0, H__79_119_49_45: 0, H__79_119_49_46: 0, H__79_119_50_45: 0, H__79_119_50_46: 0, H__79_120_49_45: 0, H__79_120_49_46: 0, H__79_120_50_45: 0, H__79_120_50_46: 0, H__7_119_48: 0, H__7_120_48: 0, H__80_119_49_45: 0, H__80_119_49_46: 0, H__80_119_50_45: 0, H__80_119_50_46: 0, H__80_120_49_45: 0, H__80_120_49_46: 0, H__80_120_50_45: 0, H__80_120_50_46: 0, H__81_119_49_45: 0, H__81_119_49_46: 0, H__81_119_50_45: 0, H__81_119_50_46: 0, H__81_120_49_45: 0, H__81_120_49_46: 0, H__81_120_50_45: 0, H__81_120_50_46: 0, H__82_119_49_45: 0, H__82_119_49_46: 0, H__82_119_50_45: 0, H__82_119_50_46: 0, H__82_120_49_45: 0, H__82_120_49_46: 0, H__82_120_50_45: 0, H__82_120_50_46: 0, H__83_119_49_45: 0, H__83_119_49_46: 0, H__83_119_50_45: 0, H__83_119_50_46: 0, H__83_120_49_45: 0, H__83_120_49_46: 0, H__83_120_50_45: 0, H__83_120_50_46: 0, H__84_119_49_45: 0, H__84_119_49_46: 0, H__84_119_50_45: 0, H__84_119_50_46: 0, H__84_120_49_45: 0, H__84_120_49_46: 0, H__84_120_50_45: 0, H__84_120_50_46: 0, H__85_119_49_45: 0, H__85_119_49_46: 0, H__85_119_50_45: 0, H__85_119_50_46: 0, H__85_120_49_45: 0, H__85_120_49_46: 0, H__85_120_50_45: 0, H__85_120_50_46: 0, H__86_119_49_45: 0, H__86_119_49_46: 0, H__86_119_50_45: 0, H__86_119_50_46: 0, H__86_120_49_45: 0, H__86_120_49_46: 0, H__86_120_50_45: 0, H__86_120_50_46: 0, H__87_119_49_45: 0, H__87_119_49_46: 0, H__87_119_50_45: 0, H__87_119_50_46: 0, H__87_120_49_45: 0, H__87_120_49_46: 0, H__87_120_50_45: 0, H__87_120_50_46: 0, H__88_119_49_45: 0, H__88_119_49_46: 0, H__88_119_50_45: 0, H__88_119_50_46: 0, H__88_120_49_45: 0, H__88_120_49_46: 0, H__88_120_50_45: 0, H__88_120_50_46: 0, H__89_119_49_45: 0, H__89_119_49_46: 0, H__89_119_50_45: 0, H__89_119_50_46: 0, H__89_120_49_45: 0, H__89_120_49_46: 0, H__89_120_50_45: 0, H__89_120_50_46: 0, H__8_119_48: 0, H__8_120_48: 0, H__90_119_49_45: 0, H__90_119_49_46: 0, H__90_119_50_45: 0, H__90_119_50_46: 0, H__90_120_49_45: 0, H__90_120_49_46: 0, H__90_120_50_45: 0, H__90_120_50_46: 0, H__91_119_49_45: 0, H__91_119_49_46: 0, H__91_119_50_45: 0, H__91_119_50_46: 0, H__91_120_49_45: 0, H__91_120_49_46: 0, H__91_120_50_45: 0, H__91_120_50_46: 0, H__92_119_49_45: 0, H__92_119_49_46: 0, H__92_119_50_45: 0, H__92_119_50_46: 0, H__92_120_49_45: 0, H__92_120_49_46: 0, H__92_120_50_45: 0, H__92_120_50_46: 0, H__93_119_49_45: 0, H__93_119_49_46: 0, H__93_119_50_45: 0, H__93_119_50_46: 0, H__93_120_49_45: 0, H__93_120_49_46: 0, H__93_120_50_45: 0, H__93_120_50_46: 0, H__94_119_49_45: 0, H__94_119_49_46: 0, H__94_119_50_45: 0, H__94_119_50_46: 0, H__94_120_49_45: 0, H__94_120_49_46: 0, H__94_120_50_45: 0, H__94_120_50_46: 0, H__95_119_49_45: 0, H__95_119_49_46: 0, H__95_119_50_45: 0, H__95_119_50_46: 0, H__95_120_49_45: 0, H__95_120_49_46: 0, H__95_120_50_45: 0, H__95_120_50_46: 0, H__96_119_49_45: 0, H__96_119_49_46: 0, H__96_119_50_45: 0, H__96_119_50_46: 0, H__96_120_49_45: 0, H__96_120_49_46: 0, H__96_120_50_45: 0, H__96_120_50_46: 0, H__97_119_49_45: 0, H__97_119_49_46: 0, H__97_119_50_45: 0, H__97_119_50_46: 0, H__97_120_49_45: 0, H__97_120_49_46: 0, H__97_120_50_45: 0, H__97_120_50_46: 0, H__98_119_49_45: 0, H__98_119_49_46: 0, H__98_119_50_45: 0, H__98_119_50_46: 0, H__98_120_49_45: 0, H__98_120_49_46: 0, H__98_120_50_45: 0, H__98_120_50_46: 0, H__99_119_49_45: 0, H__99_119_49_46: 0, H__99_119_50_45: 0, H__99_119_50_46: 0, H__99_120_49_45: 0, H__99_120_49_46: 0, H__99_120_50_45: 0, H__99_120_50_46: 0, H__9_119_48: 0, H__9_120_48: 0, H__BND0: 0, 
+RESULT = 2  
+* before  EVERYTHING: auxiliaryHarness_5__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_5__Wrapper::SKETCH nodes = 346
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 20 new size =418
+inlined 39 new size =11826
+inlined 262 new size =45304
+inlined 96 new size =45185
+inlined 0 new size =45185
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 45185
+* Final Problem size: Problem nodes = 45185
+  # OF CONTROLS:    465
+ control_ints = 61 	 control_bits = 404
+inputSize = 0	ctrlSize = 714
+Random seeds = 1
+Number of minvar nodes = 1
+!+ 000000110011011100001010000000110010010100100110000000001010011001011110011011100001010000000000000000000100100110100001010001000001000001000000010100100000001001000010000000100101000010000000000000001101000001000001000110001001000000010000000000010010000011000000000010000101101011100001000010000000000000000011010000010000010100010100010000010000100010010111001000000010100011001001001000000110000000100000010000100101000101000010110001001000100000011000001111011101100000101000110101010000000000010000000000000000000010000000000100001001010000000000011100000000100000000100000100000001000100001110001000100000010100100010000000000010000110000100000100010000010000011010000000010011001000100010000010100000100000
+!+ H__105_119_47:0
+H__104_119_48:6
+H__103_119_49_45:27
+H__103_119_49_46:1
+H__103_119_50_45:5
+H__103_119_50_46:0
+H__105_120_47:19
+H__104_120_48:20
+H__103_120_49_45:4
+H__103_120_49_46:3
+H__103_120_50_45:0
+H__103_120_50_46:10
+H__0_121:6
+H__106_121:29
+H__107_121:25
+H__108_121:14
+H__109_121:8
+H__110_121:1
+H__111_121:0
+H__0_122:0
+H__112_122:0
+H__113_122:9
+H__114_122:22
+H__115_122:16
+H__116_122:2
+H__117_122:1
+H__0_123:2
+H__118_123:4
+H__119_123:0
+H__120_123:5
+H__121_123:1
+H__122_123:8
+H__123_123:2
+H__0_124:2
+H__124_124:16
+H__125_124:20
+H__126_124:16
+H__127_124:0
+H__128_124:0
+H__129_124:0
+H__0_125:11
+H__130_125:16
+H__131_125:0
+H__132_125:17
+H__133_125:17
+H__134_125:4
+H__135_125:0
+H__0_126:1
+H__136_126:0
+H__137_126:4
+H__138_126:1
+H__139_126:6
+H__140_126:0
+H__141_126:8
+H__0_127:8
+H__142_127:11
+H__143_127:7
+H__144_127:4
+H__145_127:4
+H__146_127:0
+H__147_127:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:1
+H__43_119_47:1
+H__42_119_47:0
+H__45_119_47:1
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:1
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:1
+H__56_119_47:0
+H__59_119_47:1
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:1
+H__62_119_47:0
+H__65_119_47:1
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__5_119_48:1
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:1
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:1
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:1
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:1
+H__22_119_48:0
+H__25_119_48:1
+H__24_119_48:1
+H__27_119_48:1
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:1
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+H__1_119_49:0
+H__101_119_49:1
+H__69_119_49_45:0
+H__68_119_49_45:1
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:1
+H__75_119_49_45:1
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:1
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:1
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:1
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:1
+H__90_119_49_45:1
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:1
+H__1_119_50:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:1
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:1
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:1
+H__80_119_50_45:0
+H__83_119_50_45:1
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:1
+H__86_119_50_45:0
+H__89_119_50_45:1
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:1
+H__95_119_50_45:0
+H__94_119_50_45:1
+H__97_119_50_45:1
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:1
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:1
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:1
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:1
+H__83_119_50_46:1
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:1
+H__88_119_50_46:1
+H__91_119_50_46:1
+H__90_119_50_46:1
+H__93_119_50_46:0
+H__92_119_50_46:1
+H__95_119_50_46:1
+H__94_119_50_46:1
+H__97_119_50_46:0
+H__96_119_50_46:1
+H__99_119_50_46:1
+H__98_119_50_46:0
+H__2_119_50:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:1
+H__70_119_49_46:0
+H__73_119_49_46:1
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:1
+H__76_119_49_46:1
+H__79_119_49_46:0
+H__78_119_49_46:1
+H__81_119_49_46:0
+H__80_119_49_46:1
+H__83_119_49_46:0
+H__82_119_49_46:1
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:1
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__2_119_49:0
+H__3_119_50:0
+H__3_119_49:0
+H__37_120_47:0
+H__36_120_47:0
+H__39_120_47:0
+H__38_120_47:0
+H__41_120_47:0
+H__40_120_47:0
+H__43_120_47:0
+H__42_120_47:0
+H__45_120_47:0
+H__44_120_47:0
+H__47_120_47:0
+H__46_120_47:0
+H__49_120_47:0
+H__48_120_47:1
+H__51_120_47:0
+H__50_120_47:0
+H__53_120_47:0
+H__52_120_47:0
+H__55_120_47:0
+H__54_120_47:0
+H__57_120_47:0
+H__56_120_47:0
+H__59_120_47:0
+H__58_120_47:0
+H__61_120_47:1
+H__60_120_47:0
+H__63_120_47:0
+H__62_120_47:0
+H__65_120_47:0
+H__64_120_47:1
+H__67_120_47:0
+H__66_120_47:0
+H__5_120_48:1
+H__4_120_48:0
+H__7_120_48:1
+H__6_120_48:0
+H__9_120_48:0
+H__8_120_48:0
+H__11_120_48:0
+H__10_120_48:0
+H__13_120_48:0
+H__12_120_48:0
+H__15_120_48:0
+H__14_120_48:0
+H__17_120_48:0
+H__16_120_48:0
+H__19_120_48:1
+H__18_120_48:1
+H__21_120_48:1
+H__20_120_48:0
+H__23_120_48:0
+H__22_120_48:0
+H__25_120_48:0
+H__24_120_48:0
+H__27_120_48:0
+H__26_120_48:0
+H__29_120_48:0
+H__28_120_48:1
+H__31_120_48:0
+H__30_120_48:0
+H__33_120_48:0
+H__32_120_48:0
+H__35_120_48:0
+H__34_120_48:0
+H__1_120_49:0
+H__101_120_49:0
+H__69_120_49_45:1
+H__68_120_49_45:0
+H__71_120_49_45:0
+H__70_120_49_45:0
+H__73_120_49_45:0
+H__72_120_49_45:0
+H__75_120_49_45:1
+H__74_120_49_45:0
+H__77_120_49_45:0
+H__76_120_49_45:0
+H__79_120_49_45:0
+H__78_120_49_45:0
+H__81_120_49_45:0
+H__80_120_49_45:0
+H__83_120_49_45:1
+H__82_120_49_45:0
+H__85_120_49_45:0
+H__84_120_49_45:0
+H__87_120_49_45:1
+H__86_120_49_45:0
+H__89_120_49_45:0
+H__88_120_49_45:0
+H__91_120_49_45:0
+H__90_120_49_45:1
+H__93_120_49_45:1
+H__92_120_49_45:1
+H__95_120_49_45:0
+H__94_120_49_45:0
+H__97_120_49_45:0
+H__96_120_49_45:1
+H__99_120_49_45:0
+H__98_120_49_45:0
+H__1_120_50:0
+H__101_120_50:1
+H__69_120_50_45:0
+H__68_120_50_45:0
+H__71_120_50_45:0
+H__70_120_50_45:0
+H__73_120_50_45:0
+H__72_120_50_45:0
+H__75_120_50_45:1
+H__74_120_50_45:0
+H__77_120_50_45:1
+H__76_120_50_45:0
+H__79_120_50_45:0
+H__78_120_50_45:1
+H__81_120_50_45:0
+H__80_120_50_45:0
+H__83_120_50_45:0
+H__82_120_50_45:1
+H__85_120_50_45:0
+H__84_120_50_45:0
+H__87_120_50_45:0
+H__86_120_50_45:0
+H__89_120_50_45:0
+H__88_120_50_45:0
+H__91_120_50_45:0
+H__90_120_50_45:0
+H__93_120_50_45:0
+H__92_120_50_45:0
+H__95_120_50_45:0
+H__94_120_50_45:1
+H__97_120_50_45:0
+H__96_120_50_45:0
+H__99_120_50_45:0
+H__98_120_50_45:0
+H__102_120_50:1
+H__69_120_50_46:1
+H__68_120_50_46:0
+H__71_120_50_46:0
+H__70_120_50_46:0
+H__73_120_50_46:0
+H__72_120_50_46:1
+H__75_120_50_46:0
+H__74_120_50_46:0
+H__77_120_50_46:0
+H__76_120_50_46:0
+H__79_120_50_46:0
+H__78_120_50_46:1
+H__81_120_50_46:0
+H__80_120_50_46:0
+H__83_120_50_46:0
+H__82_120_50_46:1
+H__85_120_50_46:0
+H__84_120_50_46:0
+H__87_120_50_46:0
+H__86_120_50_46:0
+H__89_120_50_46:0
+H__88_120_50_46:1
+H__91_120_50_46:0
+H__90_120_50_46:0
+H__93_120_50_46:0
+H__92_120_50_46:0
+H__95_120_50_46:0
+H__94_120_50_46:1
+H__97_120_50_46:1
+H__96_120_50_46:0
+H__99_120_50_46:1
+H__98_120_50_46:0
+H__2_120_50:0
+H__102_120_49:0
+H__69_120_49_46:0
+H__68_120_49_46:0
+H__71_120_49_46:0
+H__70_120_49_46:0
+H__73_120_49_46:0
+H__72_120_49_46:1
+H__75_120_49_46:0
+H__74_120_49_46:0
+H__77_120_49_46:1
+H__76_120_49_46:1
+H__79_120_49_46:0
+H__78_120_49_46:0
+H__81_120_49_46:1
+H__80_120_49_46:0
+H__83_120_49_46:0
+H__82_120_49_46:0
+H__85_120_49_46:1
+H__84_120_49_46:0
+H__87_120_49_46:0
+H__86_120_49_46:0
+H__89_120_49_46:1
+H__88_120_49_46:0
+H__91_120_49_46:0
+H__90_120_49_46:0
+H__93_120_49_46:0
+H__92_120_49_46:0
+H__95_120_49_46:1
+H__94_120_49_46:0
+H__97_120_49_46:1
+H__96_120_49_46:0
+H__99_120_49_46:0
+H__98_120_49_46:0
+H__2_120_49:0
+H__3_120_50:0
+H__3_120_49:1
+H__BND0:0
+
+BEG CHECK
+ * After optims it became = 2 was 45185
+regen H__103
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.056
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 45185 was 45185
+ * After all optims it became = 45185
+ finder  hits = 7120	 bstoreObjs=85857	 sstorePages=128
+hitcount 	0	80878	6
+hitcount 	1	4383	2
+hitcount 	2	234	6
+hitcount 	3	98	6
+hitcount 	4	104	5
+hitcount 	5	39	5
+hitcount 	6	10	4
+hitcount 	7	53	5
+hitcount 	8	6	4
+hitcount 	9	32	5
+hitcount 	10	1	2
+hitcount 	11	2	5
+hitcount 	12	1	11
+hitcount 	17	2	5
+hitcount 	19	1	6
+hitcount 	22	1	5
+hitcount 	24	1	8
+hitcount 	27	1	6
+hitcount 	29	1	7
+hitcount 	32	2	8
+hitcount 	34	1	5
+hitcount 	37	2	9
+hitcount 	42	1	4
+hitcount 	52	1	7
+hitcount 	62	1	5
+hitcount 	70	1	3
+bucketsPerDepth 	7	1
+bucketsPerDepth 	8	4
+bucketsPerDepth 	9	60
+bucketsPerDepth 	10	177
+bucketsPerDepth 	11	253
+bucketsPerDepth 	12	225
+bucketsPerDepth 	13	160
+bucketsPerDepth 	14	75
+bucketsPerDepth 	15	42
+bucketsPerDepth 	16	14
+bucketsPerDepth 	17	9
+bucketsPerDepth 	18	3
+bucketsPerDepth 	20	1
+* TIME TO ADD INPUT :  0.207 ms 
+DECISIONS START = 9958
+
+----- Statistics -----
+Total elapsed time (ms):  2000.21
+Model building time (ms): 0.176
+Solution time (ms):       0
+Max virtual mem (bytes):  169930752
+Max resident mem (bytes): 89878528
+Max private mem (bytes):  165359616
+Total time = 8099

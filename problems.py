@@ -1928,7 +1928,9 @@ u > o / _ m
         ''']))
 
 
-#TESTING AUTOMATED READ-IN 
+#TESTING AUTOMATED READ-IN -- CLEANED UP?
 
-from FLAG_small_test_auto import *
+from FLAG_automate_problem_grab import *
+
+# from FLAG_small_test_auto import *
 # small_test_run()

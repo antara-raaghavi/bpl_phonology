@@ -134,6 +134,7 @@ sophisticatedFeatureMap = {
     # '''ANTARA'S ADDITIONS START HERE'''
 
     u"ä": [voice,low,tense], #FINNISH ä --> IPA æ
+    u"Y": [voice,tense,high,front, rounded], #FINNISH Y CURRENTLY NOT REPRESENTED -- ADDING NEW [close front rounded vowel]
     # u"č": [anterior,coronal,delayedRelease],      # QUECHUA č --> IPA tʃ 
 
    #  '''AND END HERE'''
@@ -223,7 +224,7 @@ sophisticatedFeatureMap = {
     # glides
     u"w": [glide,voice,sonorant,continuant],
     u"w̥": [glide,sonorant,continuant],
-    u"y": [glide,palletized,voice,sonorant,continuant],
+    u"y": [glide,palletized,voice,sonorant,continuant], #ANTARA COMMENT -- this is true for English cons y, but not for IPA /y/ which is rounded /i/!
     u"j": [glide,palletized,voice,sonorant,continuant],
 
     # liquids
