@@ -1,0 +1,81 @@
+Alternative solutions and their scores:
+COST = 25.000000 + (118 everything, 35 invariant) = (143.000000, 60.000000). SOLUTION = 
+rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]
+rule: [ +delayedRelease ] ---> a /  _ 
+rule: y ---> Ø /  _ [ +anterior ]
+stem + /ay/
+stem + /tay/
+underlying form: /cd^zrar/ ; surfaces = /cararay/ ~ /carartay/
+underlying form: /diiy/ ; surfaces = /diiday/ ~ /diiday/
+underlying form: /dhis/ ; surfaces = /dhisay/ ~ /dhistay/
+underlying form: /bd^zx/ ; surfaces = /baxay/ ~ /baxday/
+underlying form: /akhriy/ ; surfaces = /akhriyay/ ~ /akhriday/
+underlying form: /arag/ ; surfaces = /aragay/ ~ /aragtay/
+underlying form: /ba/ ; surfaces = /baay/ ~ /baday/
+underlying form: /bd^zd^zq/ ; surfaces = /baaqay/ ~ /baaqday/
+underlying form: /cd^zb/ ; surfaces = /cabay/ ~ /cabtay/
+
+COST = 25.000000 + (107 everything, 35 invariant) = (132.000000, 60.000000). SOLUTION = 
+rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]
+rule: y ---> Ø /  _ [ +anterior ]
+rule: [ +nasal ] ---> a /  _ 
+stem + /ay/
+stem + /tay/
+underlying form: /cnrar/ ; surfaces = /cararay/ ~ /carartay/
+underlying form: /diiy/ ; surfaces = /diiday/ ~ /diiday/
+underlying form: /dhis/ ; surfaces = /dhisay/ ~ /dhistay/
+underlying form: /bnx/ ; surfaces = /baxay/ ~ /baxday/
+underlying form: /akhriy/ ; surfaces = /akhriyay/ ~ /akhriday/
+underlying form: /arag/ ; surfaces = /aragay/ ~ /aragtay/
+underlying form: /ba/ ; surfaces = /baay/ ~ /baday/
+underlying form: /bnnq/ ; surfaces = /baaqay/ ~ /baaqday/
+underlying form: /cnb/ ; surfaces = /cabay/ ~ /cabtay/
+
+COST = 24.000000 + (104 everything, 37 invariant) = (128.000000, 61.000000). SOLUTION = 
+rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ 
+rule: [ +glide ] ---> d /  _ [ -back ]
+rule: [ +anterior ] ---> Ø / [ +coronal ] _ 
+stem + /ay/
+stem + /day/
+underlying form: /cararb/ ; surfaces = /cararay/ ~ /carartay/
+underlying form: /diid/ ; surfaces = /diiday/ ~ /diiday/
+underlying form: /yhisb/ ; surfaces = /dhisay/ ~ /dhistay/
+underlying form: /bax/ ; surfaces = /baxay/ ~ /baxday/
+underlying form: /akhriy/ ; surfaces = /akhriyay/ ~ /akhriday/
+underlying form: /arag/ ; surfaces = /aragay/ ~ /aragtay/
+underlying form: /ba/ ; surfaces = /baay/ ~ /baday/
+underlying form: /baaq/ ; surfaces = /baaqay/ ~ /baaqday/
+underlying form: /cab/ ; surfaces = /cabay/ ~ /cabtay/
+
+COST = 28.000000 + (104 everything, 37 invariant) = (132.000000, 65.000000). SOLUTION = 
+rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ 
+rule: y ---> Ø /  _ [ +anterior ]
+rule: [ +rounded ] ---> h /  _ 
+rule: [ -sonorant ] ---> Ø / [ +coronal ] _ 
+stem + /ay/
+stem + /day/
+underlying form: /cararb/ ; surfaces = /cararay/ ~ /carartay/
+underlying form: /diid/ ; surfaces = /diiday/ ~ /diiday/
+underlying form: /doisg/ ; surfaces = /dhisay/ ~ /dhistay/
+underlying form: /bax/ ; surfaces = /baxay/ ~ /baxday/
+underlying form: /akoriy/ ; surfaces = /akhriyay/ ~ /akhriday/
+underlying form: /arag/ ; surfaces = /aragay/ ~ /aragtay/
+underlying form: /ba/ ; surfaces = /baay/ ~ /baday/
+underlying form: /baaq/ ; surfaces = /baaqay/ ~ /baaqday/
+underlying form: /cab/ ; surfaces = /cabay/ ~ /cabtay/
+
+COST = 30.000000 + (100 everything, 36 invariant) = (130.000000, 66.000000). SOLUTION = 
+rule: t ---> d / [ -liquid -sibilant ] _ [ +vowel ]
+rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ 
+rule: [ -sibilant -tense ] ---> Ø / [ -back ] _ [ -vowel ]
+stem + /ay/
+stem + /tay/
+underlying form: /carar/ ; surfaces = /cararay/ ~ /carartay/
+underlying form: /diit/ ; surfaces = /diiday/ ~ /diiday/
+underlying form: /dthis/ ; surfaces = /dhisay/ ~ /dhistay/
+underlying form: /bax/ ; surfaces = /baxay/ ~ /baxday/
+underlying form: /akhriy/ ; surfaces = /akhriyay/ ~ /akhriday/
+underlying form: /arag/ ; surfaces = /aragay/ ~ /aragtay/
+underlying form: /ba/ ; surfaces = /baay/ ~ /baday/
+underlying form: /baaq/ ; surfaces = /baaqay/ ~ /baaqday/
+underlying form: /cab/ ; surfaces = /cabay/ ~ /cabtay/

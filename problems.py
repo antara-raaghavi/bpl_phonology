@@ -1796,61 +1796,94 @@ Sadzava Ukrainian Odden 4.11
 
 # ANTARA'S CHANGES START HERE 
 
-MATRIXPROBLEMS.append(Problem(
-    u'''
-Mandar Saujas 1 Odden
-	Provide underlying representations and a phonological rule which will account for the following alternations.
-    ''',
-    [(u"mambatta",	u"dibatta"),
-     (u"mandeŋŋeq",	u"dideŋŋeq"),
-     (u"maŋidaŋ",	u"diidaŋ"),
-     (u"mappasuŋ",	u"dipasuŋ"),
-     (u"mattunu",	u"ditunu"),
-     (u"massiraq",	u"disiraq")
-    ],
-    solutions = [
-        '''
- + stem  
-maŋ + stem 
-[+nas] > [-nas, α place, β manner] / _ [+cons, - voi, α place, β manner]
-[+nas] > [+nas, α place] / _ [+cons, α place]
-        ''']))
+# MATRIXPROBLEMS.append(Problem(
+#     u'''
+# Mandar Saujas 1 Odden
+# 	Provide underlying representations and a phonological rule which will account for the following alternations.
+#     ''',
+#     [(u"mambatta",	u"dibatta"),
+#      (u"mandeŋŋeq",	u"dideŋŋeq"),
+#      (u"maŋidaŋ",	u"diidaŋ"),
+#      (u"mappasuŋ",	u"dipasuŋ"),
+#      (u"mattunu",	u"ditunu"),
+#      (u"massiraq",	u"disiraq")
+#     ],
+#     solutions = [
+#         '''
+#  + stem  
+# maŋ + stem 
+# [+nas] > [-nas, α place, β manner] / _ [+cons, - voi, α place, β manner]
+# [+nas] > [+nas, α place] / _ [+cons, α place]
+#         ''']))
 
-MATRIXPROBLEMS.append(Problem(
-    u'''
-Lunyole Saujas 2 Odden
-	Provide underlying representations and a phonological rule which will account for the following alternations.
-    ''',
-    [(u"oludaalo",	u"endaalo"),
-     (u"oluboyooboyo",	u"emboyooboyo"),
-     (u"olufudu",	u"efudu"),
-     (u"olukalala",	u"ekalala"),
-    ],
-    solutions = [
-        '''
- + stem  
-olu + stem 
-eN + stem 
-[+nas] > ∅ / _ [- voi]
-[+nas] > [+nas, α] / _ [α]
-        ''']))
+# MATRIXPROBLEMS.append(Problem(
+#     u'''
+# Lunyole Saujas 2 Odden
+# 	Provide underlying representations and a phonological rule which will account for the following alternations.
+#     ''',
+#     [(u"oludaalo",	u"endaalo"),
+#      (u"oluboyooboyo",	u"emboyooboyo"),
+#      (u"olufudu",	u"efudu"),
+#      (u"olukalala",	u"ekalala"),
+#     ],
+#     solutions = [
+#         '''
+#  + stem  
+# olu + stem 
+# eN + stem 
+# [+nas] > ∅ / _ [- voi]
+# [+nas] > [+nas, α] / _ [α]
+#         ''']))
+
+# # MATRIXPROBLEMS.append(Problem(
+# #     u'''
+# # Mongo Saujas 3 Odden
+# # 	Provide underlying representations and a phonological rule which will account for the following alternations.
+# #     ''',
+	
+# # #imperative	2sg		3sg	3pl
+
+# #     [(u"bota",	u"oota", u"aota", u"baota"),
+# #      (u"kamba",	u"okamba", u"akamba", u"bakamba"),
+# #      (u"imed͡ʒa", u"wimed͡ʒa", u"imed͡ʒa", u"bimed͡ʒa"),
+# #      (u"usa", u"wusa", u"usa", u"busa"),
+# #      (u"bata", u"oata", u"aata", u"baata"),
+# #      (u"ɛna", u"wɛna", u"ɛna", u"bɛna"),
+# #      (u"isa", u"wisa", u"isa", u"bisa"),
+# #      (u"d͡ʒila", u"od͡ʒila", u"ad͡ʒila", u"bad͡ʒila"),
+# #      (u"ina", u"wina", u"ina", u"bina"),
+# #      (u"bina", u"oina", u"aina", u"baina"),
+# #      (u"asa", u"wasa", u"asa", u"basa"),
+# #      (u"saŋga", u"osaŋga", u"asaŋga", u"basaŋga"),
+# #     ],
+# #     solutions = [
+# #         '''
+# #  + stem  
+# # w + stem 
+# # a + stem
+# # V > ∅ / _ V
+# # w > o / _ C
+# # b > ∅ / V _ V
+# #         ''']))
 
 # MATRIXPROBLEMS.append(Problem(
 #     u'''
 # Mongo Saujas 3 Odden
 # 	Provide underlying representations and a phonological rule which will account for the following alternations.
 #     ''',
+
+# 	#NOTE: d͡ʒ, dʒ are unsupported -- replaced with dz for now -- here, it doesn't affect the soln
 	
-# #imperative	2sg		3sg	3pl
+# #	imperative		2sg			3sg			3pl
 
 #     [(u"bota",	u"oota", u"aota", u"baota"),
 #      (u"kamba",	u"okamba", u"akamba", u"bakamba"),
-#      (u"imed͡ʒa", u"wimed͡ʒa", u"imed͡ʒa", u"bimed͡ʒa"),
+#      (u"imedza", u"wimedza", u"imedza", u"bimedza"),
 #      (u"usa", u"wusa", u"usa", u"busa"),
 #      (u"bata", u"oata", u"aata", u"baata"),
 #      (u"ɛna", u"wɛna", u"ɛna", u"bɛna"),
 #      (u"isa", u"wisa", u"isa", u"bisa"),
-#      (u"d͡ʒila", u"od͡ʒila", u"ad͡ʒila", u"bad͡ʒila"),
+#      (u"dzila", u"odzila", u"adzila", u"badzila"),
 #      (u"ina", u"wina", u"ina", u"bina"),
 #      (u"bina", u"oina", u"aina", u"baina"),
 #      (u"asa", u"wasa", u"asa", u"basa"),
@@ -1866,66 +1899,33 @@ eN + stem
 # b > ∅ / V _ V
 #         ''']))
 
-MATRIXPROBLEMS.append(Problem(
-    u'''
-Mongo Saujas 3 Odden
-	Provide underlying representations and a phonological rule which will account for the following alternations.
-    ''',
-
-	#NOTE: d͡ʒ, dʒ are unsupported -- replaced with dz for now -- here, it doesn't affect the soln
-	
-#	imperative		2sg			3sg			3pl
-
-    [(u"bota",	u"oota", u"aota", u"baota"),
-     (u"kamba",	u"okamba", u"akamba", u"bakamba"),
-     (u"imedza", u"wimedza", u"imedza", u"bimedza"),
-     (u"usa", u"wusa", u"usa", u"busa"),
-     (u"bata", u"oata", u"aata", u"baata"),
-     (u"ɛna", u"wɛna", u"ɛna", u"bɛna"),
-     (u"isa", u"wisa", u"isa", u"bisa"),
-     (u"dzila", u"odzila", u"adzila", u"badzila"),
-     (u"ina", u"wina", u"ina", u"bina"),
-     (u"bina", u"oina", u"aina", u"baina"),
-     (u"asa", u"wasa", u"asa", u"basa"),
-     (u"saŋga", u"osaŋga", u"asaŋga", u"basaŋga"),
-    ],
-    solutions = [
-        '''
- + stem  
-w + stem 
-a + stem
-V > ∅ / _ V
-w > o / _ C
-b > ∅ / V _ V
-        ''']))
 
 
+# MATRIXPROBLEMS.append(Problem(
+#     u'''
+# Sursilvan Engadine Saujas 4 Odden
+# 	Provide underlying representations and a phonological rule which will account for the following alternations.
+#     ''',
+#     [(u"tut",	u"tuot"),
+#      (u"ura",	u"ura"),
+#      (u"dunna",	u"duonna"),
+#      (u"num",	u"nom"),
+#      (u"nums",	u"noms"),
+#      (u"insumma",	u"insomma"),
+#      (u"numer",	u"nomer"),
+#      (u"buglia",	u"buoglia"),
+#      (u"discuors",	u"discuors"),
+#      (u"puolpa",	u"puolpa"),
+#      (u"angul",	u"angul"),
+#      (u"fuorma",	u"fuorma"),
+#      (u"flur",	u"flur"),
+#     ],
+#     solutions = [
+#         '''
 
-MATRIXPROBLEMS.append(Problem(
-    u'''
-Sursilvan Engadine Saujas 4 Odden
-	Provide underlying representations and a phonological rule which will account for the following alternations.
-    ''',
-    [(u"tut",	u"tuot"),
-     (u"ura",	u"ura"),
-     (u"dunna",	u"duonna"),
-     (u"num",	u"nom"),
-     (u"nums",	u"noms"),
-     (u"insumma",	u"insomma"),
-     (u"numer",	u"nomer"),
-     (u"buglia",	u"buoglia"),
-     (u"discuors",	u"discuors"),
-     (u"puolpa",	u"puolpa"),
-     (u"angul",	u"angul"),
-     (u"fuorma",	u"fuorma"),
-     (u"flur",	u"flur"),
-    ],
-    solutions = [
-        '''
-
-u > o / _ m
-∅ > o / u _ [+ consonant, - liquid]
-        ''']))
+# u > o / _ m
+# ∅ > o / u _ [+ consonant, - liquid]
+#         ''']))
 
 
 #TESTING AUTOMATED READ-IN -- CLEANED UP?

@@ -195,11 +195,31 @@ def compatible_char_ipa(data):
         json_str_replaced = json_str.replace('\u0361\u0292', '^z')
         data = json.loads(json_str_replaced)
 
-    elif language.lower() == 'quechua':
+    elif language.lower() in ['quechua', 'budukh']:
         data = json.loads(json.dumps(data).replace('\u010d', 't^s')) 
         data = json.loads(json.dumps(data).replace('\u01f0', 'd^z')) 
         json_str = json.dumps(data)
         json_str_replaced = json_str.replace('\u010d', 't^s')
+        data = json.loads(json_str_replaced)
+
+    elif language.lower() in ['estonian', 'budukh']:
+        print(data)
+        data = json.loads(json.dumps(data).replace('\u00f6', 'ö'))
+        json_str = json.dumps(data)
+        json_str_replaced = json_str.replace('\u00f6', 'ö')
+        data = json.loads(json_str_replaced)
+
+    elif language.lower() == 'movima':
+        json_str = json.dumps(data)
+        json_str_replaced = ''
+        i = 0
+        while i < len(json_str):
+            if json_str[i] == ':':
+                json_str_replaced += json_str[i - 1]
+            else:
+                json_str_replaced += json_str[i]
+            i += 1
+        # Load the modified JSON string back to data
         data = json.loads(json_str_replaced)
 
     return data
@@ -246,80 +266,144 @@ def compatible_char_ipa(data):
 
 
 
-def format_phonmorph(folder_path, output_file):
-    OUR_MATRIXPROBLEMS = []
+# def format_phonmorph(folder_path, output_file):
+#     OUR_MATRIXPROBLEMS = []
 
-    # for folder_path, output_file in zip(folder_paths, output_files):
-    file_list = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+#     # for folder_path, output_file in zip(folder_paths, output_files):
+#     file_list = [f for f in os.listdir(folder_path) if f.endswith('.json')]
 
-    for idx, file_name in enumerate(file_list):
-        with open(os.path.join(folder_path, file_name), 'r') as file:
-            data = json.load(file)
-            data = compatible_char_ipa(data)
-            language = data["source_language"]
+#     for idx, file_name in enumerate(file_list):
+#         with open(os.path.join(folder_path, file_name), 'r') as file:
+#             data = json.load(file)
+#             data = compatible_char_ipa(data)
+#             language = data["source_language"]
 
-            if language.lower() in ['finnish', 'somali']:
+#             if language.lower() in ['finnish', 'somali']:
 
-                #TODO: THIS IS A TEMPORARY AND DEEPLY SUS FIX, I THINK J IS A CONSONANT HERE!!
-                data = json.loads(json.dumps(data).replace('j', 'y'))
+#                 #TODO: THIS IS A TEMPORARY AND DEEPLY SUS FIX, I THINK J IS A CONSONANT HERE!!
+#                 data = json.loads(json.dumps(data).replace('j', 'y'))
 
 
-            if language.lower() in ["tarangan", "terena", "budukh", "estonian", "movima"]:
+#             if language.lower() in ["tarangan", "terena", "budukh", "estonian", "movima"]:
 
-                #TODO: fix! these all have phonemes that are currently NOT HANDLED in features.py "finnish", "quechua", 
-                # need a phonology textbook -- Halle? 
+#                 #TODO: fix! these all have phonemes that are currently NOT HANDLED in features.py "finnish", "quechua", 
+#                 # need a phonology textbook -- Halle? 
 
-                continue
+#                 continue
 
-            # FROM HERE IS OK 
+#             # FROM HERE IS OK 
 
-            try:
-                entries = data["train"]
+#             try:
+#                 entries = data["train"]
 
-                formatted_entries = [tuple(elem.replace(' ', '') for elem in entry if elem.strip()) for entry in entries] #to get it in the (u"<1>", u"<2>") format
+#                 formatted_entries = [tuple(elem.replace(' ', '') for elem in entry if elem.strip()) for entry in entries] #to get it in the (u"<1>", u"<2>") format
 
-                #NB:  if elem.strip() --> takes care of emmpty string
+#                 #NB:  if elem.strip() --> takes care of emmpty string
 
-                problem_text = (
-                    u"{} Saujas {} Odden\n"
-                    u"Provide underlying representations and a phonological rule which will account for the following alternations."
-                ).format(language, idx)
+#                 problem_text = (
+#                     u"{} Saujas {} Odden\n"
+#                     u"Provide underlying representations and a phonological rule which will account for the following alternations."
+#                 ).format(language, idx)
 
-                solutions_text = u"""
-    + stem  
-    """
+#                 solutions_text = u"""
+#     + stem  
+#     """
 
-                problem_instance = Problem(
-                    description=u'''{}'''.format(problem_text),
-                    data=formatted_entries,
-                    solutions=[solutions_text.strip()]
-                )
-                OUR_MATRIXPROBLEMS.append(problem_instance)
+#                 problem_instance = Problem(
+#                     description=u'''{}'''.format(problem_text),
+#                     data=formatted_entries,
+#                     solutions=[solutions_text.strip()]
+#                 )
+#                 OUR_MATRIXPROBLEMS.append(problem_instance)
             
-            except Exception as e:
-                print(u"\n\n{}. \n Error: Problem in {} has an issue.\n\n".format(e, language))
-                continue
+#             except Exception as e:
+#                 print(u"\n\n{}. \n Error: Problem in {} has an issue.\n\n".format(e, language))
+#                 continue
 
 
-    # need codecs because  they use python 2.7 (sobbing noises)
+#     # need codecs because  they use python 2.7 (sobbing noises)
 
-    with codecs.open(output_file, 'w', encoding='utf-8') as out_file:
-        for problem in OUR_MATRIXPROBLEMS:
-            out_file.write(problem_to_string(problem) + u"\n\n")
+#     with codecs.open(output_file, 'w', encoding='utf-8') as out_file:
+#         for problem in OUR_MATRIXPROBLEMS:
+#             out_file.write(problem_to_string(problem) + u"\n\n")
 
     # for problem in OUR_MATRIXPROBLEMS:
     #     print(problem_to_string(problem))
     #     print("\n")
 
 
-folder_path = '../../datasets/phon_morph_problems/morphology'
-output_file = '../../datasets/phon_morph_problems/morphology/morph_bpl_format.txt'
 
-# folder_paths = ['../../datasets/phon_morph_problems/morphology', '../../datasets/phon_morph_problems/multilingual', 
-#                 '../../datasets/phon_morph_problems/stress', '../../datasets/phon_morph_problems/transliteration']
-# output_files = [i + "/bpl_format.txt" for i in folder_paths]
 
-format_phonmorph(folder_path, output_file)
+
+
+
+def format_phonmorph(folder_paths, output_files):
+    OUR_MATRIXPROBLEMS = []
+
+    if len(folder_paths) != len(output_files):
+        raise ValueError("Number of folder_paths must be equal to number of output_files")
+
+    for folder_path, output_file in zip(folder_paths, output_files):
+        OUR_MATRIXPROBLEMS = []
+        file_list = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+
+        for idx, file_name in enumerate(file_list):
+            try:
+                with codecs.open(os.path.join(folder_path, file_name), 'r', encoding='utf-8') as file:
+                    data = json.load(file)
+                    data = compatible_char_ipa(data)
+                    language = data["source_language"]
+                    print(language)
+
+                    if language.lower() in ["finnish", "tarangan", "terena", "estonian"]:
+
+                        #FINNISH AND TARANGAN ARE INCOMPATIBLE
+                        continue
+
+                    entries = data["train"]
+                    formatted_entries = [
+                        tuple(elem.replace(' ', '') for elem in entry if elem.strip()) for entry in entries
+                    ]
+
+                    problem_text = (
+                        u"{} Saujas {} Odden\n"
+                        u"Provide underlying representations and a phonological rule which will account for the following alternations."
+                    ).format(language, idx)
+
+                    solutions_text = u"""
+    + stem  
+    """
+
+                    problem_instance = Problem(
+                        description=u'''{}'''.format(problem_text),
+                        data=formatted_entries,
+                        solutions=[solutions_text.strip()]
+                    )
+                    OUR_MATRIXPROBLEMS.append(problem_instance)
+
+            except Exception as e:
+                if 'language' in locals():
+                    print(u"\n\n{}. \n Error: Problem in {} has an issue.\n\n".format(e, language))
+                else:
+                    print(u"\n\n{}. \n Error: Unknown language has an issue.\n\n".format(e))
+                continue
+
+        with codecs.open(output_file, 'w', encoding='utf-8') as out_file:
+            for problem in OUR_MATRIXPROBLEMS:
+                out_file.write(problem_to_string(problem) + u"\n\n")
+        OUR_MATRIXPROBLEMS = []
+
+
+
+
+# folder_path = '../../datasets/phon_morph_problems/morphology'
+# output_file = '../../datasets/phon_morph_problems/morphology/morph_bpl_format.txt'
+
+folder_paths = ['../../datasets/phon_morph_problems/morphology', '../../datasets/phon_morph_problems/multilingual', ]
+                #'../../datasets/phon_morph_problems/stress', '../../datasets/phon_morph_problems/transliteration']
+output_files = [i + "/bpl_format.txt" for i in folder_paths]
+
+format_phonmorph(folder_paths, output_files)
 
 def small_test_run():
     file_path = 'FLAG_grabbed.txt' 
