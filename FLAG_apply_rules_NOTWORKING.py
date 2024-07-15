@@ -87,12 +87,11 @@ def parse_feature_string(feature_string):
 def token_to_features(token, feature_bank):
 
     #TODO: this is still funky for unicode escape sequence characters ugh 
-
-    # token = unicode(token, 'utf-8')
+    token = token.decode('utf-8') if isinstance(token, str) else token
     features = feature_bank.featureMap.get(token, [])
     if not features:
         print(u"Warning: No features found for token '{}'".format(token))
-        print(u"Available keys in featureMap: {}".format(feature_bank.featureMap.keys()))
+        # print(u"Available keys in featureMap: {}".format(sorted(feature_bank.featureMap.keys())))
     return set(features)
 
 
@@ -146,37 +145,86 @@ def identify_affixes(solution_text):
     return affixes
 
 
+# def process_data(data, rules, feature_bank, affixes):
+#     results = []
+#     for entry in data["test"]:
+#         entry_copy = entry[:]  # NB NEED TO DO THIS IF MULTIPLE RULE SETS! OTHERWISE IT DIRECTLY MODIFIES THE ENTRY!!!!!
+#         for i, field in enumerate(entry_copy):
+#             if field == "?":
+#                 # Get the surface form from the other form in the entry
+#                 surface_form = entry_copy[(i + 1) % len(entry_copy)]
+#                 print(u"Surface form for entry {}: {}".format(i, surface_form))
+                
+#                 #TODO: this is an EXTREMELY sus fix right now to pick the right affix
+
+
+#                 affix_type, affix = affixes[(i) % len(affixes)]
+#                 print(affix)
+#                 if affix_type == "prefix":
+#                     underlying_form = ' '.join(surface_form.split()[len(affix.split())+1:])
+#                 elif affix_type == "suffix":
+#                     underlying_form = ' '.join(surface_form.split()[:-(len(affix.split())+1)])
+#                 else:
+#                     raise ValueError("Unsupported affix type.")
+#                 print(u"Underlying form: {}".format(underlying_form))
+
+                
+#                 # fix spacing issue
+#                 affix_to_apply = ' '.join(list(affix))
+#                 if affix_type == "prefix":
+#                     generated_form = affix_to_apply + ' ' + underlying_form
+#                 else:
+#                     generated_form = underlying_form + ' ' + affix_to_apply
+#                 print(u"Generated form before applying rules: {}".format(generated_form))
+                
+#                 for rule in rules:
+#                     generated_form = apply_rule(generated_form, rule, feature_bank)
+                
+#                 entry_copy[i] = generated_form
+        
+#         results.append(entry_copy)
+#     return results
+
 def process_data(data, rules, feature_bank, affixes):
     results = []
     for entry in data["test"]:
         entry_copy = entry[:]  # NB NEED TO DO THIS IF MULTIPLE RULE SETS! OTHERWISE IT DIRECTLY MODIFIES THE ENTRY!!!!!
         for i, field in enumerate(entry_copy):
             if field == "?":
-                # Get the surface form from the other form in the entry
                 surface_form = entry_copy[(i + 1) % len(entry_copy)]
                 print(u"Surface form for entry {}: {}".format(i, surface_form))
                 
-                #TODO: this is an EXTREMELY sus fix right now to pick the right affix
+                #first set the underlying form to the surface form by default
+                underlying_form = surface_form
+             
+            #TODO: this is an EXTREMELY sus fix right now to pick the right affix
 
 
-                affix_type, affix = affixes[(i) % len(affixes)]
-                if affix_type == "prefix":
-                    underlying_form = ' '.join(surface_form.split()[len(affix.split())+1:])
-                elif affix_type == "suffix":
-                    underlying_form = ' '.join(surface_form.split()[:-(len(affix.split())+1)])
-                else:
-                    raise ValueError("Unsupported affix type.")
+            
+                for affix_type, affix in affixes:
+                    # affix_tokens = affix.split()
+                    affix_tokens = list(affix)
+                    surface_tokens = surface_form.split()
+                    # print("surf:", surface_tokens[-(len(affix_tokens)):], "aff: ", affix_tokens)
+                    if affix_type == "prefix" and surface_tokens[:len(affix_tokens)] == affix_tokens:
+                        underlying_form = ' '.join(surface_tokens[len(affix_tokens):])
+                        break
+                    elif affix_type == "suffix" and surface_tokens[-(len(affix_tokens)):] == affix_tokens:
+                        underlying_form = ' '.join(surface_tokens[:-(len(affix_tokens))])
+                        break
+                
                 print(u"Underlying form: {}".format(underlying_form))
 
-                
-                # fix spacing issue
-                affix_to_apply = ' '.join(list(affix))
-                if affix_type == "prefix":
+                # Space-separate the affix to apply
+                affix_to_apply = ' '.join(list(affixes[i][1]))
+                affix_type_to_apply = affixes[i][0]
+                if affix_type_to_apply == "prefix":
                     generated_form = affix_to_apply + ' ' + underlying_form
                 else:
                     generated_form = underlying_form + ' ' + affix_to_apply
                 print(u"Generated form before applying rules: {}".format(generated_form))
                 
+                # Apply the phonological rules
                 for rule in rules:
                     generated_form = apply_rule(generated_form, rule, feature_bank)
                 
@@ -184,6 +232,7 @@ def process_data(data, rules, feature_bank, affixes):
         
         results.append(entry_copy)
     return results
+
 
 def read_rules_from_text(file_path):
     with codecs.open(file_path, "r", encoding="utf-8") as file:
@@ -217,7 +266,10 @@ def main(json_filepath, text_filepath):
         print(u"Processing solution set {}".format(idx + 1))
 
         # THIS IS BEING MADE FROM THEIR CODE
-        feature_bank = FeatureBank([entry[feature_index] for entry in data["test"]])
+        # feature_bank = FeatureBank([entry[feature_index] for entry in data["test"]])
+
+        all_phonemes = featureMap.keys()
+        feature_bank = FeatureBank(all_phonemes)
 
 
         affixes = identify_affixes(solution_text)
