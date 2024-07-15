@@ -2,126 +2,64 @@
     "solution_2": {
         "test": [
             [
-                "bartday", 
+                "b a r t a y", 
                 "b a r t a y"
             ], 
             [
                 "b a a j i y a y", 
-                "baajidaay"
+                "b a a j i  d a y"
             ], 
             [
                 "b i ’ i y a y", 
-                "biidaay"
+                "b i ’ i  d a y"
             ], 
             [
                 "b i l a a b a y", 
-                "bidaabaay"
+                "b i d a a b t a y"
             ], 
             [
-                "cundaay", 
+                "c u n d a y", 
                 "c u n t a y"
             ], 
             [
                 "d a a q a y", 
-                "daaqday"
+                "d a a q d a y"
             ], 
             [
                 "dh a c a y", 
-                "dhacday"
+                "dh a c d a y"
             ], 
             [
                 "f a r a x a y", 
-                "faraxday"
+                "f a r a x d a y"
             ], 
             [
                 "g a l a y", 
-                "g a l aay"
+                "g a l t a y"
             ], 
             [
                 "g o ’ a y", 
-                "gdaay"
+                "g o ’ d a y"
             ], 
             [
-                "hedhaay", 
+                "h e d h a y", 
                 "h e s h a y"
             ], 
             [
                 "k a c a y", 
-                "kacday"
+                "k a c d a y"
             ], 
             [
                 "q a a d a y", 
-                "qdadaay"
+                "q d a d t a y"
             ], 
             [
                 "x i dh a y", 
-                "xidhaay"
+                "x i dh d a y"
             ], 
             [
                 "w a l a a q a y", 
-                "walaaqday"
-            ]
-        ], 
-        "reverse_test": [
-            [
-                "bartday", 
-                "b a r t a y"
-            ], 
-            [
-                "b a a j i y a y", 
-                "baajidaay"
-            ], 
-            [
-                "b i ’ i y a y", 
-                "biidaay"
-            ], 
-            [
-                "b i l a a b a y", 
-                "bidaabaay"
-            ], 
-            [
-                "cundaay", 
-                "c u n t a y"
-            ], 
-            [
-                "d a a q a y", 
-                "daaqday"
-            ], 
-            [
-                "dh a c a y", 
-                "dhacday"
-            ], 
-            [
-                "f a r a x a y", 
-                "faraxday"
-            ], 
-            [
-                "g a l a y", 
-                "g a l aay"
-            ], 
-            [
-                "g o ’ a y", 
-                "gdaay"
-            ], 
-            [
-                "hedhaay", 
-                "h e s h a y"
-            ], 
-            [
-                "k a c a y", 
-                "kacday"
-            ], 
-            [
-                "q a a d a y", 
-                "qdadaay"
-            ], 
-            [
-                "x i dh a y", 
-                "xidhaay"
-            ], 
-            [
-                "w a l a a q a y", 
-                "walaaqday"
+                "w a l a a q d a y"
             ]
         ], 
         "rules": [
@@ -133,126 +71,64 @@
     "solution_3": {
         "test": [
             [
-                "bartday", 
+                "b a r t a y", 
                 "b a r t a y"
             ], 
             [
                 "b a a j i y a y", 
-                "baajidaay"
+                "b a a d i y d a y"
             ], 
             [
                 "b i ’ i y a y", 
-                "biidaay"
+                "b i ’ i d  a y"
             ], 
             [
                 "b i l a a b a y", 
-                "bidaabaay"
+                "b i l a a b t a y"
             ], 
             [
-                "cundaay", 
+                "c u n t a y", 
                 "c u n t a y"
             ], 
             [
                 "d a a q a y", 
-                "daaqday"
+                "d a a q d a y"
             ], 
             [
                 "dh a c a y", 
-                "dhacday"
+                "dh a c  a y"
             ], 
             [
                 "f a r a x a y", 
-                "faraxday"
+                "f a r a x d a y"
             ], 
             [
                 "g a l a y", 
-                "g a l aay"
+                "g a l  a y"
             ], 
             [
                 "g o ’ a y", 
-                "gdaay"
+                "g o ’ d a y"
             ], 
             [
-                "hedhaay", 
+                "h e s h a y", 
                 "h e s h a y"
             ], 
             [
                 "k a c a y", 
-                "kacday"
+                "k a c  a y"
             ], 
             [
                 "q a a d a y", 
-                "qdadaay"
+                "q a a d t a y"
             ], 
             [
                 "x i dh a y", 
-                "xidhaay"
+                "x i dh d a y"
             ], 
             [
                 "w a l a a q a y", 
-                "walaaqday"
-            ]
-        ], 
-        "reverse_test": [
-            [
-                "bartday", 
-                "b a r t a y"
-            ], 
-            [
-                "b a a j i y a y", 
-                "baajidaay"
-            ], 
-            [
-                "b i ’ i y a y", 
-                "biidaay"
-            ], 
-            [
-                "b i l a a b a y", 
-                "bidaabaay"
-            ], 
-            [
-                "cundaay", 
-                "c u n t a y"
-            ], 
-            [
-                "d a a q a y", 
-                "daaqday"
-            ], 
-            [
-                "dh a c a y", 
-                "dhacday"
-            ], 
-            [
-                "f a r a x a y", 
-                "faraxday"
-            ], 
-            [
-                "g a l a y", 
-                "g a l aay"
-            ], 
-            [
-                "g o ’ a y", 
-                "gdaay"
-            ], 
-            [
-                "hedhaay", 
-                "h e s h a y"
-            ], 
-            [
-                "k a c a y", 
-                "kacday"
-            ], 
-            [
-                "q a a d a y", 
-                "qdadaay"
-            ], 
-            [
-                "x i dh a y", 
-                "xidhaay"
-            ], 
-            [
-                "w a l a a q a y", 
-                "walaaqday"
+                "w a l a a q d a y"
             ]
         ], 
         "rules": [
@@ -264,126 +140,64 @@
     "solution_1": {
         "test": [
             [
-                "bartday", 
+                "b a r t a y", 
                 "b a r t a y"
             ], 
             [
                 "b a a j i y a y", 
-                "baajidaay"
+                "b a a j i  d a y"
             ], 
             [
                 "b i ’ i y a y", 
-                "biidaay"
+                "b i ’ i  d a y"
             ], 
             [
                 "b i l a a b a y", 
-                "bidaabaay"
+                "b i d a a b t a y"
             ], 
             [
-                "cundaay", 
+                "c u n d a y", 
                 "c u n t a y"
             ], 
             [
                 "d a a q a y", 
-                "daaqday"
+                "d a a q d a y"
             ], 
             [
                 "dh a c a y", 
-                "dhacday"
+                "dh a c d a y"
             ], 
             [
                 "f a r a x a y", 
-                "faraxday"
+                "f a r a x d a y"
             ], 
             [
                 "g a l a y", 
-                "g a l aay"
+                "g a l t a y"
             ], 
             [
                 "g o ’ a y", 
-                "gdaay"
+                "g o ’ d a y"
             ], 
             [
-                "hedhaay", 
+                "h e d h a y", 
                 "h e s h a y"
             ], 
             [
                 "k a c a y", 
-                "kacday"
+                "k a c d a y"
             ], 
             [
                 "q a a d a y", 
-                "qdadaay"
+                "q d a d t a y"
             ], 
             [
                 "x i dh a y", 
-                "xidhaay"
+                "x i dh d a y"
             ], 
             [
                 "w a l a a q a y", 
-                "walaaqday"
-            ]
-        ], 
-        "reverse_test": [
-            [
-                "bartday", 
-                "b a r t a y"
-            ], 
-            [
-                "b a a j i y a y", 
-                "baajidaay"
-            ], 
-            [
-                "b i ’ i y a y", 
-                "biidaay"
-            ], 
-            [
-                "b i l a a b a y", 
-                "bidaabaay"
-            ], 
-            [
-                "cundaay", 
-                "c u n t a y"
-            ], 
-            [
-                "d a a q a y", 
-                "daaqday"
-            ], 
-            [
-                "dh a c a y", 
-                "dhacday"
-            ], 
-            [
-                "f a r a x a y", 
-                "faraxday"
-            ], 
-            [
-                "g a l a y", 
-                "g a l aay"
-            ], 
-            [
-                "g o ’ a y", 
-                "gdaay"
-            ], 
-            [
-                "hedhaay", 
-                "h e s h a y"
-            ], 
-            [
-                "k a c a y", 
-                "kacday"
-            ], 
-            [
-                "q a a d a y", 
-                "qdadaay"
-            ], 
-            [
-                "x i dh a y", 
-                "xidhaay"
-            ], 
-            [
-                "w a l a a q a y", 
-                "walaaqday"
+                "w a l a a q d a y"
             ]
         ], 
         "rules": [
@@ -395,126 +209,64 @@
     "solution_4": {
         "test": [
             [
-                "bartday", 
+                "b a r  a y", 
                 "b a r t a y"
             ], 
             [
                 "b a a j i y a y", 
-                "baajidaay"
+                "b a a j i  d a y"
             ], 
             [
                 "b i ’ i y a y", 
-                "biidaay"
+                "b i ’ i  d a y"
             ], 
             [
                 "b i l a a b a y", 
-                "bidaabaay"
+                "b i l a a b t a y"
             ], 
             [
-                "cundaay", 
+                "c  n t a y", 
                 "c u n t a y"
             ], 
             [
                 "d a a q a y", 
-                "daaqday"
+                "d a a q d a y"
             ], 
             [
                 "dh a c a y", 
-                "dhacday"
+                "dh a c  a y"
             ], 
             [
                 "f a r a x a y", 
-                "faraxday"
+                "f a r a x d a y"
             ], 
             [
                 "g a l a y", 
-                "g a l aay"
+                "g a l  a y"
             ], 
             [
                 "g o ’ a y", 
-                "gdaay"
+                "g h ’ d a y"
             ], 
             [
-                "hedhaay", 
+                "h e s h a y", 
                 "h e s h a y"
             ], 
             [
                 "k a c a y", 
-                "kacday"
+                "k a c  a y"
             ], 
             [
                 "q a a d a y", 
-                "qdadaay"
+                "q a a d  a y"
             ], 
             [
                 "x i dh a y", 
-                "xidhaay"
+                "x i dh d a y"
             ], 
             [
                 "w a l a a q a y", 
-                "walaaqday"
-            ]
-        ], 
-        "reverse_test": [
-            [
-                "bartday", 
-                "b a r t a y"
-            ], 
-            [
-                "b a a j i y a y", 
-                "baajidaay"
-            ], 
-            [
-                "b i ’ i y a y", 
-                "biidaay"
-            ], 
-            [
-                "b i l a a b a y", 
-                "bidaabaay"
-            ], 
-            [
-                "cundaay", 
-                "c u n t a y"
-            ], 
-            [
-                "d a a q a y", 
-                "daaqday"
-            ], 
-            [
-                "dh a c a y", 
-                "dhacday"
-            ], 
-            [
-                "f a r a x a y", 
-                "faraxday"
-            ], 
-            [
-                "g a l a y", 
-                "g a l aay"
-            ], 
-            [
-                "g o ’ a y", 
-                "gdaay"
-            ], 
-            [
-                "hedhaay", 
-                "h e s h a y"
-            ], 
-            [
-                "k a c a y", 
-                "kacday"
-            ], 
-            [
-                "q a a d a y", 
-                "qdadaay"
-            ], 
-            [
-                "x i dh a y", 
-                "xidhaay"
-            ], 
-            [
-                "w a l a a q a y", 
-                "walaaqday"
+                "w a l a a q d a y"
             ]
         ], 
         "rules": [
@@ -527,126 +279,64 @@
     "solution_5": {
         "test": [
             [
-                "bartday", 
+                "b a r t a y", 
                 "b a r t a y"
             ], 
             [
                 "b a a j i y a y", 
-                "baajidaay"
+                "b a a j i  d a y"
             ], 
             [
                 "b i ’ i y a y", 
-                "biidaay"
+                "b i ’ i  d a y"
             ], 
             [
                 "b i l a a b a y", 
-                "bidaabaay"
+                "b i l a a b t a y"
             ], 
             [
-                "cundaay", 
+                "c  n d a y", 
                 "c u n t a y"
             ], 
             [
                 "d a a q a y", 
-                "daaqday"
+                "d a a q d a y"
             ], 
             [
                 "dh a c a y", 
-                "dhacday"
+                "dh a c d a y"
             ], 
             [
                 "f a r a x a y", 
-                "faraxday"
+                "f a r a x d a y"
             ], 
             [
                 "g a l a y", 
-                "g a l aay"
+                "g a l t a y"
             ], 
             [
                 "g o ’ a y", 
-                "gdaay"
+                "g o ’ d a y"
             ], 
             [
-                "hedhaay", 
+                "h  s h a y", 
                 "h e s h a y"
             ], 
             [
                 "k a c a y", 
-                "kacday"
+                "k a c d a y"
             ], 
             [
                 "q a a d a y", 
-                "qdadaay"
+                "q a a d t a y"
             ], 
             [
                 "x i dh a y", 
-                "xidhaay"
+                "x i  d a y"
             ], 
             [
                 "w a l a a q a y", 
-                "walaaqday"
-            ]
-        ], 
-        "reverse_test": [
-            [
-                "bartday", 
-                "b a r t a y"
-            ], 
-            [
-                "b a a j i y a y", 
-                "baajidaay"
-            ], 
-            [
-                "b i ’ i y a y", 
-                "biidaay"
-            ], 
-            [
-                "b i l a a b a y", 
-                "bidaabaay"
-            ], 
-            [
-                "cundaay", 
-                "c u n t a y"
-            ], 
-            [
-                "d a a q a y", 
-                "daaqday"
-            ], 
-            [
-                "dh a c a y", 
-                "dhacday"
-            ], 
-            [
-                "f a r a x a y", 
-                "faraxday"
-            ], 
-            [
-                "g a l a y", 
-                "g a l aay"
-            ], 
-            [
-                "g o ’ a y", 
-                "gdaay"
-            ], 
-            [
-                "hedhaay", 
-                "h e s h a y"
-            ], 
-            [
-                "k a c a y", 
-                "kacday"
-            ], 
-            [
-                "q a a d a y", 
-                "qdadaay"
-            ], 
-            [
-                "x i dh a y", 
-                "xidhaay"
-            ], 
-            [
-                "w a l a a q a y", 
-                "walaaqday"
+                "w a l a a q d a y"
             ]
         ], 
         "rules": [
