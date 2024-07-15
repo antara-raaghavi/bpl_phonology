@@ -1,0 +1,658 @@
+{
+    "solution_2": {
+        "test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "reverse_test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "rules": [
+            "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]", 
+            "rule: y ---> Ø /  _ [ +anterior ]", 
+            "rule: [ +nasal ] ---> a /  _ "
+        ]
+    }, 
+    "solution_3": {
+        "test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "reverse_test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "rules": [
+            "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ ", 
+            "rule: [ +glide ] ---> d /  _ [ -back ]", 
+            "rule: [ +anterior ] ---> Ø / [ +coronal ] _ "
+        ]
+    }, 
+    "solution_1": {
+        "test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "reverse_test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "rules": [
+            "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]", 
+            "rule: [ +delayedRelease ] ---> a /  _ ", 
+            "rule: y ---> Ø /  _ [ +anterior ]"
+        ]
+    }, 
+    "solution_4": {
+        "test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "reverse_test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "rules": [
+            "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ ", 
+            "rule: y ---> Ø /  _ [ +anterior ]", 
+            "rule: [ +rounded ] ---> h /  _ ", 
+            "rule: [ -sonorant ] ---> Ø / [ +coronal ] _ "
+        ]
+    }, 
+    "solution_5": {
+        "test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "reverse_test": [
+            [
+                "bartday", 
+                "b a r t a y"
+            ], 
+            [
+                "b a a j i y a y", 
+                "baajidaay"
+            ], 
+            [
+                "b i ’ i y a y", 
+                "biidaay"
+            ], 
+            [
+                "b i l a a b a y", 
+                "bidaabaay"
+            ], 
+            [
+                "cundaay", 
+                "c u n t a y"
+            ], 
+            [
+                "d a a q a y", 
+                "daaqday"
+            ], 
+            [
+                "dh a c a y", 
+                "dhacday"
+            ], 
+            [
+                "f a r a x a y", 
+                "faraxday"
+            ], 
+            [
+                "g a l a y", 
+                "g a l aay"
+            ], 
+            [
+                "g o ’ a y", 
+                "gdaay"
+            ], 
+            [
+                "hedhaay", 
+                "h e s h a y"
+            ], 
+            [
+                "k a c a y", 
+                "kacday"
+            ], 
+            [
+                "q a a d a y", 
+                "qdadaay"
+            ], 
+            [
+                "x i dh a y", 
+                "xidhaay"
+            ], 
+            [
+                "w a l a a q a y", 
+                "walaaqday"
+            ]
+        ], 
+        "rules": [
+            "rule: t ---> d / [ -liquid -sibilant ] _ [ +vowel ]", 
+            "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _ ", 
+            "rule: [ -sibilant -tense ] ---> Ø / [ -back ] _ [ -vowel ]"
+        ]
+    }
+}
