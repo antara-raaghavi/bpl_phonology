@@ -47,7 +47,12 @@ class CommandHandler(SocketServer.StreamRequestHandler):
 def command_server_running():
     import psutil
     for p in psutil.process_iter(attrs=['name','cmdline']):
-        if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+        #ANTARA -- added this to deal w/ zombie processes from other people on cluster
+        if p.info['cmdline'] is None:
+            pass
+    
+        #earlier this was just an if 
+        elif p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
             return True
     return False
 
@@ -69,7 +74,13 @@ def kill_servers():
     import psutil
     ps = []
     for p in psutil.process_iter(attrs=['name','cmdline']):
-        if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+
+        #ANTARA -- added this to deal w/ zombie processes from other people on cluster
+        if p.info['cmdline'] is None:
+            pass
+    
+        #earlier this was just an if 
+        elif p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
             ps.append(p.pid)
     for p in ps:
         print " [+] Killing command server with PID %d"%p

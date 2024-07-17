@@ -1,0 +1,461 @@
+
+
+
+------ Run started at Tue Jul 16 05:43:41 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Mandar_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Dutch_Saujas_2 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+
+
+------ Run started at Tue Jul 16 09:41:08 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Quechua_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Somali_Saujas_4 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+./FLAG_run_auto.sh: line 181: 530138 Killed                  python driver.py "$problem_name" incremental -t 100 --timeout 24 --geometry --features sophisticated >> "$OUTPUT_FILE" 2>&1
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Tue Jul 16 12:31:21 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:08:51 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:08:59 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:13:53 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
++ problem_names=("Odden_Lunyole_Saujas_5" "Odden_Mongo_Saujas_8" "Odden_Indonesian_Saujas_9" "Odden_Zoque_Saujas_11" "Odden_Hawaiian_Saujas_1" "Odden_Sursilvan_Saujas_3" "Odden_Warlpiri_Saujas_5" "Odden_Minangkabau_Saujas_6")
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Lunyole_Saujas_5.txt
++ echo 'Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Lunyole_Saujas_5.txt
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Mongo_Saujas_8.txt
++ echo 'Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Mongo_Saujas_8.txt
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Indonesian_Saujas_9.txt
++ echo 'Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Indonesian_Saujas_9.txt
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Zoque_Saujas_11.txt
++ echo 'Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Zoque_Saujas_11.txt
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Hawaiian_Saujas_1.txt
++ echo 'Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Hawaiian_Saujas_1.txt
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Sursilvan_Saujas_3.txt
++ echo 'Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Sursilvan_Saujas_3.txt
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Warlpiri_Saujas_5.txt
++ echo 'Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Warlpiri_Saujas_5.txt
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Minangkabau_Saujas_6.txt
++ echo 'Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Minangkabau_Saujas_6.txt
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
+
+------ Run ended at Wed Jul 17 06:14:00 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:15:50 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
++ problem_names=("Odden_Lunyole_Saujas_5" "Odden_Mongo_Saujas_8" "Odden_Indonesian_Saujas_9" "Odden_Zoque_Saujas_11" "Odden_Hawaiian_Saujas_1" "Odden_Sursilvan_Saujas_3" "Odden_Warlpiri_Saujas_5" "Odden_Minangkabau_Saujas_6")
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Lunyole_Saujas_5.txt
++ echo 'Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Lunyole_Saujas_5.txt
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Mongo_Saujas_8.txt
++ echo 'Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Mongo_Saujas_8.txt
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Indonesian_Saujas_9.txt
++ echo 'Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Indonesian_Saujas_9.txt
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Zoque_Saujas_11.txt
++ echo 'Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Zoque_Saujas_11.txt
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Hawaiian_Saujas_1.txt
++ echo 'Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Hawaiian_Saujas_1.txt
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Sursilvan_Saujas_3.txt
++ echo 'Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Sursilvan_Saujas_3.txt
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Warlpiri_Saujas_5.txt
++ echo 'Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Warlpiri_Saujas_5.txt
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Minangkabau_Saujas_6.txt
++ echo 'Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Minangkabau_Saujas_6.txt
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
+
+------ Run ended at Wed Jul 17 06:15:57 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:17:16 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
++ problem_names=("Odden_Lunyole_Saujas_5" "Odden_Mongo_Saujas_8" "Odden_Indonesian_Saujas_9" "Odden_Zoque_Saujas_11" "Odden_Hawaiian_Saujas_1" "Odden_Sursilvan_Saujas_3" "Odden_Warlpiri_Saujas_5" "Odden_Minangkabau_Saujas_6")
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Lunyole_Saujas_5.txt
++ echo 'Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Lunyole_Saujas_5.txt
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Mongo_Saujas_8.txt
++ echo 'Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Mongo_Saujas_8.txt
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Indonesian_Saujas_9.txt
++ echo 'Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Indonesian_Saujas_9.txt
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Zoque_Saujas_11.txt
++ echo 'Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Zoque_Saujas_11.txt
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Hawaiian_Saujas_1.txt
++ echo 'Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Hawaiian_Saujas_1.txt
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Sursilvan_Saujas_3.txt
++ echo 'Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Sursilvan_Saujas_3.txt
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Warlpiri_Saujas_5.txt
++ echo 'Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Warlpiri_Saujas_5.txt
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
++ for problem_name in "${problem_names[@]}"
++ OUTPUT_FILE=FLAG_iter_Odden_Minangkabau_Saujas_6.txt
++ echo 'Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated'
++ tee -a FLAG_iter_Odden_Minangkabau_Saujas_6.txt
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ python driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
++ echo
++ echo
+
+------ Run ended at Wed Jul 17 06:17:23 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:26:34 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:26:41 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:27:45 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Command server is running with PID: 2503678
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2503678
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:27:53 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:29:26 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Command server is running with PID: 2529097
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Command server is running with PID: 2529097
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:29:34 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:32:48 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:32:55 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:42:47 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:42:57 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:44:15 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:44:22 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:45:13 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:45:21 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:46:42 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:46:50 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 06:48:01 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Wed Jul 17 06:48:09 UTC 2024 ------
+
+
+
+------ Run started at Wed Jul 17 07:51:12 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated

@@ -35,7 +35,6 @@ def apply_rule(word, rule, feature_bank):
     target_found = any(matches_target(token, target, feature_bank) for token in tokens)
     # print(u"Checking if target phoneme '{}' is in word '{}': {}".format(target, word, target_found))
     if target and not target_found:
-        # print(u"Target phoneme not found in the word. Skipping rule application.")
         return word
 
     applied = False
@@ -46,6 +45,8 @@ def apply_rule(word, rule, feature_bank):
                 # HANDLE SPECIAL CASES FOR THEIR NOTATION SYSTEM THING
                 if replacement == '1':
                     new_tokens[i] = tokens[i + 1]
+                elif replacement == '-1':
+                    new_tokens[i] = tokens[i - 1]
                 elif replacement == 'place1':
                     new_tokens[i] = feature_bank.assimilatePlace(tokens[i], tokens[i + 1])
                 else:
@@ -128,7 +129,8 @@ def apply_replacement(token, replacement, feature_bank):
     for char, features in feature_bank.featureMap.items():
         if set(features) == replacement_features:
             return char
-    return replacement  # If no exact match found, return the replacement as-is
+    return replacement  #(the replacement is just the input if no fixes)
+
 
 def identify_affixes(solution_text):
     # read whatever the soln says about "/prefix/ + stem + /suffix/"
@@ -199,7 +201,6 @@ def process_data(data, rules, feature_bank, affixes):
              
             #TODO: this is an EXTREMELY sus fix right now to pick the right affix
 
-
             
                 for affix_type, affix in affixes:
                     # affix_tokens = affix.split()
@@ -215,7 +216,7 @@ def process_data(data, rules, feature_bank, affixes):
                 
                 print(u"Underlying form: {}".format(underlying_form))
 
-                # Space-separate the affix to apply
+                # fix the spacing 
                 affix_to_apply = ' '.join(list(affixes[i][1]))
                 affix_type_to_apply = affixes[i][0]
                 if affix_type_to_apply == "prefix":
@@ -223,8 +224,7 @@ def process_data(data, rules, feature_bank, affixes):
                 else:
                     generated_form = underlying_form + ' ' + affix_to_apply
                 print(u"Generated form before applying rules: {}".format(generated_form))
-                
-                # Apply the phonological rules
+
                 for rule in rules:
                     generated_form = apply_rule(generated_form, rule, feature_bank)
                 
@@ -256,7 +256,7 @@ def main(json_filepath, text_filepath):
         for entry in data["test"]:
             for i, field in enumerate(entry):
                 if field != "?":
-                    feature_index = i #THE WAY THIS WORKS CURRENTLY IT CAN ONLY HANDLE ONE KIND 
+                    feature_index = i #THE WAY THIS WORKS CURRENTLY IT CAN ONLY HANDLE ONE KIND (crying sobbing)
 
     rules_sets = read_rules_from_text(text_filepath)
     all_results = {}
@@ -271,9 +271,7 @@ def main(json_filepath, text_filepath):
         all_phonemes = featureMap.keys()
         feature_bank = FeatureBank(all_phonemes)
 
-
         affixes = identify_affixes(solution_text)
-        # print(u"Affixes: {}".format(affixes))
 
         processed_test_set = process_data(data, rules, feature_bank, affixes)
 

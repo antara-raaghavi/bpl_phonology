@@ -1,0 +1,2598 @@
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+Error: driver.py failed with status code 1 for problem Odden_Mongo_Saujas_8
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 62, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in command_server_running
+    if p.info and p.info.get('name') == 'python' and 'command_server.py' in p.info.get('cmdline', []) and 'KILL' not in p.info.get('cmdline', []):
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Traceback (most recent call last):
+  File "driver.py", line 19, in <module>
+    from command_server import start_server
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 82
+    print(f"Found command server process: {p.pid}")
+                                                 ^
+SyntaxError: invalid syntax
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Finnish
+Mandar
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Dutch
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Quechua
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Somali
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Lunyole
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Tarangan
+Terena
+Mongo
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Indonesian
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+Budukh
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Zoque
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+{u'families': [u'Uralic'], u'source_language': u'Estonian', u'train': [[u'm a j a', u'm a j a', u'm a j a l', u'm a j a d', u'm a j a d e', u'm a j a d e l'], [u'p e s a', u'p e s a', u'p e s a l', u'p e s a d', u'p e s a d e', u'p e s a d e l'], [u'l a u l j a', u'l a u l j a t', u'l a u l j a l', u'l a u l j a d', u'l a u l j a t e', u'l a u l j a t e l'], [u's \xf6 \xf6 k l a', u's \xf6 \xf6 k l a t', u's \xf6 \xf6 k l a l', u's \xf6 \xf6 k l a d', u's \xf6 \xf6 k l a t e', u's \xf6 \xf6 k l a t e l'], [u'n i m e', u'n i m e', u'n i m e l', u'n i m e d', u'n i m e d e', u'n i m e d e l'], [u'j \xe4 \xe4', u'j \xe4 \xe4 d', u'j \xe4 \xe4 l', u'j \xe4 \xe4 d', u'j \xe4 \xe4 d e', u'j \xe4 \xe4 d e l'], [u's u v e', u's u v e', u's u v e l', u's u v e d', u's u v e d e', u's u v e d e l'], [u'v a l g e', u'v a l g e t', u'v a l g e l', u'v a l g e d', u'v a l g e t e', u'v a l g e t e l'], [u'\xf5 e', u'\xf5 d e', u'\xf5 e l', u'\xf5 e d', u'\xf5 d e d e', u'\xf5 d e d e l'], [u't e e', u't e e d', u't e e l', u't e e d', u't e e d e', u't e e d e l'], [u's u u r e', u's u u r t', u's u u r e l', u's u u r e d', u's u u r t e', u's u u r t e l'], [u'k o l l a s e', u'k o l l a s t', u'k o l l a s e l', u'k o l l a s e d', u'k o l l a s t e', u'k o l l a s t e l'], [u'm e h e', u'm e e s t', u'm e h e l', u'm e h e d', u'm e e s t e', u'm e e s t e l'], [u'o a', u'u b a', u'o a l', u'o a d', u'u b a d e', u'u b a d e l'], [u'p \xf5 h j u s e', u'p \xf5 h j u s t', u'p \xf5 h j u s e l', u'p \xf5 h j u s e d', u'p \xf5 h j u s t e', u'p \xf5 h j u s t e l'], [u'l o o', u'l u g u', u'l o o l', u'l o o d', u'l u g u d e', u'l u g u d e l'], [u's a a r e', u's a a r t', u's a a r e l', u's a a r e d', u's a a r t e', u's a a r t e l']], u'test': [[u'?', u'k u u d', u'k u u l', u'?', u'?', u'?'], [u'i n i m e s e', u'?', u'?', u'?', u'i n i m e s t e', u'?'], [u'?', u'k a l a', u'?', u'k a l a d', u'?', u'?']], u'type': u'morphology', u'target_language': u''}
+Estonian
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Turkish
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Hawaiian
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+English
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Sursilvan
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Ladin
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Warlpiri
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Minangkabau
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+Traceback (most recent call last):
+  File "driver.py", line 287, in <module>
+    start_server(arguments.cores)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 55, in start_server
+    if command_server_running():
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
+    if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+ [+] Found existing command server: 40 CPUs
+Executing driver @ 2024-07-17 07:59:53.650289
+Command line driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Mongo Saujas 8 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+bota        oota         aota        baota
+kamba       okamba       akamba      bakamba
+imed^za     wimed^za     imed^za     bimed^za
+usa         wusa         usa         busa
+bata        oata         aata        baata
+ɛna         wɛna         ɛna         bɛna
+isa         wisa         isa         bisa
+d^zila      od^zila      ad^zila     bad^zila
+ina         wina         ina         bina
+bina        oina         aina        baina
+asa         wasa         asa         basa
+saŋga       osaŋga       asaŋga      basaŋga
+Solver has adaptively set the window size to 2
+Starting out with explaining just the first 2 examples:
+/bota/	~	/oota/	~	/aota/	~	/baota/
+/kamba/	~	/okamba/	~	/akamba/	~	/bakamba/
+[((/bota/, /oota/, /aota/, /baota/), 0), ((/kamba/, /okamba/, /akamba/, /bakamba/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCxUX6b.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVosDxN 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVosDxN
+Ran the solver in 18.842641 sec (18.843232 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpCxUX6b.sk
+Final hole value: 19
+Morphological analysis:
+Inflection 0:	/b/ + stem + //
+Inflection 1:	/o/ + stem + //
+Inflection 2:	/a/ + stem + //
+Inflection 3:	/ba/ + stem + //
+Phonological rules:
+[ -sonorant ] ---> Ø /  _ [ -tense ]
+Invoking solver (timeout 86381.1573589): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp9PTjRM.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmqsDJQ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmqsDJQ
+Ran the solver in 3.019138 sec (3.019753 wall clock, includes blocking)
+Next data points to explain: 
+/imed^za/	~	/wimed^za/	~	/imed^za/	~	/bimed^za/
+/usa/	~	/wusa/	~	/usa/	~	/busa/
+# parallel sketch jobs: 2
+# data points not in window or fixed: 2
+[((/bota/, /oota/, /aota/, /baota/), 3), ((/kamba/, /okamba/, /akamba/, /bakamba/), 5), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/usa/, /wusa/, /usa/, /busa/), 2)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpaRGb5d.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4WPWt1 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4WPWt1
+[((/bota/, /oota/, /aota/, /baota/), 3), ((/kamba/, /okamba/, /akamba/, /bakamba/), 5), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/usa/, /wusa/, /usa/, /busa/), 2)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp69p6Zf.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpsqk0xK 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpsqk0xK
+Ran the solver in 723.120246 sec (723.125137 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpaRGb5d.sk
+	(modification successful; loss = 19, solution = 
+	[  ] ---> Ø /  _ [ +high +tense ]
+	[ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ]	)
+CEGIS: About to find a counterexample to:
+rule: [  ] ---> Ø /  _ [ +high +tense ]
+rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ]
+/b/ + stem + /a/
+/wo/ + stem + /a/
+/a/ + stem + /a/
+/ba/ + stem + /a/
+underlying form: /us/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamb/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ot/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^z/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+Invoking solver (timeout 85655.0179751): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCRxHUd.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp_OWX7R 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp_OWX7R
+Ran the solver in 2.823306 sec (2.826733 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpCRxHUd.sk
+Invoking solver (timeout 85652.1946692): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpya_rJC.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpiVBqLR 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpiVBqLR
+Ran the solver in 2.719383 sec (2.720008 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpya_rJC.sk
+Invoking solver (timeout 85649.4752862): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCDahpy.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0MTDhl 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0MTDhl
+Ran the solver in 2.569500 sec (2.570173 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpCDahpy.sk
+Invoking solver (timeout 85646.9057863): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpzy4xEo.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpvJ94Xc 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpvJ94Xc
+Ran the solver in 2.468993 sec (2.469671 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpzy4xEo.sk
+No counterexample so I am just returning best solution
+Invoking solver (timeout 85644.4367931): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpxtbRA_.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYslgQt 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYslgQt
+Ran the solver in 2.569704 sec (2.570461 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpxtbRA_.sk
+Invoking solver (timeout 85641.867089): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp7e4fxo.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMyGL9M 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMyGL9M
+Ran the solver in 2.719661 sec (2.720391 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp7e4fxo.sk
+Invoking solver (timeout 85639.147428): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpfDQ1GU.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcDKavp 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcDKavp
+Ran the solver in 2.569503 sec (2.570158 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpfDQ1GU.sk
+Invoking solver (timeout 85636.577925): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpWalAYS.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpzQ27ej 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpzQ27ej
+Ran the solver in 2.419964 sec (2.420724 wall clock, includes blocking)
+Ran the solver in 1076.212219 sec (1076.215391 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp69p6Zf.sk
+	(modification successful; loss = 16, solution = 
+	[ -sonorant ] ---> Ø /  _ [ -tense ]
+	[  ] ---> w /  _ [ +high +voice ]
+	[ +glide ] ---> Ø /  _ [ +tense ]	)
+CEGIS: About to find a counterexample to:
+rule: [ -sonorant ] ---> Ø /  _ [ -tense ]
+rule: [  ] ---> w /  _ [ +high +voice ]
+rule: [ +glide ] ---> Ø /  _ [ +tense ]
+/b/ + stem
+/wo/ + stem
+/a/ + stem
+/ba/ + stem
+underlying form: /usa/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamba/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ota/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^za/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+Invoking solver (timeout 85301.926002): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptDx2QV.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpkSPBtG 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpkSPBtG
+Ran the solver in 2.719082 sec (2.720522 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmptDx2QV.sk
+Invoking solver (timeout 85299.2069201): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp9MT_pD.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpwoXEnB 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpwoXEnB
+Ran the solver in 2.819059 sec (2.819705 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp9MT_pD.sk
+Invoking solver (timeout 85296.3878613): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpHqOraJ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfJwKtZ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfJwKtZ
+Ran the solver in 2.820159 sec (2.820814 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpHqOraJ.sk
+Invoking solver (timeout 85293.5677023): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpAA7g0I.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpIGDRVR 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpIGDRVR
+Ran the solver in 2.569359 sec (2.570003 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpAA7g0I.sk
+No counterexample so I am just returning best solution
+Invoking solver (timeout 85290.9983432): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpVUSNVY.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmjUUKv 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmjUUKv
+Ran the solver in 2.718939 sec (2.719581 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpVUSNVY.sk
+Invoking solver (timeout 85288.2794044): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpGyt0c8.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpr8dL8F 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpr8dL8F
+Ran the solver in 2.819939 sec (2.820571 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpGyt0c8.sk
+Invoking solver (timeout 85285.4594655): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCw3YHj.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpqCnsBv 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpqCnsBv
+Ran the solver in 2.869355 sec (2.870031 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpCw3YHj.sk
+Invoking solver (timeout 85282.5901105): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpjMeKna.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfITeXA 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpfITeXA
+Ran the solver in 2.519475 sec (2.520130 wall clock, includes blocking)
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpsg3D9o.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpxnkzoa 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpxnkzoa
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpkxV7BZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp1jmtZg 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp1jmtZg
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmph78Zjo.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpeTFVas 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpeTFVas
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptvqCzG.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpgQtzZ4 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpgQtzZ4
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpP1GzQl.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpeQdPz8 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpeQdPz8
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpwA658F.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWl91eq 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWl91eq
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpx6FXCB.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpG1bQUd 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpG1bQUd
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpRy2UMe.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpf8rQbs 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpf8rQbs
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpXXL5iU.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcW_cqQ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcW_cqQ
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpVnwTu0.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpc57ch1 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpc57ch1
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpC3emIh.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmqo5Sz 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmqo5Sz
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp2_f5wT.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpPGSDzg 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpPGSDzg
+Ran the solver in 2.641687 sec (2.642727 wall clock, includes blocking)
+Ran the solver in 2.620657 sec (2.621520 wall clock, includes blocking)
+Ran the solver in 2.830789 sec (2.831739 wall clock, includes blocking)
+Ran the solver in 2.670063 sec (2.670988 wall clock, includes blocking)
+Ran the solver in 2.720991 sec (2.722031 wall clock, includes blocking)
+Ran the solver in 2.907378 sec (2.908269 wall clock, includes blocking)
+Ran the solver in 2.820670 sec (2.821598 wall clock, includes blocking)
+Ran the solver in 3.129678 sec (3.131120 wall clock, includes blocking)
+Ran the solver in 3.020249 sec (3.021317 wall clock, includes blocking)
+Ran the solver in 3.070849 sec (3.071875 wall clock, includes blocking)
+Ran the solver in 3.121748 sec (3.122710 wall clock, includes blocking)
+Ran the solver in 3.170828 sec (3.171814 wall clock, includes blocking)
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpXBYdfa.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp1gr_2j 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp1gr_2j
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp56wLB4.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpv7GjqS 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpv7GjqS
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCb0_A3.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWVOmsM 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpWVOmsM
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpUu1dcZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7XS2hD 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7XS2hD
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpG2iJLV.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpA7pedO 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpA7pedO
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpJEneAA.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpdHTCrU 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpdHTCrU
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptDWJnf.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp9Xa7xF 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp9Xa7xF
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpAzRXc7.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8cQBFk 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8cQBFk
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmprZFFcP.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpI32yza 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpI32yza
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp6ZTUD2.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHNTItc 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHNTItc
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpFHknRK.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7BUWFm 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp7BUWFm
+Invoking solver (timeout 86378.138221): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpTPVUFd.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpTMrr2C 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpTMrr2C
+Ran the solver in 2.765272 sec (2.766264 wall clock, includes blocking)
+Ran the solver in 2.750803 sec (2.768619 wall clock, includes blocking)
+Ran the solver in 2.736027 sec (2.752854 wall clock, includes blocking)
+Ran the solver in 2.915788 sec (2.919554 wall clock, includes blocking)
+Ran the solver in 3.085018 sec (3.085901 wall clock, includes blocking)
+Ran the solver in 3.088042 sec (3.088818 wall clock, includes blocking)
+Ran the solver in 3.085338 sec (3.087137 wall clock, includes blocking)
+Ran the solver in 3.073569 sec (3.074436 wall clock, includes blocking)
+Ran the solver in 3.072986 sec (3.073870 wall clock, includes blocking)
+Ran the solver in 3.167650 sec (3.169906 wall clock, includes blocking)
+Ran the solver in 3.201863 sec (3.220281 wall clock, includes blocking)
+Ran the solver in 3.172497 sec (3.173835 wall clock, includes blocking)
+Finished using global timeout. dt=1098.703562
+Global timeout counter is now 85279.434659
+Alternative solutions and their scores:
+COST = 25.000000 + (93 everything, 12 invariant) = (118.000000, 37.000000). SOLUTION = 
+rule: [  ] ---> Ø /  _ [ +high +tense ]
+rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ]
+/b/ + stem + /a/
+/wo/ + stem + /a/
+/a/ + stem + /a/
+/ba/ + stem + /a/
+underlying form: /us/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamb/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ot/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^z/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+
+COST = 24.000000 + (114 everything, 16 invariant) = (138.000000, 40.000000). SOLUTION = 
+rule: [ -sonorant ] ---> Ø /  _ [ -tense ]
+rule: [  ] ---> w /  _ [ +high +voice ]
+rule: [ +glide ] ---> Ø /  _ [ +tense ]
+/b/ + stem
+/wo/ + stem
+/a/ + stem
+/ba/ + stem
+underlying form: /usa/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamba/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ota/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^za/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+
+Picking the model with the best cost as ordered by: invariantCost > everythingCost
+ [+] Best new solution (cost = 37.00):
+rule: [  ] ---> Ø /  _ [ +high +tense ]
+rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ]
+/b/ + stem + /a/
+/wo/ + stem + /a/
+/a/ + stem + /a/
+/ba/ + stem + /a/
+underlying form: /us/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamb/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ot/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^z/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+Invoking solver (timeout 85279.434659): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp0jHC_c.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpOIC4RU 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpOIC4RU
+Ran the solver in 2.569078 sec (2.569902 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp0jHC_c.sk
+Invoking solver (timeout 85276.8655808): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpP1ebeY.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4AeXOo 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4AeXOo
+Ran the solver in 2.669479 sec (2.670234 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpP1ebeY.sk
+Invoking solver (timeout 85274.1961019): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp3_TjD1.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmxMdFW 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpmxMdFW
+Ran the solver in 2.569431 sec (2.570106 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp3_TjD1.sk
+Invoking solver (timeout 85271.6266711): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpbQIntf.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpjkuhSN 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpjkuhSN
+Ran the solver in 2.419221 sec (2.419859 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpbQIntf.sk
+Invoking solver (timeout 85269.2074502): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpN6zMRc.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHOP3YL 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHOP3YL
+Ran the solver in 2.569306 sec (2.569928 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpN6zMRc.sk
+Invoking solver (timeout 85266.638144): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptkqYto.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpKqXuJQ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpKqXuJQ
+Ran the solver in 2.969265 sec (2.969855 wall clock, includes blocking)
+Next data points to explain: 
+/ɛna/	~	/wɛna/	~	/ɛna/	~	/bɛna/
+/isa/	~	/wisa/	~	/isa/	~	/bisa/
+# parallel sketch jobs: 5
+# data points not in window or fixed: 5
+[((/usa/, /wusa/, /usa/, /busa/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpU3GjjR.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpZGxB6Q 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpZGxB6Q
+[((/usa/, /wusa/, /usa/, /busa/), 2), ((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp4TcFnE.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpDZVFZk 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpDZVFZk
+[((/usa/, /wusa/, /usa/, /busa/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpoIGaRs.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpB3tvEt 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpB3tvEt
+[((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/usa/, /wusa/, /usa/, /busa/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpzHG4XX.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0j1yAP 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0j1yAP
+[((/usa/, /wusa/, /usa/, /busa/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpIY7jQy.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpNWiXiA 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpNWiXiA

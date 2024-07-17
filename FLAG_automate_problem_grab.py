@@ -203,7 +203,7 @@ def compatible_char_ipa(data):
         data = json.loads(json_str_replaced)
 
     elif language.lower() in ['estonian', 'budukh']:
-        print(data)
+        # print(data)
         data = json.loads(json.dumps(data).replace('\u00f6', 'ö'))
         json_str = json.dumps(data)
         json_str_replaced = json_str.replace('\u00f6', 'ö')
@@ -353,7 +353,7 @@ def format_phonmorph(folder_paths, output_files):
                     data = json.load(file)
                     data = compatible_char_ipa(data)
                     language = data["source_language"]
-                    print(language)
+                    # print(language)
 
                     if language.lower() in ["finnish", "tarangan", "terena", "estonian"]:
 
