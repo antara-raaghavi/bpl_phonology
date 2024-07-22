@@ -1,0 +1,19 @@
+Processing solution set 1
+Surface form for entry 1: o l u s o s i
+Underlying form: s o s i
+Generated form before applying rules: e s o s i
+Error, this rule doesn't work: rule:
+Surface form for entry 1: o l u b a f u
+Underlying form: b a f u
+Generated form before applying rules: e b a f u
+Error, this rule doesn't work: rule:
+Surface form for entry 1: o l u p a g i
+Underlying form: p a g i
+Generated form before applying rules: e p a g i
+Error, this rule doesn't work: rule:
+Surface form for entry 1: o l u t a m b i
+Underlying form: t a m b i
+Generated form before applying rules: e t a m b i
+Applying rule: rule: [ +nasal ] ---> Ø / u _  to e t a m b i resulted in e t a m b i
+
+Error, this rule doesn't work: rule:

@@ -1,0 +1,401 @@
+Processing solution set 1
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: k i r ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i r ? resulted in p i r ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i r ? resulted in p i [ +voice -back -rounded ] ?
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Surface form for entry 2: rt i r i
+Underlying form: rt i r i
+Generated form before applying rules: k i r d rt i r i
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i r d rt i r i resulted in p i r d rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i r d rt i r i resulted in p i [ +voice -back -rounded ] d rt i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Applying rule: rule: [ +coronal ] ---> Ø / [ -sonorant ] _  to p i [ +voice -back -rounded ] d rt i r i resulted in p i [ +voice -back -rounded ]  rt i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ]  rt i r i resulted in p i [ +voice -back -rounded ] rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token 'rt'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token 'rt'
+Applying rule: rule: [ +coronal ] ---> Ø / [ -sonorant ] _  to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rt i r i
+
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: k i r ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i r ? resulted in p i r ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i r ? resulted in p i [ +voice -back -rounded ] ?
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ? resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] ?
+
+Surface form for entry 1: rd u p a
+Underlying form: rd u p a
+Generated form before applying rules: k i r rd u p a
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i r rd u p a resulted in p i r rd u p a
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i r rd u p a resulted in p i [ +voice -back -rounded ] rd u p a
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] rd u p a
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] rd u p a
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] rd u p a
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rd u p a
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rd u p a
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rd u p a resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] +voice -back -rounded ] rd u p a
+
+Processing solution set 2
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: k u ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Surface form for entry 2: rt i r i
+Underlying form: rt i r i
+Generated form before applying rules: k i rt i r i
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i rt i r i resulted in p i rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i rt i r i resulted in p i [ +voice -back -rounded ] i r i
+
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: k u ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Surface form for entry 1: rd u p a
+Underlying form: rd u p a
+Generated form before applying rules: k u rd u p a
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u rd u p a resulted in p u rd u p a
+
+Processing solution set 3
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: k u ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Surface form for entry 2: rt i r i
+Underlying form: rt i r i
+Generated form before applying rules: k i rt i r i
+Warning: No features found for token 'rt'
+Warning: No features found for token 'rt'
+Applying rule: rule: [ +coronal ] ---> Ø / [ -sonorant ] _  to k i rt i r i resulted in k i rt i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k i rt i r i resulted in p i rt i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i rt i r i resulted in p i [ +voice -back -rounded ] i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] i r i
+
+Warning: No features found for token '[ +voice -back -rounded ]'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p i [ +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _  to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p i [ +voice -back -rounded ] +voice -back -rounded ] i r i resulted in p i [ +voice -back -rounded ] +voice -back -rounded ] i r i
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token '-back'
+Warning: No features found for token '-rounded'
+Warning: No features found for token ']'
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: k u ?
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u ? resulted in p u ?
+
+Surface form for entry 1: rd u p a
+Underlying form: rd u p a
+Generated form before applying rules: k u rd u p a
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to k u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u rd u p a resulted in p u rd u p a
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _  to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Applying rule: rule: [  ] ---> p /  _ [  ] m to p u rd u p a resulted in p u rd u p a
+
+Warning: No features found for token 'rd'
+Processing solution set 4
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: n ?
+Applying rule: rule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _  to n ? resulted in n ?
+
+Applying rule: rule: [  ] ---> p /  _ [  ] m to n ? resulted in p ?
+
+Surface form for entry 2: rt i r i
+Underlying form: rt i r i

@@ -1,0 +1,1275 @@
+pragma options "--slv-p-cpus 1  --bnd-mbits 5 -V 10 --bnd-unroll-amnt 16  --fe-timeout 120 --slv-timeout 120  ";
+#define MAXIMUMMORPHLENGTH 14
+#define NUMBEROFFEATURES 16
+#define True 1
+#define False 0
+
+struct Sound{//@Immutable("")
+  bit anterior;
+  bit rounded;
+  bit glide;
+  bit liquid;
+  bit continuant;
+  bit lateral;
+  bit nasal;
+  bit back;
+  bit sonorant;
+  bit high;
+  bit palletized;
+  bit coronal;
+  bit tense;
+  bit low;
+  bit vowel;
+  bit voice;
+}
+
+#define DEFINEVECTOR struct Vector extends Specification{@Immutable("")\
+  bit anterior_specified; bit anterior;\
+  bit rounded_specified; bit rounded;\
+  bit glide_specified; bit glide;\
+  bit liquid_specified; bit liquid;\
+  bit continuant_specified; bit continuant;\
+  bit lateral_specified; bit lateral;\
+  bit nasal_specified; bit nasal;\
+  bit back_specified; bit back;\
+  bit sonorant_specified; bit sonorant;\
+  bit high_specified; bit high;\
+  bit palletized_specified; bit palletized;\
+  bit coronal_specified; bit coronal;\
+  bit tense_specified; bit tense;\
+  bit low_specified; bit low;\
+  bit vowel_specified; bit vowel;\
+  bit voice_specified; bit voice;\
+}
+
+
+#define VECTOREQUAL(p,q) (p.anterior_specified == q.anterior_specified && p.rounded_specified == q.rounded_specified && p.glide_specified == q.glide_specified && p.liquid_specified == q.liquid_specified && p.continuant_specified == q.continuant_specified && p.lateral_specified == q.lateral_specified && p.nasal_specified == q.nasal_specified && p.back_specified == q.back_specified && p.sonorant_specified == q.sonorant_specified && p.high_specified == q.high_specified && p.palletized_specified == q.palletized_specified && p.coronal_specified == q.coronal_specified && p.tense_specified == q.tense_specified && p.low_specified == q.low_specified && p.vowel_specified == q.vowel_specified && p.voice_specified == q.voice_specified && (p.anterior_specified && p.anterior) == (q.anterior_specified && q.anterior) && (p.rounded_specified && p.rounded) == (q.rounded_specified && q.rounded) && (p.glide_specified && p.glide) == (q.glide_specified && q.glide) && (p.liquid_specified && p.liquid) == (q.liquid_specified && q.liquid) && (p.continuant_specified && p.continuant) == (q.continuant_specified && q.continuant) && (p.lateral_specified && p.lateral) == (q.lateral_specified && q.lateral) && (p.nasal_specified && p.nasal) == (q.nasal_specified && q.nasal) && (p.back_specified && p.back) == (q.back_specified && q.back) && (p.sonorant_specified && p.sonorant) == (q.sonorant_specified && q.sonorant) && (p.high_specified && p.high) == (q.high_specified && q.high) && (p.palletized_specified && p.palletized) == (q.palletized_specified && q.palletized) && (p.coronal_specified && p.coronal) == (q.coronal_specified && q.coronal) && (p.tense_specified && p.tense) == (q.tense_specified && q.tense) && (p.low_specified && p.low) == (q.low_specified && q.low) && (p.vowel_specified && p.vowel) == (q.vowel_specified && q.vowel) && (p.voice_specified && p.voice) == (q.voice_specified && q.voice))
+
+#define EMPTYVECTOR(v) (v.anterior_specified == 0 && v.rounded_specified == 0 && v.glide_specified == 0 && v.liquid_specified == 0 && v.continuant_specified == 0 && v.lateral_specified == 0 && v.nasal_specified == 0 && v.back_specified == 0 && v.sonorant_specified == 0 && v.high_specified == 0 && v.palletized_specified == 0 && v.coronal_specified == 0 && v.tense_specified == 0 && v.low_specified == 0 && v.vowel_specified == 0 && v.voice_specified == 0)
+
+#define VECTORCOST(v) validateCost(v.voice_specified + validateCost(v.vowel_specified + validateCost(v.low_specified + validateCost(v.tense_specified + validateCost(v.coronal_specified + validateCost(v.palletized_specified + validateCost(v.high_specified + validateCost(v.sonorant_specified + validateCost(v.back_specified + validateCost(v.nasal_specified + validateCost(v.lateral_specified + validateCost(v.continuant_specified + validateCost(v.liquid_specified + validateCost(v.glide_specified + validateCost(v.rounded_specified + validateCost(v.anterior_specified + 0))))))))))))))))
+
+#define VECTORMATCHESSOUND(vector, sound) ((!vector.anterior_specified || vector.anterior == sound.anterior) && (!vector.rounded_specified || vector.rounded == sound.rounded) && (!vector.glide_specified || vector.glide == sound.glide) && (!vector.liquid_specified || vector.liquid == sound.liquid) && (!vector.continuant_specified || vector.continuant == sound.continuant) && (!vector.lateral_specified || vector.lateral == sound.lateral) && (!vector.nasal_specified || vector.nasal == sound.nasal) && (!vector.back_specified || vector.back == sound.back) && (!vector.sonorant_specified || vector.sonorant == sound.sonorant) && (!vector.high_specified || vector.high == sound.high) && (!vector.palletized_specified || vector.palletized == sound.palletized) && (!vector.coronal_specified || vector.coronal == sound.coronal) && (!vector.tense_specified || vector.tense == sound.tense) && (!vector.low_specified || vector.low == sound.low) && (!vector.vowel_specified || vector.vowel == sound.vowel) && (!vector.voice_specified || vector.voice == sound.voice))
+
+#define PROJECTVECTOR(vector, sound)\
+  bit anterior = (!vector.anterior_specified && sound.anterior) || (vector.anterior_specified && vector.anterior);\
+  bit rounded = (!vector.rounded_specified && sound.rounded) || (vector.rounded_specified && vector.rounded);\
+  bit glide = (!vector.glide_specified && sound.glide) || (vector.glide_specified && vector.glide);\
+  bit liquid = (!vector.liquid_specified && sound.liquid) || (vector.liquid_specified && vector.liquid);\
+  bit continuant = (!vector.continuant_specified && sound.continuant) || (vector.continuant_specified && vector.continuant);\
+  bit lateral = (!vector.lateral_specified && sound.lateral) || (vector.lateral_specified && vector.lateral);\
+  bit nasal = (!vector.nasal_specified && sound.nasal) || (vector.nasal_specified && vector.nasal);\
+  bit back = (!vector.back_specified && sound.back) || (vector.back_specified && vector.back);\
+  bit sonorant = (!vector.sonorant_specified && sound.sonorant) || (vector.sonorant_specified && vector.sonorant);\
+  bit high = (!vector.high_specified && sound.high) || (vector.high_specified && vector.high);\
+  bit palletized = (!vector.palletized_specified && sound.palletized) || (vector.palletized_specified && vector.palletized);\
+  bit coronal = (!vector.coronal_specified && sound.coronal) || (vector.coronal_specified && vector.coronal);\
+  bit tense = (!vector.tense_specified && sound.tense) || (vector.tense_specified && vector.tense);\
+  bit low = (!vector.low_specified && sound.low) || (vector.low_specified && vector.low);\
+  bit vowel = (!vector.vowel_specified && sound.vowel) || (vector.vowel_specified && vector.vowel);\
+  bit voice = (!vector.voice_specified && sound.voice) || (vector.voice_specified && vector.voice);\
+  if (!anterior && !rounded && !glide && !liquid && continuant && !lateral && !nasal && back && sonorant && !high && !palletized && !coronal && tense && low && vowel && voice) return phoneme_0;\
+  if (anterior && !rounded && !glide && !liquid && !continuant && !lateral && !nasal && !back && !sonorant && !high && !palletized && coronal && !tense && !low && !vowel && voice) return phoneme_1;\
+  if (!anterior && !rounded && !glide && !liquid && !continuant && !lateral && !nasal && back && !sonorant && high && !palletized && !coronal && !tense && !low && !vowel && voice) return phoneme_2;\
+  if (!anterior && !rounded && !glide && !liquid && continuant && !lateral && !nasal && !back && sonorant && high && !palletized && !coronal && tense && !low && vowel && voice) return phoneme_3;\
+  if (!anterior && !rounded && !glide && !liquid && !continuant && !lateral && !nasal && back && !sonorant && high && !palletized && !coronal && !tense && !low && !vowel && !voice) return phoneme_4;\
+  if (anterior && !rounded && !glide && !liquid && !continuant && !lateral && nasal && !back && sonorant && !high && !palletized && !coronal && !tense && !low && !vowel && voice) return phoneme_5;\
+  if (!anterior && !rounded && !glide && liquid && continuant && lateral && !nasal && !back && sonorant && !high && !palletized && coronal && !tense && !low && !vowel && voice) return phoneme_6;\
+  if (anterior && !rounded && !glide && !liquid && !continuant && !lateral && nasal && !back && sonorant && !high && !palletized && coronal && !tense && !low && !vowel && voice) return phoneme_7;\
+  if (anterior && !rounded && !glide && !liquid && !continuant && !lateral && !nasal && !back && !sonorant && !high && !palletized && !coronal && !tense && !low && !vowel && !voice) return phoneme_8;\
+  if (!anterior && !rounded && !glide && liquid && continuant && !lateral && !nasal && !back && sonorant && !high && !palletized && coronal && !tense && !low && !vowel && voice) return phoneme_9;\
+  if (!anterior && rounded && !glide && !liquid && continuant && !lateral && !nasal && back && sonorant && high && !palletized && !coronal && tense && !low && vowel && voice) return phoneme_10;\
+  if (anterior && !rounded && !glide && !liquid && !continuant && !lateral && !nasal && !back && !sonorant && !high && !palletized && coronal && !tense && !low && !vowel && !voice) return phoneme_11;\
+  if (!anterior && !rounded && glide && !liquid && continuant && !lateral && !nasal && !back && sonorant && !high && palletized && !coronal && !tense && !low && !vowel && voice) return phoneme_12;\
+assert 0;\
+
+
+#define UNKNOWNVECTOR anterior = ??, anterior_specified = ??, rounded = ??, rounded_specified = ??, glide = ??, glide_specified = ??, liquid = ??, liquid_specified = ??, continuant = ??, continuant_specified = ??, lateral = ??, lateral_specified = ??, nasal = ??, nasal_specified = ??, back = ??, back_specified = ??, sonorant = ??, sonorant_specified = ??, high = ??, high_specified = ??, palletized = ??, palletized_specified = ??, coronal = ??, coronal_specified = ??, tense = ??, tense_specified = ??, low = ??, low_specified = ??, vowel = ??, vowel_specified = ??, voice = ??, voice_specified = ??
+Sound phoneme_0 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 0,continuant = 1,lateral = 0,nasal = 0,back = 1,sonorant = 1,high = 0,palletized = 0,coronal = 0,tense = 1,low = 1,vowel = 1,voice = 1);
+Sound phoneme_1 = new Sound(anterior = 1,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 0,back = 0,sonorant = 0,high = 0,palletized = 0,coronal = 1,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_2 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 0,back = 1,sonorant = 0,high = 1,palletized = 0,coronal = 0,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_3 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 0,continuant = 1,lateral = 0,nasal = 0,back = 0,sonorant = 1,high = 1,palletized = 0,coronal = 0,tense = 1,low = 0,vowel = 1,voice = 1);
+Sound phoneme_4 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 0,back = 1,sonorant = 0,high = 1,palletized = 0,coronal = 0,tense = 0,low = 0,vowel = 0,voice = 0);
+Sound phoneme_5 = new Sound(anterior = 1,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 1,back = 0,sonorant = 1,high = 0,palletized = 0,coronal = 0,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_6 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 1,continuant = 1,lateral = 1,nasal = 0,back = 0,sonorant = 1,high = 0,palletized = 0,coronal = 1,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_7 = new Sound(anterior = 1,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 1,back = 0,sonorant = 1,high = 0,palletized = 0,coronal = 1,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_8 = new Sound(anterior = 1,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 0,back = 0,sonorant = 0,high = 0,palletized = 0,coronal = 0,tense = 0,low = 0,vowel = 0,voice = 0);
+Sound phoneme_9 = new Sound(anterior = 0,rounded = 0,glide = 0,liquid = 1,continuant = 1,lateral = 0,nasal = 0,back = 0,sonorant = 1,high = 0,palletized = 0,coronal = 1,tense = 0,low = 0,vowel = 0,voice = 1);
+Sound phoneme_10 = new Sound(anterior = 0,rounded = 1,glide = 0,liquid = 0,continuant = 1,lateral = 0,nasal = 0,back = 1,sonorant = 1,high = 1,palletized = 0,coronal = 0,tense = 1,low = 0,vowel = 1,voice = 1);
+Sound phoneme_11 = new Sound(anterior = 1,rounded = 0,glide = 0,liquid = 0,continuant = 0,lateral = 0,nasal = 0,back = 0,sonorant = 0,high = 0,palletized = 0,coronal = 1,tense = 0,low = 0,vowel = 0,voice = 0);
+Sound phoneme_12 = new Sound(anterior = 0,rounded = 0,glide = 1,liquid = 0,continuant = 1,lateral = 0,nasal = 0,back = 0,sonorant = 1,high = 0,palletized = 1,coronal = 0,tense = 0,low = 0,vowel = 0,voice = 1);
+#define UNKNOWNSOUND {| phoneme_0 | phoneme_1 | phoneme_2 | phoneme_3 | phoneme_4 | phoneme_5 | phoneme_6 | phoneme_7 | phoneme_8 | phoneme_9 | phoneme_10 | phoneme_11 | phoneme_12 |}
+#define UNKNOWNCONSTANTSPECIFICATION {| phoneme_0 | phoneme_1 | phoneme_2 | phoneme_3 | phoneme_4 | phoneme_5 | phoneme_6 | phoneme_7 | phoneme_8 | phoneme_9 | phoneme_10 | phoneme_11 | phoneme_12 |}
+
+#define PLACEASSIMILATION
+Sound assimilatePlace(Sound source, Sound target) {
+  if (target == phoneme_1) {
+    if (source == phoneme_1 || source == phoneme_5 || source == phoneme_6 || source == phoneme_7 || source == phoneme_8 || source == phoneme_9 || source == phoneme_11 || source == phoneme_12) return phoneme_1;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_2;
+    assert 0;}
+  if (target == phoneme_2) {
+    if (source == phoneme_1 || source == phoneme_5 || source == phoneme_6 || source == phoneme_7 || source == phoneme_8 || source == phoneme_9 || source == phoneme_11 || source == phoneme_12) return phoneme_1;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_2;
+    assert 0;}
+  if (target == phoneme_4) {
+    if (source == phoneme_12 || source == phoneme_8 || source == phoneme_5) return phoneme_8;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_4;
+    if (source == phoneme_11 || source == phoneme_9 || source == phoneme_7 || source == phoneme_1 || source == phoneme_6) return phoneme_11;
+    assert 0;}
+  if (target == phoneme_5) {
+    if (source == phoneme_12 || source == phoneme_8 || source == phoneme_5) return phoneme_5;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_2;
+    if (source == phoneme_11 || source == phoneme_9 || source == phoneme_7 || source == phoneme_1 || source == phoneme_6) return phoneme_7;
+    assert 0;}
+  if (target == phoneme_6) {
+    if (source == phoneme_1 || source == phoneme_2 || source == phoneme_4 || source == phoneme_5 || source == phoneme_6 || source == phoneme_7 || source == phoneme_8 || source == phoneme_9 || source == phoneme_11 || source == phoneme_12) return phoneme_6;
+    assert 0;}
+  if (target == phoneme_7) {
+    if (source == phoneme_12 || source == phoneme_8 || source == phoneme_5) return phoneme_5;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_2;
+    if (source == phoneme_11 || source == phoneme_9 || source == phoneme_7 || source == phoneme_1 || source == phoneme_6) return phoneme_7;
+    assert 0;}
+  if (target == phoneme_8) {
+    if (source == phoneme_12 || source == phoneme_8 || source == phoneme_5) return phoneme_8;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_4;
+    if (source == phoneme_11 || source == phoneme_9 || source == phoneme_7 || source == phoneme_1 || source == phoneme_6) return phoneme_11;
+    assert 0;}
+  if (target == phoneme_9) {
+    if (source == phoneme_1 || source == phoneme_5 || source == phoneme_6 || source == phoneme_7 || source == phoneme_8 || source == phoneme_9 || source == phoneme_11 || source == phoneme_12) return phoneme_9;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_2;
+    assert 0;}
+  if (target == phoneme_11) {
+    if (source == phoneme_12 || source == phoneme_8 || source == phoneme_5) return phoneme_8;
+    if (source == phoneme_4 || source == phoneme_2) return phoneme_4;
+    if (source == phoneme_11 || source == phoneme_9 || source == phoneme_7 || source == phoneme_1 || source == phoneme_6) return phoneme_11;
+    assert 0;}
+  if (target == phoneme_12) {
+    if (source == phoneme_1 || source == phoneme_2 || source == phoneme_4 || source == phoneme_5 || source == phoneme_6 || source == phoneme_7 || source == phoneme_8 || source == phoneme_9 || source == phoneme_11 || source == phoneme_12) return phoneme_12;
+    assert 0;}
+  assert 0;}
+
+#define ONLYNASAL(v) !v.anterior_specified && !v.rounded_specified && !v.glide_specified && !v.liquid_specified && !v.continuant_specified && !v.lateral_specified && v.nasal_specified&&v.nasal && !v.back_specified && !v.sonorant_specified && !v.high_specified && !v.palletized_specified && !v.coronal_specified && !v.tense_specified && !v.low_specified && !v.vowel_specified && !v.voice_specified
+#define MAKENASAL
+Sound makeNasal(Sound source){
+  if (source == phoneme_0) assert 0;
+  if (source == phoneme_1) return phoneme_7;
+  if (source == phoneme_2) return phoneme_5;
+  if (source == phoneme_3) assert 0;
+  if (source == phoneme_4) return phoneme_5;
+  if (source == phoneme_5) assert 0;
+  if (source == phoneme_6) return phoneme_7;
+  if (source == phoneme_7) assert 0;
+  if (source == phoneme_8) return phoneme_5;
+  if (source == phoneme_9) return phoneme_7;
+  if (source == phoneme_10) assert 0;
+  if (source == phoneme_11) return phoneme_7;
+  if (source == phoneme_12) return phoneme_5;
+}
+
+
+#include "common.skh"
+Rule __GLOBALDEFINITION__0() { return unknown_rule(); }
+Rule __GLOBALDEFINITION__1() { return unknown_rule(); }
+Word __GLOBALDEFINITION__2() { return unknown_word(); }
+Word __GLOBALDEFINITION__3() { return unknown_word(); }
+Word __GLOBALDEFINITION__4() { return unknown_word(); }
+Word __GLOBALDEFINITION__5() { return unknown_word(); }
+Word __GLOBALDEFINITION__6() { return unknown_word(); }
+Word __GLOBALDEFINITION__7() { return unknown_word(); }
+Word __GLOBALDEFINITION__8() { return unknown_word(); }
+Word __GLOBALDEFINITION__9() { return unknown_word(); }
+Word __GLOBALDEFINITION__10() { return unknown_word(); }
+Word __GLOBALDEFINITION__11() { return unknown_word(); }
+Word __GLOBALDEFINITION__12() { return unknown_word(); }
+Word __GLOBALDEFINITION__13() { return unknown_word(); }
+Word __GLOBALDEFINITION__14() { return unknown_word(); }
+Word __GLOBALDEFINITION__15() { return unknown_word(); }
+Word __GLOBALDEFINITION__16() { return unknown_word(); }
+Word __GLOBALDEFINITION__17() { return unknown_word(); }
+Word __GLOBALDEFINITION__18() { return unknown_word(); }
+Word __GLOBALDEFINITION__19() { return unknown_word(); }
+Word __GLOBALDEFINITION__20() { return unknown_word(); }
+harness void main() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+	int __DEFINITION__21 = ((((((((rule_cost(__globalConstant_Rule_0__)) + (0))) + (rule_cost(__globalConstant_Rule_2__)))) + (((((((((((((((((((((((((((((word_length(__globalConstant_Word_10__)) - (6))) + (0))) + (((word_length(__globalConstant_Word_11__)) - (4))))) + (((word_length(__globalConstant_Word_12__)) - (11))))) + (((word_length(__globalConstant_Word_13__)) - (4))))) + (((word_length(__globalConstant_Word_14__)) - (10))))) + (((word_length(__globalConstant_Word_15__)) - (4))))) + (((word_length(__globalConstant_Word_16__)) - (6))))) + (((word_length(__globalConstant_Word_17__)) - (5))))) + (((word_length(__globalConstant_Word_18__)) - (14))))) + (((word_length(__globalConstant_Word_19__)) - (8))))) + (((word_length(__globalConstant_Word_20__)) - (10))))) + (((word_length(__globalConstant_Word_21__)) - (10))))) + (((word_length(__globalConstant_Word_22__)) - (6))))))) + (((((((((((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_5__)))) - (1))) + (0))) + (((((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_7__)))) - (0))))) + (((((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_9__)))) - (1))))));
+	minimize(__DEFINITION__21);
+	assert (!(((is_insertion_rule(__globalConstant_Rule_0__) || is_deletion_rule(__globalConstant_Rule_0__) || is_insertion_rule(__globalConstant_Rule_1__) || is_deletion_rule(__globalConstant_Rule_1__) || is_insertion_rule(__globalConstant_Rule_2__) || is_deletion_rule(__globalConstant_Rule_2__) || is_insertion_rule(__globalConstant_Rule_3__) || is_deletion_rule(__globalConstant_Rule_3__)) && rule_uses_boundary(__globalConstant_Rule_0__))));
+	assert (!(((is_insertion_rule(__globalConstant_Rule_0__) || is_deletion_rule(__globalConstant_Rule_0__) || is_insertion_rule(__globalConstant_Rule_1__) || is_deletion_rule(__globalConstant_Rule_1__) || is_insertion_rule(__globalConstant_Rule_2__) || is_deletion_rule(__globalConstant_Rule_2__) || is_insertion_rule(__globalConstant_Rule_3__) || is_deletion_rule(__globalConstant_Rule_3__)) && rule_uses_boundary(__globalConstant_Rule_1__))));
+	assert (!(((is_insertion_rule(__globalConstant_Rule_0__) || is_deletion_rule(__globalConstant_Rule_0__) || is_insertion_rule(__globalConstant_Rule_1__) || is_deletion_rule(__globalConstant_Rule_1__) || is_insertion_rule(__globalConstant_Rule_2__) || is_deletion_rule(__globalConstant_Rule_2__) || is_insertion_rule(__globalConstant_Rule_3__) || is_deletion_rule(__globalConstant_Rule_3__)) && rule_uses_boundary(__globalConstant_Rule_2__))));
+	assert (!(((is_insertion_rule(__globalConstant_Rule_0__) || is_deletion_rule(__globalConstant_Rule_0__) || is_insertion_rule(__globalConstant_Rule_1__) || is_deletion_rule(__globalConstant_Rule_1__) || is_insertion_rule(__globalConstant_Rule_2__) || is_deletion_rule(__globalConstant_Rule_2__) || is_insertion_rule(__globalConstant_Rule_3__) || is_deletion_rule(__globalConstant_Rule_3__)) && rule_uses_boundary(__globalConstant_Rule_3__))));
+}
+
+harness void auxiliaryHarness_0() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_8,phoneme_3,phoneme_5,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_10__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_10__))), 8)));
+}
+
+harness void auxiliaryHarness_1() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_8,phoneme_3,phoneme_5,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_10__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_10__))), 8)));
+}
+
+harness void auxiliaryHarness_2() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_8,phoneme_3,phoneme_5,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_10__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_10__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_10__))), 8)));
+}
+
+harness void auxiliaryHarness_3() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_11,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_11__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_11__))), 6)));
+}
+
+harness void auxiliaryHarness_4() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_11__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_11__))), 6)));
+}
+
+harness void auxiliaryHarness_5() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_11__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_11__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_11__))), 6)));
+}
+
+harness void auxiliaryHarness_6() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_10,phoneme_9,phoneme_11,phoneme_10,phoneme_9,phoneme_1,phoneme_10,phoneme_9,phoneme_9,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_12__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_12__))), 12)));
+}
+
+harness void auxiliaryHarness_7() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_10,phoneme_9,phoneme_11,phoneme_10,phoneme_9,phoneme_1,phoneme_10,phoneme_9,phoneme_9,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_12__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_12__))), 12)));
+}
+
+harness void auxiliaryHarness_8() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_10,phoneme_9,phoneme_11,phoneme_10,phoneme_9,phoneme_1,phoneme_10,phoneme_9,phoneme_9,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_12__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_12__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_12__))), 12)));
+}
+
+harness void auxiliaryHarness_9() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_11,phoneme_3,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_13__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_13__))), 6)));
+}
+
+harness void auxiliaryHarness_10() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_1,phoneme_3,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_13__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_13__))), 6)));
+}
+
+harness void auxiliaryHarness_11() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_9,phoneme_1,phoneme_3,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_13__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_13__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_13__))), 6)));
+}
+
+harness void auxiliaryHarness_12() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_6,phoneme_0,phoneme_7,phoneme_2,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_14__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_14__))), 12)));
+}
+
+harness void auxiliaryHarness_13() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_6,phoneme_0,phoneme_7,phoneme_2,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_14__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_14__))), 12)));
+}
+
+harness void auxiliaryHarness_14() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0,phoneme_9,phoneme_6,phoneme_0,phoneme_7,phoneme_2,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_14__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_14__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_14__))), 12)));
+}
+
+harness void auxiliaryHarness_15() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_15__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_15__))), 6)));
+}
+
+harness void auxiliaryHarness_16() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_15__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_15__))), 6)));
+}
+
+harness void auxiliaryHarness_17() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 5, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_15__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_15__))), 6), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_15__))), 6)));
+}
+
+harness void auxiliaryHarness_18() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_16__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_16__))), 8)));
+}
+
+harness void auxiliaryHarness_19() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_16__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_16__))), 8)));
+}
+
+harness void auxiliaryHarness_20() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_4,phoneme_3,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_10})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_16__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_16__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_16__))), 8)));
+}
+
+harness void auxiliaryHarness_21() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 6, s = {phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_17__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_17__))), 7)));
+}
+
+harness void auxiliaryHarness_22() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 6, s = {phoneme_9,phoneme_1,phoneme_0,phoneme_9,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_17__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_17__))), 7)));
+}
+
+harness void auxiliaryHarness_23() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 6, s = {phoneme_9,phoneme_1,phoneme_0,phoneme_9,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_17__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_17__))), 7), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_17__))), 7)));
+}
+
+harness void auxiliaryHarness_24() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 14, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_7,phoneme_0,phoneme_7,phoneme_2,phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_18__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_18__))), 15)));
+}
+
+harness void auxiliaryHarness_25() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 14, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_7,phoneme_0,phoneme_7,phoneme_2,phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_18__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_18__))), 15)));
+}
+
+harness void auxiliaryHarness_26() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 14, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_7,phoneme_0,phoneme_7,phoneme_2,phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_0,phoneme_9,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_18__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_18__))), 15), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_18__))), 15)));
+}
+
+harness void auxiliaryHarness_27() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 8, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_19__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_19__))), 9)));
+}
+
+harness void auxiliaryHarness_28() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 8, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_19__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_19__))), 9)));
+}
+
+harness void auxiliaryHarness_29() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 8, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_1,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_19__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_19__))), 9), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_19__))), 9)));
+}
+
+harness void auxiliaryHarness_30() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_20__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_20__))), 12)));
+}
+
+harness void auxiliaryHarness_31() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_20__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_20__))), 12)));
+}
+
+harness void auxiliaryHarness_32() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_1,phoneme_3,phoneme_9,phoneme_6,phoneme_3})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_20__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_20__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_20__))), 12)));
+}
+
+harness void auxiliaryHarness_33() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_6,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_21__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_21__))), 12)));
+}
+
+harness void auxiliaryHarness_34() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_6,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_21__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_21__))), 12)));
+}
+
+harness void auxiliaryHarness_35() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 11, s = {phoneme_4,phoneme_0,phoneme_9,phoneme_11,phoneme_3,phoneme_9,phoneme_1,phoneme_3,phoneme_9,phoneme_6,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_21__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_21__))), 12), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_21__))), 12)));
+}
+
+harness void auxiliaryHarness_36() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_4__, __globalConstant_Word_22__, __globalConstant_Word_5__), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_4__)) + (word_length(__globalConstant_Word_22__))), 8)));
+}
+
+harness void auxiliaryHarness_37() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_6__, __globalConstant_Word_22__, __globalConstant_Word_7__), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_6__)) + (word_length(__globalConstant_Word_22__))), 8)));
+}
+
+harness void auxiliaryHarness_38() {
+Rule __globalConstant_Rule_0__ = __GLOBALDEFINITION__0();
+Rule __globalConstant_Rule_1__ = new Rule(focus = null, structural_change = new ConstantPhoneme(phoneme = phoneme_9), left_trigger = new Guard(endOfString = 0, optionalEndOfString = 1, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 1, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 0, nasal_specified = 0, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 1, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 1, coronal_specified = 1, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), spec2 = null));
+Rule __globalConstant_Rule_2__ = __GLOBALDEFINITION__1();
+Rule __globalConstant_Rule_3__ = new Rule(focus = new Vector(anterior = 0, anterior_specified = 0, rounded = 0, rounded_specified = 0, glide = 0, glide_specified = 0, liquid = 0, liquid_specified = 0, continuant = 0, continuant_specified = 0, lateral = 0, lateral_specified = 0, nasal = 1, nasal_specified = 1, back = 0, back_specified = 0, sonorant = 0, sonorant_specified = 0, high = 0, high_specified = 0, palletized = 0, palletized_specified = 0, coronal = 0, coronal_specified = 0, tense = 0, tense_specified = 0, low = 0, low_specified = 0, vowel = 0, vowel_specified = 0, voice = 0, voice_specified = 0), structural_change = null, left_trigger = new Guard(endOfString = 1, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null), right_trigger = new Guard(endOfString = 0, optionalEndOfString = 0, starred = 0, spec = null, spec2 = null));
+Word __globalConstant_Word_4__ = __GLOBALDEFINITION__2();
+Word __globalConstant_Word_5__ = __GLOBALDEFINITION__3();
+Word __globalConstant_Word_6__ = __GLOBALDEFINITION__4();
+Word __globalConstant_Word_7__ = __GLOBALDEFINITION__5();
+Word __globalConstant_Word_8__ = __GLOBALDEFINITION__6();
+Word __globalConstant_Word_9__ = __GLOBALDEFINITION__7();
+Word __globalConstant_Word_10__ = __GLOBALDEFINITION__8();
+Word __globalConstant_Word_11__ = __GLOBALDEFINITION__9();
+Word __globalConstant_Word_12__ = __GLOBALDEFINITION__10();
+Word __globalConstant_Word_13__ = __GLOBALDEFINITION__11();
+Word __globalConstant_Word_14__ = __GLOBALDEFINITION__12();
+Word __globalConstant_Word_15__ = __GLOBALDEFINITION__13();
+Word __globalConstant_Word_16__ = __GLOBALDEFINITION__14();
+Word __globalConstant_Word_17__ = __GLOBALDEFINITION__15();
+Word __globalConstant_Word_18__ = __GLOBALDEFINITION__16();
+Word __globalConstant_Word_19__ = __GLOBALDEFINITION__17();
+Word __globalConstant_Word_20__ = __GLOBALDEFINITION__18();
+Word __globalConstant_Word_21__ = __GLOBALDEFINITION__19();
+Word __globalConstant_Word_22__ = __GLOBALDEFINITION__20();
+ assert (word_equal((new Word(l = 7, s = {phoneme_5,phoneme_0,phoneme_9,phoneme_1,phoneme_0,phoneme_4,phoneme_0})), apply_rule(__globalConstant_Rule_3__, apply_rule(__globalConstant_Rule_2__, apply_rule(__globalConstant_Rule_1__, apply_rule(__globalConstant_Rule_0__, concatenate3(__globalConstant_Word_8__, __globalConstant_Word_22__, __globalConstant_Word_9__), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_22__))), 8), ((word_length(__globalConstant_Word_8__)) + (word_length(__globalConstant_Word_22__))), 8)));
+}

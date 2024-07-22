@@ -1,0 +1,369 @@
+Processing solution set 1
+Surface form for entry 1: f l a w t a
+Underlying form: f l a w t a
+Generated form before applying rules: m f l a w t a
+Applying rule: rule: [ +nasal ] ---> Ø / # _  to m f l a w t a resulted in  f l a w t a
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  f l a w t a resulted in f [ +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Applying rule: rule: [ +voice ] ---> Ø / # _  to f [ +voice ] a w t a resulted in f [ +voice ] a w t a
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to f [ +voice ] a w t a resulted in f [ +voice ] +voice ] a w t a
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to f [ +voice ] +voice ] a w t a resulted in f [ +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to f [ +voice ] +voice ] +voice ] a w t a resulted in f [ +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to f [ +voice ] +voice ] +voice ] a w t a resulted in f [ +voice ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Applying rule: rule: [  ] ---> Ø / # _ [ -voice ] to f [ +voice ] +voice ] +voice ] +voice ] a w t a resulted in  [ +voice ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '+voice'
+Applying rule: rule: [  ] ---> [ -voice ] / # _ [ +low ] to  [ +voice ] +voice ] +voice ] +voice ] a w t a resulted in [ +voice ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Applying rule: rule: [ +voice ] ---> Ø / # _  to  [ +voice ] +voice ] +voice ] +voice ] a w t a resulted in [ +voice ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  [ +voice ] +voice ] +voice ] +voice ] a w t a resulted in [ [ +voice ] ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] +voice ] +voice ] +voice ] a w t a resulted in [ [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '[ +nasal ]'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to [ [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a resulted in [ +nasal ] [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ +nasal ] [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a resulted in [ [ +voice ] ] [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a resulted in [ [ +voice ] +voice ] ] [ +voice ] +voice ] ] +voice ] +voice ] +voice ] a w t a
+
+Surface form for entry 1: d i s k o
+Underlying form: d i s k o
+Generated form before applying rules: m d i s k o
+Applying rule: rule: [ +nasal ] ---> Ø / # _  to m d i s k o resulted in  d i s k o
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  d i s k o resulted in d [ +voice ] s k o
+
+Applying rule: rule: [ +voice ] ---> Ø / # _  to d [ +voice ] s k o resulted in  [ +voice ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  [ +voice ] s k o resulted in [ [ +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] s k o resulted in [ [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '[ +nasal ]'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to [ [ +voice ] +voice ] ] s k o resulted in [ +nasal ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ +nasal ] [ +voice ] +voice ] ] s k o resulted in [ [ +voice ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Applying rule: rule: [  ] ---> Ø / # _ [ -voice ] to [ [ +voice ] ] [ +voice ] +voice ] ] s k o resulted in  [ +voice ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '+voice'
+Applying rule: rule: [  ] ---> [ -voice ] / # _ [ +low ] to  [ +voice ] ] [ +voice ] +voice ] ] s k o resulted in [ +voice ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Applying rule: rule: [ +voice ] ---> Ø / # _  to  [ +voice ] ] [ +voice ] +voice ] ] s k o resulted in [ +voice ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  [ +voice ] ] [ +voice ] +voice ] ] s k o resulted in [ [ +voice ] ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] ] [ +voice ] +voice ] ] s k o resulted in [ [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '[ +nasal ]'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to [ [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o resulted in [ +nasal ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ +nasal ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o resulted in [ [ +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o resulted in [ [ +voice ] +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] ] s k o
+
+Surface form for entry 1: k o p a k
+Underlying form: k o p a k
+Generated form before applying rules: m k o p a k
+Applying rule: rule: [ +nasal ] ---> Ø / # _  to m k o p a k resulted in  k o p a k
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  k o p a k resulted in k [ +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Applying rule: rule: [ +voice ] ---> Ø / # _  to k [ +voice ] p a k resulted in k [ +voice ] p a k
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to k [ +voice ] p a k resulted in k [ +voice ] +voice ] p a k
+
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to k [ +voice ] +voice ] p a k resulted in k [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +nasal ]'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to k [ +voice ] +voice ] +voice ] p a k resulted in [ +nasal ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ +nasal ] [ +voice ] +voice ] +voice ] p a k resulted in [ [ +voice ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Applying rule: rule: [  ] ---> Ø / # _ [ -voice ] to [ [ +voice ] ] [ +voice ] +voice ] +voice ] p a k resulted in  [ +voice ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '+voice'
+Applying rule: rule: [  ] ---> [ -voice ] / # _ [ +low ] to  [ +voice ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ +voice ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Applying rule: rule: [ +voice ] ---> Ø / # _  to  [ +voice ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ +voice ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to  [ +voice ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ [ +voice ] ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '['
+Warning: No features found for token '[ +nasal ]'
+Applying rule: rule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g to [ [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ +nasal ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+nasal'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '+voice'
+Warning: No features found for token ']'
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ +nasal ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ [ +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k
+
+Warning: No features found for token '['
+Warning: No features found for token '[ +voice ]'
+Applying rule: rule: [  ] ---> [ +voice ] / # [  ] _  to [ [ +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k resulted in [ [ +voice ] +voice ] ] [ +voice ] +voice ] ] ] [ +voice ] +voice ] +voice ] p a k
+
+Processing solution set 2
+Surface form for entry 1: f l a w t a
+Underlying form: f l a w t a

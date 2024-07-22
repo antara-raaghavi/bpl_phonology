@@ -1,0 +1,89 @@
+Processing solution set 1
+Surface form for entry 0: d i b u a t
+Underlying form: b u a t
+Generated form before applying rules: m e ŋ b u a t
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e ŋ b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Surface form for entry 0: d i p i l i h
+Underlying form: p i l i h
+Generated form before applying rules: m e ŋ p i l i h
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e ŋ p i l i h resulted in m e m p i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m p i l i h resulted in m e m  i l i h
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m  i l i h resulted in m e m i l i h
+
+Processing solution set 2
+Surface form for entry 0: d i b u a t
+Underlying form: b u a t
+Generated form before applying rules: m e ŋ b u a t
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e ŋ b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Surface form for entry 0: d i p i l i h
+Underlying form: p i l i h
+Generated form before applying rules: m e ŋ p i l i h
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e ŋ p i l i h resulted in m e m p i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m p i l i h resulted in m e m  i l i h
+
+Processing solution set 3
+Surface form for entry 0: d i b u a t
+Underlying form: b u a t
+Generated form before applying rules: m e ŋ b u a t
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e ŋ b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Error, this rule doesn't work: rule:
+Error, this rule doesn't work: rule:
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m b u a t resulted in m e m b u a t
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m b u a t resulted in m e m b u a t
+
+Surface form for entry 0: d i p i l i h
+Underlying form: p i l i h
+Generated form before applying rules: m e ŋ p i l i h
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e ŋ p i l i h resulted in m e m p i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m p i l i h resulted in m e m  i l i h
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m  i l i h resulted in m e m i l i h
+
+Error, this rule doesn't work: rule:
+Error, this rule doesn't work: rule:
+Applying rule: rule: [ -continuant ] ---> place1 /  _ [ +anterior ] to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -vowel ] ---> place1 /  _ [ +anterior ] to m e m  i l i h resulted in m e m i l i h
+
+Applying rule: rule: [ -voice ] ---> Ø / [ -vowel ] _  to m e m  i l i h resulted in m e m i l i h
+

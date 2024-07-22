@@ -5,6 +5,11 @@ import argparse
 import codecs
 from FLAG_our_features import *
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
 # ------------------- MOST RECENT VERSION!!!!!! ----------------------
 
 def parse_rule(rule):
@@ -21,19 +26,59 @@ def parse_rule(rule):
     else:
         raise ValueError(u"Error, this rule doesn't work: {}".format(rule))
 
+# def apply_rule(word, rule, feature_bank):
+#     try:
+#         target, replacement, left_context, right_context = parse_rule(rule)
+#     except ValueError as e:
+#         print(e)
+#         return word
+
+#     tokens = word.split()
+#     new_tokens = tokens[:]
+
+#     # is target (on LHS of phon rule) in the word? 
+#     target_found = any(matches_target(token, target, feature_bank) for token in tokens)
+#     # print(u"Checking if target phoneme '{}' is in word '{}': {}".format(target, word, target_found))
+#     if target and not target_found:
+#         return word
+
+#     applied = False
+#     for i in range(len(tokens)):
+#         if matches_target(tokens[i], target, feature_bank):
+#             if matches_context(tokens, i, left_context, right_context, feature_bank):
+
+#                 # HANDLE SPECIAL CASES FOR THEIR NOTATION SYSTEM THING
+#                 if replacement == '1':
+#                     new_tokens[i] = tokens[i + 1]
+#                 elif replacement == '-1':
+#                     new_tokens[i] = tokens[i - 1]
+#                 elif replacement == 'place1':
+#                     new_tokens[i] = feature_bank.assimilatePlace(tokens[i], tokens[i + 1])
+#                 else:
+#                     new_tokens[i] = apply_replacement(tokens[i], replacement, feature_bank)
+#                 applied = True
+
+#                 # stop because don't overapply 
+#                 break  
+            
+
+
+#     # handle weird spacing issue
+#     result_word = ' '.join(new_tokens)
+#     print(u"Applying rule: {} to {} resulted in {}\n".format(rule, word, result_word))
+#     return result_word if applied else word
+
 def apply_rule(word, rule, feature_bank):
     try:
         target, replacement, left_context, right_context = parse_rule(rule)
     except ValueError as e:
-        print(e)
+        print(u"{}".format(e))
         return word
 
     tokens = word.split()
     new_tokens = tokens[:]
 
-    # is target (on LHS of phon rule) in the word? 
     target_found = any(matches_target(token, target, feature_bank) for token in tokens)
-    # print(u"Checking if target phoneme '{}' is in word '{}': {}".format(target, word, target_found))
     if target and not target_found:
         return word
 
@@ -41,27 +86,25 @@ def apply_rule(word, rule, feature_bank):
     for i in range(len(tokens)):
         if matches_target(tokens[i], target, feature_bank):
             if matches_context(tokens, i, left_context, right_context, feature_bank):
-
-                # HANDLE SPECIAL CASES FOR THEIR NOTATION SYSTEM THING
-                if replacement == '1':
+                if replacement == u'1':
                     new_tokens[i] = tokens[i + 1]
-                elif replacement == '-1':
+                elif replacement == u'-1':
                     new_tokens[i] = tokens[i - 1]
-                elif replacement == 'place1':
+                if replacement == u'2':
+                    new_tokens[i] = tokens[i + 2]
+                elif replacement == u'-2':
+                    new_tokens[i] = tokens[i - 2]
+                elif replacement == u'place1':
                     new_tokens[i] = feature_bank.assimilatePlace(tokens[i], tokens[i + 1])
                 else:
                     new_tokens[i] = apply_replacement(tokens[i], replacement, feature_bank)
                 applied = True
+                break
 
-                # stop because don't overapply 
-                break  
-            
-
-
-    # handle weird spacing issue
-    result_word = ' '.join(new_tokens)
+    result_word = u' '.join(new_tokens)
     print(u"Applying rule: {} to {} resulted in {}\n".format(rule, word, result_word))
     return result_word if applied else word
+
 
 def matches_context(tokens, index, left_context, right_context, feature_bank, reverse=False):
     # on the RHS of the slash -- time to check the L and R context

@@ -2596,3 +2596,84 @@ Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.
 Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpzHG4XX.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0j1yAP 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp0j1yAP
 [((/usa/, /wusa/, /usa/, /busa/), 2), ((/imed^za/, /wimed^za/, /imed^za/, /bimed^za/), 4), ((/kamba/, /okamba/, /akamba/, /bakamba/), 4), ((/bota/, /oota/, /aota/, /baota/), 2), ((/bata/, /oata/, /aata/, /baata/), 2), ((/ɛna/, /wɛna/, /ɛna/, /bɛna/), 1), ((/isa/, /wisa/, /isa/, /bisa/), 1)]
 Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpIY7jQy.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpNWiXiA 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpNWiXiA
+Ran the solver in 929.151665 sec (929.158639 wall clock, includes blocking)
+Finished using global timeout. dt=929.243533
+Global timeout counter is now 84334.425346
+Traceback (most recent call last):
+  File "driver.py", line 298, in <module>
+    handleProblem(problem)
+  File "driver.py", line 111, in handleProblem
+    result = ss.incrementallySolve(k = arguments.top)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 423, in incrementallySolve
+    r = self._incrementallySolve(k=k)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 495, in _incrementallySolve
+    solutions = worker.sketchIncrementalChange(solution, radius)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 362, in sketchIncrementalChange
+    enumerate(ruleVectors))
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/utilities.py", line 183, in parallelMap
+    return Pool(numberOfCPUs).map(safeCall,zip(*xs))
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/pathos/multiprocessing.py", line 139, in map
+    return _pool.map(star(f), zip(*args)) # chunksize
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 253, in map
+    return self.map_async(func, iterable, chunksize).get()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/lib/python2.7/site-packages/multiprocess/pool.py", line 572, in get
+    raise self._value
+OSError: [Errno 2] No such file or directory: '/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp4TcFnE.sk'
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpWalAYS.sk
+Final CEGIS solution:
+rule: [  ] ---> Ø /  _ [ +high +tense ]
+rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ]
+/b/ + stem + /a/
+/wo/ + stem + /a/
+/a/ + stem + /a/
+/ba/ + stem + /a/
+underlying form: /us/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamb/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ot/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^z/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpjMeKna.sk
+Final CEGIS solution:
+rule: [ -sonorant ] ---> Ø /  _ [ -tense ]
+rule: [  ] ---> w /  _ [ +high +voice ]
+rule: [ +glide ] ---> Ø /  _ [ +tense ]
+/b/ + stem
+/wo/ + stem
+/a/ + stem
+/ba/ + stem
+underlying form: /usa/ ; surfaces = /usa/ ~ /wusa/ ~ /usa/ ~ /busa/
+underlying form: /kamba/ ; surfaces = /kamba/ ~ /okamba/ ~ /akamba/ ~ /bakamba/
+underlying form: /ota/ ; surfaces = /bota/ ~ /oota/ ~ /aota/ ~ /baota/
+underlying form: /imed^za/ ; surfaces = /imed^za/ ~ /wimed^za/ ~ /imed^za/ ~ /bimed^za/
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmptvqCzG.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpRy2UMe.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpsg3D9o.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpVnwTu0.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpP1GzQl.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmph78Zjo.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpXXL5iU.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpkxV7BZ.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpUu1dcZ.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpAzRXc7.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmptDWJnf.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpJEneAA.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmp56wLB4.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpXBYdfa.sk
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpCb0_A3.sk
+Exception in worker during parallel map:
+Traceback (most recent call last):
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/utilities.py", line 178, in safeCall
+    y = f(*x)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 361, in <lambda>
+    lambda (j,v): self.sketchCEGISChange(solution,v,verbose=(j == 0)),
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 317, in sketchCEGISChange
+    newSolution = worker.sketchChangeToSolution(solution, rules, verbose=verbose)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 270, in sketchChangeToSolution
+    output = self.solveSketch()
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/matrix.py", line 81, in solveSketch
+    timeout=self.pervasiveTimeout)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch.py", line 255, in solveSketch
+    os.remove(temporarySketchFile)
+OSError: [Errno 2] No such file or directory: '/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp4TcFnE.sk'
+
+
+

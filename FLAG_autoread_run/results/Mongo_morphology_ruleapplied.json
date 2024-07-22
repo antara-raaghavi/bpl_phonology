@@ -1,0 +1,722 @@
+Processing solution set 1
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o ? resulted in o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3: b a k i s a
+Underlying form: a k i s a
+Generated form before applying rules: b a a k i s a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a a k i s a resulted in b a a  i s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a a  i s a resulted in b a a i s a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a a  i s a resulted in b a a i s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a a  i s a resulted in b a w i s a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b a w i s a resulted in b a  i s a
+
+Surface form for entry 0: w a n d a
+Underlying form: w a n d a
+Generated form before applying rules: b w a n d a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b w a n d a resulted in b w a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b w a n d a resulted in  w a n d a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  w a n d a resulted in w a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  w a n d a resulted in w a n d a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to  w a n d a resulted in  a n d a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3:  a n d a
+Underlying form: n d a
+Generated form before applying rules: b a n d a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a n d a resulted in b a n d a
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o ? resulted in o ?
+
+Surface form for entry 2: b a s o l o l a
+Underlying form: a s o l o l a
+Generated form before applying rules: a a s o l o l a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a a s o l o l a resulted in a a s o l o l a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a a s o l o l a resulted in a a  o l o l a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a a  o l o l a resulted in a a o l o l a
+
+Surface form for entry 1: a p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: o p o n a m a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o p o n a m a resulted in o p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o p o n a m a resulted in o  o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o  o n a m a resulted in o o n a m a
+
+Surface form for entry 3: p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: b a p o n a m a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a p o n a m a resulted in b a p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a p o n a m a resulted in b a  o n a m a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  o n a m a resulted in b a o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  o n a m a resulted in b a o n a m a
+
+Surface form for entry 0: o o w a
+Underlying form: o w a
+Generated form before applying rules: b o w a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b o w a resulted in b o w a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b o w a resulted in  o w a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  o w a resulted in o w a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to  o w a resulted in o  a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3: o  a
+Underlying form: a
+Generated form before applying rules: b a a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a a resulted in b a a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a a resulted in b a a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a a resulted in b a a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a a resulted in b a a
+
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: b ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b ? resulted in b ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b ? resulted in  ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  ? resulted in ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  ? resulted in ?
+
+Surface form for entry 1: a a l u s a
+Underlying form: a l u s a
+Generated form before applying rules: o a l u s a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o a l u s a resulted in o a  u s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o a  u s a resulted in o a u s a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to o a  u s a resulted in o a u s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o a  u s a resulted in o w u s a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to o w u s a resulted in o  u s a
+
+Surface form for entry 3:  ?
+Underlying form:  ?
+Generated form before applying rules: b a  ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  ? resulted in b a ?
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o ? resulted in o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3: l o ŋ g a
+Underlying form: l o ŋ g a
+Generated form before applying rules: b a l o ŋ g a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a l o ŋ g a resulted in b a l o ŋ g a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a l o ŋ g a resulted in b a  o ŋ g a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  o ŋ g a resulted in b a o ŋ g a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  o ŋ g a resulted in b a w ŋ g a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b a w ŋ g a resulted in b a w ŋ g a
+
+Processing solution set 2
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to w o ? resulted in  o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Surface form for entry 3: b a k i s a
+Underlying form: a k i s a
+Generated form before applying rules: b a a k i s a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a a k i s a resulted in b a a  i s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a a  i s a resulted in b a a i s a
+
+Surface form for entry 0: w a n d a
+Underlying form: w a n d a
+Generated form before applying rules: b w a n d a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b w a n d a resulted in b w a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b w a n d a resulted in  w a n d a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Surface form for entry 3:  w a n d a
+Underlying form:  w a n d a
+Generated form before applying rules: b a  w a n d a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  w a n d a resulted in b a w a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  w a n d a resulted in b a w a n d a
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to w o ? resulted in  o ?
+
+Surface form for entry 2: b a s o l o l a
+Underlying form: a s o l o l a
+Generated form before applying rules: a a s o l o l a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a a s o l o l a resulted in a a s o l o l a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a a s o l o l a resulted in a a  o l o l a
+
+Surface form for entry 1: a p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: w o p o n a m a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to w o p o n a m a resulted in w o p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to w o p o n a m a resulted in  o p o n a m a
+
+Surface form for entry 3: p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: b a p o n a m a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a p o n a m a resulted in b a p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a p o n a m a resulted in b a  o n a m a
+
+Surface form for entry 0: o o w a
+Underlying form: o o w a
+Generated form before applying rules: b o o w a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b o o w a resulted in b o o w a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b o o w a resulted in  o o w a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Surface form for entry 3:  o o w a
+Underlying form:  o o w a
+Generated form before applying rules: b a  o o w a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  o o w a resulted in b a o o w a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  o o w a resulted in b a o o w a
+
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: b ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b ? resulted in b ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b ? resulted in  ?
+
+Surface form for entry 1: a a l u s a
+Underlying form: a l u s a
+Generated form before applying rules: w o a l u s a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to w o a l u s a resulted in w o a  u s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to w o a  u s a resulted in  o a u s a
+
+Surface form for entry 3:  ?
+Underlying form:  ?
+Generated form before applying rules: b a  ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  ? resulted in b a ?
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to w o ? resulted in  o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Surface form for entry 3: l o ŋ g a
+Underlying form: l o ŋ g a
+Generated form before applying rules: b a l o ŋ g a
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a l o ŋ g a resulted in b a l o ŋ g a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a l o ŋ g a resulted in b a  o ŋ g a
+
+Processing solution set 3
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w o ? resulted in  o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  o ? resulted in o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3: b a k i s a
+Underlying form: a k i s a
+Generated form before applying rules: b a a k i s a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a a k i s a resulted in b a a k i s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a a k i s a resulted in b a a w i s a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b a a w i s a resulted in b a a  i s a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a a  i s a resulted in b a  i s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  i s a resulted in b a i s a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  i s a resulted in b  i s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b  i s a resulted in  i s a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  i s a resulted in i s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  i s a resulted in i s a
+
+Surface form for entry 0: w a n d a
+Underlying form: w a n d a
+Generated form before applying rules: b w a n d a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b w a n d a resulted in  w a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  w a n d a resulted in w a n d a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to  w a n d a resulted in  a n d a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  a n d a resulted in a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  a n d a resulted in a n d a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  a n d a resulted in a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  a n d a resulted in a n d a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  a n d a resulted in a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  a n d a resulted in a n d a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3:  a n d a
+Underlying form: n d a
+Generated form before applying rules: b a n d a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a n d a resulted in b a n d a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a n d a resulted in b a n d a
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w o ? resulted in  o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  o ? resulted in o ?
+
+Surface form for entry 2: b a s o l o l a
+Underlying form: a s o l o l a
+Generated form before applying rules: a a s o l o l a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a a s o l o l a resulted in a a s o l o l a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a a s o l o l a resulted in a a s o l o l a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a a s o l o l a resulted in a a s o l o l a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a a s o l o l a resulted in a a  o l o l a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a a  o l o l a resulted in a a o l o l a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a a  o l o l a resulted in a a o  o l a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a a o  o l a resulted in a a o o l a
+
+Surface form for entry 1: a p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: w o p o n a m a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to w o p o n a m a resulted in w o p o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to w o p o n a m a resulted in w o p o n a m a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w o p o n a m a resulted in  o p o n a m a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o p o n a m a resulted in o p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o p o n a m a resulted in o  o n a m a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o  o n a m a resulted in o o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o  o n a m a resulted in o o n a m a
+
+Surface form for entry 3: p o n a m a
+Underlying form: p o n a m a
+Generated form before applying rules: b a p o n a m a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a p o n a m a resulted in b a p o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a p o n a m a resulted in b a p o n a m a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a p o n a m a resulted in b a p o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a p o n a m a resulted in b a  o n a m a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  o n a m a resulted in b a o n a m a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  o n a m a resulted in b a o n a m a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  o n a m a resulted in b a o n a m a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  o n a m a resulted in b a o n a m a
+
+Surface form for entry 0: o o w a
+Underlying form: o o w a
+Generated form before applying rules: b o o w a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b o o w a resulted in b o o w a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b o o w a resulted in b o o w a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b o o w a resulted in b o o  a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b o o  a resulted in b o o a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b o o  a resulted in  o o a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o o a resulted in o o a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  o o a resulted in o o a
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3:  o o a
+Underlying form:  o o a
+Generated form before applying rules: b a  o o a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  o o a resulted in b a o o a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  o o a resulted in b a o o a
+
+Surface form for entry 0: ?
+Underlying form: ?
+Generated form before applying rules: b ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b ? resulted in  ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  ? resulted in ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  ? resulted in ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  ? resulted in ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  ? resulted in ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  ? resulted in ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  ? resulted in ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  ? resulted in ?
+
+Surface form for entry 1: a a l u s a
+Underlying form: a l u s a
+Generated form before applying rules: w o a l u s a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to w o a l u s a resulted in w o a l u s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to w o a l u s a resulted in w o a w u s a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w o a w u s a resulted in  o a w u s a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o a w u s a resulted in o a  u s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o a  u s a resulted in o a u s a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to o a  u s a resulted in o  u s a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to o  u s a resulted in o u s a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to o  u s a resulted in o u s a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to o  u s a resulted in w u s a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w u s a resulted in  u s a
+
+Surface form for entry 3:  ?
+Underlying form:  ?
+Generated form before applying rules: b a  ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  ? resulted in b a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  ? resulted in b a ?
+
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: w o ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to w o ? resulted in w o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to w o ? resulted in w o ?
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to w o ? resulted in  o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to  o ? resulted in o ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to  o ? resulted in o ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to  o ? resulted in o ?
+
+Surface form for entry 2: ?
+Underlying form: ?
+Generated form before applying rules: a ?
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to a ? resulted in a ?
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to a ? resulted in a ?
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to a ? resulted in a ?
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to a ? resulted in a ?
+
+Surface form for entry 3: l o ŋ g a
+Underlying form: l o ŋ g a
+Generated form before applying rules: b a l o ŋ g a
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a l o ŋ g a resulted in b a l o ŋ g a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a l o ŋ g a resulted in b a l w ŋ g a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b a l w ŋ g a resulted in b a l w ŋ g a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a l w ŋ g a resulted in b a l w ŋ g a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a l w ŋ g a resulted in b a  w ŋ g a
+
+Applying rule: rule: [  ] ---> Ø /  _ [ +high +tense ] to b a  w ŋ g a resulted in b a w ŋ g a
+
+Applying rule: rule: [ -nasal -tense ] ---> Ø /  _ [ -low ] [ -anterior ] to b a  w ŋ g a resulted in b a  ŋ g a
+
+Applying rule: rule: [ -sonorant ] ---> Ø /  _ [ -tense ] to b a  ŋ g a resulted in b a ŋ g a
+
+Applying rule: rule: [  ] ---> w /  _ [ +high +voice ] to b a  ŋ g a resulted in b w ŋ g a
+
+Applying rule: rule: [ +glide ] ---> Ø /  _ [ +tense ] to b w ŋ g a resulted in b w ŋ g a
+

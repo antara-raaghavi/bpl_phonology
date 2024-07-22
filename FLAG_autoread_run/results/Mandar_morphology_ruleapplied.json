@@ -1,0 +1,99 @@
+Processing solution set 1
+Surface form for entry 0: d i t i m b e
+Underlying form: t i m b e
+Generated form before applying rules: m a ŋ t i m b e
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a ŋ t i m b e resulted in m a n t i m b e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a n t i m b e resulted in m a 1 t i m b e
+
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a 1 t i m b e resulted in m a i t i m b e
+
+Surface form for entry 0: d i p a n d e
+Underlying form: p a n d e
+Generated form before applying rules: m a ŋ p a n d e
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a ŋ p a n d e resulted in m a m p a n d e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a m p a n d e resulted in m a 1 p a n d e
+
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a 1 p a n d e resulted in m a i p a n d e
+
+Processing solution set 2
+Surface form for entry 0: d i t i m b e
+Underlying form: i t i m b e
+Generated form before applying rules: m a i t i m b e
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a i t i m b e resulted in m a i t i m b e
+
+Surface form for entry 0: d i p a n d e
+Underlying form: i p a n d e
+Generated form before applying rules: m a i p a n d e
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a i p a n d e resulted in m a i p a n d e
+
+Processing solution set 3
+Surface form for entry 0: d i t i m b e
+Underlying form: t i m b e
+Generated form before applying rules: m a ŋ t i m b e
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a ŋ t i m b e resulted in m a n t i m b e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a n t i m b e resulted in m a 1 t i m b e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Error, this rule doesn't work: rule:
+Error, this rule doesn't work: rule:
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 t i m b e resulted in m a 1 t i m b e
+
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a 1 t i m b e resulted in m a i t i m b e
+
+Surface form for entry 0: d i p a n d e
+Underlying form: p a n d e
+Generated form before applying rules: m a ŋ p a n d e
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a ŋ p a n d e resulted in m a m p a n d e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a m p a n d e resulted in m a 1 p a n d e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Error, this rule doesn't work: rule:
+Error, this rule doesn't work: rule:
+Warning: No features found for token '1'
+Applying rule: rule: [ +nasal ] ---> place1 /  _ [ -sonorant ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Warning: No features found for token '1'
+Warning: No features found for token '1'
+Applying rule: rule: [ -tense ] ---> 1 /  _ [ -voice ] to m a 1 p a n d e resulted in m a 1 p a n d e
+
+Applying rule: rule: [  ] ---> i / # [ -nasal ] _  to m a 1 p a n d e resulted in m a i p a n d e
+

@@ -2221,3 +2221,496 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+ [+] Found existing command server: 40 CPUs
+Executing driver @ 2024-07-18 06:52:15.790524
+Command line driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Minangkabau Saujas 6 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+raso         sora
+rokok        koro
+rayo         yora
+susu         sursu
+baso         sorba
+lamo         morla
+mati         tirma
+bulan        larbu
+minum        nurmi
+lilin        lirli
+mintak       tarmin
+cubadak      darcuba
+mangecek     cermange
+bakilek      lerbaki
+sawah        warsa
+pitih        tirpi
+manangih     ngirmana
+urang        raru
+apa          para
+iko          kori
+gatagata     targatarga
+mahamaha     harmaharma
+campua       purcam
+Solver has adaptively set the window size to 3
+Starting out with explaining just the first 3 examples:
+/raso/	~	/sora/
+/rokok/	~	/koro/
+/rayo/	~	/yora/
+[((/raso/, /sora/), 0), ((/rokok/, /koro/), 0), ((/rayo/, /yora/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpV1ZWOv.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpKoDeNI 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpKoDeNI
+Ran the solver in 12.283236 sec (12.283766 wall clock, includes blocking)
+Expanding rule depth to 2
+[((/raso/, /sora/), 0), ((/rokok/, /koro/), 0), ((/rayo/, /yora/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpDP7llb.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4k5AGi 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp4k5AGi
+Ran the solver in 439.759385 sec (439.760016 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpDP7llb.sk
+Final hole value: 29
+Morphological analysis:
+Inflection 0:	/ra/ + stem + /km/
+Inflection 1:	// + stem + /rra/
+Phonological rules:
+[  ] ---> o / {#,a} [  ] _ [ -palletized -sibilant ]
+[  ] ---> Ø / [ -liquid ] _ #
+Invoking solver (timeout 85947.9573789): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmphiiv36.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpQkgawU 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpQkgawU
+Ran the solver in 3.219100 sec (3.219728 wall clock, includes blocking)
+Next data points to explain: 
+/susu/	~	/sursu/
+/baso/	~	/sorba/
+/lamo/	~	/morla/
+# parallel sketch jobs: 5
+# data points not in window or fixed: 3
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpthFfAZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpAd02mT 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpAd02mT
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpzloxRZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpg9ZlF9 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpg9ZlF9
+[((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpIJlqmc.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMjyb31 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMjyb31
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpnt3NLF.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpD7w0pr 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpD7w0pr
+[((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpfbRME2.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpLPZIBK 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpLPZIBK
+Ran the solver in 92.562602 sec (92.564133 wall clock, includes blocking)
+Ran the solver in 103.635020 sec (103.637033 wall clock, includes blocking)
+Ran the solver in 135.584515 sec (135.587221 wall clock, includes blocking)
+Ran the solver in 273.780133 sec (273.781022 wall clock, includes blocking)
+Ran the solver in 347.481705 sec (347.482633 wall clock, includes blocking)
+Finished using global timeout. dt=347.650035
+Global timeout counter is now 85597.088244
+No incremental modification within radius of size 1
+Increasing search radius to 2
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptqeWlF.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpsJB85U 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpsJB85U
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpj_3wqn.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYac8mj 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYac8mj
+Ran the solver in 103.524769 sec (103.527937 wall clock, includes blocking)
+Ran the solver in 562.678521 sec (562.684949 wall clock, includes blocking)
+Finished using global timeout. dt=562.811649
+Global timeout counter is now 85034.276595
+No incremental modification within radius of size 2
+Increasing search radius to 3
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpDyR_lb.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVthu71 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpVthu71
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp8xBRxN.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpFFHtdV 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpFFHtdV
+Ran the solver in 101.523433 sec (101.525333 wall clock, includes blocking)
+Ran the solver in 300.117957 sec (300.119480 wall clock, includes blocking)
+Finished using global timeout. dt=300.208145
+Global timeout counter is now 84734.068450
+No incremental modification within radius of size 3
+Increasing search radius to 4
+I refuse to use a radius this big.
+Decreased window size to 2
+Next data points to explain:
+/susu/	~	/sursu/
+/baso/	~	/sorba/
+# parallel sketch jobs: 5
+# data points not in window or fixed: 3
+[((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpCBis_o.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYdccB_ 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpYdccB_
+[((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp4gvfhp.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp08FiSO 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp08FiSO
+[((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpIqhWVX.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpEAns06 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpEAns06
+[((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp1CYJOJ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpuG9eWz 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpuG9eWz
+[((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpsnSYjY.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpD_pWBh 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpD_pWBh
+Ran the solver in 57.400728 sec (57.401697 wall clock, includes blocking)
+Ran the solver in 97.435637 sec (97.440016 wall clock, includes blocking)
+Ran the solver in 97.534614 sec (97.536994 wall clock, includes blocking)
+Ran the solver in 196.604473 sec (196.608312 wall clock, includes blocking)
+Ran the solver in 226.551085 sec (226.553908 wall clock, includes blocking)
+Finished using global timeout. dt=226.659230
+Global timeout counter is now 84507.409220
+No incremental modification within radius of size 1
+Increasing search radius to 2
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmptLvoGk.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHtHa4c 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpHtHa4c
+[((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmprXMNp3.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8K6Ia4 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8K6Ia4
+Ran the solver in 73.277954 sec (73.279335 wall clock, includes blocking)
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+ [+] Found existing command server: 40 CPUs
+Executing driver @ 2024-07-18 09:49:07.423665
+Command line driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Minangkabau Saujas 6 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+raso         sora
+rokok        koro
+rayo         yora
+susu         sursu
+baso         sorba
+lamo         morla
+mati         tirma
+bulan        larbu
+minum        nurmi
+lilin        lirli
+mintak       tarmin
+cubadak      darcuba
+mangecek     cermange
+bakilek      lerbaki
+sawah        warsa
+pitih        tirpi
+manangih     ngirmana
+urang        raru
+apa          para
+iko          kori
+gatagata     targatarga
+mahamaha     harmaharma
+campua       purcam
+Solver has adaptively set the window size to 3
+Starting out with explaining just the first 3 examples:
+/raso/	~	/sora/
+/rokok/	~	/koro/
+/rayo/	~	/yora/
+[((/raso/, /sora/), 0), ((/rokok/, /koro/), 0), ((/rayo/, /yora/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmprhs_xg.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpm8Ko7B 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpm8Ko7B
+Ran the solver in 13.185190 sec (13.185721 wall clock, includes blocking)
+Expanding rule depth to 2
+[((/raso/, /sora/), 0), ((/rokok/, /koro/), 0), ((/rayo/, /yora/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpWVdvRv.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMnSKxz 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpMnSKxz
+Ran the solver in 441.372500 sec (441.373159 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpWVdvRv.sk
+Final hole value: 29
+Morphological analysis:
+Inflection 0:	/ra/ + stem + /km/
+Inflection 1:	// + stem + /rra/
+Phonological rules:
+[  ] ---> o / {#,a} [  ] _ [ -palletized -sibilant ]
+[  ] ---> Ø / [ -liquid ] _ #
+Invoking solver (timeout 85945.4423101): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmplzauNf.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp2glpIO 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp2glpIO
+Ran the solver in 3.219909 sec (3.220572 wall clock, includes blocking)
+Next data points to explain: 
+/susu/	~	/sursu/
+/baso/	~	/sorba/
+/lamo/	~	/morla/
+# parallel sketch jobs: 5
+# data points not in window or fixed: 3
+[((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/raso/, /sora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpYvf6kE.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpUUqp2C 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpUUqp2C
+[((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmp6lyKv1.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmppvHpDI 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmppvHpDI
+[((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpDuUL64.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpiRJYh0 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpiRJYh0
+[((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpsEK4Fc.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpQtCVPU 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpQtCVPU
+[((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpfqI5xZ.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpoWnbLY 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpoWnbLY
+Ran the solver in 96.508519 sec (96.509497 wall clock, includes blocking)
+Ran the solver in 96.604261 sec (96.606555 wall clock, includes blocking)
+Ran the solver in 150.579779 sec (150.582620 wall clock, includes blocking)
+Ran the solver in 281.473262 sec (281.479081 wall clock, includes blocking)
+Ran the solver in 356.632537 sec (356.634046 wall clock, includes blocking)
+Finished using global timeout. dt=356.811508
+Global timeout counter is now 85585.410893
+No incremental modification within radius of size 1
+Increasing search radius to 2
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpWeWtas.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8Kyn54 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp8Kyn54
+[((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpm9vBrg.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpOt1iTk 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpOt1iTk
+Ran the solver in 93.664388 sec (93.665345 wall clock, includes blocking)
+Ran the solver in 2637.173386 sec (2637.184486 wall clock, includes blocking)
+Finished using global timeout. dt=2637.334643
+Global timeout counter is now 82948.076250
+No incremental modification within radius of size 2
+Increasing search radius to 3
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpW35Gfc.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpLoB4Lj 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpLoB4Lj
+[((/rokok/, /koro/), 2), ((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpSNR2ul.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcKMV16 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpcKMV16
+Ran the solver in 104.824523 sec (104.825903 wall clock, includes blocking)
+Ran the solver in 7200.000000 sec (7200.009941 wall clock, includes blocking)
+Finished using global timeout. dt=7200.258944
+Global timeout counter is now 75747.817306
+Got no solutions, but did get some timeouts - going to double pervasive timeout
+# parallel sketch jobs: 2
+# data points not in window or fixed: 3
+[((/raso/, /sora/), 1), ((/rokok/, /koro/), 2), ((/rayo/, /yora/), 1), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 14400): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpzff6Y4.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpz62mrx 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpz62mrx
+[((/raso/, /sora/), 1), ((/rayo/, /yora/), 1), ((/rokok/, /koro/), 2), ((/susu/, /sursu/), 0), ((/baso/, /sorba/), 0), ((/lamo/, /morla/), 0)]
+Invoking solver (timeout 14400): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpx2t43E.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpTXYg3E 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmpTXYg3E
+Ran the solver in 107.042351 sec (107.052868 wall clock, includes blocking)

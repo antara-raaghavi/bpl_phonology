@@ -1,0 +1,6866 @@
+    [0;32m[1721230243.1700 - DEBUG] Running stage 'preproc' -- Preprocessing (used for all further transformations)[0m
+    [0;32m[1721230245.7910 - DEBUG] Running stage SpmdLowLevelCStage[0m
+    [0;32m[1721230245.7940 - DEBUG]    Running visitor FlattenStmtBlocks2[0m
+    [0;32m[1721230245.8210 - DEBUG]    Running visitor SplitAssignFromVarDef[0m
+    [0;32m[1721[SATBackend] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[SATBackend] MAX LOOP UNROLLING = 16
+[SATBackend] MAX FUNC INLINING  = 5
+estimated size of auxiliaryHarness_38__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 :     [0;32m[1721230251.2840 - DEBUG] executing /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis --bnd-inbits 5 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 -o /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/solution0-0 --minvarHole /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/input0.tmp[0m
+starting command line: [/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis, --bnd-inbits, 5, --boundmode, CALLNAME, --verbosity, 10, --print-version, -simiters, 4, --assumebcheck, --bnd-inline-amnt, 5, -angelictupledepth, 1, -srctupledepth, 2, -sprandbias, 1, -o, /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/solution0-0, --minvarHole, /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/input0.tmp]
+_ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_37 : 177
+
+estimated size of auxiliaryHarness_36__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_36 : 177
+
+estimated size of auxiliaryHarness_35__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_35 : 177
+
+estimated size of auxiliaryHarness_34__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_34 : 177
+
+estimated size of auxiliaryHarness_33__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_33 : 177
+
+estimated size of auxiliaryHarness_32__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_32 : 177
+
+estimated size of auxiliaryHarness_31__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_31 : 177
+
+estimated size of auxiliaryHarness_30__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_30 : 177
+
+estimated size of auxiliaryHarness_29__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_29 : 177
+
+estimated size of auxiliaryHarness_28__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_28 : 177
+
+estimated size of auxiliaryHarness_27__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_27 : 177
+
+estimated size of auxiliaryHarness_26__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_26 : 177
+
+estimated size of auxiliaryHarness_25__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_25 : 177
+
+estimated size of auxiliaryHarness_24__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_24 : 177
+
+estimated size of auxiliaryHarness_23__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_23 : 177
+
+estimated size of auxiliaryHarness_22__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_22 : 177
+
+estimated size of auxiliaryHarness_21__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_21 : 177
+
+estimated size of auxiliaryHarness_20__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_20 : 177
+
+estimated size of auxiliaryHarness_19__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_19 : 177
+
+estimated size of auxiliaryHarness_18__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_18 : 177
+
+estimated size of auxiliaryHarness_17__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_17 : 177
+
+estimated size of auxiliaryHarness_16__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_16 : 177
+
+estimated size of auxiliaryHarness_15__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_15 : 177
+
+estimated size of auxiliaryHarness_14__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_14 : 177
+
+estimated size of auxiliaryHarness_13__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_13 : 177
+
+estimated size of auxiliaryHarness_12__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_12 : 177
+
+estimated size of auxiliaryHarness_11__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_11 : 177
+
+estimated size of auxiliaryHarness_10__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_10 : 177
+
+estimated size of auxiliaryHarness_9__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_9 : 177
+
+estimated size of auxiliaryHarness_8__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_8 : 177
+
+estimated size of auxiliaryHarness_7__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_7 : 177
+
+estimated size of auxiliaryHarness_6__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_6 : 177
+
+estimated size of auxiliaryHarness_5__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_5 : 177
+
+estimated size of auxiliaryHarness_4__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_4 : 177
+
+estimated size of auxiliaryHarness_3__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_3 : 177
+
+estimated size of auxiliaryHarness_2__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_2 : 177
+
+estimated size of auxiliaryHarness_1__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_1 : 177
+
+estimated size of auxiliaryHarness_0__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee auxiliaryHarness_0 : 177
+
+estimated size of main__Wrapper
+stmt cnt: 1
+callee glblInit_phoneme_9__ANONYMOUS_s5014 : 52
+callee glblInit_phoneme_8__ANONYMOUS_s5012 : 52
+callee glblInit_phoneme_7__ANONYMOUS_s5010 : 52
+callee glblInit_phoneme_6__ANONYMOUS_s5008 : 52
+callee glblInit_phoneme_5__ANONYMOUS_s5006 : 52
+callee glblInit_phoneme_4__ANONYMOUS_s5004 : 52
+callee glblInit_phoneme_3__ANONYMOUS_s5002 : 52
+callee glblInit_phoneme_2__ANONYMOUS_s5000 : 52
+callee glblInit_phoneme_1__ANONYMOUS_s4998 : 52
+callee glblInit_phoneme_12__ANONYMOUS_s4996 : 52
+callee glblInit_phoneme_11__ANONYMOUS_s4994 : 52
+callee glblInit_phoneme_10__ANONYMOUS_s4992 : 52
+callee glblInit_phoneme_0__ANONYMOUS_s4990 : 52
+callee glblInit_global_boundary_specification__ANONYMOUS_s4988 : 1
+callee main : 434
+
+[SATBackend] After prog.accept(partialEval)
+[SATBackend] OFILE = null
+searching for file null
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/cegis-1.7.5
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/local/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/java6/jdk1.6.0_45/bin/../sketch-backend/bindings/cegis
+searching for file /opt/amazon/openmpi/bin/cegis
+searching for file /opt/amazon/openmpi/bin/src/SketchSolver/cegis
+searching for file /opt/amazon/openmpi/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/amazon/openmpi/bin/../sketch-backend/bindings/cegis
+searching for file /opt/amazon/efa/bin/cegis
+searching for file /opt/amazon/efa/bin/src/SketchSolver/cegis
+searching for file /opt/amazon/efa/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/amazon/efa/bin/../sketch-backend/bindings/cegis
+searching for file /opt/aws/neuron/bin/cegis
+searching for file /opt/aws/neuron/bin/src/SketchSolver/cegis
+searching for file /opt/aws/neuron/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /opt/aws/neuron/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/cuda-12.1/bin/cegis
+searching for file /usr/local/cuda-12.1/bin/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/cuda-12.1/include/cegis
+searching for file /usr/local/cuda-12.1/include/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/include/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/cuda-12.1/include/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/games/cegis
+searching for file /usr/games/src/SketchSolver/cegis
+searching for file /usr/games/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/games/../sketch-backend/bindings/cegis
+searching for file /usr/local/games/cegis
+searching for file /usr/local/games/src/SketchSolver/cegis
+searching for file /usr/local/games/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/games/../sketch-backend/bindings/cegis
+searching for file /snap/bin/cegis
+searching for file /snap/bin/src/SketchSolver/cegis
+searching for file /snap/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /snap/bin/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/sketch-1.7.5/sketch-frontend/../sketch-backend/bindings/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/src/SketchSolver/cegis
+searching for file /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketch-1.7.5/sketch-backend/src/SketchSolver/cegis --bnd-inbits 5 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 -o /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/solution0-0 --minvarHole /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/input0.tmp 
+Overriding inputs with 5
+boundmode = CALLNAME
+assuming  bounds checks
+SOLVER RAND SEED = 1721230251
+ optimization level = 6
+Reading SKETCH Program in File /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpT14WIH.sk/input0.tmp
+CREATING auxiliaryHarness_38__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_38__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_37__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_37__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_36__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_36__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_35__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_35__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_34__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_34__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_33__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_33__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_32__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_32__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_31__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_31__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_30__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_30__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_29__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_29__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_28__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_28__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_27__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_27__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_26__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_26__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_25__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_25__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_24__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_24__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_23__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_23__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_22__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_22__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_21__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_21__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_20__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_20__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_19__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_19__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_18__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_18__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_17__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_17__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_16__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_16__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_15__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_15__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_14__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_14__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_13__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_13__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_12__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_12__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_11__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_11__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_10__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_10__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_9__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_9__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_8__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_8__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_7__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_7__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_6__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_6__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_5__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_5__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_4__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_4__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_3__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_3__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_2__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_2__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_1__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_1__WrapperNospec
+size = 0
+after ba size = 0
+CREATING auxiliaryHarness_0__Wrapper
+size = 251
+after ba size = 251
+CREATING auxiliaryHarness_0__WrapperNospec
+size = 0
+after ba size = 0
+CREATING main__Wrapper
+size = 251
+after ba size = 251
+CREATING main__WrapperNospec
+size = 0
+after ba size = 0
+CREATING glblInit_global_boundary_specification__ANONYMOUS_s4988
+size = 6
+after ba size = 6
+CREATING glblInit_phoneme_0__ANONYMOUS_s4990
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_10__ANONYMOUS_s4992
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_11__ANONYMOUS_s4994
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_12__ANONYMOUS_s4996
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_1__ANONYMOUS_s4998
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_2__ANONYMOUS_s5000
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_3__ANONYMOUS_s5002
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_4__ANONYMOUS_s5004
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_5__ANONYMOUS_s5006
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_6__ANONYMOUS_s5008
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_7__ANONYMOUS_s5010
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_8__ANONYMOUS_s5012
+size = 38
+after ba size = 38
+CREATING glblInit_phoneme_9__ANONYMOUS_s5014
+size = 38
+after ba size = 38
+CREATING auxiliaryHarness_38
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_37
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_36
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_35
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_34
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_33
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_32
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_31
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_30
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_29
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_28
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_27
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_26
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_25
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_24
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_23
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_22
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_21
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_20
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_19
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_18
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_17
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_16
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_15
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_14
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_13
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_12
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_11
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_10
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_9
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_8
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_7
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_6
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_5
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_4
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_3
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_2
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_1
+size = 436
+after ba size = 436
+CREATING auxiliaryHarness_0
+size = 436
+after ba size = 436
+CREATING main
+size = 531
+after ba size = 531
+CREATING __GLOBALDEFINITION__0
+size = 500
+after ba size = 500
+CREATING __GLOBALDEFINITION__1
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__2
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__3
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__4
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__5
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__6
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__7
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__8
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__9
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__10
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__11
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__12
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__13
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__14
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__15
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__16
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__17
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__18
+size = 268
+after ba size = 268
+CREATING __GLOBALDEFINITION__19
+size = 268
+after ba size = 268
+CREATING concatenate3
+size = 323
+after ba size = 323
+CREATING word_length
+size = 10
+after ba size = 10
+CREATING apply_rule
+Found Cycle of size 40; Breaking.
+Found Cycle of size 62; Breaking.
+size = 5718
+after ba size = 5718
+CREATING word_equal
+size = 618
+after ba size = 618
+CREATING rule_cost
+size = 96
+after ba size = 96
+CREATING is_insertion_rule
+size = 11
+after ba size = 11
+CREATING is_deletion_rule
+size = 11
+after ba size = 11
+CREATING rule_uses_boundary
+size = 19
+after ba size = 19
+CREATING concatenate
+size = 167
+after ba size = 167
+CREATING is_offset
+size = 98
+after ba size = 98
+CREATING get_offset
+size = 92
+after ba size = 92
+CREATING constant_specification
+size = 75
+after ba size = 75
+CREATING guard_does_something
+size = 19
+after ba size = 19
+CREATING is_valid_structural_change
+size = 71
+after ba size = 71
+CREATING apply_guard_sophisticated
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+Found Cycle of size 11; Breaking.
+size = 1402
+after ba size = 1402
+CREATING matches_specification
+size = 409
+after ba size = 409
+CREATING extract_constant_sound
+size = 100
+after ba size = 100
+CREATING is_place
+size = 81
+after ba size = 81
+CREATING get_place_offset
+size = 93
+after ba size = 93
+CREATING assimilatePlace
+size = 214
+after ba size = 214
+CREATING apply_specification
+size = 684
+after ba size = 684
+CREATING sound_equal
+size = 21
+after ba size = 21
+CREATING rule_does_nothing
+size = 38
+after ba size = 38
+CREATING guard_cost
+size = 26
+after ba size = 26
+CREATING specification_cost
+size = 162
+after ba size = 162
+CREATING validateCost
+size = 9
+after ba size = 9
+CREATING equals_Specification_s7
+size = 567
+after ba size = 567
+CREATING boundary_specification
+size = 8
+after ba size = 8
+CREATING index2okay1
+size = 14
+after ba size = 14
+CREATING index2sound2
+size = 17
+after ba size = 17
+CREATING makeNasal
+size = 91
+after ba size = 91
+CREATING empty_specification
+size = 182
+after ba size = 182
+CREATING guard_specification_cost
+size = 163
+after ba size = 163
+* before  EVERYTHING: auxiliaryHarness_38__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_38__Wrapper::SKETCH nodes = 251
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 15 new size =510
+inlined 97 new size =20935
+inlined 708 new size =48462
+inlined 129 new size =48116
+inlined 0 new size =48116
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 48116
+* Final Problem size: Problem nodes = 48116
+  # OF CONTROLS:    493
+ control_ints = 291 	 control_bits = 202
+inputSize = 0	ctrlSize = 1387
+Random seeds = 1
+Number of minvar nodes = 0
+!+ 0011000000000000011000001000011100110000100000000000111000000001101000101100000010000000111000000000000001000000000011010001001010000101100010000010000010000000001000001001000000001001100111000110010000111000010001000100000000000001001000000100101001000100011010000000011010111100100010000000000010100110010001000000000110100000001001010000010001100010110000001000000000100101101001001100001000010000100001010001000001000000000001101010000100000110100010000110010000110100000100000010100000110001000100001100011001000000000001010011000010000001010000101000100010000100000010000100000000001010000000100010000001000000000000001000000100000010000100000100000000001000000000100000011000000011000010001010011100000010000010000000100101001000111001100000000100000000001000000001001100001000000000100011000001000000000010001010001101000000000010000000011100010001000110000010000101001000001010000000100000010010001010010000100000000001001001100100000111110000000001101100000000011011011000000000000001010000000000100100101010100001011011100000000000001011011100100000000001110000000010000001100011000110000111000000100001010001000000100000000110010000000000010100000000010010000000100000010010001010000010000100000000000000000100001001010010000000000100010010001000000011100011100001100000000001010000001101100011110000000000000000010010110010010100100000010000010010111001101000101000000100000
+!+ H__105_119_47:12
+H__104_119_48:0
+H__103_119_49_45:0
+H__103_119_49_46:8
+H__103_119_50_45:1
+H__103_119_50_46:4
+H__0_120:24
+H__106_120:9
+H__107_120:1
+H__108_120:2
+H__109_120:0
+H__110_120:0
+H__111_120:14
+H__112_120:0
+H__113_120:0
+H__114_120:11
+H__115_120:8
+H__116_120:6
+H__117_120:0
+H__118_120:2
+H__119_120:0
+H__0_121:14
+H__120_121:0
+H__121_121:0
+H__122_121:0
+H__123_121:2
+H__124_121:0
+H__125_121:0
+H__126_121:11
+H__127_121:8
+H__128_121:4
+H__129_121:1
+H__130_121:10
+H__131_121:1
+H__132_121:1
+H__133_121:4
+H__0_122:16
+H__134_122:0
+H__135_122:0
+H__136_122:2
+H__137_122:8
+H__138_122:4
+H__139_122:0
+H__140_122:8
+H__141_122:12
+H__142_122:12
+H__143_122:1
+H__144_122:3
+H__145_122:1
+H__146_122:14
+H__147_122:0
+H__0_123:17
+H__148_123:8
+H__149_123:0
+H__150_123:0
+H__151_123:0
+H__152_123:2
+H__153_123:1
+H__154_123:8
+H__155_123:4
+H__156_123:9
+H__157_123:8
+H__158_123:8
+H__159_123:5
+H__160_123:0
+H__161_123:8
+H__0_124:21
+H__162_124:7
+H__163_124:2
+H__164_124:2
+H__165_124:0
+H__166_124:0
+H__167_124:10
+H__168_124:12
+H__169_124:4
+H__170_124:4
+H__171_124:0
+H__172_124:0
+H__173_124:11
+H__174_124:0
+H__175_124:8
+H__0_125:20
+H__176_125:0
+H__177_125:2
+H__178_125:6
+H__179_125:4
+H__180_125:3
+H__181_125:0
+H__182_125:1
+H__183_125:0
+H__184_125:4
+H__185_125:10
+H__186_125:5
+H__187_125:2
+H__188_125:3
+H__189_125:4
+H__0_126:8
+H__190_126:8
+H__191_126:0
+H__192_126:5
+H__193_126:4
+H__194_126:0
+H__195_126:1
+H__196_126:0
+H__197_126:0
+H__198_126:11
+H__199_126:2
+H__200_126:4
+H__201_126:0
+H__202_126:11
+H__203_126:8
+H__0_127:16
+H__204_127:9
+H__205_127:0
+H__206_127:11
+H__207_127:0
+H__208_127:2
+H__209_127:0
+H__210_127:5
+H__211_127:0
+H__212_127:3
+H__213_127:2
+H__214_127:2
+H__215_127:12
+H__216_127:8
+H__217_127:9
+H__0_128:0
+H__218_128:0
+H__219_128:4
+H__220_128:9
+H__221_128:1
+H__222_128:2
+H__223_128:0
+H__224_128:5
+H__225_128:8
+H__226_128:2
+H__227_128:2
+H__228_128:2
+H__229_128:4
+H__230_128:0
+H__231_128:2
+H__0_129:4
+H__232_129:0
+H__233_129:0
+H__234_129:5
+H__235_129:0
+H__236_129:4
+H__237_129:4
+H__238_129:0
+H__239_129:2
+H__240_129:0
+H__241_129:0
+H__242_129:0
+H__243_129:1
+H__244_129:8
+H__245_129:0
+H__0_130:4
+H__246_130:4
+H__247_130:0
+H__248_130:1
+H__249_130:0
+H__250_130:8
+H__251_130:0
+H__252_130:0
+H__253_130:2
+H__254_130:0
+H__255_130:3
+H__256_130:0
+H__257_130:6
+H__258_130:8
+H__259_130:8
+H__0_131:18
+H__260_131:3
+H__261_131:0
+H__262_131:1
+H__263_131:4
+H__264_131:0
+H__265_131:4
+H__266_131:10
+H__267_131:4
+H__268_131:12
+H__269_131:9
+H__270_131:1
+H__271_131:0
+H__272_131:2
+H__273_131:0
+H__0_132:16
+H__274_132:0
+H__275_132:0
+H__276_132:9
+H__277_132:1
+H__278_132:2
+H__279_132:0
+H__280_132:8
+H__281_132:8
+H__282_132:1
+H__283_132:4
+H__284_132:0
+H__285_132:0
+H__286_132:2
+H__287_132:10
+H__0_133:24
+H__288_133:2
+H__289_133:0
+H__290_133:0
+H__291_133:1
+H__292_133:0
+H__293_133:14
+H__294_133:8
+H__295_133:8
+H__296_133:8
+H__297_133:1
+H__298_133:4
+H__299_133:8
+H__300_133:2
+H__301_133:1
+H__0_134:20
+H__302_134:0
+H__303_134:8
+H__304_134:0
+H__305_134:4
+H__306_134:2
+H__307_134:10
+H__308_134:4
+H__309_134:8
+H__310_134:0
+H__311_134:0
+H__312_134:4
+H__313_134:2
+H__314_134:3
+H__315_134:1
+H__0_135:28
+H__316_135:3
+H__317_135:0
+H__318_135:8
+H__319_135:13
+H__320_135:0
+H__321_135:0
+H__322_135:6
+H__323_135:11
+H__324_135:1
+H__325_135:0
+H__326_135:0
+H__327_135:8
+H__328_135:2
+H__329_135:0
+H__0_136:16
+H__330_136:4
+H__331_136:10
+H__332_136:10
+H__333_136:0
+H__334_136:13
+H__335_136:14
+H__336_136:0
+H__337_136:0
+H__338_136:0
+H__339_136:10
+H__340_136:13
+H__341_136:9
+H__342_136:0
+H__343_136:0
+H__0_137:28
+H__344_137:0
+H__345_137:0
+H__346_137:1
+H__347_137:8
+H__348_137:1
+H__349_137:3
+H__350_137:6
+H__351_137:8
+H__352_137:3
+H__353_137:0
+H__354_137:1
+H__355_137:10
+H__356_137:8
+H__357_137:0
+H__0_138:4
+H__358_138:0
+H__359_138:12
+H__360_138:4
+H__361_138:0
+H__362_138:0
+H__363_138:4
+H__364_138:1
+H__365_138:0
+H__366_138:4
+H__367_138:2
+H__368_138:0
+H__369_138:2
+H__370_138:0
+H__371_138:9
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:1
+H__41_119_47:0
+H__40_119_47:1
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:1
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:1
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:1
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:1
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:1
+H__79_119_50_45:0
+H__78_119_50_45:1
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:1
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:1
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:1
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:1
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:1
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:1
+H__81_119_50_46:1
+H__80_119_50_46:1
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:1
+H__87_119_50_46:1
+H__86_119_50_46:1
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:1
+H__92_119_50_46:1
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:0
+H__69_119_49_45:1
+H__68_119_49_45:0
+H__71_119_49_45:1
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:1
+H__79_119_49_45:1
+H__78_119_49_45:0
+H__81_119_49_45:1
+H__80_119_49_45:1
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:1
+H__87_119_49_45:1
+H__86_119_49_45:1
+H__89_119_49_45:1
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:1
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:1
+H__76_119_49_46:0
+H__79_119_49_46:1
+H__78_119_49_46:1
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:1
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:1
+H__87_119_49_46:0
+H__86_119_49_46:1
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:1
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:1
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:0
+H__3_119_49:0
+H__5_119_48:1
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:1
+H__9_119_48:0
+H__8_119_48:1
+H__11_119_48:1
+H__10_119_48:1
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:1
+H__14_119_48:1
+H__17_119_48:0
+H__16_119_48:1
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:1
+H__23_119_48:0
+H__22_119_48:1
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:1
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 2 was 48116
+Assert at tmpT14WIH.sk:64 (2)
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.076
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 48116 was 48116
+ * After all optims it became = 48116
+ finder  hits = 5372	 bstoreObjs=101698	 sstorePages=115
+hitcount 	0	100550	6
+hitcount 	1	494	7
+hitcount 	2	289	7
+hitcount 	3	30	6
+hitcount 	4	30	7
+hitcount 	5	54	7
+hitcount 	6	99	7
+hitcount 	7	29	6
+hitcount 	8	32	6
+hitcount 	9	4	4
+hitcount 	10	3	1
+hitcount 	11	3	0
+hitcount 	12	3	1
+hitcount 	13	3	3
+hitcount 	14	7	4
+hitcount 	15	16	6
+hitcount 	16	2	1
+hitcount 	17	1	4
+hitcount 	18	1	7
+hitcount 	20	1	6
+hitcount 	23	1	8
+hitcount 	24	1	7
+hitcount 	25	1	10
+hitcount 	26	1	10
+hitcount 	27	2	5
+hitcount 	28	1	6
+hitcount 	29	2	7
+hitcount 	30	1	11
+hitcount 	32	1	12
+hitcount 	33	1	5
+hitcount 	34	1	8
+hitcount 	37	2	7
+hitcount 	38	1	6
+hitcount 	39	1	9
+hitcount 	42	1	11
+hitcount 	43	3	6
+hitcount 	44	1	6
+hitcount 	47	2	6
+hitcount 	48	1	6
+hitcount 	49	3	6
+hitcount 	52	2	7
+hitcount 	53	1	4
+hitcount 	54	1	8
+hitcount 	55	2	8
+hitcount 	57	2	7
+hitcount 	58	1	11
+hitcount 	61	2	7
+hitcount 	62	2	7
+hitcount 	63	1	7
+hitcount 	67	3	7
+hitcount 	70	1	6
+hitcount 	73	1	11
+bucketsPerDepth 	8	1
+bucketsPerDepth 	9	23
+bucketsPerDepth 	10	101
+bucketsPerDepth 	11	226
+bucketsPerDepth 	12	257
+bucketsPerDepth 	13	204
+bucketsPerDepth 	14	111
+bucketsPerDepth 	15	54
+bucketsPerDepth 	16	31
+bucketsPerDepth 	17	9
+bucketsPerDepth 	18	5
+bucketsPerDepth 	19	2
+* TIME TO ADD INPUT :  999.45 ms 
+DECISIONS START = 0
+f# %assign: 5 clauses: 383577 learn: 179 restart: 2 decision: 20912 propagated: 1261549
+END FIND
+!+ 1000001010000010001000101100000000000000101000010000000000000000010000000001000010000000000000000000100000000000000000000100000000000000000000000000000000000100010000000000001000000000000000000010000000000000010000100000000000000000000000100000001000100000000000100000001010011101010000010011000100010000000101010000000010000000000000000000100010010100000000001000000010010000000010011001100100000000000000000000000000000000000001000000010000000000000001000000000000100000000000000000001100010100000000000000000001000000000000010000100010000000000000000000000000010100100010000000000010001000000000001010010000000000100000000000000000000000010000000010000000001100000000000000000000001000000000101100000000000000000000100000000000000000001000000000000000100010010100000000000100000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000010000000000000000000000000000000000000100000000000000000000000100000100000000000000000000010000000000000000100000010000000000000000000010000000000001001000000100100100100000000000000100000100000000000000000000000110000000000101000000000000000000000000001000000000000110010010011110001010010001000000000000100100000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000001010000000000000000000000000000000001100000000000000000000000000000000
+!+ H__105_119_47:1
+H__104_119_48:10
+H__103_119_49_45:0
+H__103_119_49_46:1
+H__103_119_50_45:1
+H__103_119_50_46:13
+H__0_120:0
+H__106_120:0
+H__107_120:0
+H__108_120:10
+H__109_120:0
+H__110_120:1
+H__111_120:0
+H__112_120:0
+H__113_120:0
+H__114_120:4
+H__115_120:0
+H__116_120:0
+H__117_120:1
+H__118_120:2
+H__119_120:0
+H__0_121:0
+H__120_121:0
+H__121_121:0
+H__122_121:1
+H__123_121:0
+H__124_121:0
+H__125_121:0
+H__126_121:0
+H__127_121:2
+H__128_121:0
+H__129_121:0
+H__130_121:0
+H__131_121:0
+H__132_121:0
+H__133_121:0
+H__0_122:0
+H__134_122:0
+H__135_122:1
+H__136_122:1
+H__137_122:0
+H__138_122:0
+H__139_122:2
+H__140_122:0
+H__141_122:0
+H__142_122:0
+H__143_122:0
+H__144_122:2
+H__145_122:0
+H__146_122:0
+H__147_122:0
+H__0_123:1
+H__148_123:1
+H__149_123:0
+H__150_123:0
+H__151_123:0
+H__152_123:0
+H__153_123:0
+H__154_123:1
+H__155_123:0
+H__156_123:1
+H__157_123:1
+H__158_123:0
+H__159_123:0
+H__160_123:1
+H__161_123:0
+H__0_124:5
+H__162_124:7
+H__163_124:5
+H__164_124:0
+H__165_124:9
+H__166_124:1
+H__167_124:1
+H__168_124:1
+H__169_124:0
+H__170_124:5
+H__171_124:1
+H__172_124:0
+H__173_124:2
+H__174_124:0
+H__175_124:0
+H__0_125:0
+H__176_125:0
+H__177_125:1
+H__178_125:9
+H__179_125:2
+H__180_125:0
+H__181_125:0
+H__182_125:1
+H__183_125:0
+H__184_125:9
+H__185_125:0
+H__186_125:0
+H__187_125:9
+H__188_125:9
+H__189_125:9
+H__0_126:0
+H__190_126:0
+H__191_126:0
+H__192_126:0
+H__193_126:0
+H__194_126:0
+H__195_126:0
+H__196_126:0
+H__197_126:0
+H__198_126:1
+H__199_126:0
+H__200_126:1
+H__201_126:0
+H__202_126:0
+H__203_126:0
+H__0_127:1
+H__204_127:0
+H__205_127:0
+H__206_127:1
+H__207_127:0
+H__208_127:0
+H__209_127:0
+H__210_127:0
+H__211_127:3
+H__212_127:10
+H__213_127:0
+H__214_127:0
+H__215_127:0
+H__216_127:0
+H__217_127:8
+H__0_128:0
+H__218_128:0
+H__219_128:0
+H__220_128:1
+H__221_128:2
+H__222_128:2
+H__223_128:0
+H__224_128:0
+H__225_128:0
+H__226_128:0
+H__227_128:0
+H__228_128:0
+H__229_128:5
+H__230_128:2
+H__231_128:2
+H__0_129:0
+H__232_129:0
+H__233_129:1
+H__234_129:1
+H__235_129:0
+H__236_129:0
+H__237_129:5
+H__238_129:2
+H__239_129:0
+H__240_129:0
+H__241_129:1
+H__242_129:0
+H__243_129:0
+H__244_129:0
+H__245_129:0
+H__0_130:0
+H__246_130:1
+H__247_130:0
+H__248_130:2
+H__249_130:0
+H__250_130:8
+H__251_130:1
+H__252_130:0
+H__253_130:0
+H__254_130:0
+H__255_130:0
+H__256_130:8
+H__257_130:0
+H__258_130:0
+H__259_130:10
+H__0_131:1
+H__260_131:0
+H__261_131:0
+H__262_131:0
+H__263_131:0
+H__264_131:1
+H__265_131:0
+H__266_131:0
+H__267_131:0
+H__268_131:0
+H__269_131:1
+H__270_131:0
+H__271_131:0
+H__272_131:0
+H__273_131:1
+H__0_132:9
+H__274_132:1
+H__275_132:0
+H__276_132:0
+H__277_132:1
+H__278_132:0
+H__279_132:0
+H__280_132:0
+H__281_132:0
+H__282_132:0
+H__283_132:0
+H__284_132:0
+H__285_132:0
+H__286_132:0
+H__287_132:0
+H__0_133:0
+H__288_133:0
+H__289_133:0
+H__290_133:0
+H__291_133:0
+H__292_133:0
+H__293_133:1
+H__294_133:0
+H__295_133:0
+H__296_133:0
+H__297_133:0
+H__298_133:0
+H__299_133:0
+H__300_133:1
+H__301_133:0
+H__0_134:0
+H__302_134:0
+H__303_134:0
+H__304_134:0
+H__305_134:0
+H__306_134:0
+H__307_134:0
+H__308_134:2
+H__309_134:0
+H__310_134:0
+H__311_134:0
+H__312_134:0
+H__313_134:0
+H__314_134:2
+H__315_134:8
+H__0_135:0
+H__316_135:0
+H__317_135:0
+H__318_135:0
+H__319_135:0
+H__320_135:1
+H__321_135:0
+H__322_135:0
+H__323_135:0
+H__324_135:2
+H__325_135:0
+H__326_135:1
+H__327_135:0
+H__328_135:0
+H__329_135:0
+H__0_136:0
+H__330_136:1
+H__331_136:0
+H__332_136:0
+H__333_136:2
+H__334_136:1
+H__335_136:8
+H__336_136:4
+H__337_136:2
+H__338_136:1
+H__339_136:0
+H__340_136:0
+H__341_136:8
+H__342_136:0
+H__343_136:2
+H__0_137:0
+H__344_137:0
+H__345_137:0
+H__346_137:0
+H__347_137:0
+H__348_137:3
+H__349_137:0
+H__350_137:0
+H__351_137:5
+H__352_137:0
+H__353_137:0
+H__354_137:0
+H__355_137:0
+H__356_137:0
+H__357_137:0
+H__0_138:2
+H__358_138:0
+H__359_138:0
+H__360_138:6
+H__361_138:2
+H__362_138:9
+H__363_138:7
+H__364_138:4
+H__365_138:9
+H__366_138:8
+H__367_138:0
+H__368_138:0
+H__369_138:0
+H__370_138:9
+H__371_138:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:1
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:1
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:1
+H__98_119_49_45:0
+H__102_119_49:1
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:1
+H__3_119_49:1
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 25 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (7)
+5= 3==-1 ? (5):(7)
+6= (7)
+7= 5 == (7) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 5= 3==-1 ? (5):(7) = 7
+ reduced size from 25 to 0
+Simulation no cex:  0.001 ms 
+CONTROL: growing l=2 inputs to size 3
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (7)
+5= 3==-1 ? (5):(7)
+6= (7)
+7= 5 == (7) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 5= 3==-1 ? (5):(7) = 7
+ reduced size from 25 to 0
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 4
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (7)
+5= 3==-1 ? (5):(7)
+6= (7)
+7= 5 == (7) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 5= 3==-1 ? (5):(7) = 7
+ reduced size from 25 to 0
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 5
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (7)
+5= 3==-1 ? (5):(7)
+6= (7)
+7= 5 == (7) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 5= 3==-1 ? (5):(7) = 7
+ reduced size from 25 to 0
+Simulation no cex:  0 ms 
+END CHECK
+********  1	ftime= 999.823	ctime= 0.063
+ *GOT THE CORRECT ANSWER IN 2 iterations.
+ *FIND TIME 999.823 CHECK TIME 0.139 TOTAL TIME 999.98
+VALUES H__0_120: 0, H__0_121: 0, H__0_122: 0, H__0_123: 1, H__0_124: 5, H__0_125: 0, H__0_126: 0, H__0_127: 1, H__0_128: 0, H__0_129: 0, H__0_130: 0, H__0_131: 1, H__0_132: 9, H__0_133: 0, H__0_134: 0, H__0_135: 0, H__0_136: 0, H__0_137: 0, H__0_138: 2, H__101_119_49: 1, H__101_119_50: 1, H__102_119_49: 1, H__102_119_50: 0, H__103_119_49_45: 0, H__103_119_49_46: 1, H__103_119_50_45: 1, H__103_119_50_46: 13, H__104_119_48: 10, H__105_119_47: 1, H__106_120: 0, H__107_120: 0, H__108_120: 10, H__109_120: 0, H__10_119_48: 0, H__110_120: 1, H__111_120: 0, H__112_120: 0, H__113_120: 0, H__114_120: 4, H__115_120: 0, H__116_120: 0, H__117_120: 1, H__118_120: 2, H__119_120: 0, H__11_119_48: 0, H__120_121: 0, H__121_121: 0, H__122_121: 1, H__123_121: 0, H__124_121: 0, H__125_121: 0, H__126_121: 0, H__127_121: 2, H__128_121: 0, H__129_121: 0, H__12_119_48: 0, H__130_121: 0, H__131_121: 0, H__132_121: 0, H__133_121: 0, H__134_122: 0, H__135_122: 1, H__136_122: 1, H__137_122: 0, H__138_122: 0, H__139_122: 2, H__13_119_48: 0, H__140_122: 0, H__141_122: 0, H__142_122: 0, H__143_122: 0, H__144_122: 2, H__145_122: 0, H__146_122: 0, H__147_122: 0, H__148_123: 1, H__149_123: 0, H__14_119_48: 0, H__150_123: 0, H__151_123: 0, H__152_123: 0, H__153_123: 0, H__154_123: 1, H__155_123: 0, H__156_123: 1, H__157_123: 1, H__158_123: 0, H__159_123: 0, H__15_119_48: 0, H__160_123: 1, H__161_123: 0, H__162_124: 7, H__163_124: 5, H__164_124: 0, H__165_124: 9, H__166_124: 1, H__167_124: 1, H__168_124: 1, H__169_124: 0, H__16_119_48: 0, H__170_124: 5, H__171_124: 1, H__172_124: 0, H__173_124: 2, H__174_124: 0, H__175_124: 0, H__176_125: 0, H__177_125: 1, H__178_125: 9, H__179_125: 2, H__17_119_48: 0, H__180_125: 0, H__181_125: 0, H__182_125: 1, H__183_125: 0, H__184_125: 9, H__185_125: 0, H__186_125: 0, H__187_125: 9, H__188_125: 9, H__189_125: 9, H__18_119_48: 0, H__190_126: 0, H__191_126: 0, H__192_126: 0, H__193_126: 0, H__194_126: 0, H__195_126: 0, H__196_126: 0, H__197_126: 0, H__198_126: 1, H__199_126: 0, H__19_119_48: 0, H__1_119_49: 0, H__1_119_50: 0, H__200_126: 1, H__201_126: 0, H__202_126: 0, H__203_126: 0, H__204_127: 0, H__205_127: 0, H__206_127: 1, H__207_127: 0, H__208_127: 0, H__209_127: 0, H__20_119_48: 0, H__210_127: 0, H__211_127: 3, H__212_127: 10, H__213_127: 0, H__214_127: 0, H__215_127: 0, H__216_127: 0, H__217_127: 8, H__218_128: 0, H__219_128: 0, H__21_119_48: 0, H__220_128: 1, H__221_128: 2, H__222_128: 2, H__223_128: 0, H__224_128: 0, H__225_128: 0, H__226_128: 0, H__227_128: 0, H__228_128: 0, H__229_128: 5, H__22_119_48: 0, H__230_128: 2, H__231_128: 2, H__232_129: 0, H__233_129: 1, H__234_129: 1, H__235_129: 0, H__236_129: 0, H__237_129: 5, H__238_129: 2, H__239_129: 0, H__23_119_48: 0, H__240_129: 0, H__241_129: 1, H__242_129: 0, H__243_129: 0, H__244_129: 0, H__245_129: 0, H__246_130: 1, H__247_130: 0, H__248_130: 2, H__249_130: 0, H__24_119_48: 0, H__250_130: 8, H__251_130: 1, H__252_130: 0, H__253_130: 0, H__254_130: 0, H__255_130: 0, H__256_130: 8, H__257_130: 0, H__258_130: 0, H__259_130: 10, H__25_119_48: 0, H__260_131: 0, H__261_131: 0, H__262_131: 0, H__263_131: 0, H__264_131: 1, H__265_131: 0, H__266_131: 0, H__267_131: 0, H__268_131: 0, H__269_131: 1, H__26_119_48: 0, H__270_131: 0, H__271_131: 0, H__272_131: 0, H__273_131: 1, H__274_132: 1, H__275_132: 0, H__276_132: 0, H__277_132: 1, H__278_132: 0, H__279_132: 0, H__27_119_48: 0, H__280_132: 0, H__281_132: 0, H__282_132: 0, H__283_132: 0, H__284_132: 0, H__285_132: 0, H__286_132: 0, H__287_132: 0, H__288_133: 0, H__289_133: 0, H__28_119_48: 0, H__290_133: 0, H__291_133: 0, H__292_133: 0, H__293_133: 1, H__294_133: 0, H__295_133: 0, H__296_133: 0, H__297_133: 0, H__298_133: 0, H__299_133: 0, H__29_119_48: 0, H__2_119_49: 1, H__2_119_50: 0, H__300_133: 1, H__301_133: 0, H__302_134: 0, H__303_134: 0, H__304_134: 0, H__305_134: 0, H__306_134: 0, H__307_134: 0, H__308_134: 2, H__309_134: 0, H__30_119_48: 0, H__310_134: 0, H__311_134: 0, H__312_134: 0, H__313_134: 0, H__314_134: 2, H__315_134: 8, H__316_135: 0, H__317_135: 0, H__318_135: 0, H__319_135: 0, H__31_119_48: 0, H__320_135: 1, H__321_135: 0, H__322_135: 0, H__323_135: 0, H__324_135: 2, H__325_135: 0, H__326_135: 1, H__327_135: 0, H__328_135: 0, H__329_135: 0, H__32_119_48: 0, H__330_136: 1, H__331_136: 0, H__332_136: 0, H__333_136: 2, H__334_136: 1, H__335_136: 8, H__336_136: 4, H__337_136: 2, H__338_136: 1, H__339_136: 0, H__33_119_48: 0, H__340_136: 0, H__341_136: 8, H__342_136: 0, H__343_136: 2, H__344_137: 0, H__345_137: 0, H__346_137: 0, H__347_137: 0, H__348_137: 3, H__349_137: 0, H__34_119_48: 0, H__350_137: 0, H__351_137: 5, H__352_137: 0, H__353_137: 0, H__354_137: 0, H__355_137: 0, H__356_137: 0, H__357_137: 0, H__358_138: 0, H__359_138: 0, H__35_119_48: 0, H__360_138: 6, H__361_138: 2, H__362_138: 9, H__363_138: 7, H__364_138: 4, H__365_138: 9, H__366_138: 8, H__367_138: 0, H__368_138: 0, H__369_138: 0, H__36_119_47: 0, H__370_138: 9, H__371_138: 0, H__37_119_47: 0, H__38_119_47: 0, H__39_119_47: 0, H__3_119_49: 1, H__3_119_50: 0, H__40_119_47: 0, H__41_119_47: 0, H__42_119_47: 0, H__43_119_47: 0, H__44_119_47: 0, H__45_119_47: 0, H__46_119_47: 0, H__47_119_47: 0, H__48_119_47: 0, H__49_119_47: 0, H__4_119_48: 0, H__50_119_47: 0, H__51_119_47: 0, H__52_119_47: 0, H__53_119_47: 0, H__54_119_47: 0, H__55_119_47: 0, H__56_119_47: 0, H__57_119_47: 0, H__58_119_47: 0, H__59_119_47: 0, H__5_119_48: 0, H__60_119_47: 0, H__61_119_47: 0, H__62_119_47: 0, H__63_119_47: 0, H__64_119_47: 0, H__65_119_47: 0, H__66_119_47: 0, H__67_119_47: 0, H__68_119_49_45: 0, H__68_119_49_46: 0, H__68_119_50_45: 0, H__68_119_50_46: 0, H__69_119_49_45: 0, H__69_119_49_46: 0, H__69_119_50_45: 0, H__69_119_50_46: 0, H__6_119_48: 0, H__70_119_49_45: 0, H__70_119_49_46: 0, H__70_119_50_45: 0, H__70_119_50_46: 0, H__71_119_49_45: 0, H__71_119_49_46: 0, H__71_119_50_45: 0, H__71_119_50_46: 0, H__72_119_49_45: 0, H__72_119_49_46: 0, H__72_119_50_45: 0, H__72_119_50_46: 0, H__73_119_49_45: 0, H__73_119_49_46: 0, H__73_119_50_45: 0, H__73_119_50_46: 0, H__74_119_49_45: 0, H__74_119_49_46: 0, H__74_119_50_45: 0, H__74_119_50_46: 0, H__75_119_49_45: 0, H__75_119_49_46: 0, H__75_119_50_45: 0, H__75_119_50_46: 0, H__76_119_49_45: 0, H__76_119_49_46: 0, H__76_119_50_45: 0, H__76_119_50_46: 0, H__77_119_49_45: 0, H__77_119_49_46: 0, H__77_119_50_45: 0, H__77_119_50_46: 0, H__78_119_49_45: 0, H__78_119_49_46: 0, H__78_119_50_45: 0, H__78_119_50_46: 0, H__79_119_49_45: 0, H__79_119_49_46: 0, H__79_119_50_45: 0, H__79_119_50_46: 0, H__7_119_48: 0, H__80_119_49_45: 0, H__80_119_49_46: 0, H__80_119_50_45: 0, H__80_119_50_46: 0, H__81_119_49_45: 0, H__81_119_49_46: 0, H__81_119_50_45: 0, H__81_119_50_46: 0, H__82_119_49_45: 0, H__82_119_49_46: 0, H__82_119_50_45: 0, H__82_119_50_46: 0, H__83_119_49_45: 0, H__83_119_49_46: 0, H__83_119_50_45: 0, H__83_119_50_46: 0, H__84_119_49_45: 0, H__84_119_49_46: 0, H__84_119_50_45: 0, H__84_119_50_46: 0, H__85_119_49_45: 0, H__85_119_49_46: 0, H__85_119_50_45: 0, H__85_119_50_46: 0, H__86_119_49_45: 0, H__86_119_49_46: 0, H__86_119_50_45: 0, H__86_119_50_46: 0, H__87_119_49_45: 0, H__87_119_49_46: 0, H__87_119_50_45: 0, H__87_119_50_46: 0, H__88_119_49_45: 0, H__88_119_49_46: 0, H__88_119_50_45: 0, H__88_119_50_46: 0, H__89_119_49_45: 0, H__89_119_49_46: 0, H__89_119_50_45: 0, H__89_119_50_46: 0, H__8_119_48: 0, H__90_119_49_45: 0, H__90_119_49_46: 0, H__90_119_50_45: 0, H__90_119_50_46: 0, H__91_119_49_45: 0, H__91_119_49_46: 0, H__91_119_50_45: 0, H__91_119_50_46: 0, H__92_119_49_45: 0, H__92_119_49_46: 0, H__92_119_50_45: 0, H__92_119_50_46: 0, H__93_119_49_45: 0, H__93_119_49_46: 0, H__93_119_50_45: 0, H__93_119_50_46: 0, H__94_119_49_45: 0, H__94_119_49_46: 0, H__94_119_50_45: 0, H__94_119_50_46: 0, H__95_119_49_45: 0, H__95_119_49_46: 0, H__95_119_50_45: 0, H__95_119_50_46: 0, H__96_119_49_45: 0, H__96_119_49_46: 0, H__96_119_50_45: 0, H__96_119_50_46: 0, H__97_119_49_45: 0, H__97_119_49_46: 0, H__97_119_50_45: 0, H__97_119_50_46: 0, H__98_119_49_45: 0, H__98_119_49_46: 0, H__98_119_50_45: 0, H__98_119_50_46: 0, H__99_119_49_45: 1, H__99_119_49_46: 0, H__99_119_50_45: 0, H__99_119_50_46: 0, H__9_119_48: 0, 
+RESULT = 2  
+* before  EVERYTHING: auxiliaryHarness_37__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_37__Wrapper::SKETCH nodes = 251
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 15 new size =510
+inlined 97 new size =20935
+inlined 708 new size =48462
+inlined 129 new size =48116
+inlined 0 new size =48116
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 48116
+* Final Problem size: Problem nodes = 48116
+  # OF CONTROLS:    493
+ control_ints = 291 	 control_bits = 202
+inputSize = 0	ctrlSize = 1387
+Random seeds = 1
+Number of minvar nodes = 0
+!+ 0100100000000000000000010010000100001000000010000100010110000001100010001011001100000000011000011000110100100101010111001011001010010010100100100000000110100110010000001100000100000000001000000100100101000100000001000000000100000000000101000001010000100000101000010010000100010001000000001011001010000000001000100000010000001001000000010000001000000101001010000100000000101000000000000000000100000001110001110000000100010101000100100010010000010010000001000100011101011000000111000000000100010010010000010010001010001000010000000000000000000010110100000000010001110000001010010010000100000101100100010000001011000000000100010010000100100110100010001100000000001000101001010000100100010001000000000010000000100001101000100000011001001000000100100100000001100100001000011110100000110000001000000010010010010001001110001100000010000000001010001001000001000000001000001011000000000000001000010000001111100100000000010010000000001001000000100000010110000010100001011000000000000000000100000100100101110000100100011010101001000000000000001000000000100101110000110100010000000100100000000010010010000101011010110000000000011101000000000000000001000011001001000000000000101000010100000011000110000000100111000011000000010010100010010010000110010001001001100000110000000100010010000100100000000000000100000100001001100011000010100010001000000100110000110000000000000011000100000101001000010000001
+!+ H__105_119_47:18
+H__104_119_48:0
+H__103_119_49_45:0
+H__103_119_49_46:0
+H__103_119_50_45:0
+H__103_119_50_46:2
+H__0_120:1
+H__106_120:1
+H__107_120:2
+H__108_120:0
+H__109_120:2
+H__110_120:4
+H__111_120:4
+H__112_120:3
+H__113_120:0
+H__114_120:3
+H__115_120:2
+H__116_120:10
+H__117_120:9
+H__118_120:1
+H__119_120:0
+H__0_121:12
+H__120_121:8
+H__121_121:1
+H__122_121:11
+H__123_121:4
+H__124_121:10
+H__125_121:10
+H__126_121:3
+H__127_121:13
+H__128_121:4
+H__129_121:9
+H__130_121:4
+H__131_121:9
+H__132_121:4
+H__133_121:0
+H__0_122:24
+H__134_122:2
+H__135_122:3
+H__136_122:1
+H__137_122:8
+H__138_122:1
+H__139_122:4
+H__140_122:0
+H__141_122:0
+H__142_122:2
+H__143_122:0
+H__144_122:9
+H__145_122:4
+H__146_122:1
+H__147_122:1
+H__0_123:16
+H__148_123:0
+H__149_123:0
+H__150_123:2
+H__151_123:0
+H__152_123:0
+H__153_123:10
+H__154_123:0
+H__155_123:10
+H__156_123:0
+H__157_123:1
+H__158_123:4
+H__159_123:1
+H__160_123:2
+H__161_123:1
+H__0_124:2
+H__162_124:1
+H__163_124:1
+H__164_124:0
+H__165_124:10
+H__166_124:9
+H__167_124:2
+H__168_124:0
+H__169_124:8
+H__170_124:8
+H__171_124:0
+H__172_124:4
+H__173_124:0
+H__174_124:2
+H__175_124:1
+H__0_125:16
+H__176_125:0
+H__177_125:4
+H__178_125:0
+H__179_125:10
+H__180_125:4
+H__181_125:1
+H__182_125:2
+H__183_125:0
+H__184_125:4
+H__185_125:1
+H__186_125:0
+H__187_125:0
+H__188_125:0
+H__189_125:8
+H__0_126:0
+H__190_126:12
+H__191_126:1
+H__192_126:7
+H__193_126:0
+H__194_126:4
+H__195_126:4
+H__196_126:5
+H__197_126:4
+H__198_126:2
+H__199_126:2
+H__200_126:1
+H__201_126:4
+H__202_126:2
+H__203_126:0
+H__0_127:17
+H__204_127:8
+H__205_127:11
+H__206_127:6
+H__207_127:0
+H__208_127:14
+H__209_127:0
+H__210_127:0
+H__211_127:2
+H__212_127:2
+H__213_127:9
+H__214_127:0
+H__215_127:2
+H__216_127:1
+H__217_127:5
+H__0_128:4
+H__218_128:4
+H__219_128:0
+H__220_128:0
+H__221_128:0
+H__222_128:0
+H__223_128:8
+H__224_128:6
+H__225_128:1
+H__226_128:0
+H__227_128:4
+H__228_128:12
+H__229_128:1
+H__230_128:8
+H__231_128:2
+H__0_129:9
+H__232_129:8
+H__233_129:0
+H__234_129:10
+H__235_129:9
+H__236_129:8
+H__237_129:0
+H__238_129:4
+H__239_129:3
+H__240_129:0
+H__241_129:8
+H__242_129:8
+H__243_129:4
+H__244_129:8
+H__245_129:4
+H__0_130:22
+H__246_130:8
+H__247_130:8
+H__248_130:1
+H__249_130:0
+H__250_130:8
+H__251_130:8
+H__252_130:2
+H__253_130:5
+H__254_130:8
+H__255_130:4
+H__256_130:4
+H__257_130:4
+H__258_130:0
+H__259_130:0
+H__0_131:2
+H__260_131:0
+H__261_131:1
+H__262_131:6
+H__263_131:1
+H__264_131:1
+H__265_131:8
+H__266_131:9
+H__267_131:4
+H__268_131:0
+H__269_131:2
+H__270_131:9
+H__271_131:0
+H__272_131:8
+H__273_131:9
+H__0_132:16
+H__274_132:0
+H__275_132:15
+H__276_132:2
+H__277_132:8
+H__278_132:1
+H__279_132:8
+H__280_132:0
+H__281_132:8
+H__282_132:4
+H__283_132:2
+H__284_132:1
+H__285_132:9
+H__286_132:3
+H__287_132:6
+H__0_133:0
+H__288_133:1
+H__289_133:0
+H__290_133:4
+H__291_133:1
+H__292_133:9
+H__293_133:0
+H__294_133:2
+H__295_133:0
+H__296_133:4
+H__297_133:0
+H__298_133:13
+H__299_133:0
+H__300_133:0
+H__301_133:0
+H__0_134:4
+H__302_134:4
+H__303_134:0
+H__304_134:14
+H__305_134:3
+H__306_134:1
+H__307_134:0
+H__308_134:4
+H__309_134:2
+H__310_134:0
+H__311_134:8
+H__312_134:4
+H__313_134:0
+H__314_134:2
+H__315_134:0
+H__0_135:13
+H__316_135:0
+H__317_135:5
+H__318_135:8
+H__319_135:6
+H__320_135:0
+H__321_135:0
+H__322_135:0
+H__323_135:0
+H__324_135:2
+H__325_135:8
+H__326_135:4
+H__327_135:10
+H__328_135:3
+H__329_135:4
+H__0_136:2
+H__330_136:11
+H__331_136:10
+H__332_136:4
+H__333_136:0
+H__334_136:0
+H__335_136:0
+H__336_136:2
+H__337_136:0
+H__338_136:8
+H__339_136:4
+H__340_136:7
+H__341_136:8
+H__342_136:5
+H__343_136:4
+H__0_137:0
+H__344_137:2
+H__345_137:1
+H__346_137:0
+H__347_137:4
+H__348_137:2
+H__349_137:1
+H__350_137:10
+H__351_137:6
+H__352_137:13
+H__353_137:0
+H__354_137:0
+H__355_137:8
+H__356_137:11
+H__357_137:0
+H__0_138:0
+H__358_138:0
+H__359_138:0
+H__360_138:1
+H__361_138:6
+H__362_138:2
+H__363_138:1
+H__364_138:0
+H__365_138:0
+H__366_138:10
+H__367_138:0
+H__368_138:5
+H__369_138:0
+H__370_138:6
+H__371_138:12
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:1
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:1
+H__46_119_47:1
+H__49_119_47:1
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:1
+H__55_119_47:1
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:1
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:1
+H__67_119_47:0
+H__66_119_47:1
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:1
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:1
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:1
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:1
+H__83_119_50_45:1
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:1
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:1
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:1
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:1
+H__97_119_50_45:1
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:1
+H__71_119_50_46:1
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:1
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:1
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:1
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:1
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:1
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:1
+H__72_119_49_45:0
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:1
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:1
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:1
+H__86_119_49_45:1
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:1
+H__93_119_49_45:1
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:1
+H__99_119_49_45:0
+H__98_119_49_45:1
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:1
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:1
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:1
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:1
+H__84_119_49_46:1
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:1
+H__90_119_49_46:1
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:0
+H__3_119_49:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:1
+H__9_119_48:1
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:1
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:1
+H__18_119_48:0
+H__21_119_48:1
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:1
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:1
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:1
+
+BEG CHECK
+ * After optims it became = 2 was 48116
+regen H__105
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.044
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 48116 was 48116
+ * After all optims it became = 48116
+ finder  hits = 18655	 bstoreObjs=194968	 sstorePages=239
+hitcount 	0	185032	7
+hitcount 	1	8725	4
+hitcount 	2	551	8
+hitcount 	3	64	7
+hitcount 	4	58	8
+hitcount 	5	118	7
+hitcount 	6	60	8
+hitcount 	7	56	7
+hitcount 	8	62	7
+hitcount 	9	7	3
+hitcount 	10	4	1
+hitcount 	11	5	1
+hitcount 	12	4	0
+hitcount 	13	73	6
+hitcount 	14	8	4
+hitcount 	15	19	5
+hitcount 	16	4	0
+hitcount 	17	3	1
+hitcount 	18	2	9
+hitcount 	19	1	3
+hitcount 	20	2	7
+hitcount 	21	1	3
+hitcount 	23	3	5
+hitcount 	24	2	7
+hitcount 	25	3	6
+hitcount 	26	2	8
+hitcount 	27	5	6
+hitcount 	28	2	9
+hitcount 	29	7	6
+hitcount 	30	2	10
+hitcount 	31	7	7
+hitcount 	32	2	9
+hitcount 	33	3	6
+hitcount 	34	2	9
+hitcount 	35	1	4
+hitcount 	37	4	9
+hitcount 	38	2	7
+hitcount 	39	2	8
+hitcount 	42	2	11
+hitcount 	43	6	8
+hitcount 	44	2	6
+hitcount 	47	4	7
+hitcount 	48	2	8
+hitcount 	49	6	7
+hitcount 	52	4	8
+hitcount 	53	2	6
+hitcount 	54	2	9
+hitcount 	55	4	9
+hitcount 	57	4	9
+hitcount 	58	2	8
+hitcount 	61	4	7
+hitcount 	62	4	8
+hitcount 	63	2	6
+hitcount 	67	6	8
+hitcount 	70	2	6
+hitcount 	73	2	11
+bucketsPerDepth 	10	1
+bucketsPerDepth 	11	11
+bucketsPerDepth 	12	71
+bucketsPerDepth 	13	157
+bucketsPerDepth 	14	259
+bucketsPerDepth 	15	215
+bucketsPerDepth 	16	155
+bucketsPerDepth 	17	92
+bucketsPerDepth 	18	40
+bucketsPerDepth 	19	10
+bucketsPerDepth 	20	9
+bucketsPerDepth 	21	3
+bucketsPerDepth 	22	1
+* TIME TO ADD INPUT :  0.42 ms 
+DECISIONS START = 20912
+f# %assign: 5 clauses: 740300 learn: 987 restart: 7 decision: 38717 propagated: 11312965
+END FIND
+!+ 1000011010000010100000000000000000000000101000010000000000000000010000000001000010000000000000000000100000000000000000000100000000000000000000000000110000000100110000000100101000000000000000000010000001001000010000000010010000000000000000100000001000100100000000100100001100000001001100010011000100010000000101010000000010000000000100000000100010010100000000001000000010010000000010011001100100000000000000000000000000000000000001000000010000000000000001000000000000100000000000000000001100010100000000000000000001000000000000010000100010000000000000000000000000010100100010000000000010001000000000001010010000000000100000000000000000000000010000000010000000001100000000000000000000001000000000101100000000000000000000100000000000000000001000000000000000100010010100000000000100000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000010000000000000000000000000000000000000100000000000000000000000100000100000000000000000000010000000000000000100000010000000000000000000010000000000001001000000100100100100000000000000100000100000000000000000000000110000000000101000000000000000000000000001000000000100110010010011110001010010001000000000000100100000000000000000000000000000000000010000000000000000000000000001000011000000000000001000000110000000000010000001000000000000000000011001010000000000000000000000000000000001100000000000000000000000000000000
+!+ H__105_119_47:1
+H__104_119_48:11
+H__103_119_49_45:0
+H__103_119_49_46:5
+H__103_119_50_45:0
+H__103_119_50_46:0
+H__0_120:0
+H__106_120:0
+H__107_120:0
+H__108_120:10
+H__109_120:0
+H__110_120:1
+H__111_120:0
+H__112_120:0
+H__113_120:0
+H__114_120:4
+H__115_120:0
+H__116_120:0
+H__117_120:1
+H__118_120:2
+H__119_120:0
+H__0_121:0
+H__120_121:0
+H__121_121:0
+H__122_121:1
+H__123_121:0
+H__124_121:0
+H__125_121:0
+H__126_121:0
+H__127_121:2
+H__128_121:0
+H__129_121:0
+H__130_121:0
+H__131_121:0
+H__132_121:0
+H__133_121:0
+H__0_122:3
+H__134_122:0
+H__135_122:9
+H__136_122:1
+H__137_122:0
+H__138_122:9
+H__139_122:2
+H__140_122:0
+H__141_122:0
+H__142_122:0
+H__143_122:0
+H__144_122:2
+H__145_122:0
+H__146_122:9
+H__147_122:0
+H__0_123:1
+H__148_123:0
+H__149_123:9
+H__150_123:0
+H__151_123:0
+H__152_123:0
+H__153_123:0
+H__154_123:1
+H__155_123:0
+H__156_123:1
+H__157_123:9
+H__158_123:0
+H__159_123:0
+H__160_123:9
+H__161_123:0
+H__0_124:3
+H__162_124:0
+H__163_124:9
+H__164_124:1
+H__165_124:9
+H__166_124:1
+H__167_124:1
+H__168_124:1
+H__169_124:0
+H__170_124:5
+H__171_124:1
+H__172_124:0
+H__173_124:2
+H__174_124:0
+H__175_124:0
+H__0_125:1
+H__176_125:0
+H__177_125:1
+H__178_125:9
+H__179_125:2
+H__180_125:0
+H__181_125:0
+H__182_125:1
+H__183_125:0
+H__184_125:9
+H__185_125:0
+H__186_125:0
+H__187_125:9
+H__188_125:9
+H__189_125:9
+H__0_126:0
+H__190_126:0
+H__191_126:0
+H__192_126:0
+H__193_126:0
+H__194_126:0
+H__195_126:0
+H__196_126:0
+H__197_126:0
+H__198_126:1
+H__199_126:0
+H__200_126:1
+H__201_126:0
+H__202_126:0
+H__203_126:0
+H__0_127:1
+H__204_127:0
+H__205_127:0
+H__206_127:1
+H__207_127:0
+H__208_127:0
+H__209_127:0
+H__210_127:0
+H__211_127:3
+H__212_127:10
+H__213_127:0
+H__214_127:0
+H__215_127:0
+H__216_127:0
+H__217_127:8
+H__0_128:0
+H__218_128:0
+H__219_128:0
+H__220_128:1
+H__221_128:2
+H__222_128:2
+H__223_128:0
+H__224_128:0
+H__225_128:0
+H__226_128:0
+H__227_128:0
+H__228_128:0
+H__229_128:5
+H__230_128:2
+H__231_128:2
+H__0_129:0
+H__232_129:0
+H__233_129:1
+H__234_129:1
+H__235_129:0
+H__236_129:0
+H__237_129:5
+H__238_129:2
+H__239_129:0
+H__240_129:0
+H__241_129:1
+H__242_129:0
+H__243_129:0
+H__244_129:0
+H__245_129:0
+H__0_130:0
+H__246_130:1
+H__247_130:0
+H__248_130:2
+H__249_130:0
+H__250_130:8
+H__251_130:1
+H__252_130:0
+H__253_130:0
+H__254_130:0
+H__255_130:0
+H__256_130:8
+H__257_130:0
+H__258_130:0
+H__259_130:10
+H__0_131:1
+H__260_131:0
+H__261_131:0
+H__262_131:0
+H__263_131:0
+H__264_131:1
+H__265_131:0
+H__266_131:0
+H__267_131:0
+H__268_131:0
+H__269_131:1
+H__270_131:0
+H__271_131:0
+H__272_131:0
+H__273_131:1
+H__0_132:9
+H__274_132:1
+H__275_132:0
+H__276_132:0
+H__277_132:1
+H__278_132:0
+H__279_132:0
+H__280_132:0
+H__281_132:0
+H__282_132:0
+H__283_132:0
+H__284_132:0
+H__285_132:0
+H__286_132:0
+H__287_132:0
+H__0_133:0
+H__288_133:0
+H__289_133:0
+H__290_133:0
+H__291_133:0
+H__292_133:0
+H__293_133:1
+H__294_133:0
+H__295_133:0
+H__296_133:0
+H__297_133:0
+H__298_133:0
+H__299_133:0
+H__300_133:1
+H__301_133:0
+H__0_134:0
+H__302_134:0
+H__303_134:0
+H__304_134:0
+H__305_134:0
+H__306_134:0
+H__307_134:0
+H__308_134:2
+H__309_134:0
+H__310_134:0
+H__311_134:0
+H__312_134:0
+H__313_134:0
+H__314_134:2
+H__315_134:8
+H__0_135:0
+H__316_135:0
+H__317_135:0
+H__318_135:0
+H__319_135:0
+H__320_135:1
+H__321_135:0
+H__322_135:0
+H__323_135:0
+H__324_135:2
+H__325_135:0
+H__326_135:1
+H__327_135:0
+H__328_135:0
+H__329_135:0
+H__0_136:0
+H__330_136:1
+H__331_136:0
+H__332_136:0
+H__333_136:2
+H__334_136:1
+H__335_136:8
+H__336_136:4
+H__337_136:2
+H__338_136:1
+H__339_136:0
+H__340_136:0
+H__341_136:8
+H__342_136:0
+H__343_136:2
+H__0_137:0
+H__344_137:0
+H__345_137:0
+H__346_137:0
+H__347_137:0
+H__348_137:3
+H__349_137:0
+H__350_137:0
+H__351_137:5
+H__352_137:0
+H__353_137:0
+H__354_137:0
+H__355_137:0
+H__356_137:0
+H__357_137:0
+H__0_138:2
+H__358_138:0
+H__359_138:4
+H__360_138:6
+H__361_138:2
+H__362_138:9
+H__363_138:7
+H__364_138:4
+H__365_138:9
+H__366_138:8
+H__367_138:0
+H__368_138:0
+H__369_138:0
+H__370_138:9
+H__371_138:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:1
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:1
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:1
+H__69_119_50_46:1
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:1
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:1
+H__90_119_50_46:1
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:1
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:1
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:1
+H__94_119_49_45:1
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:1
+H__98_119_49_45:0
+H__102_119_49:1
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:1
+H__3_119_49:1
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 26 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0.001 ms 
+CONTROL: growing l=2 inputs to size 3
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 4
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 5
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0 ms 
+Switching to problem 0
+ * After optims it became = 26 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0.001 ms 
+END CHECK
+********  1	ftime= 3000.18	ctime= 0.155
+ *GOT THE CORRECT ANSWER IN 2 iterations.
+ *FIND TIME 3000.18 CHECK TIME 0.199 TOTAL TIME 3000.39
+VALUES H__0_120: 0, H__0_121: 0, H__0_122: 3, H__0_123: 1, H__0_124: 3, H__0_125: 1, H__0_126: 0, H__0_127: 1, H__0_128: 0, H__0_129: 0, H__0_130: 0, H__0_131: 1, H__0_132: 9, H__0_133: 0, H__0_134: 0, H__0_135: 0, H__0_136: 0, H__0_137: 0, H__0_138: 2, H__101_119_49: 1, H__101_119_50: 1, H__102_119_49: 1, H__102_119_50: 1, H__103_119_49_45: 0, H__103_119_49_46: 5, H__103_119_50_45: 0, H__103_119_50_46: 0, H__104_119_48: 11, H__105_119_47: 1, H__106_120: 0, H__107_120: 0, H__108_120: 10, H__109_120: 0, H__10_119_48: 0, H__110_120: 1, H__111_120: 0, H__112_120: 0, H__113_120: 0, H__114_120: 4, H__115_120: 0, H__116_120: 0, H__117_120: 1, H__118_120: 2, H__119_120: 0, H__11_119_48: 0, H__120_121: 0, H__121_121: 0, H__122_121: 1, H__123_121: 0, H__124_121: 0, H__125_121: 0, H__126_121: 0, H__127_121: 2, H__128_121: 0, H__129_121: 0, H__12_119_48: 0, H__130_121: 0, H__131_121: 0, H__132_121: 0, H__133_121: 0, H__134_122: 0, H__135_122: 9, H__136_122: 1, H__137_122: 0, H__138_122: 9, H__139_122: 2, H__13_119_48: 0, H__140_122: 0, H__141_122: 0, H__142_122: 0, H__143_122: 0, H__144_122: 2, H__145_122: 0, H__146_122: 9, H__147_122: 0, H__148_123: 0, H__149_123: 9, H__14_119_48: 0, H__150_123: 0, H__151_123: 0, H__152_123: 0, H__153_123: 0, H__154_123: 1, H__155_123: 0, H__156_123: 1, H__157_123: 9, H__158_123: 0, H__159_123: 0, H__15_119_48: 0, H__160_123: 9, H__161_123: 0, H__162_124: 0, H__163_124: 9, H__164_124: 1, H__165_124: 9, H__166_124: 1, H__167_124: 1, H__168_124: 1, H__169_124: 0, H__16_119_48: 0, H__170_124: 5, H__171_124: 1, H__172_124: 0, H__173_124: 2, H__174_124: 0, H__175_124: 0, H__176_125: 0, H__177_125: 1, H__178_125: 9, H__179_125: 2, H__17_119_48: 0, H__180_125: 0, H__181_125: 0, H__182_125: 1, H__183_125: 0, H__184_125: 9, H__185_125: 0, H__186_125: 0, H__187_125: 9, H__188_125: 9, H__189_125: 9, H__18_119_48: 0, H__190_126: 0, H__191_126: 0, H__192_126: 0, H__193_126: 0, H__194_126: 0, H__195_126: 0, H__196_126: 0, H__197_126: 0, H__198_126: 1, H__199_126: 0, H__19_119_48: 0, H__1_119_49: 0, H__1_119_50: 0, H__200_126: 1, H__201_126: 0, H__202_126: 0, H__203_126: 0, H__204_127: 0, H__205_127: 0, H__206_127: 1, H__207_127: 0, H__208_127: 0, H__209_127: 0, H__20_119_48: 0, H__210_127: 0, H__211_127: 3, H__212_127: 10, H__213_127: 0, H__214_127: 0, H__215_127: 0, H__216_127: 0, H__217_127: 8, H__218_128: 0, H__219_128: 0, H__21_119_48: 0, H__220_128: 1, H__221_128: 2, H__222_128: 2, H__223_128: 0, H__224_128: 0, H__225_128: 0, H__226_128: 0, H__227_128: 0, H__228_128: 0, H__229_128: 5, H__22_119_48: 0, H__230_128: 2, H__231_128: 2, H__232_129: 0, H__233_129: 1, H__234_129: 1, H__235_129: 0, H__236_129: 0, H__237_129: 5, H__238_129: 2, H__239_129: 0, H__23_119_48: 0, H__240_129: 0, H__241_129: 1, H__242_129: 0, H__243_129: 0, H__244_129: 0, H__245_129: 0, H__246_130: 1, H__247_130: 0, H__248_130: 2, H__249_130: 0, H__24_119_48: 0, H__250_130: 8, H__251_130: 1, H__252_130: 0, H__253_130: 0, H__254_130: 0, H__255_130: 0, H__256_130: 8, H__257_130: 0, H__258_130: 0, H__259_130: 10, H__25_119_48: 0, H__260_131: 0, H__261_131: 0, H__262_131: 0, H__263_131: 0, H__264_131: 1, H__265_131: 0, H__266_131: 0, H__267_131: 0, H__268_131: 0, H__269_131: 1, H__26_119_48: 0, H__270_131: 0, H__271_131: 0, H__272_131: 0, H__273_131: 1, H__274_132: 1, H__275_132: 0, H__276_132: 0, H__277_132: 1, H__278_132: 0, H__279_132: 0, H__27_119_48: 0, H__280_132: 0, H__281_132: 0, H__282_132: 0, H__283_132: 0, H__284_132: 0, H__285_132: 0, H__286_132: 0, H__287_132: 0, H__288_133: 0, H__289_133: 0, H__28_119_48: 0, H__290_133: 0, H__291_133: 0, H__292_133: 0, H__293_133: 1, H__294_133: 0, H__295_133: 0, H__296_133: 0, H__297_133: 0, H__298_133: 0, H__299_133: 0, H__29_119_48: 0, H__2_119_49: 1, H__2_119_50: 0, H__300_133: 1, H__301_133: 0, H__302_134: 0, H__303_134: 0, H__304_134: 0, H__305_134: 0, H__306_134: 0, H__307_134: 0, H__308_134: 2, H__309_134: 0, H__30_119_48: 0, H__310_134: 0, H__311_134: 0, H__312_134: 0, H__313_134: 0, H__314_134: 2, H__315_134: 8, H__316_135: 0, H__317_135: 0, H__318_135: 0, H__319_135: 0, H__31_119_48: 0, H__320_135: 1, H__321_135: 0, H__322_135: 0, H__323_135: 0, H__324_135: 2, H__325_135: 0, H__326_135: 1, H__327_135: 0, H__328_135: 0, H__329_135: 0, H__32_119_48: 0, H__330_136: 1, H__331_136: 0, H__332_136: 0, H__333_136: 2, H__334_136: 1, H__335_136: 8, H__336_136: 4, H__337_136: 2, H__338_136: 1, H__339_136: 0, H__33_119_48: 0, H__340_136: 0, H__341_136: 8, H__342_136: 0, H__343_136: 2, H__344_137: 0, H__345_137: 0, H__346_137: 0, H__347_137: 0, H__348_137: 3, H__349_137: 0, H__34_119_48: 0, H__350_137: 0, H__351_137: 5, H__352_137: 0, H__353_137: 0, H__354_137: 0, H__355_137: 0, H__356_137: 0, H__357_137: 0, H__358_138: 0, H__359_138: 4, H__35_119_48: 0, H__360_138: 6, H__361_138: 2, H__362_138: 9, H__363_138: 7, H__364_138: 4, H__365_138: 9, H__366_138: 8, H__367_138: 0, H__368_138: 0, H__369_138: 0, H__36_119_47: 0, H__370_138: 9, H__371_138: 0, H__37_119_47: 0, H__38_119_47: 0, H__39_119_47: 0, H__3_119_49: 1, H__3_119_50: 0, H__40_119_47: 0, H__41_119_47: 0, H__42_119_47: 0, H__43_119_47: 0, H__44_119_47: 0, H__45_119_47: 0, H__46_119_47: 0, H__47_119_47: 0, H__48_119_47: 0, H__49_119_47: 0, H__4_119_48: 0, H__50_119_47: 0, H__51_119_47: 0, H__52_119_47: 0, H__53_119_47: 0, H__54_119_47: 0, H__55_119_47: 0, H__56_119_47: 0, H__57_119_47: 0, H__58_119_47: 0, H__59_119_47: 0, H__5_119_48: 0, H__60_119_47: 0, H__61_119_47: 0, H__62_119_47: 0, H__63_119_47: 0, H__64_119_47: 0, H__65_119_47: 0, H__66_119_47: 0, H__67_119_47: 0, H__68_119_49_45: 0, H__68_119_49_46: 0, H__68_119_50_45: 0, H__68_119_50_46: 0, H__69_119_49_45: 0, H__69_119_49_46: 0, H__69_119_50_45: 0, H__69_119_50_46: 1, H__6_119_48: 0, H__70_119_49_45: 0, H__70_119_49_46: 0, H__70_119_50_45: 0, H__70_119_50_46: 0, H__71_119_49_45: 0, H__71_119_49_46: 0, H__71_119_50_45: 0, H__71_119_50_46: 0, H__72_119_49_45: 0, H__72_119_49_46: 0, H__72_119_50_45: 0, H__72_119_50_46: 0, H__73_119_49_45: 0, H__73_119_49_46: 0, H__73_119_50_45: 0, H__73_119_50_46: 0, H__74_119_49_45: 0, H__74_119_49_46: 0, H__74_119_50_45: 0, H__74_119_50_46: 0, H__75_119_49_45: 1, H__75_119_49_46: 0, H__75_119_50_45: 0, H__75_119_50_46: 0, H__76_119_49_45: 0, H__76_119_49_46: 0, H__76_119_50_45: 0, H__76_119_50_46: 0, H__77_119_49_45: 0, H__77_119_49_46: 0, H__77_119_50_45: 0, H__77_119_50_46: 0, H__78_119_49_45: 0, H__78_119_49_46: 0, H__78_119_50_45: 0, H__78_119_50_46: 0, H__79_119_49_45: 0, H__79_119_49_46: 0, H__79_119_50_45: 0, H__79_119_50_46: 0, H__7_119_48: 0, H__80_119_49_45: 0, H__80_119_49_46: 0, H__80_119_50_45: 0, H__80_119_50_46: 0, H__81_119_49_45: 0, H__81_119_49_46: 0, H__81_119_50_45: 0, H__81_119_50_46: 0, H__82_119_49_45: 0, H__82_119_49_46: 0, H__82_119_50_45: 0, H__82_119_50_46: 1, H__83_119_49_45: 0, H__83_119_49_46: 0, H__83_119_50_45: 0, H__83_119_50_46: 0, H__84_119_49_45: 0, H__84_119_49_46: 0, H__84_119_50_45: 0, H__84_119_50_46: 0, H__85_119_49_45: 0, H__85_119_49_46: 0, H__85_119_50_45: 0, H__85_119_50_46: 0, H__86_119_49_45: 0, H__86_119_49_46: 0, H__86_119_50_45: 0, H__86_119_50_46: 0, H__87_119_49_45: 0, H__87_119_49_46: 0, H__87_119_50_45: 0, H__87_119_50_46: 0, H__88_119_49_45: 0, H__88_119_49_46: 0, H__88_119_50_45: 0, H__88_119_50_46: 0, H__89_119_49_45: 0, H__89_119_49_46: 0, H__89_119_50_45: 0, H__89_119_50_46: 0, H__8_119_48: 0, H__90_119_49_45: 0, H__90_119_49_46: 0, H__90_119_50_45: 0, H__90_119_50_46: 1, H__91_119_49_45: 0, H__91_119_49_46: 0, H__91_119_50_45: 0, H__91_119_50_46: 1, H__92_119_49_45: 0, H__92_119_49_46: 0, H__92_119_50_45: 0, H__92_119_50_46: 0, H__93_119_49_45: 0, H__93_119_49_46: 0, H__93_119_50_45: 0, H__93_119_50_46: 0, H__94_119_49_45: 1, H__94_119_49_46: 0, H__94_119_50_45: 1, H__94_119_50_46: 0, H__95_119_49_45: 1, H__95_119_49_46: 0, H__95_119_50_45: 0, H__95_119_50_46: 0, H__96_119_49_45: 0, H__96_119_49_46: 0, H__96_119_50_45: 0, H__96_119_50_46: 0, H__97_119_49_45: 0, H__97_119_49_46: 0, H__97_119_50_45: 0, H__97_119_50_46: 0, H__98_119_49_45: 0, H__98_119_49_46: 0, H__98_119_50_45: 0, H__98_119_50_46: 0, H__99_119_49_45: 1, H__99_119_49_46: 0, H__99_119_50_45: 0, H__99_119_50_46: 0, H__9_119_48: 0, 
+RESULT = 2  
+* before  EVERYTHING: auxiliaryHarness_36__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_36__Wrapper::SKETCH nodes = 251
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 15 new size =510
+inlined 97 new size =20935
+inlined 708 new size =48462
+inlined 129 new size =48116
+inlined 0 new size =48116
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 48116
+* Final Problem size: Problem nodes = 48116
+  # OF CONTROLS:    493
+ control_ints = 291 	 control_bits = 202
+inputSize = 0	ctrlSize = 1387
+Random seeds = 1
+Number of minvar nodes = 0
+!+ 0110000000000000010001000001011011000000000100010101100000010000011000000000110011101010000001100101010101001000000010010100001000011010000011000010000111000000001001010001000000100000010000001010000001000000001000000001010000100000011110100101000000100000101001001001000100100000000101000001000000100001000000001000010001000000101000000001010001001001010001100100000010000100101100100001000000010001000001000010011000000000000101101000100000000000000110000000001001000000100110000000100000011000001100011010001110010001001011000000010000101101001000011001010101001000001000000010100010000000000001000000000010010000000001000000010001110000000101010000100000000011011110000000000100000000010001001001010000100000001110001000010000000010101000100100001000000010000010011000000000000000001111000000110000100000100011100100010100000000100000000100100000000001000011010010000000100010101000000110100000000001000000001000000100000100011000000101011000001000111010000000100001000001100101001000001000100000001100000010101100001000100100010000000100000000100100000001001010010010000001001000100000011000010100000110100101001000010010100000000100000010000000000100000011000000000010100110000000100000010001000000001001010000000100000000011000110101001000000000000010000000100000000000000000001111001010010100000010000100000000000000110000010000000000000010001000000010000000001000111001100100000
+!+ H__105_119_47:6
+H__104_119_48:0
+H__103_119_49_45:0
+H__103_119_49_46:8
+H__103_119_50_45:8
+H__103_119_50_46:0
+H__0_120:26
+H__106_120:6
+H__107_120:0
+H__108_120:0
+H__109_120:1
+H__110_120:5
+H__111_120:3
+H__112_120:0
+H__113_120:1
+H__114_120:12
+H__115_120:0
+H__116_120:0
+H__117_120:6
+H__118_120:14
+H__119_120:10
+H__0_121:0
+H__120_121:6
+H__121_121:10
+H__122_121:10
+H__123_121:2
+H__124_121:1
+H__125_121:0
+H__126_121:9
+H__127_121:2
+H__128_121:4
+H__129_121:8
+H__130_121:5
+H__131_121:0
+H__132_121:3
+H__133_121:4
+H__0_122:24
+H__134_122:1
+H__135_122:0
+H__136_122:2
+H__137_122:5
+H__138_122:4
+H__139_122:0
+H__140_122:2
+H__141_122:0
+H__142_122:1
+H__143_122:8
+H__144_122:2
+H__145_122:0
+H__146_122:1
+H__147_122:0
+H__0_123:2
+H__148_123:0
+H__149_123:10
+H__150_123:0
+H__151_123:1
+H__152_123:8
+H__153_123:7
+H__154_123:9
+H__155_123:2
+H__156_123:0
+H__157_123:1
+H__158_123:4
+H__159_123:9
+H__160_123:4
+H__161_123:2
+H__0_124:18
+H__162_124:0
+H__163_124:0
+H__164_124:5
+H__165_124:0
+H__166_124:1
+H__167_124:8
+H__168_124:0
+H__169_124:1
+H__170_124:0
+H__171_124:2
+H__172_124:4
+H__173_124:4
+H__174_124:0
+H__175_124:10
+H__0_125:0
+H__176_125:8
+H__177_125:2
+H__178_125:2
+H__179_125:9
+H__180_125:2
+H__181_125:6
+H__182_125:2
+H__183_125:0
+H__184_125:1
+H__185_125:2
+H__186_125:13
+H__187_125:4
+H__188_125:8
+H__189_125:0
+H__0_126:8
+H__190_126:4
+H__191_126:0
+H__192_126:1
+H__193_126:2
+H__194_126:3
+H__195_126:0
+H__196_126:0
+H__197_126:4
+H__198_126:11
+H__199_126:8
+H__200_126:0
+H__201_126:0
+H__202_126:0
+H__203_126:12
+H__0_127:0
+H__204_127:0
+H__205_127:9
+H__206_127:0
+H__207_127:4
+H__208_127:6
+H__209_127:0
+H__210_127:4
+H__211_127:0
+H__212_127:6
+H__213_127:0
+H__214_127:3
+H__215_127:6
+H__216_127:1
+H__217_127:7
+H__0_128:2
+H__218_128:9
+H__219_128:6
+H__220_128:0
+H__221_128:4
+H__222_128:8
+H__223_128:6
+H__224_128:9
+H__225_128:0
+H__226_128:3
+H__227_128:5
+H__228_128:5
+H__229_128:2
+H__230_128:8
+H__231_128:0
+H__0_129:8
+H__232_129:1
+H__233_129:1
+H__234_129:0
+H__235_129:0
+H__236_129:2
+H__237_129:0
+H__238_129:0
+H__239_129:9
+H__240_129:0
+H__241_129:0
+H__242_129:2
+H__243_129:0
+H__244_129:2
+H__245_129:14
+H__0_130:0
+H__246_130:4
+H__247_130:5
+H__248_130:8
+H__249_130:0
+H__250_130:0
+H__251_130:6
+H__252_130:15
+H__253_130:0
+H__254_130:0
+H__255_130:4
+H__256_130:0
+H__257_130:0
+H__258_130:1
+H__259_130:9
+H__0_131:20
+H__260_131:0
+H__261_131:1
+H__262_131:0
+H__263_131:7
+H__264_131:4
+H__265_131:8
+H__266_131:0
+H__267_131:0
+H__268_131:5
+H__269_131:1
+H__270_131:9
+H__271_131:0
+H__272_131:1
+H__273_131:0
+H__0_132:1
+H__274_132:2
+H__275_132:3
+H__276_132:0
+H__277_132:0
+H__278_132:0
+H__279_132:8
+H__280_132:7
+H__281_132:0
+H__282_132:6
+H__283_132:8
+H__284_132:0
+H__285_132:2
+H__286_132:14
+H__287_132:4
+H__0_133:20
+H__288_133:0
+H__289_133:0
+H__290_133:1
+H__291_133:0
+H__292_133:2
+H__293_133:1
+H__294_133:0
+H__295_133:8
+H__296_133:0
+H__297_133:11
+H__298_133:4
+H__299_133:0
+H__300_133:4
+H__301_133:4
+H__0_134:5
+H__302_134:0
+H__303_134:11
+H__304_134:0
+H__305_134:0
+H__306_134:4
+H__307_134:0
+H__308_134:8
+H__309_134:0
+H__310_134:4
+H__311_134:0
+H__312_134:1
+H__313_134:3
+H__314_134:0
+H__315_134:5
+H__0_135:3
+H__316_135:4
+H__317_135:12
+H__318_135:5
+H__319_135:0
+H__320_135:4
+H__321_135:8
+H__322_135:0
+H__323_135:6
+H__324_135:10
+H__325_135:4
+H__326_135:0
+H__327_135:1
+H__328_135:1
+H__329_135:0
+H__0_136:3
+H__330_136:8
+H__331_136:10
+H__332_136:1
+H__333_136:2
+H__334_136:2
+H__335_136:1
+H__336_136:1
+H__337_136:0
+H__338_136:1
+H__339_136:0
+H__340_136:2
+H__341_136:1
+H__342_136:0
+H__343_136:9
+H__0_137:18
+H__344_137:4
+H__345_137:0
+H__346_137:2
+H__347_137:1
+H__348_137:1
+H__349_137:8
+H__350_137:1
+H__351_137:10
+H__352_137:0
+H__353_137:6
+H__354_137:9
+H__355_137:2
+H__356_137:1
+H__357_137:2
+H__0_138:5
+H__358_138:0
+H__359_138:4
+H__360_138:0
+H__361_138:2
+H__362_138:0
+H__363_138:0
+H__364_138:1
+H__365_138:8
+H__366_138:1
+H__367_138:0
+H__368_138:8
+H__369_138:2
+H__370_138:3
+H__371_138:0
+H__37_119_47:0
+H__36_119_47:1
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:1
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:1
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:1
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:1
+H__60_119_47:0
+H__63_119_47:1
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:1
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:1
+H__81_119_50_45:1
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:1
+H__84_119_50_45:1
+H__87_119_50_45:0
+H__86_119_50_45:1
+H__89_119_50_45:0
+H__88_119_50_45:1
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:1
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:1
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:1
+H__83_119_50_46:0
+H__82_119_50_46:0
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:1
+H__3_119_50:1
+H__101_119_49:1
+H__69_119_49_45:1
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:1
+H__73_119_49_45:0
+H__72_119_49_45:1
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:1
+H__76_119_49_45:0
+H__79_119_49_45:1
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:1
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:1
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:1
+H__72_119_49_46:1
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:1
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:1
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:1
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:0
+H__3_119_49:0
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:1
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:1
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:1
+H__23_119_48:1
+H__22_119_48:1
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:1
+H__26_119_48:1
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:1
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 2 was 48116
+Assert at tmpT14WIH.sk:64 (2)
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.046
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 48116 was 48116
+ * After all optims it became = 48116
+ finder  hits = 31932	 bstoreObjs=10943	 sstorePages=12
+hitcount 	1	1457	2
+hitcount 	2	8550	2
+hitcount 	3	83	2
+hitcount 	4	84	1
+hitcount 	5	166	1
+hitcount 	6	90	2
+hitcount 	7	84	2
+hitcount 	8	105	1
+hitcount 	9	9	1
+hitcount 	10	6	1
+hitcount 	11	6	2
+hitcount 	12	6	2
+hitcount 	13	6	1
+hitcount 	14	13	2
+hitcount 	15	27	2
+hitcount 	16	6	2
+hitcount 	17	7	2
+hitcount 	18	6	1
+hitcount 	20	72	1
+hitcount 	23	4	2
+hitcount 	24	3	2
+hitcount 	25	3	2
+hitcount 	26	4	2
+hitcount 	27	6	1
+hitcount 	28	4	2
+hitcount 	29	6	2
+hitcount 	30	3	2
+hitcount 	31	1	1
+hitcount 	32	3	1
+hitcount 	33	3	2
+hitcount 	34	3	2
+hitcount 	35	1	1
+hitcount 	37	6	2
+hitcount 	38	4	2
+hitcount 	39	3	2
+hitcount 	41	1	2
+hitcount 	42	3	2
+hitcount 	43	9	1
+hitcount 	44	6	2
+hitcount 	46	1	2
+hitcount 	47	12	1
+hitcount 	48	3	2
+hitcount 	49	9	2
+hitcount 	50	1	2
+hitcount 	51	1	1
+hitcount 	52	5	2
+hitcount 	53	4	2
+hitcount 	54	3	2
+hitcount 	55	6	2
+hitcount 	56	1	0
+hitcount 	57	5	1
+hitcount 	58	3	2
+hitcount 	61	7	2
+hitcount 	62	5	2
+hitcount 	63	3	2
+hitcount 	66	1	2
+hitcount 	67	8	1
+hitcount 	70	3	2
+hitcount 	73	3	2
+bucketsPerDepth 	1	6
+bucketsPerDepth 	2	181
+bucketsPerDepth 	3	753
+bucketsPerDepth 	4	84
+* TIME TO ADD INPUT :  0.385 ms 
+DECISIONS START = 38717
+f# %assign: 5 clauses: 1098698 learn: 1308 restart: 10 decision: 49768 propagated: 16676895
+END FIND
+!+ 1000011010000010100000000000100111010100000100010000000000000000010000000001000010000001000000000000100100000000000000000100000000000000100100001001110000000100110000000100101000000000000000000010000001001000010000000010010000000000000000100000001000100100000000100100001100000001001100010011000100010000000101010000000010000000000100000000100010010100000000001000000010010000000010011001100100000000000000000000000000000000000001000000010000000000000001000000000000100000000000000000001100010100000000000000000001000000000000010000100010000000000000000000000000010100100010000000000010001000000000001010010000000000100000000000000000000000010000000010000000001100000000000000000000001000000000101100000000000000000000100000000000000000001000000000000000100010010100000000000100000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000010000000000000000000000000000000000000100000000000000000000000100000100000000000000000000010000000000000000100000010000000000000000000010000000000001001000000100100100100000000000000100000100000000000000000000000110000000000101000000000000000000000000001000000000100110010010011110001010010001000000000000100100000000000000000000000000000000000010000000000000000000000000001000011000000000000001000000110000000000011000001000000000000000000011001010000000000000000000000000000000001100000000000000000000000000000000
+!+ H__105_119_47:1
+H__104_119_48:11
+H__103_119_49_45:0
+H__103_119_49_46:5
+H__103_119_50_45:0
+H__103_119_50_46:0
+H__0_120:4
+H__106_120:7
+H__107_120:5
+H__108_120:0
+H__109_120:1
+H__110_120:1
+H__111_120:0
+H__112_120:0
+H__113_120:0
+H__114_120:4
+H__115_120:0
+H__116_120:0
+H__117_120:1
+H__118_120:2
+H__119_120:0
+H__0_121:1
+H__120_121:0
+H__121_121:0
+H__122_121:9
+H__123_121:0
+H__124_121:0
+H__125_121:0
+H__126_121:0
+H__127_121:2
+H__128_121:0
+H__129_121:0
+H__130_121:0
+H__131_121:9
+H__132_121:0
+H__133_121:9
+H__0_122:3
+H__134_122:0
+H__135_122:9
+H__136_122:1
+H__137_122:0
+H__138_122:9
+H__139_122:2
+H__140_122:0
+H__141_122:0
+H__142_122:0
+H__143_122:0
+H__144_122:2
+H__145_122:0
+H__146_122:9
+H__147_122:0
+H__0_123:1
+H__148_123:0
+H__149_123:9
+H__150_123:0
+H__151_123:0
+H__152_123:0
+H__153_123:0
+H__154_123:1
+H__155_123:0
+H__156_123:1
+H__157_123:9
+H__158_123:0
+H__159_123:0
+H__160_123:9
+H__161_123:0
+H__0_124:3
+H__162_124:0
+H__163_124:9
+H__164_124:1
+H__165_124:9
+H__166_124:1
+H__167_124:1
+H__168_124:1
+H__169_124:0
+H__170_124:5
+H__171_124:1
+H__172_124:0
+H__173_124:2
+H__174_124:0
+H__175_124:0
+H__0_125:1
+H__176_125:0
+H__177_125:1
+H__178_125:9
+H__179_125:2
+H__180_125:0
+H__181_125:0
+H__182_125:1
+H__183_125:0
+H__184_125:9
+H__185_125:0
+H__186_125:0
+H__187_125:9
+H__188_125:9
+H__189_125:9
+H__0_126:0
+H__190_126:0
+H__191_126:0
+H__192_126:0
+H__193_126:0
+H__194_126:0
+H__195_126:0
+H__196_126:0
+H__197_126:0
+H__198_126:1
+H__199_126:0
+H__200_126:1
+H__201_126:0
+H__202_126:0
+H__203_126:0
+H__0_127:1
+H__204_127:0
+H__205_127:0
+H__206_127:1
+H__207_127:0
+H__208_127:0
+H__209_127:0
+H__210_127:0
+H__211_127:3
+H__212_127:10
+H__213_127:0
+H__214_127:0
+H__215_127:0
+H__216_127:0
+H__217_127:8
+H__0_128:0
+H__218_128:0
+H__219_128:0
+H__220_128:1
+H__221_128:2
+H__222_128:2
+H__223_128:0
+H__224_128:0
+H__225_128:0
+H__226_128:0
+H__227_128:0
+H__228_128:0
+H__229_128:5
+H__230_128:2
+H__231_128:2
+H__0_129:0
+H__232_129:0
+H__233_129:1
+H__234_129:1
+H__235_129:0
+H__236_129:0
+H__237_129:5
+H__238_129:2
+H__239_129:0
+H__240_129:0
+H__241_129:1
+H__242_129:0
+H__243_129:0
+H__244_129:0
+H__245_129:0
+H__0_130:0
+H__246_130:1
+H__247_130:0
+H__248_130:2
+H__249_130:0
+H__250_130:8
+H__251_130:1
+H__252_130:0
+H__253_130:0
+H__254_130:0
+H__255_130:0
+H__256_130:8
+H__257_130:0
+H__258_130:0
+H__259_130:10
+H__0_131:1
+H__260_131:0
+H__261_131:0
+H__262_131:0
+H__263_131:0
+H__264_131:1
+H__265_131:0
+H__266_131:0
+H__267_131:0
+H__268_131:0
+H__269_131:1
+H__270_131:0
+H__271_131:0
+H__272_131:0
+H__273_131:1
+H__0_132:9
+H__274_132:1
+H__275_132:0
+H__276_132:0
+H__277_132:1
+H__278_132:0
+H__279_132:0
+H__280_132:0
+H__281_132:0
+H__282_132:0
+H__283_132:0
+H__284_132:0
+H__285_132:0
+H__286_132:0
+H__287_132:0
+H__0_133:0
+H__288_133:0
+H__289_133:0
+H__290_133:0
+H__291_133:0
+H__292_133:0
+H__293_133:1
+H__294_133:0
+H__295_133:0
+H__296_133:0
+H__297_133:0
+H__298_133:0
+H__299_133:0
+H__300_133:1
+H__301_133:0
+H__0_134:0
+H__302_134:0
+H__303_134:0
+H__304_134:0
+H__305_134:0
+H__306_134:0
+H__307_134:0
+H__308_134:2
+H__309_134:0
+H__310_134:0
+H__311_134:0
+H__312_134:0
+H__313_134:0
+H__314_134:2
+H__315_134:8
+H__0_135:0
+H__316_135:0
+H__317_135:0
+H__318_135:0
+H__319_135:0
+H__320_135:1
+H__321_135:0
+H__322_135:0
+H__323_135:0
+H__324_135:2
+H__325_135:0
+H__326_135:1
+H__327_135:0
+H__328_135:0
+H__329_135:0
+H__0_136:0
+H__330_136:1
+H__331_136:0
+H__332_136:0
+H__333_136:2
+H__334_136:1
+H__335_136:8
+H__336_136:4
+H__337_136:2
+H__338_136:1
+H__339_136:0
+H__340_136:0
+H__341_136:8
+H__342_136:0
+H__343_136:2
+H__0_137:0
+H__344_137:0
+H__345_137:0
+H__346_137:0
+H__347_137:0
+H__348_137:3
+H__349_137:0
+H__350_137:0
+H__351_137:5
+H__352_137:0
+H__353_137:0
+H__354_137:0
+H__355_137:0
+H__356_137:0
+H__357_137:0
+H__0_138:2
+H__358_138:0
+H__359_138:4
+H__360_138:6
+H__361_138:2
+H__362_138:9
+H__363_138:7
+H__364_138:4
+H__365_138:9
+H__366_138:8
+H__367_138:0
+H__368_138:0
+H__369_138:0
+H__370_138:9
+H__371_138:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:1
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:1
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:1
+H__69_119_50_46:1
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:1
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:1
+H__90_119_50_46:1
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:1
+H__69_119_49_45:1
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:1
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:1
+H__94_119_49_45:1
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:1
+H__98_119_49_45:0
+H__102_119_49:1
+H__69_119_49_46:0
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:1
+H__3_119_49:1
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 3683 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_36__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3683 to 0
+Simulation no cex:  0.007 ms 
+CONTROL: growing l=2 inputs to size 3
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_36__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3683 to 0
+Simulation no cex:  0.006 ms 
+CONTROL: growing l=2 inputs to size 4
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_36__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3683 to 0
+Simulation no cex:  0.006 ms 
+CONTROL: growing l=2 inputs to size 5
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_36__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3683 to 0
+Simulation no cex:  0.006 ms 
+Switching to problem 0
+ * After optims it became = 26 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0 ms 
+Switching to problem 1
+ * After optims it became = 26 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= (4)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (4), (0), (0), (0), >
+4= (7)
+5= (5)
+6= 3==-1 ? (5):(7)
+7= (7)
+8= 6 == (7) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (5):(7) = 7
+ reduced size from 26 to 0
+Simulation no cex:  0.001 ms 
+END CHECK
+********  1	ftime= 1999.92	ctime= 0.265
+ *GOT THE CORRECT ANSWER IN 2 iterations.
+ *FIND TIME 1999.92 CHECK TIME 0.311 TOTAL TIME 2000.24
+VALUES H__0_120: 4, H__0_121: 1, H__0_122: 3, H__0_123: 1, H__0_124: 3, H__0_125: 1, H__0_126: 0, H__0_127: 1, H__0_128: 0, H__0_129: 0, H__0_130: 0, H__0_131: 1, H__0_132: 9, H__0_133: 0, H__0_134: 0, H__0_135: 0, H__0_136: 0, H__0_137: 0, H__0_138: 2, H__101_119_49: 1, H__101_119_50: 1, H__102_119_49: 1, H__102_119_50: 1, H__103_119_49_45: 0, H__103_119_49_46: 5, H__103_119_50_45: 0, H__103_119_50_46: 0, H__104_119_48: 11, H__105_119_47: 1, H__106_120: 7, H__107_120: 5, H__108_120: 0, H__109_120: 1, H__10_119_48: 0, H__110_120: 1, H__111_120: 0, H__112_120: 0, H__113_120: 0, H__114_120: 4, H__115_120: 0, H__116_120: 0, H__117_120: 1, H__118_120: 2, H__119_120: 0, H__11_119_48: 0, H__120_121: 0, H__121_121: 0, H__122_121: 9, H__123_121: 0, H__124_121: 0, H__125_121: 0, H__126_121: 0, H__127_121: 2, H__128_121: 0, H__129_121: 0, H__12_119_48: 0, H__130_121: 0, H__131_121: 9, H__132_121: 0, H__133_121: 9, H__134_122: 0, H__135_122: 9, H__136_122: 1, H__137_122: 0, H__138_122: 9, H__139_122: 2, H__13_119_48: 0, H__140_122: 0, H__141_122: 0, H__142_122: 0, H__143_122: 0, H__144_122: 2, H__145_122: 0, H__146_122: 9, H__147_122: 0, H__148_123: 0, H__149_123: 9, H__14_119_48: 0, H__150_123: 0, H__151_123: 0, H__152_123: 0, H__153_123: 0, H__154_123: 1, H__155_123: 0, H__156_123: 1, H__157_123: 9, H__158_123: 0, H__159_123: 0, H__15_119_48: 0, H__160_123: 9, H__161_123: 0, H__162_124: 0, H__163_124: 9, H__164_124: 1, H__165_124: 9, H__166_124: 1, H__167_124: 1, H__168_124: 1, H__169_124: 0, H__16_119_48: 0, H__170_124: 5, H__171_124: 1, H__172_124: 0, H__173_124: 2, H__174_124: 0, H__175_124: 0, H__176_125: 0, H__177_125: 1, H__178_125: 9, H__179_125: 2, H__17_119_48: 0, H__180_125: 0, H__181_125: 0, H__182_125: 1, H__183_125: 0, H__184_125: 9, H__185_125: 0, H__186_125: 0, H__187_125: 9, H__188_125: 9, H__189_125: 9, H__18_119_48: 0, H__190_126: 0, H__191_126: 0, H__192_126: 0, H__193_126: 0, H__194_126: 0, H__195_126: 0, H__196_126: 0, H__197_126: 0, H__198_126: 1, H__199_126: 0, H__19_119_48: 0, H__1_119_49: 0, H__1_119_50: 0, H__200_126: 1, H__201_126: 0, H__202_126: 0, H__203_126: 0, H__204_127: 0, H__205_127: 0, H__206_127: 1, H__207_127: 0, H__208_127: 0, H__209_127: 0, H__20_119_48: 0, H__210_127: 0, H__211_127: 3, H__212_127: 10, H__213_127: 0, H__214_127: 0, H__215_127: 0, H__216_127: 0, H__217_127: 8, H__218_128: 0, H__219_128: 0, H__21_119_48: 0, H__220_128: 1, H__221_128: 2, H__222_128: 2, H__223_128: 0, H__224_128: 0, H__225_128: 0, H__226_128: 0, H__227_128: 0, H__228_128: 0, H__229_128: 5, H__22_119_48: 0, H__230_128: 2, H__231_128: 2, H__232_129: 0, H__233_129: 1, H__234_129: 1, H__235_129: 0, H__236_129: 0, H__237_129: 5, H__238_129: 2, H__239_129: 0, H__23_119_48: 0, H__240_129: 0, H__241_129: 1, H__242_129: 0, H__243_129: 0, H__244_129: 0, H__245_129: 0, H__246_130: 1, H__247_130: 0, H__248_130: 2, H__249_130: 0, H__24_119_48: 0, H__250_130: 8, H__251_130: 1, H__252_130: 0, H__253_130: 0, H__254_130: 0, H__255_130: 0, H__256_130: 8, H__257_130: 0, H__258_130: 0, H__259_130: 10, H__25_119_48: 0, H__260_131: 0, H__261_131: 0, H__262_131: 0, H__263_131: 0, H__264_131: 1, H__265_131: 0, H__266_131: 0, H__267_131: 0, H__268_131: 0, H__269_131: 1, H__26_119_48: 0, H__270_131: 0, H__271_131: 0, H__272_131: 0, H__273_131: 1, H__274_132: 1, H__275_132: 0, H__276_132: 0, H__277_132: 1, H__278_132: 0, H__279_132: 0, H__27_119_48: 0, H__280_132: 0, H__281_132: 0, H__282_132: 0, H__283_132: 0, H__284_132: 0, H__285_132: 0, H__286_132: 0, H__287_132: 0, H__288_133: 0, H__289_133: 0, H__28_119_48: 0, H__290_133: 0, H__291_133: 0, H__292_133: 0, H__293_133: 1, H__294_133: 0, H__295_133: 0, H__296_133: 0, H__297_133: 0, H__298_133: 0, H__299_133: 0, H__29_119_48: 0, H__2_119_49: 1, H__2_119_50: 0, H__300_133: 1, H__301_133: 0, H__302_134: 0, H__303_134: 0, H__304_134: 0, H__305_134: 0, H__306_134: 0, H__307_134: 0, H__308_134: 2, H__309_134: 0, H__30_119_48: 0, H__310_134: 0, H__311_134: 0, H__312_134: 0, H__313_134: 0, H__314_134: 2, H__315_134: 8, H__316_135: 0, H__317_135: 0, H__318_135: 0, H__319_135: 0, H__31_119_48: 0, H__320_135: 1, H__321_135: 0, H__322_135: 0, H__323_135: 0, H__324_135: 2, H__325_135: 0, H__326_135: 1, H__327_135: 0, H__328_135: 0, H__329_135: 0, H__32_119_48: 0, H__330_136: 1, H__331_136: 0, H__332_136: 0, H__333_136: 2, H__334_136: 1, H__335_136: 8, H__336_136: 4, H__337_136: 2, H__338_136: 1, H__339_136: 0, H__33_119_48: 0, H__340_136: 0, H__341_136: 8, H__342_136: 0, H__343_136: 2, H__344_137: 0, H__345_137: 0, H__346_137: 0, H__347_137: 0, H__348_137: 3, H__349_137: 0, H__34_119_48: 0, H__350_137: 0, H__351_137: 5, H__352_137: 0, H__353_137: 0, H__354_137: 0, H__355_137: 0, H__356_137: 0, H__357_137: 0, H__358_138: 0, H__359_138: 4, H__35_119_48: 0, H__360_138: 6, H__361_138: 2, H__362_138: 9, H__363_138: 7, H__364_138: 4, H__365_138: 9, H__366_138: 8, H__367_138: 0, H__368_138: 0, H__369_138: 0, H__36_119_47: 0, H__370_138: 9, H__371_138: 0, H__37_119_47: 0, H__38_119_47: 0, H__39_119_47: 0, H__3_119_49: 1, H__3_119_50: 0, H__40_119_47: 0, H__41_119_47: 0, H__42_119_47: 0, H__43_119_47: 0, H__44_119_47: 0, H__45_119_47: 0, H__46_119_47: 0, H__47_119_47: 0, H__48_119_47: 0, H__49_119_47: 0, H__4_119_48: 0, H__50_119_47: 0, H__51_119_47: 0, H__52_119_47: 0, H__53_119_47: 0, H__54_119_47: 0, H__55_119_47: 0, H__56_119_47: 0, H__57_119_47: 0, H__58_119_47: 0, H__59_119_47: 0, H__5_119_48: 0, H__60_119_47: 0, H__61_119_47: 0, H__62_119_47: 0, H__63_119_47: 0, H__64_119_47: 0, H__65_119_47: 0, H__66_119_47: 0, H__67_119_47: 0, H__68_119_49_45: 0, H__68_119_49_46: 0, H__68_119_50_45: 0, H__68_119_50_46: 0, H__69_119_49_45: 1, H__69_119_49_46: 0, H__69_119_50_45: 0, H__69_119_50_46: 1, H__6_119_48: 0, H__70_119_49_45: 0, H__70_119_49_46: 0, H__70_119_50_45: 0, H__70_119_50_46: 0, H__71_119_49_45: 0, H__71_119_49_46: 0, H__71_119_50_45: 0, H__71_119_50_46: 0, H__72_119_49_45: 0, H__72_119_49_46: 0, H__72_119_50_45: 0, H__72_119_50_46: 0, H__73_119_49_45: 0, H__73_119_49_46: 0, H__73_119_50_45: 0, H__73_119_50_46: 0, H__74_119_49_45: 0, H__74_119_49_46: 0, H__74_119_50_45: 0, H__74_119_50_46: 0, H__75_119_49_45: 1, H__75_119_49_46: 0, H__75_119_50_45: 0, H__75_119_50_46: 0, H__76_119_49_45: 0, H__76_119_49_46: 0, H__76_119_50_45: 0, H__76_119_50_46: 0, H__77_119_49_45: 0, H__77_119_49_46: 0, H__77_119_50_45: 0, H__77_119_50_46: 0, H__78_119_49_45: 0, H__78_119_49_46: 0, H__78_119_50_45: 0, H__78_119_50_46: 0, H__79_119_49_45: 0, H__79_119_49_46: 0, H__79_119_50_45: 0, H__79_119_50_46: 0, H__7_119_48: 0, H__80_119_49_45: 0, H__80_119_49_46: 0, H__80_119_50_45: 0, H__80_119_50_46: 0, H__81_119_49_45: 0, H__81_119_49_46: 0, H__81_119_50_45: 0, H__81_119_50_46: 0, H__82_119_49_45: 0, H__82_119_49_46: 0, H__82_119_50_45: 0, H__82_119_50_46: 1, H__83_119_49_45: 0, H__83_119_49_46: 0, H__83_119_50_45: 0, H__83_119_50_46: 0, H__84_119_49_45: 0, H__84_119_49_46: 0, H__84_119_50_45: 0, H__84_119_50_46: 0, H__85_119_49_45: 0, H__85_119_49_46: 0, H__85_119_50_45: 0, H__85_119_50_46: 0, H__86_119_49_45: 0, H__86_119_49_46: 0, H__86_119_50_45: 0, H__86_119_50_46: 0, H__87_119_49_45: 0, H__87_119_49_46: 0, H__87_119_50_45: 0, H__87_119_50_46: 0, H__88_119_49_45: 0, H__88_119_49_46: 0, H__88_119_50_45: 0, H__88_119_50_46: 0, H__89_119_49_45: 0, H__89_119_49_46: 0, H__89_119_50_45: 0, H__89_119_50_46: 0, H__8_119_48: 0, H__90_119_49_45: 0, H__90_119_49_46: 0, H__90_119_50_45: 0, H__90_119_50_46: 1, H__91_119_49_45: 0, H__91_119_49_46: 0, H__91_119_50_45: 0, H__91_119_50_46: 1, H__92_119_49_45: 0, H__92_119_49_46: 0, H__92_119_50_45: 0, H__92_119_50_46: 0, H__93_119_49_45: 0, H__93_119_49_46: 0, H__93_119_50_45: 0, H__93_119_50_46: 0, H__94_119_49_45: 1, H__94_119_49_46: 0, H__94_119_50_45: 1, H__94_119_50_46: 0, H__95_119_49_45: 1, H__95_119_49_46: 0, H__95_119_50_45: 0, H__95_119_50_46: 0, H__96_119_49_45: 0, H__96_119_49_46: 0, H__96_119_50_45: 0, H__96_119_50_46: 0, H__97_119_49_45: 0, H__97_119_49_46: 0, H__97_119_50_45: 0, H__97_119_50_46: 0, H__98_119_49_45: 0, H__98_119_49_46: 0, H__98_119_50_45: 0, H__98_119_50_46: 0, H__99_119_49_45: 1, H__99_119_49_46: 0, H__99_119_50_45: 0, H__99_119_50_46: 0, H__9_119_48: 0, 
+RESULT = 2  
+* before  EVERYTHING: auxiliaryHarness_35__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_35__Wrapper::SKETCH nodes = 251
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 15 new size =512
+inlined 97 new size =20917
+inlined 712 new size =48468
+inlined 129 new size =48076
+inlined 0 new size =48076
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 48076
+* Final Problem size: Problem nodes = 48076
+  # OF CONTROLS:    493
+ control_ints = 291 	 control_bits = 202
+inputSize = 0	ctrlSize = 1387
+Random seeds = 1
+Number of minvar nodes = 0
+!+ 0000001100000011101010001000000000010011100000000010000000010001001010010001000110001100000101010000000001000100000000110000000100001000000000101000001010000100001011100010010001000000000001010100101001100000010000101010010011010000000000010000000010000000000101000000001010000000111000001000000101000010000010010001000000000000000100010010000000000001101010000100110000000000001000101101010000000100010010000011110110010101000001000110000000000000110010000101000001010000000001000000000000010000000101000011101000000011001000100010000100000001100000001000000110000000110001000100000101010000100011110000001000001000001000001111011000100110010000000011100110100101000110000100001101100000001000000000000100000001000000010001000100010001000000001110000000010010000010000000100000010000100000100000110000101000000000010100000111011000001001000100000000101001010000000001000000100001000001011101010101001100001000001000010001011001000001010001100000100101100000001100110000000010010011000000000000000011000010000001000010000100001011000010000110101001100011000010001101000100000000000010000100000101110000010100001111000100100001001010110011100100110100000010000100000010000000000000010010000000000011000000101000110000000000000000000001001000000100001000000010000100110100011110000010011100011010010000000010100010000001001001001010000000000100011000000000010000011000010010000011000000000
+!+ H__105_119_47:0
+H__104_119_48:6
+H__103_119_49_45:0
+H__103_119_49_46:7
+H__103_119_50_45:5
+H__103_119_50_46:4
+H__0_120:0
+H__106_120:0
+H__107_120:9
+H__108_120:3
+H__109_120:0
+H__110_120:8
+H__111_120:0
+H__112_120:0
+H__113_120:1
+H__114_120:9
+H__115_120:2
+H__116_120:1
+H__117_120:1
+H__118_120:3
+H__119_120:6
+H__0_121:16
+H__120_121:10
+H__121_121:0
+H__122_121:0
+H__123_121:2
+H__124_121:2
+H__125_121:0
+H__126_121:12
+H__127_121:0
+H__128_121:8
+H__129_121:0
+H__130_121:1
+H__131_121:0
+H__132_121:4
+H__133_121:1
+H__0_122:20
+H__134_122:0
+H__135_122:1
+H__136_122:10
+H__137_122:3
+H__138_122:2
+H__139_122:1
+H__140_122:1
+H__141_122:0
+H__142_122:0
+H__143_122:5
+H__144_122:9
+H__145_122:2
+H__146_122:3
+H__147_122:0
+H__0_123:1
+H__148_123:5
+H__149_123:9
+H__150_123:12
+H__151_123:2
+H__152_123:0
+H__153_123:0
+H__154_123:2
+H__155_123:0
+H__156_123:4
+H__157_123:0
+H__158_123:0
+H__159_123:10
+H__160_123:0
+H__161_123:0
+H__0_124:5
+H__162_124:0
+H__163_124:14
+H__164_124:0
+H__165_124:2
+H__166_124:0
+H__167_124:5
+H__168_124:8
+H__169_124:0
+H__170_124:2
+H__171_124:1
+H__172_124:1
+H__173_124:0
+H__174_124:0
+H__175_124:0
+H__0_125:17
+H__176_125:4
+H__177_125:0
+H__178_125:0
+H__179_125:8
+H__180_125:5
+H__181_125:1
+H__182_125:2
+H__183_125:3
+H__184_125:0
+H__185_125:0
+H__186_125:4
+H__187_125:4
+H__188_125:11
+H__189_125:2
+H__0_126:0
+H__190_126:1
+H__191_126:9
+H__192_126:0
+H__193_126:14
+H__194_126:13
+H__195_126:4
+H__196_126:5
+H__197_126:0
+H__198_126:1
+H__199_126:3
+H__200_126:0
+H__201_126:0
+H__202_126:8
+H__203_126:9
+H__0_127:16
+H__204_127:2
+H__205_127:8
+H__206_127:2
+H__207_127:0
+H__208_127:8
+H__209_127:0
+H__210_127:0
+H__211_127:0
+H__212_127:2
+H__213_127:0
+H__214_127:10
+H__215_127:0
+H__216_127:7
+H__217_127:1
+H__0_128:16
+H__218_128:9
+H__219_128:8
+H__220_128:8
+H__221_128:0
+H__222_128:1
+H__223_128:0
+H__224_128:3
+H__225_128:0
+H__226_128:2
+H__227_128:0
+H__228_128:3
+H__229_128:0
+H__230_128:6
+H__231_128:4
+H__0_129:4
+H__232_129:8
+H__233_129:10
+H__234_129:0
+H__235_129:1
+H__236_129:15
+H__237_129:0
+H__238_129:4
+H__239_129:0
+H__240_129:1
+H__241_129:4
+H__242_129:0
+H__243_129:15
+H__244_129:6
+H__245_129:4
+H__0_130:6
+H__246_130:1
+H__247_130:0
+H__248_130:14
+H__249_130:12
+H__250_130:2
+H__251_130:5
+H__252_130:12
+H__253_130:0
+H__254_130:1
+H__255_130:6
+H__256_130:3
+H__257_130:0
+H__258_130:2
+H__259_130:0
+H__0_131:0
+H__260_131:2
+H__261_131:0
+H__262_131:2
+H__263_131:0
+H__264_131:2
+H__265_131:2
+H__266_131:2
+H__267_131:2
+H__268_131:2
+H__269_131:0
+H__270_131:12
+H__271_131:1
+H__272_131:0
+H__273_131:2
+H__0_132:1
+H__274_132:2
+H__275_132:0
+H__276_132:2
+H__277_132:0
+H__278_132:1
+H__279_132:2
+H__280_132:8
+H__281_132:0
+H__282_132:6
+H__283_132:8
+H__284_132:2
+H__285_132:0
+H__286_132:0
+H__287_132:5
+H__0_133:16
+H__288_133:11
+H__289_133:1
+H__290_133:4
+H__291_133:2
+H__292_133:2
+H__293_133:0
+H__294_133:4
+H__295_133:9
+H__296_133:2
+H__297_133:0
+H__298_133:8
+H__299_133:0
+H__300_133:4
+H__301_133:8
+H__0_134:0
+H__302_134:13
+H__303_134:5
+H__304_134:5
+H__305_134:9
+H__306_134:1
+H__307_134:2
+H__308_134:8
+H__309_134:0
+H__310_134:1
+H__311_134:13
+H__312_134:4
+H__313_134:0
+H__314_134:5
+H__315_134:12
+H__0_135:0
+H__316_135:9
+H__317_135:6
+H__318_135:0
+H__319_135:12
+H__320_135:12
+H__321_135:0
+H__322_135:0
+H__323_135:9
+H__324_135:12
+H__325_135:0
+H__326_135:0
+H__327_135:0
+H__328_135:0
+H__329_135:3
+H__0_136:4
+H__330_136:0
+H__331_136:1
+H__332_136:2
+H__333_136:4
+H__334_136:8
+H__335_136:6
+H__336_136:8
+H__337_136:0
+H__338_136:11
+H__339_136:2
+H__340_136:3
+H__341_136:6
+H__342_136:8
+H__343_136:8
+H__0_137:5
+H__344_137:2
+H__345_137:0
+H__346_137:0
+H__347_137:4
+H__348_137:8
+H__349_137:0
+H__350_137:10
+H__351_137:3
+H__352_137:8
+H__353_137:2
+H__354_137:12
+H__355_137:3
+H__356_137:2
+H__357_137:1
+H__0_138:18
+H__358_138:10
+H__359_138:9
+H__360_138:3
+H__361_138:9
+H__362_138:5
+H__363_138:0
+H__364_138:2
+H__365_138:4
+H__366_138:0
+H__367_138:2
+H__368_138:0
+H__369_138:0
+H__370_138:0
+H__371_138:9
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:1
+H__49_119_47:1
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:1
+H__57_119_47:0
+H__56_119_47:1
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:1
+H__63_119_47:1
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:0
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:1
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:1
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:1
+H__95_119_50_45:0
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:1
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:1
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:1
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:1
+H__83_119_50_46:1
+H__82_119_50_46:0
+H__85_119_50_46:1
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:1
+H__88_119_50_46:1
+H__91_119_50_46:1
+H__90_119_50_46:1
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:0
+H__96_119_50_46:1
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:1
+H__2_119_50:1
+H__3_119_50:1
+H__101_119_49:0
+H__69_119_49_45:0
+H__68_119_49_45:0
+H__71_119_49_45:1
+H__70_119_49_45:1
+H__73_119_49_45:0
+H__72_119_49_45:1
+H__75_119_49_45:0
+H__74_119_49_45:0
+H__77_119_49_45:1
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:1
+H__87_119_49_45:0
+H__86_119_49_45:1
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:1
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:0
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:1
+H__98_119_49_45:0
+H__102_119_49:0
+H__69_119_49_46:1
+H__68_119_49_46:0
+H__71_119_49_46:0
+H__70_119_49_46:1
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:1
+H__74_119_49_46:0
+H__77_119_49_46:1
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:1
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:1
+H__93_119_49_46:1
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:0
+H__96_119_49_46:0
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:0
+H__3_119_49:0
+H__5_119_48:1
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:1
+H__10_119_48:1
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:1
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:1
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:1
+H__27_119_48:1
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 2 was 48076
+Assert at tmpT14WIH.sk:64 (4)
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.052
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 48076 was 48076
+ * After all optims it became = 48076
+ finder  hits = 43706	 bstoreObjs=127936	 sstorePages=173
+hitcount 	0	115549	6
+hitcount 	1	2106	3
+hitcount 	2	4368	2
+hitcount 	3	4767	2
+hitcount 	4	115	3
+hitcount 	5	215	3
+hitcount 	6	119	3
+hitcount 	7	122	3
+hitcount 	8	123	3
+hitcount 	9	13	3
+hitcount 	10	9	3
+hitcount 	11	22	2
+hitcount 	12	9	4
+hitcount 	13	9	2
+hitcount 	14	13	2
+hitcount 	15	36	3
+hitcount 	16	7	3
+hitcount 	17	7	2
+hitcount 	18	10	2
+hitcount 	19	6	3
+hitcount 	20	4	1
+hitcount 	21	5	4
+hitcount 	23	73	1
+hitcount 	24	4	2
+hitcount 	25	7	3
+hitcount 	26	5	3
+hitcount 	27	9	1
+hitcount 	28	5	3
+hitcount 	29	8	2
+hitcount 	30	6	4
+hitcount 	31	7	5
+hitcount 	32	2	1
+hitcount 	33	6	2
+hitcount 	34	4	4
+hitcount 	35	3	6
+hitcount 	36	3	5
+hitcount 	37	7	3
+hitcount 	38	3	2
+hitcount 	39	4	2
+hitcount 	40	3	6
+hitcount 	41	2	9
+hitcount 	42	4	2
+hitcount 	43	10	1
+hitcount 	44	4	2
+hitcount 	45	3	5
+hitcount 	46	4	7
+hitcount 	47	5	1
+hitcount 	48	4	2
+hitcount 	49	10	2
+hitcount 	50	2	5
+hitcount 	51	4	4
+hitcount 	52	6	2
+hitcount 	53	3	2
+hitcount 	54	4	2
+hitcount 	55	9	3
+hitcount 	56	3	4
+hitcount 	57	5	1
+hitcount 	58	4	3
+hitcount 	59	1	2
+hitcount 	60	2	8
+hitcount 	61	10	3
+hitcount 	62	5	2
+hitcount 	63	9	1
+hitcount 	64	1	13
+hitcount 	65	2	5
+hitcount 	66	3	5
+hitcount 	67	9	2
+hitcount 	70	6	6
+hitcount 	71	1	6
+hitcount 	73	4	3
+hitcount 	74	1	3
+hitcount 	76	1	6
+hitcount 	79	1	8
+hitcount 	82	1	6
+bucketsPerDepth 	9	8
+bucketsPerDepth 	10	96
+bucketsPerDepth 	11	255
+bucketsPerDepth 	12	295
+bucketsPerDepth 	13	190
+bucketsPerDepth 	14	102
+bucketsPerDepth 	15	55
+bucketsPerDepth 	16	18
+bucketsPerDepth 	17	4
+bucketsPerDepth 	18	1
+* TIME TO ADD INPUT :  999.364 ms 
+DECISIONS START = 49768
+f# %assign: 5 clauses: 1527009 learn: 2374 restart: 15 decision: 69699 propagated: 30879260
+END FIND
+!+ 1000001010000000000000000000000111010100000100010000000000000000010000000001000010000001000000000000100100000000000000000100000000000000100100001001000000000100110000000100101000000000000000000010000001001000010000000010010000000000000000100000001000100100000000100100000000000001001100010011000100010000000101010000000010000000000100000000100010010100000000001001000010010000000010011001100100000000000000000000000000000000000001000000010000000000000001000000000000100000000000000000001100010100000000000000000001000000000000010000100010000000000000000000000000010100100010000000000010001000000000001010010000000000100000000000000000000000010000000010000000001100000000000000000000001000000000101100000000000000000000100000000000000000001000000000000000100010010100000000000100000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000010000000000000000000000000000000000000100000000000000000000000100000100000000000000000000010000000000000000100000010000000000000000000010000000000001001000000100100100100000000000000100000100100100000100111011100100110001100100101100000000000000000100101100111010100000100000000010001010010001000000000000100100000000000000000000000000000000000010000000000000000000000000001000010000000000000001000000010000100000011000001000000000000000001011001111100000000000000000000000000110001100000000000000000000000000000000
+!+ H__105_119_47:1
+H__104_119_48:10
+H__103_119_49_45:0
+H__103_119_49_46:0
+H__103_119_50_45:0
+H__103_119_50_46:0
+H__0_120:0
+H__106_120:7
+H__107_120:5
+H__108_120:0
+H__109_120:1
+H__110_120:1
+H__111_120:0
+H__112_120:0
+H__113_120:0
+H__114_120:4
+H__115_120:0
+H__116_120:0
+H__117_120:1
+H__118_120:2
+H__119_120:0
+H__0_121:1
+H__120_121:0
+H__121_121:0
+H__122_121:9
+H__123_121:0
+H__124_121:0
+H__125_121:0
+H__126_121:0
+H__127_121:2
+H__128_121:0
+H__129_121:0
+H__130_121:0
+H__131_121:9
+H__132_121:0
+H__133_121:9
+H__0_122:0
+H__134_122:0
+H__135_122:9
+H__136_122:1
+H__137_122:0
+H__138_122:9
+H__139_122:2
+H__140_122:0
+H__141_122:0
+H__142_122:0
+H__143_122:0
+H__144_122:2
+H__145_122:0
+H__146_122:9
+H__147_122:0
+H__0_123:1
+H__148_123:0
+H__149_123:9
+H__150_123:0
+H__151_123:0
+H__152_123:0
+H__153_123:0
+H__154_123:1
+H__155_123:0
+H__156_123:1
+H__157_123:9
+H__158_123:0
+H__159_123:0
+H__160_123:9
+H__161_123:0
+H__0_124:0
+H__162_124:0
+H__163_124:9
+H__164_124:1
+H__165_124:9
+H__166_124:1
+H__167_124:1
+H__168_124:1
+H__169_124:0
+H__170_124:5
+H__171_124:1
+H__172_124:0
+H__173_124:2
+H__174_124:0
+H__175_124:0
+H__0_125:1
+H__176_125:0
+H__177_125:1
+H__178_125:9
+H__179_125:2
+H__180_125:0
+H__181_125:0
+H__182_125:9
+H__183_125:0
+H__184_125:9
+H__185_125:0
+H__186_125:0
+H__187_125:9
+H__188_125:9
+H__189_125:9
+H__0_126:0
+H__190_126:0
+H__191_126:0
+H__192_126:0
+H__193_126:0
+H__194_126:0
+H__195_126:0
+H__196_126:0
+H__197_126:0
+H__198_126:1
+H__199_126:0
+H__200_126:1
+H__201_126:0
+H__202_126:0
+H__203_126:0
+H__0_127:1
+H__204_127:0
+H__205_127:0
+H__206_127:1
+H__207_127:0
+H__208_127:0
+H__209_127:0
+H__210_127:0
+H__211_127:3
+H__212_127:10
+H__213_127:0
+H__214_127:0
+H__215_127:0
+H__216_127:0
+H__217_127:8
+H__0_128:0
+H__218_128:0
+H__219_128:0
+H__220_128:1
+H__221_128:2
+H__222_128:2
+H__223_128:0
+H__224_128:0
+H__225_128:0
+H__226_128:0
+H__227_128:0
+H__228_128:0
+H__229_128:5
+H__230_128:2
+H__231_128:2
+H__0_129:0
+H__232_129:0
+H__233_129:1
+H__234_129:1
+H__235_129:0
+H__236_129:0
+H__237_129:5
+H__238_129:2
+H__239_129:0
+H__240_129:0
+H__241_129:1
+H__242_129:0
+H__243_129:0
+H__244_129:0
+H__245_129:0
+H__0_130:0
+H__246_130:1
+H__247_130:0
+H__248_130:2
+H__249_130:0
+H__250_130:8
+H__251_130:1
+H__252_130:0
+H__253_130:0
+H__254_130:0
+H__255_130:0
+H__256_130:8
+H__257_130:0
+H__258_130:0
+H__259_130:10
+H__0_131:1
+H__260_131:0
+H__261_131:0
+H__262_131:0
+H__263_131:0
+H__264_131:1
+H__265_131:0
+H__266_131:0
+H__267_131:0
+H__268_131:0
+H__269_131:1
+H__270_131:0
+H__271_131:0
+H__272_131:0
+H__273_131:1
+H__0_132:9
+H__274_132:1
+H__275_132:0
+H__276_132:0
+H__277_132:1
+H__278_132:0
+H__279_132:0
+H__280_132:0
+H__281_132:0
+H__282_132:0
+H__283_132:0
+H__284_132:0
+H__285_132:0
+H__286_132:0
+H__287_132:0
+H__0_133:0
+H__288_133:0
+H__289_133:0
+H__290_133:0
+H__291_133:0
+H__292_133:0
+H__293_133:1
+H__294_133:0
+H__295_133:0
+H__296_133:0
+H__297_133:0
+H__298_133:0
+H__299_133:0
+H__300_133:1
+H__301_133:0
+H__0_134:0
+H__302_134:0
+H__303_134:0
+H__304_134:0
+H__305_134:0
+H__306_134:0
+H__307_134:0
+H__308_134:2
+H__309_134:0
+H__310_134:0
+H__311_134:0
+H__312_134:0
+H__313_134:0
+H__314_134:2
+H__315_134:8
+H__0_135:0
+H__316_135:0
+H__317_135:0
+H__318_135:0
+H__319_135:0
+H__320_135:1
+H__321_135:0
+H__322_135:0
+H__323_135:0
+H__324_135:2
+H__325_135:0
+H__326_135:1
+H__327_135:0
+H__328_135:0
+H__329_135:0
+H__0_136:0
+H__330_136:1
+H__331_136:0
+H__332_136:0
+H__333_136:2
+H__334_136:1
+H__335_136:8
+H__336_136:4
+H__337_136:2
+H__338_136:1
+H__339_136:0
+H__340_136:0
+H__341_136:8
+H__342_136:0
+H__343_136:2
+H__0_137:9
+H__344_137:0
+H__345_137:9
+H__346_137:11
+H__347_137:3
+H__348_137:9
+H__349_137:1
+H__350_137:3
+H__351_137:9
+H__352_137:6
+H__353_137:0
+H__354_137:0
+H__355_137:0
+H__356_137:0
+H__357_137:9
+H__0_138:6
+H__358_138:7
+H__359_138:5
+H__360_138:0
+H__361_138:1
+H__362_138:0
+H__363_138:4
+H__364_138:4
+H__365_138:9
+H__366_138:8
+H__367_138:0
+H__368_138:0
+H__369_138:0
+H__370_138:9
+H__371_138:0
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:0
+H__51_119_47:0
+H__50_119_47:0
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:0
+H__57_119_47:0
+H__56_119_47:0
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:0
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:0
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:0
+H__101_119_50:1
+H__69_119_50_45:0
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:0
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:0
+H__80_119_50_45:0
+H__83_119_50_45:0
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:0
+H__92_119_50_45:0
+H__95_119_50_45:0
+H__94_119_50_45:1
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:1
+H__69_119_50_46:0
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:0
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:0
+H__82_119_50_46:1
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:0
+H__89_119_50_46:0
+H__88_119_50_46:0
+H__91_119_50_46:0
+H__90_119_50_46:1
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:0
+H__97_119_50_46:1
+H__96_119_50_46:0
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:0
+H__3_119_50:0
+H__101_119_49:1
+H__69_119_49_45:1
+H__68_119_49_45:0
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:1
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:0
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:0
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:0
+H__93_119_49_45:1
+H__92_119_49_45:0
+H__95_119_49_45:1
+H__94_119_49_45:1
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:1
+H__98_119_49_45:1
+H__102_119_49:1
+H__69_119_49_46:1
+H__68_119_49_46:1
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:0
+H__74_119_49_46:0
+H__77_119_49_46:0
+H__76_119_49_46:0
+H__79_119_49_46:0
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:0
+H__87_119_49_46:0
+H__86_119_49_46:0
+H__89_119_49_46:0
+H__88_119_49_46:0
+H__91_119_49_46:0
+H__90_119_49_46:0
+H__93_119_49_46:0
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:1
+H__96_119_49_46:1
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:0
+H__2_119_49:1
+H__3_119_49:1
+H__5_119_48:0
+H__4_119_48:0
+H__7_119_48:0
+H__6_119_48:0
+H__9_119_48:0
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:0
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:0
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:0
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:0
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:0
+
+BEG CHECK
+ * After optims it became = 27 was 48076
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_35__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (11)
+5= (9)
+6= 3==-1 ? (9):(11)
+7= (11)
+8= 6 == (11) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (9):(11) = 11
+ reduced size from 27 to 0
+Simulation no cex:  0.001 ms 
+CONTROL: growing l=2 inputs to size 3
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_35__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (11)
+5= (9)
+6= 3==-1 ? (9):(11)
+7= (11)
+8= 6 == (11) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (9):(11) = 11
+ reduced size from 27 to 0
+Simulation no cex:  0 ms 
+CONTROL: growing l=2 inputs to size 4
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_35__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (11)
+5= (9)
+6= 3==-1 ? (9):(11)
+7= (11)
+8= 6 == (11) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (9):(11) = 11
+ reduced size from 27 to 0
+Simulation no cex:  0.001 ms 
+CONTROL: growing l=2 inputs to size 5
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_35__WrapperNospec{
+0= (1)
+1= (0)
+2= (5)
+3= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (5), (0), (0), (0), >
+4= (11)
+5= (9)
+6= 3==-1 ? (9):(11)
+7= (11)
+8= 6 == (11) 
+9= ASSERT 8 : 
+}
+SLICE SIZE = 10
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 6= 3==-1 ? (9):(11) = 11
+ reduced size from 27 to 0
+Simulation no cex:  0 ms 
+Switching to problem 0
+ * After optims it became = 3840 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_38__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3840 to 0
+Simulation no cex:  0.007 ms 
+Switching to problem 1
+ * After optims it became = 3840 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_37__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3840 to 0
+Simulation no cex:  0.007 ms 
+Switching to problem 2
+ * After optims it became = 3840 was 48116
+ TESTING HYPOTHESIS ITER 1
+dagauxiliaryHarness_36__WrapperNospec{
+0= (1)
+1= (0)
+2= <(1), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), (0), >
+3= (8)
+4= (6)
+5= 2==-1 ? (6):(8)
+6= (8)
+7= 5 == (8) 
+8= ASSERT 7 : 
+}
+SLICE SIZE = 9
+c# %assign: 50 clauses: 0 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 17= 16==-1 ? (6):(8) = 8
+ reduced size from 3840 to 0
+Simulation no cex:  0.007 ms 
+END CHECK
+********  1	ftime= 3999.69	ctime= 0.353
+ *GOT THE CORRECT ANSWER IN 2 iterations.
+ *FIND TIME 3999.69 CHECK TIME 0.405 TOTAL TIME 4000.11
+VALUES H__0_120: 0, H__0_121: 1, H__0_122: 0, H__0_123: 1, H__0_124: 0, H__0_125: 1, H__0_126: 0, H__0_127: 1, H__0_128: 0, H__0_129: 0, H__0_130: 0, H__0_131: 1, H__0_132: 9, H__0_133: 0, H__0_134: 0, H__0_135: 0, H__0_136: 0, H__0_137: 9, H__0_138: 6, H__101_119_49: 1, H__101_119_50: 1, H__102_119_49: 1, H__102_119_50: 1, H__103_119_49_45: 0, H__103_119_49_46: 0, H__103_119_50_45: 0, H__103_119_50_46: 0, H__104_119_48: 10, H__105_119_47: 1, H__106_120: 7, H__107_120: 5, H__108_120: 0, H__109_120: 1, H__10_119_48: 0, H__110_120: 1, H__111_120: 0, H__112_120: 0, H__113_120: 0, H__114_120: 4, H__115_120: 0, H__116_120: 0, H__117_120: 1, H__118_120: 2, H__119_120: 0, H__11_119_48: 0, H__120_121: 0, H__121_121: 0, H__122_121: 9, H__123_121: 0, H__124_121: 0, H__125_121: 0, H__126_121: 0, H__127_121: 2, H__128_121: 0, H__129_121: 0, H__12_119_48: 0, H__130_121: 0, H__131_121: 9, H__132_121: 0, H__133_121: 9, H__134_122: 0, H__135_122: 9, H__136_122: 1, H__137_122: 0, H__138_122: 9, H__139_122: 2, H__13_119_48: 0, H__140_122: 0, H__141_122: 0, H__142_122: 0, H__143_122: 0, H__144_122: 2, H__145_122: 0, H__146_122: 9, H__147_122: 0, H__148_123: 0, H__149_123: 9, H__14_119_48: 0, H__150_123: 0, H__151_123: 0, H__152_123: 0, H__153_123: 0, H__154_123: 1, H__155_123: 0, H__156_123: 1, H__157_123: 9, H__158_123: 0, H__159_123: 0, H__15_119_48: 0, H__160_123: 9, H__161_123: 0, H__162_124: 0, H__163_124: 9, H__164_124: 1, H__165_124: 9, H__166_124: 1, H__167_124: 1, H__168_124: 1, H__169_124: 0, H__16_119_48: 0, H__170_124: 5, H__171_124: 1, H__172_124: 0, H__173_124: 2, H__174_124: 0, H__175_124: 0, H__176_125: 0, H__177_125: 1, H__178_125: 9, H__179_125: 2, H__17_119_48: 0, H__180_125: 0, H__181_125: 0, H__182_125: 9, H__183_125: 0, H__184_125: 9, H__185_125: 0, H__186_125: 0, H__187_125: 9, H__188_125: 9, H__189_125: 9, H__18_119_48: 0, H__190_126: 0, H__191_126: 0, H__192_126: 0, H__193_126: 0, H__194_126: 0, H__195_126: 0, H__196_126: 0, H__197_126: 0, H__198_126: 1, H__199_126: 0, H__19_119_48: 0, H__1_119_49: 0, H__1_119_50: 0, H__200_126: 1, H__201_126: 0, H__202_126: 0, H__203_126: 0, H__204_127: 0, H__205_127: 0, H__206_127: 1, H__207_127: 0, H__208_127: 0, H__209_127: 0, H__20_119_48: 0, H__210_127: 0, H__211_127: 3, H__212_127: 10, H__213_127: 0, H__214_127: 0, H__215_127: 0, H__216_127: 0, H__217_127: 8, H__218_128: 0, H__219_128: 0, H__21_119_48: 0, H__220_128: 1, H__221_128: 2, H__222_128: 2, H__223_128: 0, H__224_128: 0, H__225_128: 0, H__226_128: 0, H__227_128: 0, H__228_128: 0, H__229_128: 5, H__22_119_48: 0, H__230_128: 2, H__231_128: 2, H__232_129: 0, H__233_129: 1, H__234_129: 1, H__235_129: 0, H__236_129: 0, H__237_129: 5, H__238_129: 2, H__239_129: 0, H__23_119_48: 0, H__240_129: 0, H__241_129: 1, H__242_129: 0, H__243_129: 0, H__244_129: 0, H__245_129: 0, H__246_130: 1, H__247_130: 0, H__248_130: 2, H__249_130: 0, H__24_119_48: 0, H__250_130: 8, H__251_130: 1, H__252_130: 0, H__253_130: 0, H__254_130: 0, H__255_130: 0, H__256_130: 8, H__257_130: 0, H__258_130: 0, H__259_130: 10, H__25_119_48: 0, H__260_131: 0, H__261_131: 0, H__262_131: 0, H__263_131: 0, H__264_131: 1, H__265_131: 0, H__266_131: 0, H__267_131: 0, H__268_131: 0, H__269_131: 1, H__26_119_48: 0, H__270_131: 0, H__271_131: 0, H__272_131: 0, H__273_131: 1, H__274_132: 1, H__275_132: 0, H__276_132: 0, H__277_132: 1, H__278_132: 0, H__279_132: 0, H__27_119_48: 0, H__280_132: 0, H__281_132: 0, H__282_132: 0, H__283_132: 0, H__284_132: 0, H__285_132: 0, H__286_132: 0, H__287_132: 0, H__288_133: 0, H__289_133: 0, H__28_119_48: 0, H__290_133: 0, H__291_133: 0, H__292_133: 0, H__293_133: 1, H__294_133: 0, H__295_133: 0, H__296_133: 0, H__297_133: 0, H__298_133: 0, H__299_133: 0, H__29_119_48: 0, H__2_119_49: 1, H__2_119_50: 0, H__300_133: 1, H__301_133: 0, H__302_134: 0, H__303_134: 0, H__304_134: 0, H__305_134: 0, H__306_134: 0, H__307_134: 0, H__308_134: 2, H__309_134: 0, H__30_119_48: 0, H__310_134: 0, H__311_134: 0, H__312_134: 0, H__313_134: 0, H__314_134: 2, H__315_134: 8, H__316_135: 0, H__317_135: 0, H__318_135: 0, H__319_135: 0, H__31_119_48: 0, H__320_135: 1, H__321_135: 0, H__322_135: 0, H__323_135: 0, H__324_135: 2, H__325_135: 0, H__326_135: 1, H__327_135: 0, H__328_135: 0, H__329_135: 0, H__32_119_48: 0, H__330_136: 1, H__331_136: 0, H__332_136: 0, H__333_136: 2, H__334_136: 1, H__335_136: 8, H__336_136: 4, H__337_136: 2, H__338_136: 1, H__339_136: 0, H__33_119_48: 0, H__340_136: 0, H__341_136: 8, H__342_136: 0, H__343_136: 2, H__344_137: 0, H__345_137: 9, H__346_137: 11, H__347_137: 3, H__348_137: 9, H__349_137: 1, H__34_119_48: 0, H__350_137: 3, H__351_137: 9, H__352_137: 6, H__353_137: 0, H__354_137: 0, H__355_137: 0, H__356_137: 0, H__357_137: 9, H__358_138: 7, H__359_138: 5, H__35_119_48: 0, H__360_138: 0, H__361_138: 1, H__362_138: 0, H__363_138: 4, H__364_138: 4, H__365_138: 9, H__366_138: 8, H__367_138: 0, H__368_138: 0, H__369_138: 0, H__36_119_47: 0, H__370_138: 9, H__371_138: 0, H__37_119_47: 0, H__38_119_47: 0, H__39_119_47: 0, H__3_119_49: 1, H__3_119_50: 0, H__40_119_47: 0, H__41_119_47: 0, H__42_119_47: 0, H__43_119_47: 0, H__44_119_47: 0, H__45_119_47: 0, H__46_119_47: 0, H__47_119_47: 0, H__48_119_47: 0, H__49_119_47: 0, H__4_119_48: 0, H__50_119_47: 0, H__51_119_47: 0, H__52_119_47: 0, H__53_119_47: 0, H__54_119_47: 0, H__55_119_47: 0, H__56_119_47: 0, H__57_119_47: 0, H__58_119_47: 0, H__59_119_47: 0, H__5_119_48: 0, H__60_119_47: 0, H__61_119_47: 0, H__62_119_47: 0, H__63_119_47: 0, H__64_119_47: 0, H__65_119_47: 0, H__66_119_47: 0, H__67_119_47: 0, H__68_119_49_45: 0, H__68_119_49_46: 1, H__68_119_50_45: 0, H__68_119_50_46: 0, H__69_119_49_45: 1, H__69_119_49_46: 1, H__69_119_50_45: 0, H__69_119_50_46: 0, H__6_119_48: 0, H__70_119_49_45: 0, H__70_119_49_46: 0, H__70_119_50_45: 0, H__70_119_50_46: 0, H__71_119_49_45: 0, H__71_119_49_46: 0, H__71_119_50_45: 0, H__71_119_50_46: 0, H__72_119_49_45: 0, H__72_119_49_46: 0, H__72_119_50_45: 0, H__72_119_50_46: 0, H__73_119_49_45: 0, H__73_119_49_46: 0, H__73_119_50_45: 0, H__73_119_50_46: 0, H__74_119_49_45: 0, H__74_119_49_46: 0, H__74_119_50_45: 0, H__74_119_50_46: 0, H__75_119_49_45: 1, H__75_119_49_46: 0, H__75_119_50_45: 0, H__75_119_50_46: 0, H__76_119_49_45: 0, H__76_119_49_46: 0, H__76_119_50_45: 0, H__76_119_50_46: 0, H__77_119_49_45: 0, H__77_119_49_46: 0, H__77_119_50_45: 0, H__77_119_50_46: 0, H__78_119_49_45: 0, H__78_119_49_46: 0, H__78_119_50_45: 0, H__78_119_50_46: 0, H__79_119_49_45: 0, H__79_119_49_46: 0, H__79_119_50_45: 0, H__79_119_50_46: 0, H__7_119_48: 0, H__80_119_49_45: 0, H__80_119_49_46: 0, H__80_119_50_45: 0, H__80_119_50_46: 0, H__81_119_49_45: 0, H__81_119_49_46: 0, H__81_119_50_45: 0, H__81_119_50_46: 0, H__82_119_49_45: 0, H__82_119_49_46: 0, H__82_119_50_45: 0, H__82_119_50_46: 1, H__83_119_49_45: 0, H__83_119_49_46: 0, H__83_119_50_45: 0, H__83_119_50_46: 0, H__84_119_49_45: 0, H__84_119_49_46: 0, H__84_119_50_45: 0, H__84_119_50_46: 0, H__85_119_49_45: 0, H__85_119_49_46: 0, H__85_119_50_45: 0, H__85_119_50_46: 0, H__86_119_49_45: 0, H__86_119_49_46: 0, H__86_119_50_45: 0, H__86_119_50_46: 0, H__87_119_49_45: 0, H__87_119_49_46: 0, H__87_119_50_45: 0, H__87_119_50_46: 0, H__88_119_49_45: 0, H__88_119_49_46: 0, H__88_119_50_45: 0, H__88_119_50_46: 0, H__89_119_49_45: 0, H__89_119_49_46: 0, H__89_119_50_45: 0, H__89_119_50_46: 0, H__8_119_48: 0, H__90_119_49_45: 0, H__90_119_49_46: 0, H__90_119_50_45: 0, H__90_119_50_46: 1, H__91_119_49_45: 0, H__91_119_49_46: 0, H__91_119_50_45: 0, H__91_119_50_46: 0, H__92_119_49_45: 0, H__92_119_49_46: 0, H__92_119_50_45: 0, H__92_119_50_46: 0, H__93_119_49_45: 1, H__93_119_49_46: 0, H__93_119_50_45: 0, H__93_119_50_46: 0, H__94_119_49_45: 1, H__94_119_49_46: 0, H__94_119_50_45: 1, H__94_119_50_46: 0, H__95_119_49_45: 1, H__95_119_49_46: 0, H__95_119_50_45: 0, H__95_119_50_46: 0, H__96_119_49_45: 0, H__96_119_49_46: 1, H__96_119_50_45: 0, H__96_119_50_46: 0, H__97_119_49_45: 0, H__97_119_49_46: 1, H__97_119_50_45: 0, H__97_119_50_46: 1, H__98_119_49_45: 1, H__98_119_49_46: 0, H__98_119_50_45: 0, H__98_119_50_46: 0, H__99_119_49_45: 1, H__99_119_49_46: 0, H__99_119_50_45: 0, H__99_119_50_46: 0, H__9_119_48: 0, 
+RESULT = 2  
+* before  EVERYTHING: auxiliaryHarness_34__WrapperNospec::SPEC nodes = 0	 auxiliaryHarness_34__Wrapper::SKETCH nodes = 251
+ INBITS = 5
+ CBITS  = 5
+ input_ints = 0 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 15 new size =511
+inlined 97 new size =20893
+inlined 712 new size =48445
+inlined 129 new size =48076
+inlined 0 new size =48076
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =0
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 48076
+* Final Problem size: Problem nodes = 48076
+  # OF CONTROLS:    493
+ control_ints = 291 	 control_bits = 202
+inputSize = 0	ctrlSize = 1387
+Random seeds = 1
+Number of minvar nodes = 0
+!+ 0000000100000001010000010000010000100000000001000100010100000000100000000001100000000001000001100000000010011000111000100000000000010000000011010010011000001010100000101001101011111100000000001011000011010000000000000101000000001011000100001000000000000001111101100000100100000011001010110111110000000001000000000000100000000001000001000010000001000010100000000101100000011000010000000101100001000000000001000011000111110100100000100001001011001001001000000101000000001001000000001000100000010000000000011010001000000101001010000000000000100100000011000000000010000101000001011101100000010000010011000011001000000000100000000100100010000001001000100000000001000000100000000010000110001000000100001001010000001001110001000001000001001100000001100010000001000100101000001000000000001000100000100111000000011000000000000101010011110000000001000100001000000001001000000110011010000000001000010001100000000000010000010001001100101000010110100011011000010010010000110000100000000000010000000000000011010001000100000000110001000000000011001000001100000000011101000110001010001000100000010011000000100110000101000100110000110000010010011110000100000001001001101011011011000000000100101110111100000000000000101000101001001000111000001000001010000000001010000001001000000000011000110100001010001011100001001000000001000010001000000100001010100000011101011000110010101101001000010001001000000000001
+!+ H__105_119_47:0
+H__104_119_48:4
+H__103_119_49_45:0
+H__103_119_49_46:10
+H__103_119_50_45:0
+H__103_119_50_46:2
+H__0_120:8
+H__106_120:8
+H__107_120:0
+H__108_120:0
+H__109_120:4
+H__110_120:4
+H__111_120:4
+H__112_120:1
+H__113_120:0
+H__114_120:2
+H__115_120:0
+H__116_120:0
+H__117_120:3
+H__118_120:0
+H__119_120:0
+H__0_121:1
+H__120_121:6
+H__121_121:0
+H__122_121:0
+H__123_121:9
+H__124_121:1
+H__125_121:7
+H__126_121:4
+H__127_121:0
+H__128_121:0
+H__129_121:8
+H__130_121:0
+H__131_121:0
+H__132_121:11
+H__133_121:4
+H__0_122:6
+H__134_122:8
+H__135_122:10
+H__136_122:0
+H__137_122:10
+H__138_122:12
+H__139_122:10
+H__140_122:15
+H__141_122:1
+H__142_122:0
+H__143_122:8
+H__144_122:6
+H__145_122:8
+H__146_122:5
+H__147_122:0
+H__0_123:0
+H__148_123:8
+H__149_123:2
+H__150_123:0
+H__151_123:4
+H__152_123:3
+H__153_123:2
+H__154_123:4
+H__155_123:0
+H__156_123:0
+H__157_123:0
+H__158_123:14
+H__159_123:11
+H__160_123:1
+H__161_123:4
+H__0_124:2
+H__162_124:8
+H__163_124:9
+H__164_124:10
+H__165_124:13
+H__166_124:7
+H__167_124:0
+H__168_124:0
+H__169_124:1
+H__170_124:0
+H__171_124:0
+H__172_124:2
+H__173_124:0
+H__174_124:0
+H__175_124:1
+H__0_125:4
+H__176_125:4
+H__177_125:0
+H__178_125:2
+H__179_125:4
+H__180_125:1
+H__181_125:0
+H__182_125:10
+H__183_125:1
+H__184_125:8
+H__185_125:1
+H__186_125:2
+H__187_125:0
+H__188_125:10
+H__189_125:1
+H__0_126:2
+H__190_126:0
+H__191_126:0
+H__192_126:1
+H__193_126:6
+H__194_126:12
+H__195_126:7
+H__196_126:9
+H__197_126:0
+H__198_126:2
+H__199_126:4
+H__200_126:10
+H__201_126:9
+H__202_126:4
+H__203_126:2
+H__0_127:16
+H__204_127:2
+H__205_127:0
+H__206_127:4
+H__207_127:2
+H__208_127:0
+H__209_127:4
+H__210_127:4
+H__211_127:0
+H__212_127:2
+H__213_127:0
+H__214_127:0
+H__215_127:6
+H__216_127:1
+H__217_127:1
+H__0_128:8
+H__218_128:9
+H__219_128:2
+H__220_128:0
+H__221_128:0
+H__222_128:8
+H__223_128:4
+H__224_128:0
+H__225_128:6
+H__226_128:0
+H__227_128:0
+H__228_128:2
+H__229_128:4
+H__230_128:1
+H__231_128:4
+H__0_129:23
+H__232_129:1
+H__233_129:8
+H__234_129:0
+H__235_129:2
+H__236_129:3
+H__237_129:12
+H__238_129:4
+H__239_129:0
+H__240_129:0
+H__241_129:1
+H__242_129:0
+H__243_129:2
+H__244_129:1
+H__245_129:1
+H__0_130:8
+H__246_130:2
+H__247_130:2
+H__248_130:0
+H__249_130:0
+H__250_130:1
+H__251_130:8
+H__252_130:0
+H__253_130:0
+H__254_130:2
+H__255_130:12
+H__256_130:8
+H__257_130:0
+H__258_130:4
+H__259_130:8
+H__0_131:20
+H__260_131:0
+H__261_131:4
+H__262_131:14
+H__263_131:8
+H__264_131:0
+H__265_131:2
+H__266_131:8
+H__267_131:12
+H__268_131:0
+H__269_131:8
+H__270_131:1
+H__271_131:1
+H__272_131:8
+H__273_131:8
+H__0_132:20
+H__274_132:0
+H__275_132:2
+H__276_132:0
+H__277_132:0
+H__278_132:2
+H__279_132:2
+H__280_132:8
+H__281_132:12
+H__282_132:1
+H__283_132:0
+H__284_132:3
+H__285_132:0
+H__286_132:0
+H__287_132:4
+H__0_133:5
+H__288_133:15
+H__289_133:0
+H__290_133:0
+H__291_133:2
+H__292_133:2
+H__293_133:4
+H__294_133:0
+H__295_133:8
+H__296_133:4
+H__297_133:0
+H__298_133:6
+H__299_133:6
+H__300_133:1
+H__301_133:0
+H__0_134:4
+H__302_134:4
+H__303_134:12
+H__304_134:0
+H__305_134:0
+H__306_134:0
+H__307_134:1
+H__308_134:4
+H__309_134:4
+H__310_134:6
+H__311_134:10
+H__312_134:0
+H__313_134:13
+H__314_134:2
+H__315_134:6
+H__0_135:3
+H__316_135:2
+H__317_135:9
+H__318_135:0
+H__319_135:3
+H__320_135:4
+H__321_135:0
+H__322_135:0
+H__323_135:8
+H__324_135:0
+H__325_135:0
+H__326_135:0
+H__327_135:12
+H__328_135:2
+H__329_135:2
+H__0_136:2
+H__330_136:0
+H__331_136:6
+H__332_136:4
+H__333_136:0
+H__334_136:0
+H__335_136:6
+H__336_136:2
+H__337_136:8
+H__338_136:1
+H__339_136:0
+H__340_136:12
+H__341_136:5
+H__342_136:12
+H__343_136:8
+H__0_137:2
+H__344_137:1
+H__345_137:1
+H__346_137:8
+H__347_137:12
+H__348_137:0
+H__349_137:4
+H__350_137:6
+H__351_137:8
+H__352_137:2
+H__353_137:2
+H__354_137:3
+H__355_137:12
+H__356_137:0
+H__357_137:2
+H__0_138:25
+H__358_138:3
+H__359_138:4
+H__360_138:0
+H__361_138:4
+H__362_138:2
+H__363_138:11
+H__364_138:6
+H__365_138:11
+H__366_138:1
+H__367_138:0
+H__368_138:4
+H__369_138:10
+H__370_138:11
+H__371_138:7
+H__37_119_47:0
+H__36_119_47:0
+H__39_119_47:0
+H__38_119_47:0
+H__41_119_47:0
+H__40_119_47:0
+H__43_119_47:0
+H__42_119_47:0
+H__45_119_47:0
+H__44_119_47:0
+H__47_119_47:0
+H__46_119_47:0
+H__49_119_47:0
+H__48_119_47:1
+H__51_119_47:0
+H__50_119_47:1
+H__53_119_47:0
+H__52_119_47:0
+H__55_119_47:0
+H__54_119_47:1
+H__57_119_47:0
+H__56_119_47:1
+H__59_119_47:0
+H__58_119_47:0
+H__61_119_47:1
+H__60_119_47:0
+H__63_119_47:0
+H__62_119_47:1
+H__65_119_47:0
+H__64_119_47:0
+H__67_119_47:0
+H__66_119_47:1
+H__101_119_50:1
+H__69_119_50_45:1
+H__68_119_50_45:0
+H__71_119_50_45:0
+H__70_119_50_45:0
+H__73_119_50_45:0
+H__72_119_50_45:0
+H__75_119_50_45:1
+H__74_119_50_45:0
+H__77_119_50_45:0
+H__76_119_50_45:0
+H__79_119_50_45:0
+H__78_119_50_45:0
+H__81_119_50_45:1
+H__80_119_50_45:0
+H__83_119_50_45:1
+H__82_119_50_45:0
+H__85_119_50_45:0
+H__84_119_50_45:0
+H__87_119_50_45:0
+H__86_119_50_45:0
+H__89_119_50_45:0
+H__88_119_50_45:0
+H__91_119_50_45:0
+H__90_119_50_45:0
+H__93_119_50_45:1
+H__92_119_50_45:0
+H__95_119_50_45:1
+H__94_119_50_45:0
+H__97_119_50_45:0
+H__96_119_50_45:0
+H__99_119_50_45:0
+H__98_119_50_45:0
+H__102_119_50:0
+H__69_119_50_46:1
+H__68_119_50_46:0
+H__71_119_50_46:0
+H__70_119_50_46:1
+H__73_119_50_46:0
+H__72_119_50_46:0
+H__75_119_50_46:0
+H__74_119_50_46:0
+H__77_119_50_46:0
+H__76_119_50_46:0
+H__79_119_50_46:0
+H__78_119_50_46:0
+H__81_119_50_46:0
+H__80_119_50_46:0
+H__83_119_50_46:1
+H__82_119_50_46:1
+H__85_119_50_46:0
+H__84_119_50_46:0
+H__87_119_50_46:0
+H__86_119_50_46:1
+H__89_119_50_46:1
+H__88_119_50_46:0
+H__91_119_50_46:1
+H__90_119_50_46:0
+H__93_119_50_46:0
+H__92_119_50_46:0
+H__95_119_50_46:0
+H__94_119_50_46:1
+H__97_119_50_46:0
+H__96_119_50_46:1
+H__99_119_50_46:0
+H__98_119_50_46:0
+H__1_119_50:0
+H__2_119_50:1
+H__3_119_50:0
+H__101_119_49:1
+H__69_119_49_45:1
+H__68_119_49_45:1
+H__71_119_49_45:0
+H__70_119_49_45:0
+H__73_119_49_45:0
+H__72_119_49_45:0
+H__75_119_49_45:1
+H__74_119_49_45:0
+H__77_119_49_45:0
+H__76_119_49_45:1
+H__79_119_49_45:0
+H__78_119_49_45:0
+H__81_119_49_45:0
+H__80_119_49_45:0
+H__83_119_49_45:0
+H__82_119_49_45:0
+H__85_119_49_45:0
+H__84_119_49_45:0
+H__87_119_49_45:1
+H__86_119_49_45:0
+H__89_119_49_45:0
+H__88_119_49_45:0
+H__91_119_49_45:0
+H__90_119_49_45:1
+H__93_119_49_45:0
+H__92_119_49_45:0
+H__95_119_49_45:0
+H__94_119_49_45:1
+H__97_119_49_45:0
+H__96_119_49_45:0
+H__99_119_49_45:0
+H__98_119_49_45:0
+H__102_119_49:0
+H__69_119_49_46:0
+H__68_119_49_46:1
+H__71_119_49_46:0
+H__70_119_49_46:0
+H__73_119_49_46:0
+H__72_119_49_46:0
+H__75_119_49_46:1
+H__74_119_49_46:0
+H__77_119_49_46:1
+H__76_119_49_46:0
+H__79_119_49_46:1
+H__78_119_49_46:0
+H__81_119_49_46:0
+H__80_119_49_46:0
+H__83_119_49_46:0
+H__82_119_49_46:0
+H__85_119_49_46:0
+H__84_119_49_46:1
+H__87_119_49_46:1
+H__86_119_49_46:1
+H__89_119_49_46:0
+H__88_119_49_46:1
+H__91_119_49_46:0
+H__90_119_49_46:1
+H__93_119_49_46:1
+H__92_119_49_46:0
+H__95_119_49_46:0
+H__94_119_49_46:0
+H__97_119_49_46:1
+H__96_119_49_46:1
+H__99_119_49_46:0
+H__98_119_49_46:0
+H__1_119_49:1
+H__2_119_49:0
+H__3_119_49:1
+H__5_119_48:0
+H__4_119_48:1
+H__7_119_48:1
+H__6_119_48:0
+H__9_119_48:1
+H__8_119_48:0
+H__11_119_48:0
+H__10_119_48:1
+H__13_119_48:0
+H__12_119_48:0
+H__15_119_48:0
+H__14_119_48:0
+H__17_119_48:1
+H__16_119_48:0
+H__19_119_48:0
+H__18_119_48:0
+H__21_119_48:1
+H__20_119_48:0
+H__23_119_48:0
+H__22_119_48:1
+H__25_119_48:0
+H__24_119_48:0
+H__27_119_48:0
+H__26_119_48:0
+H__29_119_48:0
+H__28_119_48:0
+H__31_119_48:0
+H__30_119_48:0
+H__33_119_48:0
+H__32_119_48:0
+H__35_119_48:0
+H__34_119_48:1
+
+BEG CHECK
+ * After optims it became = 2 was 48076
+regen H__100
+Simulation found a cex by random testing:  0 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.045
+!% 
+!% 
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 48076 was 48076
+ * After all optims it became = 48076
+ finder  hits = 58537	 bstoreObjs=241872	 sstorePages=331
+hitcount 	0	224986	7
+hitcount 	1	5811	5
+hitcount 	2	4854	3
+hitcount 	3	144	4
+hitcount 	4	4803	2
+hitcount 	5	271	4
+hitcount 	6	147	4
+hitcount 	7	143	4
+hitcount 	8	153	4
+hitcount 	9	18	4
+hitcount 	10	14	5
+hitcount 	11	8	6
+hitcount 	12	15	4
+hitcount 	13	6	5
+hitcount 	14	27	3
+hitcount 	15	38	4
+hitcount 	16	12	4
+hitcount 	17	2	2
+hitcount 	18	12	2
+hitcount 	19	5	5
+hitcount 	20	9	2
+hitcount 	21	4	9
+hitcount 	22	6	2
+hitcount 	23	3	2
+hitcount 	24	8	2
+hitcount 	25	8	5
+hitcount 	26	80	2
+hitcount 	27	6	1
+hitcount 	28	12	2
+hitcount 	29	8	2
+hitcount 	30	12	4
+hitcount 	31	8	7
+hitcount 	32	7	2
+hitcount 	33	3	2
+hitcount 	34	11	3
+hitcount 	35	4	8
+hitcount 	36	7	6
+hitcount 	37	9	3
+hitcount 	38	4	1
+hitcount 	39	3	2
+hitcount 	40	7	7
+hitcount 	41	4	8
+hitcount 	42	3	2
+hitcount 	43	12	2
+hitcount 	44	4	2
+hitcount 	45	4	8
+hitcount 	46	8	7
+hitcount 	47	6	1
+hitcount 	48	3	2
+hitcount 	49	12	2
+hitcount 	50	4	6
+hitcount 	51	5	5
+hitcount 	52	8	3
+hitcount 	53	3	2
+hitcount 	54	3	2
+hitcount 	55	13	4
+hitcount 	56	5	6
+hitcount 	57	5	1
+hitcount 	58	5	4
+hitcount 	60	4	9
+hitcount 	61	13	4
+hitcount 	62	5	2
+hitcount 	63	3	2
+hitcount 	64	2	10
+hitcount 	65	4	7
+hitcount 	66	5	6
+hitcount 	67	10	3
+hitcount 	70	9	6
+hitcount 	71	2	5
+hitcount 	73	5	4
+hitcount 	74	3	5
+hitcount 	76	2	8
+hitcount 	79	8	3
+hitcount 	82	2	9
+bucketsPerDepth 	11	1
+bucketsPerDepth 	12	50
+bucketsPerDepth 	13	208
+bucketsPerDepth 	14	264
+bucketsPerDepth 	15	265
+bucketsPerDepth 	16	133
+bucketsPerDepth 	17	58
+bucketsPerDepth 	18	33
+bucketsPerDepth 	19	11
+bucketsPerDepth 	20	1
+* TIME TO ADD INPUT :  0.384 ms 
+DECISIONS START = 69699

@@ -1,4 +1,4 @@
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -157,7 +157,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -316,7 +316,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -475,7 +475,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -634,7 +634,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -793,7 +793,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -952,7 +952,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1111,7 +1111,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1270,7 +1270,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1427,10 +1427,10 @@ Traceback (most recent call last):
   File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
     if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
 TypeError: argument of type 'NoneType' is not iterable
-Error: driver.py failed with status code 1 for problem Odden_Sursilvan_Saujas_3
+Error: driver.py failed with status code 1 for problem Odden_Hawaiian_Saujas_1
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1589,7 +1589,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1745,7 +1745,7 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -1904,7 +1904,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -2063,7 +2063,7 @@ Traceback (most recent call last):
 TypeError: argument of type 'NoneType' is not iterable
 
 
-Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
 Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
 Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
@@ -2220,5 +2220,173 @@ Traceback (most recent call last):
   File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/command_server.py", line 50, in command_server_running
     if p.info['name'] == 'python' and 'command_server.py' in p.info['cmdline'] and 'KILL' not in p.info['cmdline']:
 TypeError: argument of type 'NoneType' is not iterable
+
+
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Loaded Odden A1 problem from Kikurai, named Odden_A1_Kikurai
+Loaded Odden A2 problem from Modern Greek, named Odden_A2_Modern_Greek
+Loaded Odden A3 problem from Farsi, named Odden_A3_Farsi
+Loaded Odden A4 problem from Osage, named Odden_A4_Osage
+Loaded Odden A5 problem from Amharic, named Odden_A5_Amharic
+Loaded Odden A6 problem from Gen, named Odden_A6_Gen
+Loaded Odden A7 problem from Kishambaa, named Odden_A7_Kishambaa
+Loaded Odden A8 problem from Thai, named Odden_A8_Thai
+Loaded Odden A9 problem from Palauan, named Odden_A9_Palauan
+Loaded Odden A10 problem from Quechua (Cuzco dialect), named Odden_A10_Quechua_Cuzco_dialect
+Loaded Odden A11 problem from Lhasa Tibetan, named Odden_A11_Lhasa_Tibetan
+Loaded Odden 1.1 problem from Axininca Campa, named Odden_1.1_Axininca_Campa
+Loaded Odden 1.2 problem from Kikuyu, named Odden_1.2_Kikuyu
+Loaded Odden 1.3 problem from Korean, named Odden_1.3_Korean
+Loaded Odden 1.12 problem from English, named Odden_1.12_English
+Loaded Odden 2.1 problem from Hungarian, named Odden_2.1_Hungarian
+Loaded Odden 2.2 problem from Kikuria, named Odden_2.2_Kikuria
+Loaded Odden 2.3 problem from Farsi, named Odden_2.3_Farsi
+Loaded Odden 2.4 problem from Tibetan, named Odden_2.4_Tibetan
+Loaded Odden 2.5 problem from Makonde, named Odden_2.5_Makonde
+Loaded Odden 2.6 problem from North Saami, named Odden_2.6_North_Saami
+Loaded Odden 3.1 problem from Kerewe, named Odden_3.1_Kerewe
+Loaded Odden 3.2 problem from Polish, named Odden_3.2_Polish
+Loaded Odden 3.3 problem from Ancient Greek, named Odden_3.3_Ancient_Greek
+Loaded Odden 3.5 problem from Catalan, named Odden_3.5_Catalan
+Loaded Odden 3.6 problem from Finnish, named Odden_3.6_Finnish
+Loaded Odden 3.7 problem from Korean, named Odden_3.7_Korean
+Loaded Odden 4.1 problem from Serbo-Croatian, named Odden_4.1_Serbo_Croatian
+Loaded Odden 4.2 problem from Standard Ukrainian, named Odden_4.2_Standard_Ukrainian
+Loaded Odden 4.3 problem from Somali, named Odden_4.3_Somali
+Loaded Odden 4.4 problem from Latin, named Odden_4.4_Latin
+Loaded Odden 4.5 problem from Turkish, named Odden_4.5_Turkish
+Loaded Odden 4.6 problem from Kera, named Odden_4.6_Kera
+Loaded Odden 4.9 problem from Lardil, named Odden_4.9_Lardil
+Loaded Odden 4.10 problem from Sakha (Yakut), named Odden_4.10_Sakha_Yakut
+Loaded Odden 4.11 problem from Sadzava Ukrainian, named Odden_4.11_Sadzava_Ukrainian
+Loaded Odden problem from Mandar Saujas 1, named Odden_Mandar_Saujas_1
+Loaded Odden problem from Dutch Saujas 2, named Odden_Dutch_Saujas_2
+Loaded Odden problem from Quechua Saujas 3, named Odden_Quechua_Saujas_3
+Loaded Odden problem from Somali Saujas 4, named Odden_Somali_Saujas_4
+Loaded Odden problem from Lunyole Saujas 5, named Odden_Lunyole_Saujas_5
+Loaded Odden problem from Mongo Saujas 8, named Odden_Mongo_Saujas_8
+Loaded Odden problem from Indonesian Saujas 9, named Odden_Indonesian_Saujas_9
+
+
+Data should be of uniform length. 
+ Error: Problem in Budukh has an issue.
+
+
+Loaded Odden problem from Zoque Saujas 11, named Odden_Zoque_Saujas_11
+
+
+Expecting : delimiter: line 1 column 12 (char 11). 
+ Error: Problem in Estonian has an issue.
+
+
+Loaded Odden problem from Turkish Saujas 0, named Odden_Turkish_Saujas_0
+ır
+bandır
+
+
+No valid prefix: ır when parsing bandırinto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Turkish has an issue.
+
+
+Loaded Odden problem from Hawaiian Saujas 1, named Odden_Hawaiian_Saujas_1
+Loaded Odden problem from English Saujas 2, named Odden_English_Saujas_2
+ßen
+beißen
+
+
+No valid prefix: ßen when parsing beißeninto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in English has an issue.
+
+
+Loaded Odden problem from Sursilvan Saujas 3, named Odden_Sursilvan_Saujas_3
+Loaded Odden problem from Ladin Saujas 4, named Odden_Ladin_Saujas_4
+ćia
+boćia
+
+
+No valid prefix: ćia when parsing boćiainto phonemes. Perhaps you are trying to use a phoneme that is not currently part of the system.. 
+ Error: Problem in Ladin has an issue.
+
+
+Loaded Odden problem from Warlpiri Saujas 5, named Odden_Warlpiri_Saujas_5
+Loaded Odden problem from Minangkabau Saujas 6, named Odden_Minangkabau_Saujas_6
+Loaded Odden 68-69 problem from Russian, named Odden_68_69_Russian
+Loaded Odden 73-74 problem from Finnish, named Odden_73_74_Finnish
+Loaded Odden 76-77 problem from Kerewe, named Odden_76_77_Kerewe
+Loaded Odden 77-78 problem from English, named Odden_77_78_English
+Loaded Odden 79 problem from Jita, named Odden_79_Jita
+Loaded Odden 81 problem from Korean, named Odden_81_Korean
+Loaded Odden 81 problem from Koasati, named Odden_81_Koasati
+Loaded Odden 85 problem from Samoan, named Odden_85_Samoan
+Loaded Odden 88 problem from Palauan, named Odden_88_Palauan
+Loaded Odden 105 problem from Bukusu, named Odden_105_Bukusu
+Loaded Odden 114 problem from Lithuanian, named Odden_114_Lithuanian
+Loaded Odden 116 problem from Armenian, named Odden_116_Armenian
+Loaded Odden 170 problem from Yawelmani, named Odden_170_Yawelmani
+Loaded Halle 125 problem from Indonesian, named Halle_125_Indonesian
+Loaded Roca 16 problem from German, named Roca_16_German
+Loaded Roca 17 problem from Dutch, named Roca_17_Dutch
+Loaded Roca 25 problem from Zoque, named Roca_25_Zoque
+Loaded Roca 37 problem from Anxiang, named Roca_37_Anxiang
+Loaded Roca 31 problem from Verlan, named Roca_31_Verlan
+Loaded Roca 35 problem from Icelandic, named Roca_35_Icelandic
+Loaded Roca 89 problem from Lumasaaba, named Roca_89_Lumasaaba
+Loaded Roca 104 problem from Tunica, named Roca_104_Tunica
+Loaded Halle 85 problem from Turkish, named Halle_85_Turkish
+Loaded Halle 97 problem from Turkish, named Halle_97_Turkish
+Loaded Halle 109 problem from Russian, named Halle_109_Russian
+Loaded Halle 113 problem from Klamath, named Halle_113_Klamath
+Loaded Halle 115 problem from Russian, named Halle_115_Russian
+Loaded Halle 149 problem from Russian, named Halle_149_Russian
+Loaded Halle 141 problem from Sao Tome Creole, named Halle_141_Sao_Tome_Creole
+Loaded Halle 133 problem from Swahili, named Halle_133_Swahili
+Loaded Halle 49 problem from Ewe, named Halle_49_Ewe
+Loaded Halle 51 problem from Ganda, named Halle_51_Ganda
+Loaded Halle 127 problem from Japanese, named Halle_127_Japanese
+Loaded Halle 121 problem from Mohawk, named Halle_121_Mohawk
+Loaded Halle 59 problem from Mohawk, named Halle_59_Mohawk
+Loaded Halle 53 problem from Papago, named Halle_53_Papago
+Loaded Halle 55 problem from Proto-Bantu, named Halle_55_Proto_Bantu
+Loaded Halle 153 problem from Yokuts, named Halle_153_Yokuts
+Using the `sophisticated` feature set
+Enabling feature geometry.
+ [+] Found existing command server: 40 CPUs
+Executing driver @ 2024-07-17 09:20:25.931335
+Command line driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Hawaiian Saujas 1 Odden
+Provide underlying representations and a phonological rule which will account for the following alternations.
+kahi     tahi      tahi     tai      tasi
+lua      rua       ?        ?        lua
+ha       wha       ha       a        ?
+ono      ono       ono      ono      ono
+hiku     whitu     ?        itu      fitu
+walu     waru      vau      varu     ?
+Solver has adaptively set the window size to 1
+Starting out with explaining just the first 1 examples:
+/kahi/	~	/tahi/	~	/tahi/	~	/tai/	~	/tasi/
+[((/kahi/, /tahi/, /tahi/, /tai/, /tasi/), 0)]
+Invoking solver (timeout 7200): sketch /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/tmpMVZTbw.sk > /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp6Ko7No 2> /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/solver_output/tmp6Ko7No
+Ran the solver in 1.167067 sec (1.167690 wall clock, includes blocking)
+warning, could not find temporary sketch path /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/tmpMVZTbw.sk
+Final hole value: None
+Traceback (most recent call last):
+  File "driver.py", line 298, in <module>
+    handleProblem(problem)
+  File "driver.py", line 111, in handleProblem
+    result = ss.incrementallySolve(k = arguments.top)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 423, in incrementallySolve
+    r = self._incrementallySolve(k=k)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/incremental.py", line 440, in _incrementallySolve
+    auxiliaryHarness = True)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/matrix.py", line 445, in sketchJointSolution
+    solution = Solution(prefixes = [ Morph.parse(self.bank, output, p) for p in prefixes ],
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/morph.py", line 89, in parse
+    variable, output = getGeneratorDefinition(variable.definingFunction, output)
+  File "/fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/neurosymbolic-LO/bpl-paper/bpl_phonology/sketchSyntax.py", line 417, in getGeneratorDefinition
+    raise Exception('getGeneratorDefinition: %s\n%s'%(generatorName, output))
+Exception: getGeneratorDefinition: __GLOBALDEFINITION__2
+    [0;31m[1721208027.0920 - ERROR] [SKETCH] Unrecognized Variable Error: unrecognized variable 'WILDPATTERN' (at tmpMVZTbw.sk:103Total time = 1010
+[1721208027.1070 - DEBUG] [SKETCH] stack trace written to file: /fsx/homes/Antara.Bhattacharya@mbzuai.ac.ae/.sketch/tmp/stacktrace.txt[0m
+
 
 

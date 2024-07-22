@@ -221,6 +221,12 @@ def compatible_char_ipa(data):
             i += 1
         # Load the modified JSON string back to data
         data = json.loads(json_str_replaced)
+    
+    elif language.lower() == 'english':
+        data = json.loads(json.dumps(data).replace('\u00df', 'ss')) 
+        json_str = json.dumps(data)
+        json_str_replaced = json_str.replace('\u00df', 's')
+        data = json.loads(json_str_replaced)
 
     return data
 

@@ -1,0 +1,46 @@
+Processing solution set 1
+Surface form for entry 1: ?
+Underlying form: ?
+Generated form before applying rules: ? p i
+Applying rule: rule: [  ] ---> b / [ -nasal ] [ -coronal -high ] _  to ? p i resulted in ? b i
+
+Applying rule: rule: [  ] ---> m / [  ] [ +low ] _  to ? b i resulted in ? b i
+
+Applying rule: rule: [ +voice -continuant ] ---> a / [ -sonorant ] _  to ? b i resulted in ? a i
+
+Applying rule: rule: [  ] ---> -2 / [ -back -coronal ] [  ] _  to ? a i resulted in ? i i
+
+Applying rule: rule: [  ] ---> Ø / [  ] [  ] _ [ +nasal ] to ? i i resulted in ? i i
+
+Applying rule: rule: [ +sonorant -coronal ] ---> a / [ +back ] [ +coronal ]* _  to ? i i resulted in ? i i
+
+Applying rule: rule: [  ] ---> -2 / [ -back -coronal ] [  ] _  to ? i i resulted in ? i i
+
+Applying rule: rule: [  ] ---> m / [  ] [ +low ] _  to ? i i resulted in ? i i
+
+Applying rule: rule: [  ] ---> a / [ +coronal -sonorant ] _ {#,[ -voice ]} to ? i i resulted in ? i i
+
+Surface form for entry 2: h a t u m
+Underlying form: h a t u m
+Generated form before applying rules: h a t u m p a
+Applying rule: rule: [  ] ---> b / [ -nasal ] [ -coronal -high ] _  to h a t u m p a resulted in h b t u m p a
+
+Applying rule: rule: [  ] ---> m / [  ] [ +low ] _  to h b t u m p a resulted in h m t u m p a
+
+Applying rule: rule: [ +voice -continuant ] ---> a / [ -sonorant ] _  to h m t u m p a resulted in h m t u m p a
+
+Applying rule: rule: [  ] ---> -2 / [ -back -coronal ] [  ] _  to h m t u m p a resulted in h a t u m p a
+
+Applying rule: rule: [  ] ---> Ø / [  ] [  ] _ [ +nasal ] to h a t u m p a resulted in h a t  m p a
+
+Applying rule: rule: [ +sonorant -coronal ] ---> a / [ +back ] [ +coronal ]* _  to h a t  m p a resulted in h a t m p a
+
+Applying rule: rule: [  ] ---> -2 / [ -back -coronal ] [  ] _  to h a t  m p a resulted in h a t m p a
+
+Applying rule: rule: [  ] ---> m / [  ] [ +low ] _  to h a t m p a resulted in h m t m p a
+
+Applying rule: rule: [  ] ---> a / [ +coronal -sonorant ] _ {#,[ -voice ]} to h m t m p a resulted in h m t a p a
+
+Processing solution set 2
+Surface form for entry 1: ?
+Underlying form: ?

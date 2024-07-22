@@ -459,3 +459,28 @@ TESTING AUTOREAD GRAB -- ITERATIVE SHELL
 
 Running driver.py Odden_Lunyole_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
 Running driver.py Odden_Mongo_Saujas_8 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Indonesian_Saujas_9 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Zoque_Saujas_11 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Hawaiian_Saujas_1 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Sursilvan_Saujas_3 incremental -t 100 --timeout 24 --geometry --features sophisticated
+Running driver.py Odden_Warlpiri_Saujas_5 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+
+
+------ Run started at Thu Jul 18 06:52:13 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated
+
+------ Run ended at Thu Jul 18 08:28:43 UTC 2024 ------
+
+
+
+------ Run started at Thu Jul 18 09:49:05 UTC 2024 ------
+
+TESTING AUTOREAD GRAB -- ITERATIVE SHELL
+
+
+Running driver.py Odden_Minangkabau_Saujas_6 incremental -t 100 --timeout 24 --geometry --features sophisticated

@@ -1,0 +1,75 @@
+Processing solution set 1
+Surface form for entry 0: u o l m
+Underlying form: u o l m
+Generated form before applying rules: u o l m o
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to u o l m o resulted in u o l m o
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to u o l m o resulted in u  l m o
+
+Surface form for entry 1: s t u m i
+Underlying form: s t u m i
+Generated form before applying rules: g s t u m i
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to g s t u m i resulted in g s t o m i
+
+Applying rule: rule: g ---> Ø /  _  to g s t o m i resulted in  s t o m i
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to  s t o m i resulted in s t  m i
+
+Surface form for entry 0: c u o r t
+Underlying form: c u o r t
+Generated form before applying rules: c u o r t o
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to c u o r t o resulted in c u o r t o
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to c u o r t o resulted in c u  r t o
+
+Surface form for entry 1: m u n d
+Underlying form: m u n d
+Generated form before applying rules: g m u n d
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to g m u n d resulted in g m o n d
+
+Applying rule: rule: g ---> Ø /  _  to g m o n d resulted in  m o n d
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to  m o n d resulted in m  n d
+
+Surface form for entry 1: f u o r c l a
+Underlying form: f u o r c l a
+Generated form before applying rules: g f u o r c l a
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to g f u o r c l a resulted in g f u o r c l a
+
+Applying rule: rule: g ---> Ø /  _  to g f u o r c l a resulted in  f u o r c l a
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to  f u o r c l a resulted in f u  r c l a
+
+Surface form for entry 0: p l o m b a
+Underlying form: p l o m b a
+Generated form before applying rules: p l o m b a o
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to p l o m b a o resulted in p l o m b a o
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to p l o m b a o resulted in p l  m b a o
+
+Surface form for entry 0: m u o s s a r
+Underlying form: m u o s s a r
+Generated form before applying rules: m u o s s a r o
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to m u o s s a r o resulted in m u o s s a r o
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to m u o s s a r o resulted in m u  s s a r o
+
+Surface form for entry 1: c u l a n t
+Underlying form: c u l a n t
+Generated form before applying rules: g c u l a n t
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to g c u l a n t resulted in g c u l o n t
+
+Applying rule: rule: g ---> Ø /  _  to g c u l o n t resulted in  c u l o n t
+
+Applying rule: rule: o ---> Ø /  _ [ -rounded ]* {#,u} to  c u l o n t resulted in c u l  n t
+
+Processing solution set 2
+Surface form for entry 0: u o l m
+Underlying form: u o l m
+Generated form before applying rules: g u o l m
+Applying rule: rule: [ +back ] ---> o / g [  ]* _ [ +anterior ] to g u o l m resulted in g u o l m
+
+Applying rule: rule: g ---> Ø /  _  to g u o l m resulted in  u o l m
+
+Surface form for entry 1: s t u m i
+Underlying form: s t u m i
