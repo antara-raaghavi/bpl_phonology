@@ -1,1098 +1,451 @@
-Processing solution set 1
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e -1 e l resulted in  e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e -1 e l resulted in e -1 e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e h o r resulted in  e h o r
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e h o r resulted in e h o r
-
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e t a p p resulted in  e t a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e v e r h u i z resulted in  e v e r h u i z
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e v e r h u i z resulted in e  e r h u i z
-
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to g e l a n d resulted in g e l a n 
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e l a n  resulted in  e l a n
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e l a n resulted in e  a n
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e k l o p p resulted in  e k l o p p
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e k l o p p resulted in e k  o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e m o k k resulted in  e m o k k
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e m o k k resulted in e  o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e r o k resulted in  e r o k
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e r o k resulted in e  o k
-
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e r o t t resulted in  e r o t t
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e r o t t resulted in e  o t t
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e t o b b resulted in  e t o b b
-
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to  e t o b b resulted in e t o  b
-
-Processing solution set 2
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to g e l a n d resulted in g e l a n 
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Processing solution set 3
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e d e l resulted in  e d e l
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to  e d e l resulted in e d e l
-
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to  e d e l resulted in e -1 e l
-
-Warning: No features found for token '-1'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e -1 e l resulted in e -1 e l
-
-Warning: No features found for token '-1'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e -1 e l resulted in e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e -1 e l resulted in e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e -1 e l resulted in e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e -1 e l resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e -1 e [ +voice ] resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e -1 e [ +voice ] resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e -1 e [ +voice ] resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e -1 e [ +voice ] resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e -1 e [ +voice ] resulted in e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e h o r resulted in  e h o r
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e h o r resulted in e h o r
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e h o r resulted in e h o r
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e h o r resulted in e h o r
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e h o r resulted in e h o r
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e h o r resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e h o [ +voice ] resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e h o [ +voice ] resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e h o [ +voice ] resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e h o [ +voice ] resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e h o [ +voice ] resulted in e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e t a p p resulted in  e t a p p
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e t a p p resulted in e t a p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e t a p p resulted in e t a p p
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to  e t a p p resulted in e t a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e t a p p resulted in e t a p p
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to  e t a p p resulted in e  a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e  a p p resulted in e a p p
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e  a p p resulted in e a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e  a p p resulted in e a p p
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e  a p p resulted in e a p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e  a p p resulted in e a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e  a p p resulted in e a p p
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e  a p p resulted in e a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e v e r h u i z resulted in  e v e r h u i z
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e v e r h u i z resulted in e v e r h u i z
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e v e r h u i z resulted in e v e r h u i z
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e v e r h u i z resulted in e v e r d u i z
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to e v e r d u i z resulted in e v e r  u i z
-
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to e v e r  u i z resulted in e v e r u i d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e v e r u i d resulted in e v e r u i d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e v e r u i d resulted in e v e r u i d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e v e r u i d resulted in e v e r u i d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e v e r u i d resulted in e v e r u i d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e v e r u i d resulted in e v e r u i d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to e v e r u i d resulted in e v e r u i d
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e v e r u i d resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e v e r u i [ +voice ] resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e v e r u i [ +voice ] resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e v e r u i [ +voice ] resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e v e r u i [ +voice ] resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e v e r u i [ +voice ] resulted in e v e r u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e l a n d resulted in  e l a n d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to  e l a n d resulted in e l a n d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to  e l a n d resulted in e l a n d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to  e l a n d resulted in e l a n 
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e l a n  resulted in e l a n
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e l a n  resulted in e l a n
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e l a n  resulted in e l a n
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to e l a n  resulted in e l a n
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e l a n  resulted in e l a n
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e l a n  resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e l a [ +voice ] resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e l a [ +voice ] resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e l a [ +voice ] resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e l a [ +voice ] resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e l a [ +voice ] resulted in e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e k l o p p resulted in  e k l o p p
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e k l o p p resulted in e k l o p p
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e k l o p p resulted in e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e m o k k resulted in  e m o k k
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e m o k k resulted in e m o k k
-
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e m o k k resulted in e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e r o k resulted in  e r o k
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e r o k resulted in e r o k
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e r o k resulted in e r o k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to  e r o k resulted in e r o k
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to  e r o k resulted in e r o k
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to  e r o k resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e r o t t resulted in  e r o t t
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e r o t t resulted in e r o t d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e r o t d resulted in e r o t d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to e r o t d resulted in e r o t 
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e r o t  resulted in e r o t
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e r o t  resulted in e r o t
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e r o t  resulted in e r o t
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to e r o t  resulted in e r o t
-
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to e r o t  resulted in e r o d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e r o d resulted in e r o d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e r o d resulted in e r o d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e r o d resulted in e r o d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e r o d resulted in e r o d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e r o d resulted in e r o d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to e r o d resulted in e r o d
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e r o d resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e r o [ +voice ] resulted in e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] # to g e t o b b resulted in  e t o b b
-
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to  e t o b b resulted in e t o b b
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to  e t o b b resulted in e t o b d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e t o b d resulted in e t o b d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e t o b d resulted in e t o b d
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e t o b d resulted in e t o b d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to e t o b d resulted in e  o b d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e  o b d resulted in e o b d
-
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to e  o b d resulted in e o b d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e  o b d resulted in e o b d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e  o b d resulted in e o b d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to e  o b d resulted in e o b d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to e  o b d resulted in e o b d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to e  o b d resulted in e o b d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to e  o b d resulted in e o b 
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e o b  resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to e o [ +voice ] resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to e o [ +voice ] resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to e o [ +voice ] resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Warning: No features found for token '['
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token '['
-Warning: No features found for token ']'
-Warning: No features found for token '+voice'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to e o [ +voice ] resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to e o [ +voice ] resulted in e o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Processing solution set 4
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e -1 e l resulted in g e -1 e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e h o r resulted in g e h o r
-
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e t a p p resulted in g e t a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e t a p p resulted in g e t a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e v e r h u i z resulted in g e v e r d u i z
-
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e l a n d resulted in g e l a  d
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e k l o p p resulted in g e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e m o k k resulted in g e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e r o k resulted in g e r o k
-
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e r o t t resulted in g e r o t t
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e r o t t resulted in g e r o t t
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e t o b b resulted in g e t o b b
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e t o b b resulted in g e t o b b
-
-Processing solution set 5
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e d e l resulted in g e d e l
-
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Warning: No features found for token '-1'
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e -1 e l resulted in g e -1 e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e h o r resulted in g e h o r
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e h o r resulted in g e h o r
-
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e t a p p resulted in g e t a p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e t a p p resulted in g e t a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e v e r h u i z resulted in g e v e r h u i z
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e v e r h u i z resulted in g e v e r h u i z
-
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to g e l a n d resulted in g e l a n 
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e l a n  resulted in g e l a n
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e k l o p p resulted in g e k l o p p
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e k l o p p resulted in g e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e m o k k resulted in g e m o k k
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e m o k k resulted in g e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e r o k resulted in g e r o k
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e r o k resulted in g e r o k
-
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e r o t t resulted in g e r o t d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e r o t d resulted in g e r o t d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to g e r o t d resulted in g e r o t 
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e r o t  resulted in g e r o t
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [  ] ---> d / [ +coronal ] _ # to g e t o b b resulted in g e t o b b
-
-Applying rule: rule: [  ] ---> d / [ +voice -vowel ] _ # to g e t o b b resulted in g e t o b d
-
-Processing solution set 6
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e -1 e l resulted in g e -1 e [ +voice ]
-
-Warning: No features found for token '-1'
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e h o r resulted in g e h o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e t a p p resulted in g e t a p p
-
-Applying rule: rule: [ +coronal -liquid ] ---> Ø /  _ [  ] # to g e t a p p resulted in g e  a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e v e r h u i z resulted in g e v e r h u i [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: d ---> Ø / [ -tense ] [  ] _  to g e l a n d resulted in g e l a n 
-
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e l a n  resulted in g e l a [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e k l o p p resulted in g e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e m o k k resulted in g e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e r o k resulted in g e r o [ +voice ]
-
-Warning: No features found for token '['
-Warning: No features found for token '+voice'
-Warning: No features found for token ']'
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e r o t t resulted in g e r o t t
-
-Applying rule: rule: [ +coronal -liquid ] ---> Ø /  _ [  ] # to g e r o t t resulted in g e r o  t
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Warning: No features found for token '[ +voice ]'
-Applying rule: rule: [  ] ---> [ +voice ] / [ +voice ] _ # to g e t o b b resulted in g e t o b [ +voice ]
-
-Applying rule: rule: [ +coronal -liquid ] ---> Ø /  _ [  ] # to g e t o b [ +voice ] resulted in g e  o b [ +voice ]
-
-Processing solution set 7
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Warning: No features found for token '-1'
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e d e l resulted in g e -1 e l
-
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Warning: No features found for token '-1'
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e -1 e l resulted in g e -1 e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e h o r resulted in g e h o r
-
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e t a p p resulted in g e t a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e t a p p resulted in g e t a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e v e r h u i z resulted in g e v e r d u i z
-
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a n d resulted in g e l a n d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e l a n d resulted in g e l a  d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to g e l a  d resulted in g e l a d
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e k l o p p resulted in g e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e m o k k resulted in g e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e r o k resulted in g e r o k
-
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e r o t t resulted in g e r o t t
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e r o t t resulted in g e r o t t
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e t o b b resulted in g e t o b b
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -tense ] _  to g e t o b b resulted in g e t o b b
-
-Processing solution set 8
-Surface form for entry 1: d e l e n
-Underlying form: d e l
-Generated form before applying rules: g e d e l
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to g e d e l resulted in g e  e l
-
-Surface form for entry 1: h o r e n
-Underlying form: h o r
-Generated form before applying rules: g e h o r
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e h o r resulted in g e h o r
-
-Surface form for entry 1: t a p p e n
-Underlying form: t a p p
-Generated form before applying rules: g e t a p p
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to g e t a p p resulted in g e  a p p
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e  a p p resulted in g e a p p
-
-Surface form for entry 1: v e r h u i z e n
-Underlying form: v e r h u i z
-Generated form before applying rules: g e v e r h u i z
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to g e v e r h u i z resulted in g e v e r h u i d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to g e v e r h u i d resulted in g e v e r h u i d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e v e r h u i d resulted in g e v e r h u i d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e v e r h u i d resulted in g e v e r h u i d
-
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e v e r h u i d resulted in g e v e r d u i d
-
-Surface form for entry 1: l a n d e n
-Underlying form: l a n d
-Generated form before applying rules: g e l a n d
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to g e l a n d resulted in g e l a  d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a  d resulted in g e l a d
-
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to g e l a  d resulted in g e l a d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to g e l a d resulted in g e l a d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e l a d resulted in g e l a d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e l a d resulted in g e l a d
-
-Surface form for entry 1: k l o p p e n
-Underlying form: k l o p p
-Generated form before applying rules: g e k l o p p
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e k l o p p resulted in g e k l o p p
-
-Surface form for entry 1: m o k k e n
-Underlying form: m o k k
-Generated form before applying rules: g e m o k k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e m o k k resulted in g e m o k k
-
-Surface form for entry 1: r o k e n
-Underlying form: r o k
-Generated form before applying rules: g e r o k
-Applying rule: rule: [ -voice ] ---> d / [ +voice -vowel ] _  to g e r o k resulted in g e r o k
-
-Surface form for entry 1: r o t t e n
-Underlying form: r o t t
-Generated form before applying rules: g e r o t t
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to g e r o t t resulted in g e r o  t
-
-Applying rule: rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _  to g e r o  t resulted in g e r o d
-
-Applying rule: rule: d ---> n /  _ [ -vowel ] to g e r o d resulted in g e r o d
-
-Applying rule: rule: d ---> -1 / [ -nasal ] _ [  ] [  ] # to g e r o d resulted in g e r o d
-
-Applying rule: rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ] to g e r o d resulted in g e r o d
-
-Surface form for entry 1: t o b b e n
-Underlying form: t o b b
-Generated form before applying rules: g e t o b b
-Applying rule: rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e} to g e t o b b resulted in g e  o b b
-
+{
+    "solution_8": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e  e l"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                "g e  a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r d u i d"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a d"
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o k"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o d"
+            ], 
+            [
+                "t o b b e n", 
+                "g e  o b b"
+            ]
+        ], 
+        "rules": [
+            "rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e}", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: [ -voice ] ---> d / [ +voice -vowel ] _ "
+        ]
+    }, 
+    "solution_2": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e -1 e l"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                "g e t a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r h u i z"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a n "
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o k"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o t t"
+            ], 
+            [
+                "t o b b e n", 
+                "g e t o b b"
+            ]
+        ], 
+        "rules": [
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]"
+        ]
+    }, 
+    "solution_3": {
+        "test": [
+            [
+                "d e l e n", 
+                "e -1 e [ +voice ]"
+            ], 
+            [
+                "h o r e n", 
+                "e h o [ +voice ]"
+            ], 
+            [
+                "t a p p e n", 
+                "e  a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "e v e r u i [ +voice ]"
+            ], 
+            [
+                "l a n d e n", 
+                "e l a [ +voice ]"
+            ], 
+            [
+                "k l o p p e n", 
+                " e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                " e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "e r o [ +voice ]"
+            ], 
+            [
+                "r o t t e n", 
+                "e r o [ +voice ]"
+            ], 
+            [
+                "t o b b e n", 
+                "e o [ +voice ]"
+            ]
+        ], 
+        "rules": [
+            "rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] #", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: Ø ---> -1 / [  ] _ [ -anterior -lateral ] d", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [  ] ---> d / [ +coronal ] _ #", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> d / [ +voice -vowel ] _ #", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: [ -voice ] ---> d / [ +voice -vowel ] _ ", 
+            "rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e}", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [ -voice ] ---> d / [ +voice -tense ] _ ", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> [ +voice ] / [ +voice ] _ #", 
+            "rule: [ +coronal -liquid ] ---> Ø /  _ [  ] #", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: [ -voice ] ---> d / [ +voice -vowel ] _ ", 
+            "rule: [  ] ---> d / [ +coronal ] _ #", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> d / [ +voice -vowel ] _ #", 
+            "rule: [ +coronal -continuant ] ---> Ø /  _ [ -nasal ] {#,e}", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [ -voice ] ---> d / [ +voice -tense ] _ ", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> [ +voice ] / [ +voice ] _ #", 
+            "rule: [ +coronal -liquid ] ---> Ø /  _ [  ] #"
+        ]
+    }, 
+    "solution_1": {
+        "test": [
+            [
+                "d e l e n", 
+                " e -1 e l"
+            ], 
+            [
+                "h o r e n", 
+                " e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                " e t a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "e  e r h u i z"
+            ], 
+            [
+                "l a n d e n", 
+                "e  a n"
+            ], 
+            [
+                "k l o p p e n", 
+                "e k  o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "e  o k k"
+            ], 
+            [
+                "r o k e n", 
+                "e  o k"
+            ], 
+            [
+                "r o t t e n", 
+                "e  o t t"
+            ], 
+            [
+                "t o b b e n", 
+                "e t o  b"
+            ]
+        ], 
+        "rules": [
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] #", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: Ø ---> -1 / [  ] _ [ -anterior -lateral ] d", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [ +voice -tense ] ---> Ø /  _ [  ] [  ] #", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: Ø ---> -1 / [  ] _ [ -anterior -lateral ] d"
+        ]
+    }, 
+    "solution_6": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e -1 e [ +voice ]"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o [ +voice ]"
+            ], 
+            [
+                "t a p p e n", 
+                "g e  a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r h u i [ +voice ]"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a [ +voice ]"
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o [ +voice ]"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o  t"
+            ], 
+            [
+                "t o b b e n", 
+                "g e  o b [ +voice ]"
+            ]
+        ], 
+        "rules": [
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> [ +voice ] / [ +voice ] _ #", 
+            "rule: [ +coronal -liquid ] ---> Ø /  _ [  ] #"
+        ]
+    }, 
+    "solution_7": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e -1 e l"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                "g e t a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r d u i z"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a  d"
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o k"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o t t"
+            ], 
+            [
+                "t o b b e n", 
+                "g e t o b b"
+            ]
+        ], 
+        "rules": [
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: d ---> n /  _ [ -vowel ]", 
+            "rule: [ -voice ] ---> d / [ +voice -tense ] _ "
+        ]
+    }, 
+    "solution_4": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e -1 e l"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                "g e t a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r d u i z"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a  d"
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o k"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o t t"
+            ], 
+            [
+                "t o b b e n", 
+                "g e t o b b"
+            ]
+        ], 
+        "rules": [
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: [ +coronal -continuant ] ---> Ø / [ -rounded ] _ [ -palatal -tense ]", 
+            "rule: [ -voice ] ---> d / [ +voice -vowel ] _ "
+        ]
+    }, 
+    "solution_5": {
+        "test": [
+            [
+                "d e l e n", 
+                "g e -1 e l"
+            ], 
+            [
+                "h o r e n", 
+                "g e h o r"
+            ], 
+            [
+                "t a p p e n", 
+                "g e t a p p"
+            ], 
+            [
+                "v e r h u i z e n", 
+                "g e v e r h u i z"
+            ], 
+            [
+                "l a n d e n", 
+                "g e l a n "
+            ], 
+            [
+                "k l o p p e n", 
+                "g e k l o p p"
+            ], 
+            [
+                "m o k k e n", 
+                "g e m o k k"
+            ], 
+            [
+                "r o k e n", 
+                "g e r o k"
+            ], 
+            [
+                "r o t t e n", 
+                "g e r o t "
+            ], 
+            [
+                "t o b b e n", 
+                "g e t o b d"
+            ]
+        ], 
+        "rules": [
+            "rule: [  ] ---> d / [ +coronal ] _ #", 
+            "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #", 
+            "rule: d ---> Ø / [ -tense ] [  ] _ ", 
+            "rule: [  ] ---> d / [ +voice -vowel ] _ #"
+        ]
+    }
+}

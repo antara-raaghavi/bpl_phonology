@@ -292,39 +292,37 @@ def read_rules_from_text(file_path):
 
     return parsed_solutions
 
-def main(json_filepath, text_filepath):
-
+def main(json_filepath, text_filepath, output_filepath):
+    # Read data from the JSON file
     with codecs.open(json_filepath, "r", encoding="utf-8") as file:
-        data = json.load(file)        
+        data = json.load(file)
         for entry in data["test"]:
             for i, field in enumerate(entry):
                 if field != "?":
-                    feature_index = i #THE WAY THIS WORKS CURRENTLY IT CAN ONLY HANDLE ONE KIND (crying sobbing)
+                    feature_index = i  # THIS CAN ONLY HANDLE ONE KIND
 
+    # Read rules from the text file
     rules_sets = read_rules_from_text(text_filepath)
     all_results = {}
-
 
     for idx, (rules, solution_text) in enumerate(rules_sets):
         print(u"Processing solution set {}".format(idx + 1))
 
-        # THIS IS BEING MADE FROM THEIR CODE
-        # feature_bank = FeatureBank([entry[feature_index] for entry in data["test"]])
-
+        # Create a feature bank from all phonemes
         all_phonemes = featureMap.keys()
         feature_bank = FeatureBank(all_phonemes)
 
+        # Identify affixes and process the data
         affixes = identify_affixes(solution_text)
-
         processed_test_set = process_data(data, rules, feature_bank, affixes)
 
+        # Store the results
         all_results["solution_{}".format(idx + 1)] = {
             "test": processed_test_set,
             "rules": rules,
         }
 
-    # output solns 
-    output_filepath = "FLAG_debugruleapplication.json"
+    # Write the results to the output file
     with codecs.open(output_filepath, "w", encoding="utf-8") as file:
         json.dump(all_results, file, ensure_ascii=False, indent=4)
 
@@ -332,9 +330,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process phonological rules.")
     parser.add_argument("json_filepath", help="Path to the JSON file containing the test set.")
     parser.add_argument("text_filepath", help="Path to the text file containing the rules.")
+    parser.add_argument("output_filepath", help="Path to the output JSON file where results will be saved.")
+    
     args = parser.parse_args()
 
-    main(args.json_filepath, args.text_filepath)
+    main(args.json_filepath, args.text_filepath, args.output_filepath)
 
 
 
