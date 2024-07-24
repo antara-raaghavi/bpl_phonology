@@ -1,0 +1,206 @@
+{
+    "rule_set_18": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_19": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: t ---> g /  _ [  ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_50": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_51": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem\n/g/ + stem"
+    }, 
+    "rule_set_12": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_13": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_10": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g /  _ [  ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_11": {
+        "rules": "rule: [  ] ---> g / # b [  ] _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _ [ -lateral ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_16": {
+        "rules": "rule: [  ] ---> g / # b [  ] _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _ [ -lateral ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_17": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_14": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_15": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g /  _ [  ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_30": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_31": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _\nrule: [  ] ---> n / [ +low ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_32": {
+        "rules": "rule: g ---> \u00d8 /  _ [ +back ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: b ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_33": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [  ] ---> n / [ +low ] _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_34": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_35": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_36": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ [ +low ] [  ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_37": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: [ +back ] ---> [ -high ] / # u [  ]* _ [ -continuant ]\nrule: u ---> \u00d8 / {#,[ +back ]} _ [ -liquid ]", 
+        "stems": "/u/ + stem"
+    }, 
+    "rule_set_38": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_39": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_1": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_2": {
+        "rules": "rule: o ---> \u00d8 /  _ [ -rounded ]* {#,u}\nrule: \u00d8 ---> u / [ +coronal ] _ m\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_3": {
+        "rules": "rule: o ---> \u00d8 /  _ [ -rounded ]* {#,u}\nrule: \u00d8 ---> u / [ +coronal ] _ m\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_4": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_5": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g /  _ [  ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_6": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_7": {
+        "rules": "rule: [  ] ---> g / # b [  ] _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _ [ -lateral ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_8": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_9": {
+        "rules": "rule: o ---> \u00d8 /  _ [ -rounded ]* {#,u}\nrule: \u00d8 ---> u / [ +coronal ] _ m\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_41": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_40": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_43": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_42": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_45": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [  ] ---> n / [ +low ] _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_44": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _\nrule: [  ] ---> n / [ +low ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_47": {
+        "rules": "rule: g ---> \u00d8 /  _ [ +back ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: b ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_46": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ [ +low ] [  ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_49": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: [ +back ] ---> [ -high ] / # u [  ]* _ [ -continuant ]\nrule: u ---> \u00d8 / {#,[ +back ]} _ [ -liquid ]", 
+        "stems": "/u/ + stem"
+    }, 
+    "rule_set_48": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_23": {
+        "rules": "rule: [ +back +high ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_22": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: [  ] ---> n / [ +low ] _\nrule: d ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_21": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _\nrule: [  ] ---> n / [ +low ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_20": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ a [  ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: t ---> g /  _ [  ]", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_27": {
+        "rules": "rule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: [ +back ] ---> [ -high ] / # u [  ]* _ [ -continuant ]\nrule: u ---> \u00d8 / {#,[ +back ]} _ [ -liquid ]", 
+        "stems": "/u/ + stem"
+    }, 
+    "rule_set_26": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ [ +low ] [  ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_25": {
+        "rules": "rule: g ---> \u00d8 /  _ [ +back ]\nrule: [ +back ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: b ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_24": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_29": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }, 
+    "rule_set_28": {
+        "rules": "rule: [ +back -low ] ---> o / g [  ]* _ [ +anterior ]\nrule: g ---> \u00d8 /  _\nrule: f ---> g / [  ] _", 
+        "stems": "/g/ + stem"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "rule_set_18": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> [ +voice ] / [ +voice ] _ #\nrule: [ +coronal -liquid ] ---> \u00d8 /  _ [  ] #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_19": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: [ -voice ] ---> d / [ +voice -vowel ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_12": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: d ---> n /  _ [ -vowel ]\nrule: [ -voice ] ---> d / [ +voice -tense ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_13": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> [ +voice ] / [ +voice ] _ #\nrule: [ +coronal -liquid ] ---> \u00d8 /  _ [  ] #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_10": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: [ -voice ] ---> d / [ +voice -vowel ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_11": {
+        "rules": "rule: [ +coronal -continuant ] ---> \u00d8 /  _ [ -nasal ] {#,e}\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_16": {
+        "rules": "rule: [ +coronal -continuant ] ---> \u00d8 /  _ [ -nasal ] {#,e}\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_17": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: d ---> n /  _ [ -vowel ]\nrule: [ -voice ] ---> d / [ +voice -tense ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_14": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: [ -voice ] ---> d / [ +voice -vowel ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_15": {
+        "rules": "rule: [  ] ---> d / [ +coronal ] _ #\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> d / [ +voice -vowel ] _ #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_1": {
+        "rules": "", 
+        "stems": "Inflection 1:\t/ge/ + stem + /d/"
+    }, 
+    "rule_set_2": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /d/"
+    }, 
+    "rule_set_3": {
+        "rules": "rule: [ +voice -tense ] ---> \u00d8 /  _ [  ] [  ] #\nrule: d ---> n /  _ [ -vowel ]\nrule: \u00d8 ---> -1 / [  ] _ [ -anterior -lateral ] d", 
+        "stems": "/ge/ + stem"
+    }, 
+    "rule_set_4": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /d/"
+    }, 
+    "rule_set_5": {
+        "rules": "rule: [ +voice -tense ] ---> \u00d8 /  _ [  ] [  ] #\nrule: d ---> n /  _ [ -vowel ]\nrule: \u00d8 ---> -1 / [  ] _ [ -anterior -lateral ] d", 
+        "stems": "/ge/ + stem"
+    }, 
+    "rule_set_6": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /d/"
+    }, 
+    "rule_set_7": {
+        "rules": "rule: [ +voice -tense ] ---> \u00d8 /  _ [  ] [  ] #\nrule: d ---> n /  _ [ -vowel ]\nrule: \u00d8 ---> -1 / [  ] _ [ -anterior -lateral ] d", 
+        "stems": "/ge/ + stem"
+    }, 
+    "rule_set_8": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /d/"
+    }, 
+    "rule_set_9": {
+        "rules": "rule: [  ] ---> d / [ +coronal ] _ #\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> d / [ +voice -vowel ] _ #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_23": {
+        "rules": "rule: [ +coronal -continuant ] ---> \u00d8 /  _ [ -nasal ] {#,e}\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -sonorant ] ---> d / [ +sonorant ] [ +voice ] _\nrule: d ---> n /  _ [ -vowel ]", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_22": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: d ---> n /  _ [ -vowel ]\nrule: [ -voice ] ---> d / [ +voice -tense ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_21": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> [ +voice ] / [ +voice ] _ #\nrule: [ +coronal -liquid ] ---> \u00d8 /  _ [  ] #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_20": {
+        "rules": "rule: [  ] ---> d / [ +coronal ] _ #\nrule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: d ---> \u00d8 / [ -tense ] [  ] _\nrule: [  ] ---> d / [ +voice -vowel ] _ #", 
+        "stems": "/ge/ + stem + /t/"
+    }, 
+    "rule_set_24": {
+        "rules": "rule: d ---> -1 / [ -nasal ] _ [  ] [  ] #\nrule: [ +coronal -continuant ] ---> \u00d8 / [ -rounded ] _ [ -palatal -tense ]\nrule: [ -voice ] ---> d / [ +voice -vowel ] _", 
+        "stems": "/ge/ + stem + /t/"
+    }
+}
