@@ -2,6 +2,50 @@ import re
 import json
 import os
 
+# def read_rules_from_text(file_path):
+#     with open(file_path, "r") as file:
+#         content = file.read()
+
+#     rule_sets = []
+#     current_rules = []
+#     current_stems = []
+
+#     # Split the content into lines
+#     lines = content.splitlines()
+    
+#     for line in lines:
+#         line = line.strip()
+        
+#         # Check for rules
+#         if line.startswith("rule:"):
+#             if current_stems:
+#                 # Save the current rule set before adding new rules
+#                 rule_sets.append({
+#                     "rules": "\n".join(current_rules),
+#                     "stems": "\n".join(current_stems)
+#                 })
+#                 # Clear current rules and stems for the next rule set
+#                 current_rules = []
+#                 current_stems = []
+            
+#             # Add the rule to the current set
+#             current_rules.append(line)
+        
+#         # Check for stems
+#         elif re.search(r'/[^/]+/ \+ stem', line):
+#             current_stems.append(line)
+    
+#     # If there are remaining rules and stems, add the last rule set
+#     if current_rules:
+#         rule_sets.append({
+#             "rules": "\n".join(current_rules),
+#             "stems": "\n".join(current_stems)
+#         })
+    
+#     return rule_sets
+
+import re
+
 def read_rules_from_text(file_path):
     with open(file_path, "r") as file:
         content = file.read()
@@ -32,6 +76,12 @@ def read_rules_from_text(file_path):
             current_rules.append(line)
         
         # Check for stems
+        elif re.search(r'\bstem\b', line, re.IGNORECASE):
+            # Ensure "stem" is a standalone word or in a relevant context
+            if re.search(r'^\s*stem\b', line, re.IGNORECASE) or \
+               re.search(r'\bstem\b\s*[\+\-\/]', line, re.IGNORECASE):
+                current_stems.append(line)
+        
         elif re.search(r'/[^/]+/ \+ stem', line):
             current_stems.append(line)
     

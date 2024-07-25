@@ -1,0 +1,62 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t/kir/ + stem + //\nInflection 1:\t/kir/ + stem + //\nInflection 2:\t/kird/ + stem + //"
+    },
+    "rule_set_2": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [ +coronal ] ---> \u00d8 / [ -sonorant ] _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [ +coronal ] ---> \u00d8 / [ -sonorant ] _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [ +coronal ] ---> \u00d8 / [ -sonorant ] _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [  ] ---> [ +voice -back -rounded ] / # [  ] [ +sonorant -back ]* _\nrule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_3": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_4": {
+        "rules": "rule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_5": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_6": {
+        "rules": "rule: [ +coronal ] ---> [ +voice ] / # [ +coronal ] [  ]* _\nrule: [  ] ---> p /  _ [  ] m\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_7": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_8": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_9": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ m [ -vowel ]\nrule: \u00d8 ---> r / {#,[ -liquid ]} _ [ +coronal -sonorant ]\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_10": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +glide ] ---> t /  _\nrule: t ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_11": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +glide ] ---> t /  _\nrule: t ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_12": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ m [ -vowel ]\nrule: \u00d8 ---> r / {#,[ -liquid ]} _ [ +coronal -sonorant ]\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_13": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ m [ -vowel ]\nrule: \u00d8 ---> r / {#,[ -liquid ]} _ [ +coronal -sonorant ]\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_14": {
+        "rules": "rule: [  ] ---> p /  _ [  ] m\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +glide ] ---> t /  _\nrule: t ---> \u00d8 / # _",
+        "stems": "stem"
+    },
+    "rule_set_15": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ m [ -vowel ]\nrule: \u00d8 ---> r / {#,[ -liquid ]} _ [ +coronal -sonorant ]\nrule: t ---> d / # [ +coronal ] [  ]* _\nrule: [ +nasal ] ---> \u00d8 / # _",
+        "stems": "stem"
+    }
+}

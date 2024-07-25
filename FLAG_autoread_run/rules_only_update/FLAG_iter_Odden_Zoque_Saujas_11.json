@@ -1,0 +1,74 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t// + stem + //\nInflection 1:\t/\u014b/ + stem + //"
+    },
+    "rule_set_2": {
+        "rules": "rule: [ +nasal ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_3": {
+        "rules": "rule: [ +voice ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_4": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _\nrule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g\nrule: [ +voice -sonorant ] ---> \u00d8 / [ -nasal ] [  ]* _",
+        "stems": "stem\nstem + /g/"
+    },
+    "rule_set_5": {
+        "rules": "rule: \u014b ---> \u00d8 /  _ [ +continuant ]\nrule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_6": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> \u00d8 / # _ [ -voice ]\nrule: [  ] ---> [ -voice ] / # _ [ +low ]",
+        "stems": "stem"
+    },
+    "rule_set_7": {
+        "rules": "rule: [ +voice ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_8": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _\nrule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g\nrule: [ +voice -sonorant ] ---> \u00d8 / [ -nasal ] [  ]* _",
+        "stems": "stem\nstem + /g/"
+    },
+    "rule_set_9": {
+        "rules": "rule: [ +nasal ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_10": {
+        "rules": "rule: \u014b ---> \u00d8 /  _ [ +continuant ]\nrule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_11": {
+        "rules": "rule: [ +voice ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_12": {
+        "rules": "rule: [ +nasal ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_13": {
+        "rules": "rule: \u014b ---> \u00d8 /  _ [ +continuant ]\nrule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_14": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> \u00d8 / # _ [ -voice ]\nrule: [  ] ---> [ -voice ] / # _ [ +low ]",
+        "stems": "stem"
+    },
+    "rule_set_15": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> [ +voice ] / # [  ] _\nrule: [ -continuant ] ---> [ +nasal ] / # _ [  ]* g\nrule: [ +voice -sonorant ] ---> \u00d8 / [ -nasal ] [  ]* _",
+        "stems": "stem\nstem + /g/"
+    },
+    "rule_set_16": {
+        "rules": "rule: [ +voice ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_17": {
+        "rules": "rule: [ +voice ] ---> \u00d8 / # _\nrule: [  ] ---> [ +voice ] / # [  ] _",
+        "stems": "stem"
+    },
+    "rule_set_18": {
+        "rules": "rule: \u014b ---> place1 /  _ [  ]\nrule: [  ] ---> \u00d8 / # _ [ -voice ]\nrule: [  ] ---> [ -voice ] / # _ [ +low ]",
+        "stems": "stem\nstem"
+    }
+}

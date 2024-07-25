@@ -1,0 +1,162 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t// + stem + /ay/\nInflection 1:\t// + stem + /day/"
+    },
+    "rule_set_2": {
+        "rules": "rule: [ +palletized ] ---> \u00d8 /  _ [ +anterior ]\nrule: [ -low ] ---> t / [ -sonorant ] _\nrule: [ -low ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_3": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +anterior ] ---> d / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_4": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ d\nrule: [ +anterior ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_5": {
+        "rules": "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_6": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_7": {
+        "rules": "rule: [ +palletized ] ---> \u00d8 /  _ [ +anterior ]\nrule: [ -low ] ---> t / [ -sonorant ] _\nrule: [ -low ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_8": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ d\nrule: [ +anterior ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_9": {
+        "rules": "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_10": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +anterior ] ---> d / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_11": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_12": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_13": {
+        "rules": "rule: [ -vowel ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_14": {
+        "rules": "rule: [ +palletized ] ---> \u00d8 /  _ [ +anterior ]\nrule: [ -low ] ---> t / [ -sonorant ] _\nrule: [ -low ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_15": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ d\nrule: [ +anterior ] ---> [ +voice ] / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_16": {
+        "rules": "rule: [ -low ] ---> t / [ -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +anterior ] ---> d / [ -voice ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_17": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_18": {
+        "rules": "rule: [  ] ---> \u00d8 / [ +high ] _ [ -voice ]\nrule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: t ---> d / {#,i} [ -coronal ]* _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_19": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> d /  _ [ -back ]\nrule: [ +anterior ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_20": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +rounded ] ---> d /  _\nrule: [ -sonorant ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_21": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ a\nrule: [ +nasal ] ---> a /  _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_22": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +nasal ] ---> a /  _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_23": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +nasal ] ---> a /  _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_24": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> d /  _ [ -back ]\nrule: [ +anterior ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_25": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ a\nrule: [ +nasal ] ---> a /  _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_26": {
+        "rules": "rule: [  ] ---> \u00d8 / [ +high ] _ [ -voice ]\nrule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: t ---> d / {#,i} [ -coronal ]* _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_27": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +rounded ] ---> d /  _\nrule: [ -sonorant ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_28": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ a\nrule: [ +nasal ] ---> a /  _\nrule: y ---> \u00d8 /  _ [ +anterior ]",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_29": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +nasal ] ---> a /  _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_30": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> d /  _ [ -back ]\nrule: [ +anterior ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_31": {
+        "rules": "rule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +rounded ] ---> d /  _\nrule: [ -sonorant ] ---> \u00d8 / [ +coronal ] _",
+        "stems": "stem + /ay/\nstem + /day/"
+    },
+    "rule_set_32": {
+        "rules": "rule: [  ] ---> \u00d8 / [ +high ] _ [ -voice ]\nrule: [ -low ] ---> t / [ +voice -sonorant ] _\nrule: t ---> d / {#,i} [ -coronal ]* _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_33": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ +nasal ] ---> a /  _",
+        "stems": "stem + /ay/\nstem + /tay/\nFixing morphology of inflection 0 to // + stem + /ay/"
+    },
+    "rule_set_34": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: [ +continuant -high -tense ] ---> \u00d8 /  _ [ +voice ] a\nrule: [ +nasal ] ---> a /  _\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_35": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ -tense ] ---> \u00d8 / [ -liquid ] [  ] _ [ -low ] [ +low ]\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_36": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: [ +continuant -high -tense ] ---> \u00d8 /  _ [ +voice ] a\nrule: [ +nasal ] ---> a /  _\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_37": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ -tense ] ---> \u00d8 / [ -liquid ] [  ] _ [ -low ] [ +low ]\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_38": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: [ +continuant -high -tense ] ---> \u00d8 /  _ [ +voice ] a\nrule: [ +nasal ] ---> a /  _\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_39": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: [ +continuant -high -tense ] ---> \u00d8 /  _ [ +voice ] a\nrule: [ +nasal ] ---> a /  _\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    },
+    "rule_set_40": {
+        "rules": "rule: [  ] ---> d / [ -liquid -low ] [ -anterior ] _ [ +low ]\nrule: y ---> \u00d8 /  _ [ +anterior ]\nrule: [ -tense ] ---> \u00d8 / [ -liquid ] [  ] _ [ -low ] [ +low ]\nrule: d ---> h / [ +anterior ] _",
+        "stems": "stem + /ay/\nstem + /tay/"
+    }
+}

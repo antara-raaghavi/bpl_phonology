@@ -1,0 +1,10 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t/me\u014b/ + stem + //\nInflection 1:\t/di/ + stem + //"
+    },
+    "rule_set_2": {
+        "rules": "rule: [ -continuant ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -vowel ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -continuant ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -vowel ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -vowel ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -vowel ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -continuant ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _\nrule: [ -vowel ] ---> place1 /  _ [ +anterior ]\nrule: [ -voice ] ---> \u00d8 / [ -vowel ] _",
+        "stems": ""
+    }
+}

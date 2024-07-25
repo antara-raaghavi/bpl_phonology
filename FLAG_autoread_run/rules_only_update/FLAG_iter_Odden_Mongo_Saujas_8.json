@@ -1,0 +1,26 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t/b/ + stem + //\nInflection 1:\t/o/ + stem + //\nInflection 2:\t/a/ + stem + //\nInflection 3:\t/ba/ + stem + //"
+    },
+    "rule_set_2": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ [ +high +tense ]\nrule: [ -nasal -tense ] ---> \u00d8 /  _ [ -low ] [ -anterior ]",
+        "stems": "/b/ + stem + /a/\n/wo/ + stem + /a/\n/a/ + stem + /a/\n/ba/ + stem + /a/"
+    },
+    "rule_set_3": {
+        "rules": "rule: [ -sonorant ] ---> \u00d8 /  _ [ -tense ]\nrule: [  ] ---> w /  _ [ +high +voice ]\nrule: [ +glide ] ---> \u00d8 /  _ [ +tense ]\nrule: [  ] ---> \u00d8 /  _ [ +high +tense ]\nrule: [ -nasal -tense ] ---> \u00d8 /  _ [ -low ] [ -anterior ]",
+        "stems": "/b/ + stem + /a/\n/wo/ + stem + /a/\n/a/ + stem + /a/\n/ba/ + stem + /a/"
+    },
+    "rule_set_4": {
+        "rules": "rule: [ -sonorant ] ---> \u00d8 /  _ [ -tense ]\nrule: [  ] ---> w /  _ [ +high +voice ]\nrule: [ +glide ] ---> \u00d8 /  _ [ +tense ]\nrule: [  ] ---> \u00d8 /  _ [ +high +tense ]\nrule: [ -nasal -tense ] ---> \u00d8 /  _ [ -low ] [ -anterior ]",
+        "stems": "/b/ + stem + /a/\n/wo/ + stem + /a/\n/a/ + stem + /a/\n/ba/ + stem + /a/"
+    },
+    "rule_set_5": {
+        "rules": "rule: [  ] ---> \u00d8 /  _ [ +high +tense ]\nrule: [ -nasal -tense ] ---> \u00d8 /  _ [ -low ] [ -anterior ]",
+        "stems": "/b/ + stem + /a/\n/wo/ + stem + /a/\n/a/ + stem + /a/\n/ba/ + stem + /a/"
+    },
+    "rule_set_6": {
+        "rules": "rule: [ -sonorant ] ---> \u00d8 /  _ [ -tense ]\nrule: [  ] ---> w /  _ [ +high +voice ]\nrule: [ +glide ] ---> \u00d8 /  _ [ +tense ]",
+        "stems": ""
+    }
+}

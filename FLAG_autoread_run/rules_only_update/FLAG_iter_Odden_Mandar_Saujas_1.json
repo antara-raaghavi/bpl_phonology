@@ -1,0 +1,10 @@
+{
+    "rule_set_1": {
+        "rules": "",
+        "stems": "Inflection 0:\t/ma\u014b/ + stem + //\nInflection 1:\t/di/ + stem + //"
+    },
+    "rule_set_2": {
+        "rules": "rule: [ +nasal ] ---> place1 /  _ [ -sonorant ]\nrule: [ -tense ] ---> 1 /  _ [ -voice ]\nrule: [  ] ---> i / # [ -nasal ] _\nrule: [  ] ---> i / # [ -nasal ] _\nrule: [ +nasal ] ---> place1 /  _ [ -sonorant ]\nrule: [ -tense ] ---> 1 /  _ [ -voice ]\nrule: [ +nasal ] ---> place1 /  _ [ -sonorant ]\nrule: [ -tense ] ---> 1 /  _ [ -voice ]\nrule: [ +nasal ] ---> place1 /  _ [ -sonorant ]\nrule: [ -tense ] ---> 1 /  _ [ -voice ]\nrule: [ +nasal ] ---> place1 /  _ [ -sonorant ]\nrule: [ -tense ] ---> 1 /  _ [ -voice ]\nrule: [  ] ---> i / # [ -nasal ] _",
+        "stems": ""
+    }
+}
